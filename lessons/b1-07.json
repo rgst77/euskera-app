@@ -1,0 +1,301 @@
+{
+ "id": "b1-07",
+ "lvl": "B1",
+ "n": 7,
+ "title": "Ez dakit non dagoen",
+ "es": "Interrogativas indirectas y -nik",
+ "goal": "Preguntar y contar de forma indirecta: «no sé dónde está», «le he preguntado si vendrá», «no creo que venga».",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "Muchas veces no preguntamos directamente: «¿sabes qué hora es?», «no sé dónde está». En euskera, estas preguntas incrustadas en otra frase usan la misma terminación que el relativo, **-(e)n**. Ya conoces todas las formas; solo cambia el uso."
+  },
+  {
+   "h": "Con palabra interrogativa",
+   "p": "Interrogativa + verbo + auxiliar con **-(e)n**: **Non dago?** (¿dónde está?) → **Ez dakit non dagoen** (no sé dónde está). **Zer ordu da?** → **Badakizu zer ordu den?** (¿sabes qué hora es?). **Noiz etorriko da?** → **Ez dakit noiz etorriko den**. La regla de oro sigue valiendo: la interrogativa, justo delante del verbo."
+  },
+  {
+   "h": "Preguntas de sí o no: ea",
+   "p": "Para «si» en preguntas indirectas se usa **ea** delante: **Etorriko da?** → **Galdetu diot ea etorriko den** (le he preguntado si vendrá). No confundir con el **ba-** de condición: *Galdetu diot etorriko bada* es incorrecto."
+  },
+  {
+   "h": "«No creo que…»: -nik",
+   "p": "Cuando el verbo principal es negativo (no creo, no he dicho, no sé), la subordinada toma **-nik** en lugar de -la: **Uste dut etorriko dela** (creo que vendrá) → **Ez dut uste etorriko denik** (no creo que venga). Se forma desde el relativo: **den → denik**, **duen → duenik**, **dagoen → dagoenik**, **dudan → dudanik**."
+  },
+  {
+   "h": "Paso a paso: «No sé por qué está enfadada»",
+   "p": "1) Pregunta directa: **Zergatik dago haserre?** 2) Indirecta: dago → **dagoen**. 3) Verbo principal: **Ez dakit**. 4) **Ez dakit zergatik dagoen haserre**."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Ez dakit non dago* → **non dagoen**. *Galdetu diot etorriko dela* (para «si vendrá») → **ea etorriko den**. *Ez dut uste etorriko dela* → en batua cuidado, **etorriko denik**. *dagonik* → **dagoenik**."
+  },
+  {
+   "h": "Resumen",
+   "p": "Indirecta = interrogativa + verbo + **-(e)n** (non dagoen, zer den, noiz etorriko den). Sí/no: **ea … -(e)n**. Tras negación: **-nik** (ez dut uste etorriko denik)."
+  }
+ ],
+ "examples": [
+  [
+   "Ez dakit non dagoen.",
+   "No sé dónde está."
+  ],
+  [
+   "Badakizu zer ordu den?",
+   "¿Sabes qué hora es?"
+  ],
+  [
+   "Ez dakit noiz etorriko den.",
+   "No sé cuándo vendrá."
+  ],
+  [
+   "Galdetu diot ea etorriko den.",
+   "Le he preguntado si vendrá."
+  ],
+  [
+   "Ez dut uste etorriko denik.",
+   "No creo que venga."
+  ],
+  [
+   "Ez dakit zergatik dagoen haserre.",
+   "No sé por qué está enfadada."
+  ],
+  [
+   "Jakin nahi dut zenbat balio duen.",
+   "Quiero saber cuánto cuesta."
+  ]
+ ],
+ "dialog": {
+  "title": "Las llaves, otra vez",
+  "lines": [
+   [
+    "Iker",
+    "Badakizu non dauden nire giltzak?",
+    "¿Sabes dónde están mis llaves?"
+   ],
+   [
+    "Nerea",
+    "Ez dakit non dauden. Aneri galdetu diozu?",
+    "No sé dónde están. ¿Le has preguntado a Ane?"
+   ],
+   [
+    "Iker",
+    "Bai, eta ez daki. Ez dut uste hark hartu dituenik.",
+    "Sí, y no lo sabe. No creo que las haya cogido ella."
+   ],
+   [
+    "Nerea",
+    "Begiratu duzu jakan?",
+    "¿Has mirado en la chaqueta?"
+   ],
+   [
+    "Iker",
+    "Ez… Itxaron. Hemen daude!",
+    "No… Espera. ¡Aquí están!"
+   ],
+   [
+    "Nerea",
+    "Ikusten? Ez dakit zergatik kezkatzen zaren beti!",
+    "¿Ves? ¡No sé por qué te preocupas siempre!"
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Ez dakit non ___.",
+   "es": "No sé dónde está.",
+   "a": [
+    "dagoen"
+   ],
+   "hint": "dago + -en."
+  },
+  {
+   "type": "gap",
+   "q": "Badakizu zer ordu ___?",
+   "es": "¿Sabes qué hora es?",
+   "a": [
+    "den"
+   ],
+   "hint": "da + -en."
+  },
+  {
+   "type": "gap",
+   "q": "Ez dakit noiz etorriko ___.",
+   "es": "No sé cuándo vendrá.",
+   "a": [
+    "den"
+   ],
+   "hint": "etorriko da → etorriko den."
+  },
+  {
+   "type": "gap",
+   "q": "Galdetu diot ___ etorriko den.",
+   "es": "Le he preguntado si vendrá.",
+   "a": [
+    "ea"
+   ],
+   "hint": "«si» en preguntas indirectas: ea."
+  },
+  {
+   "type": "gap",
+   "q": "Ez dut uste etorriko ___.",
+   "es": "No creo que venga.",
+   "a": [
+    "denik"
+   ],
+   "hint": "Tras negación: -nik."
+  },
+  {
+   "type": "gap",
+   "q": "Jakin nahi dut zenbat balio ___.",
+   "es": "Quiero saber cuánto cuesta.",
+   "a": [
+    "duen"
+   ],
+   "hint": "du + -en."
+  },
+  {
+   "type": "choice",
+   "q": "«No sé dónde está»",
+   "options": [
+    "Ez dakit non dagoen.",
+    "Ez dakit non dago.",
+    "Ez dakit non dagoela."
+   ],
+   "a": 0,
+   "why": "Interrogativa indirecta: -(e)n."
+  },
+  {
+   "type": "choice",
+   "q": "«Le he preguntado si vendrá»",
+   "options": [
+    "Galdetu diot ea etorriko den.",
+    "Galdetu diot etorriko dela.",
+    "Galdetu diot etorriko bada."
+   ],
+   "a": 0,
+   "why": "Sí/no indirecta: ea + -(e)n."
+  },
+  {
+   "type": "choice",
+   "q": "«No creo que venga»",
+   "options": [
+    "Ez dut uste etorriko denik.",
+    "Ez dut uste etorriko den.",
+    "Ez dut uste etorriko da."
+   ],
+   "a": 0,
+   "why": "Tras «no creo»: -nik."
+  },
+  {
+   "type": "choice",
+   "q": "«¿Sabes qué hora es?»",
+   "options": [
+    "Badakizu zer ordu den?",
+    "Badakizu zer ordu da?",
+    "Badakizu zer ordu dela?"
+   ],
+   "a": 0,
+   "why": "Indirecta: den."
+  },
+  {
+   "type": "choice",
+   "q": "-nik de dago:",
+   "options": [
+    "dagoenik",
+    "dagonik",
+    "dagoelanik"
+   ],
+   "a": 0,
+   "why": "Desde el relativo: dagoen + -ik."
+  },
+  {
+   "type": "order",
+   "words": [
+    "dagoen",
+    "non",
+    "dakit",
+    "Ez"
+   ],
+   "a": [
+    "Ez dakit non dagoen"
+   ],
+   "es": "No sé dónde está.",
+   "hint": "Ez dakit + interrogativa + verbo con -en."
+  },
+  {
+   "type": "order",
+   "words": [
+    "den",
+    "etorriko",
+    "ea",
+    "diot",
+    "Galdetu"
+   ],
+   "a": [
+    "Galdetu diot ea etorriko den"
+   ],
+   "es": "Le he preguntado si vendrá.",
+   "hint": "Galdetu diot + ea + verbo + den."
+  },
+  {
+   "type": "order",
+   "words": [
+    "denik",
+    "uste",
+    "Ez",
+    "dut",
+    "etorriko"
+   ],
+   "a": [
+    "Ez dut uste etorriko denik"
+   ],
+   "es": "No creo que venga.",
+   "hint": "Ez dut uste + verbo + denik."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "non dagoen",
+     "dónde está"
+    ],
+    [
+     "zer den",
+     "qué es"
+    ],
+    [
+     "noiz etorriko den",
+     "cuándo vendrá"
+    ],
+    [
+     "ea etorriko den",
+     "si vendrá"
+    ],
+    [
+     "etorriko denik",
+     "que venga (tras negación)"
+    ],
+    [
+     "zenbat balio duen",
+     "cuánto cuesta"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Escribe 5 frases: tres cosas que no sabes (Ez dakit non / zer / noiz…), una pregunta que le harías a alguien de forma indirecta (Galdetuko diot ea…) y una cosa que no crees (Ez dut uste …-nik).",
+  "focus": "interrogativas indirectas -(e)n, ea … -(e)n, -nik tras negación"
+ },
+ "links": {
+  "verbs": [
+   "syn-pres-2"
+  ],
+  "cases": [],
+  "themes": [
+   "galderak",
+   "lokailuak"
+  ]
+ }
+}

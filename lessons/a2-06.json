@@ -1,0 +1,299 @@
+{
+ "id": "a2-06",
+ "lvl": "A2",
+ "n": 6,
+ "title": "Ari naiz",
+ "es": "La acción en curso",
+ "goal": "Decir lo que estás haciendo en este momento y lo que estabas haciendo.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "En español distinguimos «leo» de «estoy leyendo». El euskera también, con una construcción muy sencilla: **ari izan**. Tiene una particularidad que sorprende al principio y que es la clave de la lección: **siempre lleva el auxiliar izan (naiz)**, aunque el verbo tenga objeto."
+  },
+  {
+   "h": "La forma",
+   "p": "Verbo en **-tzen** + **ari** + auxiliar **izan**: **Euskara ikasten ari naiz** (estoy estudiando euskera). **Liburu bat irakurtzen ari naiz** (estoy leyendo un libro): aunque leer tiene objeto, es **naiz**, no *dut*. En pasado, el auxiliar en pasado: **Telebista ikusten ari nintzen** (estaba viendo la tele)."
+  },
+  {
+   "h": "Habitual o en curso",
+   "p": "**Kafea edaten dut** = bebo café (en general, por costumbre). **Kafea edaten ari naiz** = estoy bebiendo café (ahora mismo). El primero usa dut (tiene objeto); el segundo, siempre naiz."
+  },
+  {
+   "h": "Preguntar y usar con nombres",
+   "p": "La pregunta más útil: **Zertan ari zara?** (¿qué estás haciendo?). Con algunos nombres se usa NON en lugar del verbo: **lanean ari naiz** (estoy trabajando), **ikasten ari naiz** (estoy estudiando)."
+  },
+  {
+   "h": "El tiempo meteorológico",
+   "p": "Excepción que conviene memorizar: para la lluvia y la nieve se dice **Euria ari du** (está lloviendo) y **Elurra ari du** (está nevando), con **du**. En pasado: **Euria ari zuen** (estaba lloviendo)."
+  },
+  {
+   "h": "Paso a paso: «Estábamos preparando la cena»",
+   "p": "1) Verbo: **prestatu → prestatzen**. 2) **ari**. 3) Auxiliar izan, pasado, nosotros → **ginen**. 4) **Afaria prestatzen ari ginen**."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Liburu bat irakurtzen ari dut* → **ari naiz** (ari siempre con izan). *Zer ari duzu?* → **Zertan ari zara?** *Euria ari da* → **Euria ari du**. *Kafea edaten ari naiz* para «bebo café todos los días» → **Kafea edaten dut**."
+  },
+  {
+   "h": "Resumen",
+   "p": "En curso = **-tzen ari naiz / zara / da…** (siempre izan). Pasado: **ari nintzen**. **Zertan ari zara?** · **lanean ari naiz**. Excepción: **euria / elurra ari du**."
+  }
+ ],
+ "examples": [
+  [
+   "Euskara ikasten ari naiz.",
+   "Estoy estudiando euskera."
+  ],
+  [
+   "Zertan ari zara?",
+   "¿Qué estás haciendo?"
+  ],
+  [
+   "Liburu bat irakurtzen ari naiz.",
+   "Estoy leyendo un libro."
+  ],
+  [
+   "Ane lanean ari da.",
+   "Ane está trabajando."
+  ],
+  [
+   "Euria ari du.",
+   "Está lloviendo."
+  ],
+  [
+   "Telebista ikusten ari ginen.",
+   "Estábamos viendo la tele."
+  ],
+  [
+   "Ez naiz ezer egiten ari.",
+   "No estoy haciendo nada."
+  ]
+ ],
+ "dialog": {
+  "title": "Una llamada",
+  "lines": [
+   [
+    "Iker",
+    "Kaixo! Zertan ari zara?",
+    "¡Hola! ¿Qué estás haciendo?"
+   ],
+   [
+    "Ane",
+    "Afaria prestatzen ari naiz. Eta zu?",
+    "Estoy preparando la cena. ¿Y tú?"
+   ],
+   [
+    "Iker",
+    "Ni lanean ari naiz oraindik. Hor euria ari du?",
+    "Yo todavía estoy trabajando. ¿Ahí está lloviendo?"
+   ],
+   [
+    "Ane",
+    "Bai, asko! Eta mendian elurra ari du.",
+    "¡Sí, mucho! Y en el monte está nevando."
+   ],
+   [
+    "Iker",
+    "Ene! Ondo da. Gero arte!",
+    "¡Vaya! Vale. ¡Hasta luego!"
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Euskara ikasten ari ___.",
+   "es": "Estoy estudiando euskera.",
+   "a": [
+    "naiz"
+   ],
+   "hint": "ari siempre lleva izan: yo → naiz."
+  },
+  {
+   "type": "gap",
+   "q": "Zertan ari ___?",
+   "es": "¿Qué estás haciendo?",
+   "a": [
+    "zara"
+   ],
+   "hint": "ari + izan: tú → zara."
+  },
+  {
+   "type": "gap",
+   "q": "Liburu bat irakurtzen ari ___.",
+   "es": "Estoy leyendo un libro.",
+   "a": [
+    "naiz"
+   ],
+   "hint": "Aunque haya objeto, con ari va naiz."
+  },
+  {
+   "type": "gap",
+   "q": "Euria ari ___.",
+   "es": "Está lloviendo.",
+   "a": [
+    "du"
+   ],
+   "hint": "Excepción del tiempo: euria ari du."
+  },
+  {
+   "type": "gap",
+   "q": "Telebista ikusten ari ___.",
+   "es": "Estábamos viendo la tele.",
+   "a": [
+    "ginen"
+   ],
+   "hint": "izan en pasado, nosotros: ginen."
+  },
+  {
+   "type": "gap",
+   "q": "Ane lan___ ari da.",
+   "es": "Ane está trabajando.",
+   "a": [
+    "ean"
+   ],
+   "hint": "lan + NON: lanean."
+  },
+  {
+   "type": "choice",
+   "q": "«Estoy leyendo un libro»",
+   "options": [
+    "Liburu bat irakurtzen ari naiz.",
+    "Liburu bat irakurtzen ari dut.",
+    "Liburu bat irakurtzen dut."
+   ],
+   "a": 0,
+   "why": "ari siempre con izan. Irakurtzen dut es «leo» (costumbre)."
+  },
+  {
+   "type": "choice",
+   "q": "«Está lloviendo»",
+   "options": [
+    "Euria ari du.",
+    "Euria ari da.",
+    "Euria dago."
+   ],
+   "a": 0,
+   "why": "Expresión fija del tiempo: ari du."
+  },
+  {
+   "type": "choice",
+   "q": "«¿Qué estás haciendo?»",
+   "options": [
+    "Zertan ari zara?",
+    "Zer ari duzu?",
+    "Zer egiten ari duzu?"
+   ],
+   "a": 0,
+   "why": "Pregunta fija: Zertan ari zara?"
+  },
+  {
+   "type": "choice",
+   "q": "«Bebo café» (en general)",
+   "options": [
+    "Kafea edaten dut.",
+    "Kafea edaten ari naiz.",
+    "Kafea edaten naiz."
+   ],
+   "a": 0,
+   "why": "Costumbre: -tzen + dut. Con ari sería «estoy bebiendo»."
+  },
+  {
+   "type": "choice",
+   "q": "«Estaba trabajando»",
+   "options": [
+    "Lanean ari nintzen.",
+    "Lanean ari nuen.",
+    "Lanean nago."
+   ],
+   "a": 0,
+   "why": "ari + izan en pasado: nintzen."
+  },
+  {
+   "type": "order",
+   "words": [
+    "ari",
+    "naiz",
+    "ikasten",
+    "Euskara"
+   ],
+   "a": [
+    "Euskara ikasten ari naiz"
+   ],
+   "es": "Estoy estudiando euskera.",
+   "hint": "Objeto + verbo -tzen + ari + auxiliar."
+  },
+  {
+   "type": "order",
+   "words": [
+    "zara",
+    "Zertan",
+    "ari"
+   ],
+   "a": [
+    "Zertan ari zara"
+   ],
+   "es": "¿Qué estás haciendo?",
+   "hint": "Zertan + ari + zara."
+  },
+  {
+   "type": "order",
+   "words": [
+    "ari",
+    "Ez",
+    "ezer",
+    "egiten",
+    "naiz"
+   ],
+   "a": [
+    "Ez naiz ezer egiten ari"
+   ],
+   "es": "No estoy haciendo nada.",
+   "hint": "ez + auxiliar delante; ari al final."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "ari naiz",
+     "estoy (haciendo)"
+    ],
+    [
+     "ari zara",
+     "estás"
+    ],
+    [
+     "ari da",
+     "está"
+    ],
+    [
+     "ari gara",
+     "estamos"
+    ],
+    [
+     "ari nintzen",
+     "estaba"
+    ],
+    [
+     "euria ari du",
+     "está lloviendo"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Escribe 5 frases sobre lo que está pasando ahora mismo: qué estás haciendo tú, qué hacen otras personas de tu casa o tu entorno y qué tiempo hace. Añade qué estabas haciendo ayer a esta hora.",
+  "focus": "-tzen ari naiz (siempre izan), ari nintzen, euria/elurra ari du"
+ },
+ "links": {
+  "verbs": [
+   "nor-pres",
+   "nor-past"
+  ],
+  "cases": [],
+  "themes": [
+   "eguraldia",
+   "aditzak"
+  ]
+ }
+}

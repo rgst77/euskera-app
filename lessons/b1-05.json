@@ -1,0 +1,334 @@
+{
+ "id": "b1-05",
+ "lvl": "B1",
+ "n": 5,
+ "title": "Zertarako?",
+ "es": "La finalidad: -tzeko y el subjuntivo",
+ "goal": "Decir para qué haces algo: «para aprender», «para que lo entiendas», «me ha dicho que venga».",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "Para expresar finalidad, el euskera distingue dos casos según quién hace la acción. Si es la misma persona («estudio para aprender»), basta con una terminación muy sencilla, **-tzeko**. Si es otra persona («te lo explico para que lo entiendas»), aparece un modo nuevo, el **subjuntivo**."
+  },
+  {
+   "h": "Mismo sujeto: -tzeko",
+   "p": "Se forma desde el habitual cambiando **-tzen** por **-tzeko**: **egiten → egiteko**, **ikasten → ikasteko**. **Euskara ikasten dut, Euskal Herrian lan egiteko** (estudio euskera para trabajar en Euskal Herria). También con nombres: **idazteko papera** (papel para escribir)."
+  },
+  {
+   "h": "Distinto sujeto: el subjuntivo",
+   "p": "Raíz del verbo + **dadin** (sin objeto) o **dezan** (con objeto), que cambian según la persona: **Hau esaten dizut, uler dezazun** (te digo esto para que lo entiendas). **Leihoa ireki dut, airea sar dadin** (he abierto la ventana para que entre aire).",
+   "table": {
+    "head": [
+     "Para que…",
+     "Sin objeto (izan)",
+     "Con objeto (ukan)"
+    ],
+    "rows": [
+     [
+      "(yo)",
+      "{nor:nadin}",
+      "{nork:dezadan}"
+     ],
+     [
+      "(tú)",
+      "{nor:zaitezen}",
+      "{nork:dezazun}"
+     ],
+     [
+      "(él / ella)",
+      "{nor:dadin}",
+      "{nork:dezan}"
+     ],
+     [
+      "(nosotros)",
+      "{nor:gaitezen}",
+      "{nork:dezagun}"
+     ],
+     [
+      "(vosotros)",
+      "{nor:zaitezten}",
+      "{nork:dezazuen}"
+     ],
+     [
+      "(ellos)",
+      "{nor:daitezen}",
+      "{nork:dezaten}"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "La raíz del verbo",
+   "p": "El subjuntivo usa la **raíz**, que se saca del participio: verbos en **-tu** lo pierden (**prestatu → presta**, **ulertu → uler**); verbos en **-ri, -si, -tzi** pierden la **-i** (**etorri → etor**, **ikusi → ikus**, **idatzi → idatz**, **ekarri → ekar**); el resto se queda igual (**egin**, **jan**, **joan**, **ireki**). En el habla también oirás el participio entero (*ikusi dezan*)."
+  },
+  {
+   "h": "«Decir / pedir que…»: -tzeko",
+   "p": "Para transmitir una petición u orden se usa **-tzeko**: **Esan dit etortzeko** (me ha dicho que venga), **Eskatu diot laguntzeko** (le he pedido que ayude). Compara con la lección A2-14: **Esan dit etorriko dela** = me ha dicho que (él) vendrá (información, no petición)."
+  },
+  {
+   "h": "Paso a paso: «Te he llamado para que vengas a la reunión»",
+   "p": "1) ¿Mismo sujeto? No (yo llamo, tú vienes) → subjuntivo. 2) Raíz de etorri → **etor**. 3) Sin objeto, «tú» → **zaitezen**. 4) **Deitu dizut, bilerara etor zaitezen**."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Hau esaten dizut, ulertzeko* (si quien entiende eres tú) → **uler dezazun**. *Etorri zaitezen* → la forma recomendada es **etor zaitezen**. *Esan dit etorriko* para «me ha dicho que venga» → **Esan dit etortzeko**. *Lan egin dezan* para «para trabajar (yo)» → **lan egiteko**."
+  },
+  {
+   "h": "Resumen",
+   "p": "Mismo sujeto: **-tzeko** (ikasteko, egiteko). Distinto sujeto: raíz + **dadin / dezan** (etor zaitezen, uler dezazun, sar dadin). Peticiones: **esan / eskatu … -tzeko**."
+  }
+ ],
+ "examples": [
+  [
+   "Euskara ikasten dut, Euskal Herrian lan egiteko.",
+   "Estudio euskera para trabajar en Euskal Herria."
+  ],
+  [
+   "Dirua aurrezten ari naiz, etxe bat erosteko.",
+   "Estoy ahorrando dinero para comprar una casa."
+  ],
+  [
+   "Hau esaten dizut, uler dezazun.",
+   "Te digo esto para que lo entiendas."
+  ],
+  [
+   "Deitu dizut, bilerara etor zaitezen.",
+   "Te he llamado para que vengas a la reunión."
+  ],
+  [
+   "Esan dit etortzeko.",
+   "Me ha dicho que venga."
+  ],
+  [
+   "Leihoa ireki dut, airea sar dadin.",
+   "He abierto la ventana para que entre aire."
+  ],
+  [
+   "Idazteko papera behar dut.",
+   "Necesito papel para escribir."
+  ]
+ ],
+ "dialog": {
+  "title": "¿Para qué aprendes euskera?",
+  "lines": [
+   [
+    "Miren",
+    "Zergatik ikasten duzu euskara?",
+    "¿Por qué estudias euskera?"
+   ],
+   [
+    "Iker",
+    "Nire seme-alabekin euskaraz hitz egiteko. Eta zuk?",
+    "Para hablar en euskera con mis hijos. ¿Y tú?"
+   ],
+   [
+    "Miren",
+    "Nik Donostian lan egiteko. Nire nagusiak esan dit ikasteko.",
+    "Yo, para trabajar en San Sebastián. Mi jefe me ha dicho que lo aprenda."
+   ],
+   [
+    "Iker",
+    "Nik lagunduko zaitut, azkarrago ikas dezazun.",
+    "Yo te ayudaré, para que aprendas más rápido."
+   ],
+   [
+    "Miren",
+    "Eskerrik asko! Liburu hau ekarri dut, elkarrekin irakur dezagun.",
+    "¡Gracias! He traído este libro, para que lo leamos juntos."
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Euskara ikasten dut, Euskal Herrian lan egi___.",
+   "es": "Estudio euskera para trabajar en Euskal Herria.",
+   "a": [
+    "teko"
+   ],
+   "hint": "Mismo sujeto: egiten → egiteko."
+  },
+  {
+   "type": "gap",
+   "q": "Hau esaten dizut, uler ___.",
+   "es": "Te digo esto para que lo entiendas.",
+   "a": [
+    "dezazun"
+   ],
+   "hint": "Distinto sujeto, con objeto, tú: dezazun."
+  },
+  {
+   "type": "gap",
+   "q": "Deitu dizut, bilerara etor ___.",
+   "es": "Te he llamado para que vengas a la reunión.",
+   "a": [
+    "zaitezen"
+   ],
+   "hint": "Distinto sujeto, sin objeto, tú: zaitezen."
+  },
+  {
+   "type": "gap",
+   "q": "Esan dit etor___.",
+   "es": "Me ha dicho que venga.",
+   "a": [
+    "tzeko"
+   ],
+   "hint": "Petición: -tzeko."
+  },
+  {
+   "type": "gap",
+   "q": "Leihoa ireki dut, airea sar ___.",
+   "es": "He abierto la ventana para que entre aire.",
+   "a": [
+    "dadin"
+   ],
+   "hint": "Sin objeto, él (el aire): dadin."
+  },
+  {
+   "type": "gap",
+   "q": "Liburua ekarri dut, elkarrekin irakur ___.",
+   "es": "He traído el libro para que lo leamos juntos.",
+   "a": [
+    "dezagun"
+   ],
+   "hint": "Con objeto, nosotros: dezagun."
+  },
+  {
+   "type": "choice",
+   "q": "«Para trabajar» (yo mismo)",
+   "options": [
+    "lan egiteko",
+    "lan egitera",
+    "lan egin dezan"
+   ],
+   "a": 0,
+   "why": "Mismo sujeto: -tzeko."
+  },
+  {
+   "type": "choice",
+   "q": "«Para que lo entiendas»",
+   "options": [
+    "uler dezazun",
+    "ulertzeko",
+    "uler dezan"
+   ],
+   "a": 0,
+   "why": "Distinto sujeto (tú): subjuntivo, dezazun."
+  },
+  {
+   "type": "choice",
+   "q": "«Me ha dicho que venga»",
+   "options": [
+    "Esan dit etortzeko.",
+    "Esan dit etorriko dela.",
+    "Esan dit etortzen."
+   ],
+   "a": 0,
+   "why": "Petición: -tzeko. Etorriko dela = que (él) vendrá."
+  },
+  {
+   "type": "choice",
+   "q": "Raíz de ikusi:",
+   "options": [
+    "ikus",
+    "ikusi",
+    "ikust"
+   ],
+   "a": 0,
+   "why": "Verbos en -si pierden la -i."
+  },
+  {
+   "type": "choice",
+   "q": "«Para que venga (él)»",
+   "options": [
+    "etor dadin",
+    "etor dezan",
+    "etortzeko"
+   ],
+   "a": 0,
+   "why": "Venir no tiene objeto → dadin."
+  },
+  {
+   "type": "order",
+   "words": [
+    "dut",
+    "papera",
+    "behar",
+    "Idazteko"
+   ],
+   "a": [
+    "Idazteko papera behar dut"
+   ],
+   "es": "Necesito papel para escribir.",
+   "hint": "Idazteko papera + behar dut."
+  },
+  {
+   "type": "order",
+   "words": [
+    "dadin",
+    "sar",
+    "airea"
+   ],
+   "a": [
+    "Airea sar dadin"
+   ],
+   "es": "Para que entre aire.",
+   "hint": "Sujeto + raíz + dadin."
+  },
+  {
+   "type": "order",
+   "words": [
+    "dit",
+    "Esan",
+    "etortzeko"
+   ],
+   "a": [
+    "Esan dit etortzeko",
+    "Etortzeko esan dit"
+   ],
+   "es": "Me ha dicho que venga.",
+   "hint": "Esan dit + -tzeko."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "-tzeko",
+     "para (mismo sujeto)"
+    ],
+    [
+     "dadin",
+     "para que (él) … (sin objeto)"
+    ],
+    [
+     "dezan",
+     "para que (él) … (con objeto)"
+    ],
+    [
+     "zaitezen",
+     "para que (tú) … (sin objeto)"
+    ],
+    [
+     "dezazun",
+     "para que (tú) … (con objeto)"
+    ],
+    [
+     "etor",
+     "raíz de etorri"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Escribe 5 frases sobre tus objetivos: para qué estudias euskera, para qué ahorras o trabajas, qué haces para que otros estén bien, y algo que alguien te ha pedido que hagas.",
+  "focus": "-tzeko (mismo sujeto), raíz + dadin/dezan (distinto sujeto), esan/eskatu … -tzeko"
+ },
+ "links": {
+  "verbs": [],
+  "cases": [],
+  "themes": [
+   "aditzak",
+   "ikasketak"
+  ]
+ }
+}

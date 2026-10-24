@@ -1,0 +1,308 @@
+{
+ "id": "a1-15",
+ "lvl": "A1",
+ "n": 15,
+ "title": "Erosketak",
+ "es": "De compras: precios, -rekin y -entzat",
+ "goal": "Comprar en una tienda o mercado, preguntar precios y decir para quién es algo.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "Esta lección es muy práctica: con unas pocas frases hechas puedes comprar en cualquier tienda. Además aprendes dos terminaciones nuevas, «con» y «para», que se pegan al final de la palabra como ya sabes hacer."
+  },
+  {
+   "h": "Pedir y preguntar",
+   "p": "**… nahi dut** (quiero…): **Ogi bat nahi dut** (quiero un pan). Más cortés: **… nahi nuke** (quisiera). **Zenbat da?** (¿cuánto es?) o **Zenbat balio du?** (¿cuánto cuesta?); si son varias cosas, **Zenbat balio dute?** En la tienda oirás **Zer nahi duzu?** (¿qué quieres?), **Besterik?** (¿algo más?) y **Hemen duzu** (aquí tienes). Para terminar: **Ez, besterik ez** (no, nada más)."
+  },
+  {
+   "h": "Precios",
+   "p": "El número va delante y **euro** sin artículo: **bost euro** (cinco euros), **euro bat** (un euro). Respuesta: **Hiru euro dira** (son tres euros). Para «y medio»: **hiru euro eta erdi**. Cantidades: **kilo bat sagar** (un kilo de manzanas), **litro bat esne** (un litro de leche)."
+  },
+  {
+   "h": "«Con»: -rekin",
+   "p": "Singular **-arekin**, plural **-ekin**: **lagunarekin** (con el amigo), **lagunekin** (con los amigos). Nombres propios: **Mikelekin**, **Anerekin**. Si la palabra acaba en -a, solo **-rekin**: **amarekin** (con la madre). Con cosas también: **kafea esnearekin** (café con leche)."
+  },
+  {
+   "h": "«Para»: -rentzat",
+   "p": "Singular **-arentzat**, plural **-entzat**: **lagunarentzat** (para el amigo), **umeentzat** (para los niños). Nombres propios: **Mikelentzat**, **Anerentzat**. Acabados en -a: **amarentzat**. Pronombres: **niretzat** (para mí), **zuretzat** (para ti): **Hau zuretzat da!** (¡esto es para ti!)."
+  },
+  {
+   "h": "Paso a paso: «Este regalo es para mi madre»",
+   "p": "1) **Opari hau** (este regalo). 2) Para quién: **nire ama** + -rentzat → **nire amarentzat**. 3) Verbo: **da**. 4) **Opari hau nire amarentzat da**."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Bost euroak dira* → **Bost euro dira** (tras número, sin artículo). *Kafe bat nahi naiz* → **nahi dut**. *Lagunarekin* para «con los amigos» → **lagunekin**. *Niri da* para «es para mí» → **niretzat da**."
+  },
+  {
+   "h": "Resumen",
+   "p": "**… nahi dut / nahi nuke**, **Zenbat da? / Zenbat balio du?**, **Besterik?**. Precios: número + euro. **-arekin / -ekin** (con), **-arentzat / -entzat** (para), **niretzat, zuretzat**."
+  }
+ ],
+ "examples": [
+  [
+   "Zenbat da?",
+   "¿Cuánto es?"
+  ],
+  [
+   "Hiru euro dira.",
+   "Son tres euros."
+  ],
+  [
+   "Ogi bat nahi dut, mesedez.",
+   "Quiero un pan, por favor."
+  ],
+  [
+   "Kafea esnearekin.",
+   "Café con leche."
+  ],
+  [
+   "Opari hau amarentzat da.",
+   "Este regalo es para la madre."
+  ],
+  [
+   "Lagunarekin nator.",
+   "Vengo con el amigo."
+  ],
+  [
+   "Hau zuretzat da!",
+   "¡Esto es para ti!"
+  ]
+ ],
+ "dialog": {
+  "title": "En el mercado",
+  "lines": [
+   [
+    "Dendaria",
+    "Egun on! Zer nahi duzu?",
+    "¡Buenos días! ¿Qué quieres?"
+   ],
+   [
+    "Ane",
+    "Egun on! Kilo bat sagar nahi dut, mesedez.",
+    "¡Buenos días! Quiero un kilo de manzanas, por favor."
+   ],
+   [
+    "Dendaria",
+    "Hemen duzu. Besterik?",
+    "Aquí tienes. ¿Algo más?"
+   ],
+   [
+    "Ane",
+    "Bai, ogi bat ere bai. Zenbat da?",
+    "Sí, también un pan. ¿Cuánto es?"
+   ],
+   [
+    "Dendaria",
+    "Hiru euro eta erdi.",
+    "Tres euros y medio."
+   ],
+   [
+    "Ane",
+    "Tori. Eskerrik asko!",
+    "Toma. ¡Muchas gracias!"
+   ],
+   [
+    "Dendaria",
+    "Zuri! Agur!",
+    "¡A ti! ¡Adiós!"
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Ogi bat nahi ___.",
+   "es": "Quiero un pan.",
+   "a": [
+    "dut"
+   ],
+   "hint": "Querer: nahi dut."
+  },
+  {
+   "type": "gap",
+   "q": "Zenbat ___?",
+   "es": "¿Cuánto es?",
+   "a": [
+    "da"
+   ],
+   "hint": "¿Cuánto es? = Zenbat da?"
+  },
+  {
+   "type": "gap",
+   "q": "Kafea esne___.",
+   "es": "Café con leche.",
+   "a": [
+    "arekin"
+   ],
+   "hint": "Con, singular: -arekin."
+  },
+  {
+   "type": "gap",
+   "q": "Opari hau ama___ da.",
+   "es": "Este regalo es para la madre.",
+   "a": [
+    "rentzat"
+   ],
+   "hint": "Acabado en -a: solo -rentzat."
+  },
+  {
+   "type": "gap",
+   "q": "Mikel___ nator.",
+   "es": "Vengo con Mikel.",
+   "a": [
+    "ekin"
+   ],
+   "hint": "Nombre propio en consonante: -ekin."
+  },
+  {
+   "type": "gap",
+   "q": "Hau zu___ da!",
+   "es": "¡Esto es para ti!",
+   "a": [
+    "retzat"
+   ],
+   "hint": "Para mí = niretzat; para ti = zuretzat."
+  },
+  {
+   "type": "choice",
+   "q": "«¿Cuánto cuesta?»",
+   "options": [
+    "Zenbat balio du?",
+    "Zenbat da balio?",
+    "Zer balio du?"
+   ],
+   "a": 0,
+   "why": "Pregunta fija: Zenbat balio du?"
+  },
+  {
+   "type": "choice",
+   "q": "«Quiero un café»",
+   "options": [
+    "Kafe bat nahi dut.",
+    "Kafe bat nahi naiz.",
+    "Kafea bat nahi dut."
+   ],
+   "a": 0,
+   "why": "nahi dut, y con bat el nombre va sin artículo."
+  },
+  {
+   "type": "choice",
+   "q": "«Para mí»",
+   "options": [
+    "niretzat",
+    "nirekin",
+    "niri"
+   ],
+   "a": 0,
+   "why": "-entzat = para. nirekin = conmigo; niri = a mí."
+  },
+  {
+   "type": "choice",
+   "q": "«Con los amigos»",
+   "options": [
+    "lagunekin",
+    "lagunarekin",
+    "lagunentzat"
+   ],
+   "a": 0,
+   "why": "Plural: -ekin. lagunarekin = con el amigo."
+  },
+  {
+   "type": "choice",
+   "q": "«Son cinco euros»",
+   "options": [
+    "Bost euro dira.",
+    "Bost euroak dira.",
+    "Euro bost dira."
+   ],
+   "a": 0,
+   "why": "Número delante y nombre sin artículo."
+  },
+  {
+   "type": "order",
+   "words": [
+    "nahi",
+    "Ogi",
+    "dut",
+    "bat"
+   ],
+   "a": [
+    "Ogi bat nahi dut"
+   ],
+   "es": "Quiero un pan.",
+   "hint": "Lo que quieres + nahi dut."
+  },
+  {
+   "type": "order",
+   "words": [
+    "da",
+    "Opari",
+    "amarentzat",
+    "hau"
+   ],
+   "a": [
+    "Opari hau amarentzat da"
+   ],
+   "es": "Este regalo es para la madre.",
+   "hint": "Opari hau + para quién + da."
+  },
+  {
+   "type": "order",
+   "words": [
+    "balio",
+    "Zenbat",
+    "du"
+   ],
+   "a": [
+    "Zenbat balio du"
+   ],
+   "es": "¿Cuánto cuesta?",
+   "hint": "Zenbat + balio du."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "nahi dut",
+     "quiero"
+    ],
+    [
+     "Zenbat da?",
+     "¿cuánto es?"
+    ],
+    [
+     "Besterik?",
+     "¿algo más?"
+    ],
+    [
+     "Hemen duzu",
+     "aquí tienes"
+    ],
+    [
+     "merke",
+     "barato"
+    ],
+    [
+     "garesti",
+     "caro"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Escribe un pequeño diálogo en una tienda (5-6 líneas): saluda, pide dos cosas, pregunta el precio y di para quién es una de ellas.",
+  "focus": "nahi dut, Zenbat da?, precios, -arekin/-ekin, -arentzat/-entzat"
+ },
+ "links": {
+  "verbs": [],
+  "cases": [
+   "soz",
+   "des"
+  ],
+  "themes": [
+   "erosketak",
+   "janaria"
+  ]
+ }
+}

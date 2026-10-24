@@ -1,0 +1,335 @@
+{
+ "id": "b2-12",
+ "lvl": "B2",
+ "n": 12,
+ "title": "Testu-antolatzaileak",
+ "es": "Conectores para escribir",
+ "goal": "Organizar un texto escrito con conectores de orden, adición, contraste, ejemplo, explicación y conclusión.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "Escribir bien en euskera no depende solo de la gramática: un texto se entiende cuando sus ideas están conectadas. En esta lección reúnes los conectores (testu-antolatzaileak) que dan estructura a redacciones, correos y exámenes. Es la lección más directamente útil para las pruebas oficiales de B2."
+  },
+  {
+   "h": "Los conectores por función",
+   "table": {
+    "head": [
+     "Función",
+     "Conectores",
+     "Ejemplo"
+    ],
+    "rows": [
+     [
+      "Orden",
+      "lehenik, bigarrenik, azkenik",
+      "**Lehenik**, arazoa azalduko dut."
+     ],
+     [
+      "Adición",
+      "gainera, horrez gain, baita… ere",
+      "**Gainera**, oso garestia da."
+     ],
+     [
+      "Contraste",
+      "baina, hala ere, aldiz, ordea",
+      "Bilbo handia da; Getxo, **aldiz**, txikia."
+     ],
+     [
+      "Ejemplo",
+      "adibidez, esaterako",
+      "Hizkuntza asko daki, **esaterako**, frantsesa."
+     ],
+     [
+      "Explicación",
+      "hau da, alegia",
+      "Euskaldun berria da, **hau da**, helduaroan ikasi du."
+     ],
+     [
+      "Consecuencia",
+      "beraz, ondorioz",
+      "**Beraz**, ezin naiz etorri."
+     ],
+     [
+      "Conclusión",
+      "laburbilduz, azken batean",
+      "**Laburbilduz**, proiektua ona da."
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Dónde se colocan",
+   "p": "La mayoría van al principio de la frase, seguidos de coma. Dos excepciones importantes: **aldiz** y **ordea** suelen ir **después del primer elemento**: **Getxo, aldiz, txikia da**; **Nik, ordea, ez dut horrela uste** (yo, sin embargo, no lo creo así). Y **baita… ere**: **Baita nik ere** (yo también)."
+  },
+  {
+   "h": "Estructura de una redacción",
+   "p": "1) **Sarrera** (introducción): presenta el tema. 2) **Garapena** (desarrollo): un párrafo por idea, cada uno con su conector. 3) **Ondorioa** (conclusión): resume y da tu opinión. Para opinar, recuerda la lección B1-15 (**nire ustez**, **alde batetik… bestetik**)."
+  },
+  {
+   "h": "Paso a paso: un párrafo de desarrollo",
+   "p": "**Lehenik, telelanak denbora aurrezten du: ez da lanera joan behar.** **Gainera, familiarekin denbora gehiago pasatzen da.** **Bestetik, ordea, bakarrik lan egiten da, eta hori gogorra izan daiteke.** Fíjate en cómo cada conector anuncia la función de la frase."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "Abusar de **eta** y **baina** en lugar de variar. *Ordea, nik ez dut uste* → **Nik, ordea, ez dut uste**. *Adibidez* y *esaterako* son intercambiables, pero *alegia* no significa «por ejemplo» sino «es decir». *Laburbilduz* al principio del texto → se usa en la conclusión."
+  },
+  {
+   "h": "Resumen",
+   "p": "Orden: **lehenik, bigarrenik, azkenik** · Adición: **gainera, horrez gain** · Contraste: **hala ere, aldiz, ordea** · Ejemplo: **adibidez, esaterako** · Explicación: **hau da, alegia** · Conclusión: **laburbilduz, azken batean**."
+  }
+ ],
+ "examples": [
+  [
+   "Lehenik, arazoa azalduko dut.",
+   "En primer lugar, explicaré el problema."
+  ],
+  [
+   "Gainera, oso garestia da.",
+   "Además, es muy caro."
+  ],
+  [
+   "Bilbo handia da; Getxo, aldiz, txikia.",
+   "Bilbao es grande; Getxo, en cambio, pequeño."
+  ],
+  [
+   "Nik, ordea, ez dut horrela uste.",
+   "Yo, sin embargo, no lo creo así."
+  ],
+  [
+   "Hainbat hizkuntza hitz egiten ditu, esaterako, frantsesa eta ingelesa.",
+   "Habla varios idiomas, por ejemplo, francés e inglés."
+  ],
+  [
+   "Euskaldun berria da, hau da, helduaroan ikasi du euskara.",
+   "Es euskaldun berri, es decir, ha aprendido euskera de adulto."
+  ],
+  [
+   "Laburbilduz, proiektua ona da.",
+   "En resumen, el proyecto es bueno."
+  ]
+ ],
+ "dialog": {
+  "title": "Preparando una redacción",
+  "lines": [
+   [
+    "Nerea",
+    "Nola hasiko dugu idazlana?",
+    "¿Cómo empezaremos la redacción?"
+   ],
+   [
+    "Jon",
+    "Lehenik, gaia aurkeztuko dugu: telelanaren abantailak eta desabantailak.",
+    "En primer lugar, presentaremos el tema: las ventajas y desventajas del teletrabajo."
+   ],
+   [
+    "Nerea",
+    "Ados. Alde batetik, denbora aurrezten da; bestetik, ordea, bakarrik lan egiten da.",
+    "De acuerdo. Por un lado, se ahorra tiempo; por otro, sin embargo, se trabaja solo."
+   ],
+   [
+    "Jon",
+    "Ondo. Gainera, adibide batzuk jarri behar ditugu, esaterako, gure gurasoen esperientzia.",
+    "Bien. Además, tenemos que poner algunos ejemplos, por ejemplo, la experiencia de nuestros padres."
+   ],
+   [
+    "Nerea",
+    "Eta amaieran, laburbilduz, gure iritzia emango dugu.",
+    "Y al final, en resumen, daremos nuestra opinión."
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "___, arazoa azalduko dut.",
+   "es": "En primer lugar, explicaré el problema.",
+   "a": [
+    "lehenik"
+   ],
+   "hint": "en primer lugar = lehenik."
+  },
+  {
+   "type": "gap",
+   "q": "___, oso garestia da.",
+   "es": "Además, es muy caro.",
+   "a": [
+    "gainera"
+   ],
+   "hint": "además = gainera."
+  },
+  {
+   "type": "gap",
+   "q": "Bilbo handia da; Getxo, ___, txikia.",
+   "es": "Bilbao es grande; Getxo, en cambio, pequeño.",
+   "a": [
+    "aldiz"
+   ],
+   "hint": "en cambio = aldiz."
+  },
+  {
+   "type": "gap",
+   "q": "Nik, ___, ez dut horrela uste.",
+   "es": "Yo, sin embargo, no lo creo así.",
+   "a": [
+    "ordea"
+   ],
+   "hint": "sin embargo (tras el primer elemento) = ordea."
+  },
+  {
+   "type": "gap",
+   "q": "___, proiektua ona da.",
+   "es": "En resumen, el proyecto es bueno.",
+   "a": [
+    "laburbilduz"
+   ],
+   "hint": "en resumen = laburbilduz."
+  },
+  {
+   "type": "gap",
+   "q": "Euskaldun berria da, ___ da, helduaroan ikasi du.",
+   "es": "Es euskaldun berri, es decir, lo ha aprendido de adulto.",
+   "a": [
+    "hau"
+   ],
+   "hint": "es decir = hau da."
+  },
+  {
+   "type": "choice",
+   "q": "«En cambio»",
+   "options": [
+    "aldiz",
+    "adibidez",
+    "azkenik"
+   ],
+   "a": 0,
+   "why": "Contraste: aldiz."
+  },
+  {
+   "type": "choice",
+   "q": "«Por ejemplo»",
+   "options": [
+    "esaterako",
+    "ordea",
+    "hau da"
+   ],
+   "a": 0,
+   "why": "Ejemplo: esaterako (o adibidez)."
+  },
+  {
+   "type": "choice",
+   "q": "«Es decir»",
+   "options": [
+    "alegia",
+    "gainera",
+    "beraz"
+   ],
+   "a": 0,
+   "why": "Explicación: alegia (o hau da)."
+  },
+  {
+   "type": "choice",
+   "q": "«En resumen»",
+   "options": [
+    "laburbilduz",
+    "lehenik",
+    "bestela"
+   ],
+   "a": 0,
+   "why": "Conclusión: laburbilduz."
+  },
+  {
+   "type": "choice",
+   "q": "¿Dónde suele ir «ordea»?",
+   "options": [
+    "tras el primer elemento",
+    "siempre al principio",
+    "siempre al final"
+   ],
+   "a": 0,
+   "why": "Nik, ordea, …"
+  },
+  {
+   "type": "order",
+   "words": [
+    "txikia",
+    "aldiz",
+    "Getxo"
+   ],
+   "a": [
+    "Getxo aldiz txikia"
+   ],
+   "es": "Getxo, en cambio, pequeño.",
+   "hint": "Primer elemento + aldiz + resto."
+  },
+  {
+   "type": "order",
+   "words": [
+    "ona",
+    "da",
+    "proiektua",
+    "Laburbilduz"
+   ],
+   "a": [
+    "Laburbilduz proiektua ona da"
+   ],
+   "es": "En resumen, el proyecto es bueno.",
+   "hint": "Conector + frase."
+  },
+  {
+   "type": "order",
+   "words": [
+    "uste",
+    "ordea",
+    "Nik",
+    "dut",
+    "ez"
+   ],
+   "a": [
+    "Nik ordea ez dut uste"
+   ],
+   "es": "Yo, sin embargo, no lo creo.",
+   "hint": "Primer elemento + ordea + resto."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "lehenik",
+     "en primer lugar"
+    ],
+    [
+     "gainera",
+     "además"
+    ],
+    [
+     "aldiz",
+     "en cambio"
+    ],
+    [
+     "ordea",
+     "sin embargo"
+    ],
+    [
+     "esaterako",
+     "por ejemplo"
+    ],
+    [
+     "laburbilduz",
+     "en resumen"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Escribe una redacción breve (8 a 10 frases) sobre las ventajas y desventajas de aprender idiomas con apps, con introducción, desarrollo y conclusión, usando al menos seis conectores distintos.",
+  "focus": "conectores de orden, adición, contraste, ejemplo, explicación y conclusión; estructura de redacción"
+ },
+ "links": {
+  "verbs": [],
+  "cases": [],
+  "themes": [
+   "lokailuak",
+   "ikasketak"
+  ]
+ }
+}

@@ -1,0 +1,293 @@
+{
+ "id": "b1-11",
+ "lvl": "B1",
+ "n": 11,
+ "title": "Nahiz eta",
+ "es": "Las oraciones concesivas",
+ "goal": "Expresar contraste: «aunque estaba cansado», «aunque llueva», «por ti», «sin embargo».",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "Las concesivas sirven para decir que algo ocurre a pesar de otra cosa: «aunque estaba cansado, fui». Son imprescindibles para argumentar y matizar. El euskera tiene varias maneras de decirlo; aprenderás las tres más frecuentes y la diferencia entre «aunque es» y «aunque sea»."
+  },
+  {
+   "h": "-n arren: aunque (hecho real)",
+   "p": "Relativo + **arren**: **Euria ari zuen arren, hondartzara joan ginen** (aunque llovía, fuimos a la playa). También con el participio: **Nekatuta egon arren, lanera joan nintzen** (aunque estaba cansado, fui a trabajar)."
+  },
+  {
+   "h": "nahiz eta: aunque",
+   "p": "**nahiz eta** + participio (forma muy cómoda, porque no hay que conjugar): **Nahiz eta garestia izan, erosiko dut** (aunque sea caro, lo compraré). **Nahiz eta nekatuta egon…** (aunque esté cansado…)."
+  },
+  {
+   "h": "ba-… ere: aunque (hipótesis)",
+   "p": "Para «aunque + subjuntivo» con sentido de «incluso si»: la condición con **ba-** + **ere**: **Euria ari badu ere, mendira joango gara** (aunque llueva, iremos al monte). Compara: **Euria ari zuen arren** (aunque llovía, de hecho) / **Euria ari badu ere** (aunque llueva, por si acaso)."
+  },
+  {
+   "h": "-gatik: por, a causa de",
+   "p": "**-(r)engatik** con personas y **-(a)gatik** con cosas: **Zuregatik egin dut** (lo he hecho por ti), **Euriagatik ez gara atera** (por la lluvia no hemos salido). Es la terminación de **horregatik** (por eso) y **zergatik** (por qué). Y para contrastar dos frases: **hala ere** (sin embargo)."
+  },
+  {
+   "h": "Paso a paso: «Aunque no tengo tiempo, te ayudaré»",
+   "p": "1) Hecho real: **ez daukat denborarik**. 2) Relativo + arren: daukat → **daukadan** → **denborarik ez daukadan arren**. 3) **Denborarik ez daukadan arren, lagunduko zaitut**. (O con nahiz eta: **Nahiz eta denborarik ez eduki, lagunduko zaitut**.)"
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Euria ari du arren* → **duen arren** (relativo). *Nahiz eta garestia da* → **nahiz eta garestia izan** (participio, en el registro más claro). *Euria ari badu, joango gara* para «aunque llueva» → falta **ere**. *Zuretzat egin dut* para «por ti» (a causa de ti) → **zuregatik**."
+  },
+  {
+   "h": "Resumen",
+   "p": "Aunque (real): **-n arren**, **nahiz eta + participio**. Aunque (hipótesis): **ba-… ere**. Causa: **-gatik** (zuregatik, euriagatik). Contraste entre frases: **hala ere**."
+  }
+ ],
+ "examples": [
+  [
+   "Nekatuta egon arren, lanera joan nintzen.",
+   "Aunque estaba cansado, fui a trabajar."
+  ],
+  [
+   "Euria ari zuen arren, hondartzara joan ginen.",
+   "Aunque llovía, fuimos a la playa."
+  ],
+  [
+   "Nahiz eta garestia izan, erosiko dut.",
+   "Aunque sea caro, lo compraré."
+  ],
+  [
+   "Euria ari badu ere, mendira joango gara.",
+   "Aunque llueva, iremos al monte."
+  ],
+  [
+   "Zuregatik egin dut.",
+   "Lo he hecho por ti."
+  ],
+  [
+   "Euriagatik ez gara atera.",
+   "Por la lluvia no hemos salido."
+  ],
+  [
+   "Zaila da; hala ere, ikasiko dut.",
+   "Es difícil; sin embargo, lo aprenderé."
+  ]
+ ],
+ "dialog": {
+  "title": "¿Vamos igualmente?",
+  "lines": [
+   [
+    "Ane",
+    "Euria ari du. Hala ere joango gara mendira?",
+    "Está lloviendo. ¿Iremos igualmente al monte?"
+   ],
+   [
+    "Mikel",
+    "Bai! Euria ari badu ere, joango gara.",
+    "¡Sí! Aunque llueva, iremos."
+   ],
+   [
+    "Ane",
+    "Nahiz eta ni nekatuta egon?",
+    "¿Aunque yo esté cansada?"
+   ],
+   [
+    "Mikel",
+    "Nekatuta egon arren, ondo pasatuko dugu. Gainera, zuregatik prestatu dut bazkaria!",
+    "Aunque estés cansada, lo pasaremos bien. ¡Además, he preparado la comida por ti!"
+   ],
+   [
+    "Ane",
+    "Ados, ados. Zuregatik joango naiz.",
+    "Vale, vale. Iré por ti."
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Nekatuta egon ___, lanera joan nintzen.",
+   "es": "Aunque estaba cansado, fui a trabajar.",
+   "a": [
+    "arren"
+   ],
+   "hint": "aunque = arren."
+  },
+  {
+   "type": "gap",
+   "q": "Euria ari zuen ___, hondartzara joan ginen.",
+   "es": "Aunque llovía, fuimos a la playa.",
+   "a": [
+    "arren"
+   ],
+   "hint": "Relativo + arren."
+  },
+  {
+   "type": "gap",
+   "q": "___ eta garestia izan, erosiko dut.",
+   "es": "Aunque sea caro, lo compraré.",
+   "a": [
+    "nahiz"
+   ],
+   "hint": "nahiz eta + participio."
+  },
+  {
+   "type": "gap",
+   "q": "Euria ari badu ___, mendira joango gara.",
+   "es": "Aunque llueva, iremos al monte.",
+   "a": [
+    "ere"
+   ],
+   "hint": "ba- … ere = aunque (hipótesis)."
+  },
+  {
+   "type": "gap",
+   "q": "Zure___ egin dut.",
+   "es": "Lo he hecho por ti.",
+   "a": [
+    "gatik"
+   ],
+   "hint": "por (causa) = -gatik."
+  },
+  {
+   "type": "gap",
+   "q": "Zaila da; hala ___, ikasiko dut.",
+   "es": "Es difícil; sin embargo, lo aprenderé.",
+   "a": [
+    "ere"
+   ],
+   "hint": "sin embargo = hala ere."
+  },
+  {
+   "type": "choice",
+   "q": "«Aunque estaba cansado»",
+   "options": [
+    "nekatuta egon arren",
+    "nekatuta egongatik",
+    "nekatuta badago"
+   ],
+   "a": 0,
+   "why": "Participio + arren."
+  },
+  {
+   "type": "choice",
+   "q": "«Aunque llueva» (por si acaso)",
+   "options": [
+    "euria ari badu ere",
+    "euria ari badu",
+    "euria ari duen"
+   ],
+   "a": 0,
+   "why": "Hipótesis: ba- … ere."
+  },
+  {
+   "type": "choice",
+   "q": "«Por ti» (a causa de ti)",
+   "options": [
+    "zuregatik",
+    "zuretzat",
+    "zurekin"
+   ],
+   "a": 0,
+   "why": "-gatik = por, a causa de. Zuretzat = para ti."
+  },
+  {
+   "type": "choice",
+   "q": "«Sin embargo»",
+   "options": [
+    "hala ere",
+    "horregatik",
+    "beraz"
+   ],
+   "a": 0,
+   "why": "horregatik = por eso; beraz = así que."
+  },
+  {
+   "type": "choice",
+   "q": "«Aunque sea caro»",
+   "options": [
+    "nahiz eta garestia izan",
+    "nahiz garestia da",
+    "garestia izan eta"
+   ],
+   "a": 0,
+   "why": "nahiz eta + participio."
+  },
+  {
+   "type": "order",
+   "words": [
+    "arren",
+    "egon",
+    "Nekatuta"
+   ],
+   "a": [
+    "Nekatuta egon arren"
+   ],
+   "es": "Aunque estaba cansado.",
+   "hint": "Estado + participio + arren."
+  },
+  {
+   "type": "order",
+   "words": [
+    "ere",
+    "badu",
+    "ari",
+    "Euria"
+   ],
+   "a": [
+    "Euria ari badu ere"
+   ],
+   "es": "Aunque llueva.",
+   "hint": "Condición con ba- + ere."
+  },
+  {
+   "type": "order",
+   "words": [
+    "dut",
+    "egin",
+    "Zuregatik"
+   ],
+   "a": [
+    "Zuregatik egin dut"
+   ],
+   "es": "Lo he hecho por ti.",
+   "hint": "Causa + verbo + auxiliar."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "-n arren",
+     "aunque (hecho)"
+    ],
+    [
+     "nahiz eta",
+     "aunque"
+    ],
+    [
+     "ba-… ere",
+     "aunque (hipótesis)"
+    ],
+    [
+     "-gatik",
+     "por, a causa de"
+    ],
+    [
+     "hala ere",
+     "sin embargo"
+    ],
+    [
+     "horregatik",
+     "por eso"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Escribe 5 frases sobre algo que haces a pesar de las dificultades (estudiar euskera, hacer deporte…): usa -n arren, nahiz eta, ba-… ere, -gatik y hala ere.",
+  "focus": "concesivas: -n arren, nahiz eta + participio, ba-… ere, -gatik, hala ere"
+ },
+ "links": {
+  "verbs": [],
+  "cases": [],
+  "themes": [
+   "lokailuak"
+  ]
+ }
+}

@@ -1,0 +1,318 @@
+{
+ "id": "c1-05",
+ "lvl": "C1",
+ "n": 5,
+ "title": "Nominalizazio aurreratua",
+ "es": "El estilo nominal",
+ "goal": "Entender y usar el estilo nominal propio de la prensa y los textos formales: «la subida de los precios», «como consecuencia de aprobar la ley».",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "En la conversación decimos «los precios han subido y la gente está preocupada». En un periódico se lee «la subida de los precios ha generado preocupación». Ese **estilo nominal**, que convierte acciones en nombres, domina la prensa, la administración y los textos académicos. Reconocerlo es imprescindible para leer en C1."
+  },
+  {
+   "h": "Nombres que vienen de verbos",
+   "table": {
+    "head": [
+     "Sufijo",
+     "Ejemplos"
+    ],
+    "rows": [
+     [
+      "-era",
+      "igo → **igoera** (subida), jaitsi → **jaitsiera** (bajada), ibili → **ibilera** (marcha)"
+     ],
+     [
+      "-kuntza",
+      "hobetu → **hobekuntza** (mejora), aurkitu → **aurkikuntza** (descubrimiento), irakatsi → **irakaskuntza** (enseñanza)"
+     ],
+     [
+      "-keta",
+      "aldatu → **aldaketa** (cambio), azterketa (examen, análisis)"
+     ],
+     [
+      "-pen / -men",
+      "itxaropen (esperanza), ulermen (comprensión), oroimen (memoria)"
+     ],
+     [
+      "-tza",
+      "ezagutu → **ezagutza** (conocimiento)"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "El verbo como nombre en frases largas",
+   "p": "El **-tzea** de B1 permite construir sujetos y complementos complejos: **Legea onartzearen ondorioz, zergak jaitsi dira** (como consecuencia de aprobar la ley, han bajado los impuestos). Estructuras muy frecuentes: **-tzearen ondorioz** (como consecuencia de), **-tzearen alde / kontra** (a favor / en contra de), **-tzeko asmoa** (intención de), **-tzeko aukera** (posibilidad de)."
+  },
+  {
+   "h": "De verbal a nominal",
+   "p": "Verbal: **Etxeen prezioak asko igo dira eta jendea kezkatuta dago.** Nominal: **Etxeen prezioen igoerak kezka sortu du.** La versión nominal es más corta y densa, ideal para titulares e informes; la verbal es más natural al hablar. Un buen escritor elige según el registro."
+  },
+  {
+   "h": "Paso a paso: «Han mejorado la enseñanza del euskera y eso ha sido positivo»",
+   "p": "1) Acción → nombre: hobetu → **hobekuntza**. 2) Lo mejorado en genitivo: **euskararen irakaskuntzaren hobekuntza**. 3) Predicado: **positiboa izan da**. → **Euskararen irakaskuntzaren hobekuntza positiboa izan da**."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Prezioak igotzen kezka sortu du* → **Prezioen igoerak**. *Legea onartu ondorioz* → **onartzearen ondorioz**. *Hobetasuna* para «mejora» → **hobekuntza** (hobetasun no se usa así). Abusar del estilo nominal en una conversación: suena rígido."
+  },
+  {
+   "h": "Resumen",
+   "p": "Nombres deverbales: **-era, -kuntza, -keta, -pen / -men, -tza**. Estructuras: **-tzearen ondorioz, -tzearen alde, -tzeko asmoa, -tzeko aukera**. Estilo nominal para prensa e informes; verbal para hablar."
+  }
+ ],
+ "examples": [
+  [
+   "Prezioen igoerak kezka sortu du.",
+   "La subida de los precios ha generado preocupación."
+  ],
+  [
+   "Legea onartzearen ondorioz, zergak jaitsi dira.",
+   "Como consecuencia de aprobar la ley, han bajado los impuestos."
+  ],
+  [
+   "Euskararen irakaskuntza hobetu da.",
+   "La enseñanza del euskera ha mejorado."
+  ],
+  [
+   "Langabeziaren jaitsiera albiste ona da.",
+   "La bajada del paro es una buena noticia."
+  ],
+  [
+   "Proiektua amaitzeko asmoa dugu.",
+   "Tenemos intención de terminar el proyecto."
+  ],
+  [
+   "Aurkikuntza garrantzitsua egin dute.",
+   "Han hecho un descubrimiento importante."
+  ],
+  [
+   "Euskara ikasteko aukera eman digute.",
+   "Nos han dado la posibilidad de aprender euskera."
+  ]
+ ],
+ "dialog": {
+  "title": "Editando titulares",
+  "lines": [
+   [
+    "Nerea",
+    "Izenburu hau luzeegia da: «Etxeen prezioak asko igo dira eta jendea kezkatuta dago».",
+    "Este titular es demasiado largo: «Los precios de las casas han subido mucho y la gente está preocupada»."
+   ],
+   [
+    "Jon",
+    "Estilo nominala erabil dezakegu: «Etxeen prezioen igoerak kezka sortu du».",
+    "Podemos usar el estilo nominal: «La subida de los precios de las casas ha generado preocupación»."
+   ],
+   [
+    "Nerea",
+    "Hobeto! Eta beste hau: «Gobernuak legea onartu du, eta ondorioz zergak jaitsi dira»?",
+    "¡Mejor! ¿Y este otro: «El Gobierno ha aprobado la ley, y en consecuencia han bajado los impuestos»?"
+   ],
+   [
+    "Jon",
+    "«Legea onartzearen ondorioz, zergak jaitsi dira».",
+    "«Como consecuencia de aprobar la ley, han bajado los impuestos»."
+   ],
+   [
+    "Nerea",
+    "Laburragoa eta argiagoa.",
+    "Más corto y más claro."
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Prezioen igo___ kezka sortu du.",
+   "es": "La subida de los precios ha generado preocupación.",
+   "a": [
+    "erak"
+   ],
+   "hint": "igoera (subida) + -k (sujeto)."
+  },
+  {
+   "type": "gap",
+   "q": "Legea onartzea___ ondorioz, zergak jaitsi dira.",
+   "es": "Como consecuencia de aprobar la ley…",
+   "a": [
+    "ren"
+   ],
+   "hint": "-tzearen ondorioz."
+  },
+  {
+   "type": "gap",
+   "q": "Euskararen irakas___ hobetu da.",
+   "es": "La enseñanza del euskera ha mejorado.",
+   "a": [
+    "kuntza"
+   ],
+   "hint": "irakatsi → irakaskuntza."
+  },
+  {
+   "type": "gap",
+   "q": "Langabeziaren jaitsi___ albiste ona da.",
+   "es": "La bajada del paro es una buena noticia.",
+   "a": [
+    "era"
+   ],
+   "hint": "jaitsi → jaitsiera."
+  },
+  {
+   "type": "gap",
+   "q": "Proiektua amaitzeko ___ dugu.",
+   "es": "Tenemos intención de terminar el proyecto.",
+   "a": [
+    "asmoa"
+   ],
+   "hint": "intención de = -tzeko asmoa."
+  },
+  {
+   "type": "gap",
+   "q": "Aurki___ garrantzitsua egin dute.",
+   "es": "Han hecho un descubrimiento importante.",
+   "a": [
+    "kuntza"
+   ],
+   "hint": "aurkitu → aurkikuntza."
+  },
+  {
+   "type": "choice",
+   "q": "«La subida de los precios»",
+   "options": [
+    "prezioen igoera",
+    "prezio igotzen",
+    "igoera prezioena"
+   ],
+   "a": 0,
+   "why": "Genitivo + nombre deverbal."
+  },
+  {
+   "type": "choice",
+   "q": "«Como consecuencia de aprobar la ley»",
+   "options": [
+    "legea onartzearen ondorioz",
+    "legea onartu ondorioz",
+    "legea onartzeko ondorioz"
+   ],
+   "a": 0,
+   "why": "-tzearen ondorioz."
+  },
+  {
+   "type": "choice",
+   "q": "«Mejora»",
+   "options": [
+    "hobekuntza",
+    "hobetasuna",
+    "hobeketa"
+   ],
+   "a": 0,
+   "why": "hobetu → hobekuntza."
+  },
+  {
+   "type": "choice",
+   "q": "«Tenemos intención de terminarlo»",
+   "options": [
+    "amaitzeko asmoa dugu",
+    "amaitzea asmoa dugu",
+    "amaitu asmoa dugu"
+   ],
+   "a": 0,
+   "why": "-tzeko asmoa."
+  },
+  {
+   "type": "choice",
+   "q": "El estilo nominal es típico de…",
+   "options": [
+    "la prensa y los textos formales",
+    "las conversaciones con amigos",
+    "los mensajes coloquiales"
+   ],
+   "a": 0,
+   "why": "En la conversación se prefiere el estilo verbal."
+  },
+  {
+   "type": "order",
+   "words": [
+    "du",
+    "sortu",
+    "kezka",
+    "igoerak",
+    "Prezioen"
+   ],
+   "a": [
+    "Prezioen igoerak kezka sortu du"
+   ],
+   "es": "La subida de los precios ha generado preocupación.",
+   "hint": "Sujeto nominal + objeto + verbo."
+  },
+  {
+   "type": "order",
+   "words": [
+    "dugu",
+    "asmoa",
+    "amaitzeko",
+    "Proiektua"
+   ],
+   "a": [
+    "Proiektua amaitzeko asmoa dugu"
+   ],
+   "es": "Tenemos intención de terminar el proyecto.",
+   "hint": "Objeto + -tzeko asmoa + dugu."
+  },
+  {
+   "type": "order",
+   "words": [
+    "ondorioz",
+    "onartzearen",
+    "Legea"
+   ],
+   "a": [
+    "Legea onartzearen ondorioz"
+   ],
+   "es": "Como consecuencia de aprobar la ley.",
+   "hint": "Objeto + -tzearen ondorioz."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "igoera",
+     "subida"
+    ],
+    [
+     "jaitsiera",
+     "bajada"
+    ],
+    [
+     "hobekuntza",
+     "mejora"
+    ],
+    [
+     "aurkikuntza",
+     "descubrimiento"
+    ],
+    [
+     "irakaskuntza",
+     "enseñanza"
+    ],
+    [
+     "-tzearen ondorioz",
+     "como consecuencia de"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Transforma en estilo nominal 4 frases verbales sobre noticias inventadas (por ejemplo, «El ayuntamiento ha abierto una biblioteca nueva» → «Liburutegi berriaren irekierak…») y escribe un titular para cada una.",
+  "focus": "nombres deverbales (-era, -kuntza, -keta, -pen, -tza) y estructuras con -tzea (-tzearen ondorioz, -tzeko asmoa)"
+ },
+ "links": {
+  "verbs": [],
+  "cases": [],
+  "themes": [
+   "lokailuak"
+  ]
+ }
+}

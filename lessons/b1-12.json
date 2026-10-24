@@ -1,0 +1,298 @@
+{
+ "id": "b1-12",
+ "lvl": "B1",
+ "n": 12,
+ "title": "Esaten da",
+ "es": "La forma impersonal",
+ "goal": "Decir lo que «se» hace en general: «se dice», «se habla euskera», «se vende piso».",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "El «se» impersonal del español («aquí se habla euskera», «¿cómo se dice?») tiene en euskera una solución sencilla y muy frecuente: usar el verbo con el auxiliar **izan** en tercera persona, aunque el verbo normalmente tenga objeto. La pregunta **Nola esaten da?** probablemente ya la has usado."
+  },
+  {
+   "h": "La forma",
+   "p": "Verbo + **da** (singular) o **dira** (plural), sin sujeto: **Nola esaten da «ventana» euskaraz?** (¿cómo se dice «ventana» en euskera?). **Hemen euskaraz hitz egiten da** (aquí se habla euskera). **Etxe hau saltzen da** (esta casa se vende). Si lo que «se» hace es plural, **dira**: **Pisuak alokatzen dira** (se alquilan pisos)."
+  },
+  {
+   "h": "En otros tiempos y modos",
+   "p": "Cambia solo el auxiliar: pasado **zen / ziren**: **Lehen hemen arrantza egiten zen** (antes aquí se pescaba). Futuro: **Bihar erabakiko da** (se decidirá mañana). Potencial: **Hemen erre daiteke?** (¿se puede fumar aquí?), y negativo: **Hemen ezin da aparkatu** (aquí no se puede aparcar)."
+  },
+  {
+   "h": "Otra opción: jendeak",
+   "p": "Para «la gente dice / se dice que…» también se usa **jendeak** como sujeto: **Jendeak dio hondartza hori oso polita dela** (dicen que esa playa es muy bonita)."
+  },
+  {
+   "h": "Paso a paso: «Antes en este pueblo se hablaba más euskera»",
+   "p": "1) Verbo habitual: **hitz egiten**. 2) Impersonal en pasado: **zen**. 3) **Lehen herri honetan euskara gehiago hitz egiten zen**."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Nola esaten du?* → **Nola esaten da?** *Pisuak saltzen da* → **dira** (plural). *Hemen euskaraz hitz egiten dago* → **da**. *Jendea dio* → **Jendeak** (con -k)."
+  },
+  {
+   "h": "Resumen",
+   "p": "Impersonal = verbo + **da / dira** (pasado **zen / ziren**): esaten da, saltzen dira, egiten zen. Potencial: **daiteke**; negativo: **ezin da**. Alternativa: **jendeak dio…**."
+  }
+ ],
+ "examples": [
+  [
+   "Nola esaten da «ventana» euskaraz?",
+   "¿Cómo se dice «ventana» en euskera?"
+  ],
+  [
+   "Hemen euskaraz hitz egiten da.",
+   "Aquí se habla euskera."
+  ],
+  [
+   "Etxe hau saltzen da.",
+   "Esta casa se vende."
+  ],
+  [
+   "Pisuak alokatzen dira.",
+   "Se alquilan pisos."
+  ],
+  [
+   "Lehen hemen arrantza egiten zen.",
+   "Antes aquí se pescaba."
+  ],
+  [
+   "Hemen ezin da aparkatu.",
+   "Aquí no se puede aparcar."
+  ],
+  [
+   "Jendeak dio hondartza hori oso polita dela.",
+   "Dicen que esa playa es muy bonita."
+  ]
+ ],
+ "dialog": {
+  "title": "En un pueblo nuevo",
+  "lines": [
+   [
+    "Nerea",
+    "Barkatu, nola esaten da «gracias» euskaraz?",
+    "Perdone, ¿cómo se dice «gracias» en euskera?"
+   ],
+   [
+    "Gizona",
+    "«Eskerrik asko» esaten da.",
+    "Se dice «eskerrik asko»."
+   ],
+   [
+    "Nerea",
+    "Eta herri honetan euskaraz hitz egiten da?",
+    "¿Y en este pueblo se habla euskera?"
+   ],
+   [
+    "Gizona",
+    "Bai, asko. Lehen gutxiago egiten zen, baina orain gazteek euskara erabiltzen dute.",
+    "Sí, mucho. Antes se hablaba menos, pero ahora los jóvenes usan el euskera."
+   ],
+   [
+    "Nerea",
+    "Eta non jaten da ondo hemen?",
+    "¿Y dónde se come bien aquí?"
+   ],
+   [
+    "Gizona",
+    "Plazan dagoen jatetxean. Jendeak dio herriko onena dela.",
+    "En el restaurante que está en la plaza. Dicen que es el mejor del pueblo."
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Nola esaten ___ «leiho» gazteleraz?",
+   "es": "¿Cómo se dice «leiho» en castellano?",
+   "a": [
+    "da"
+   ],
+   "hint": "Impersonal: da."
+  },
+  {
+   "type": "gap",
+   "q": "Hemen euskaraz hitz egiten ___.",
+   "es": "Aquí se habla euskera.",
+   "a": [
+    "da"
+   ],
+   "hint": "Impersonal: da."
+  },
+  {
+   "type": "gap",
+   "q": "Etxe hau saltzen ___.",
+   "es": "Esta casa se vende.",
+   "a": [
+    "da"
+   ],
+   "hint": "Una cosa: da."
+  },
+  {
+   "type": "gap",
+   "q": "Pisuak alokatzen ___.",
+   "es": "Se alquilan pisos.",
+   "a": [
+    "dira"
+   ],
+   "hint": "Varias cosas: dira."
+  },
+  {
+   "type": "gap",
+   "q": "Lehen hemen arrantza egiten ___.",
+   "es": "Antes aquí se pescaba.",
+   "a": [
+    "zen"
+   ],
+   "hint": "Impersonal en pasado: zen."
+  },
+  {
+   "type": "gap",
+   "q": "Hemen ezin ___ aparkatu.",
+   "es": "Aquí no se puede aparcar.",
+   "a": [
+    "da"
+   ],
+   "hint": "ezin + da."
+  },
+  {
+   "type": "choice",
+   "q": "«Aquí se habla euskera»",
+   "options": [
+    "Hemen euskaraz hitz egiten da.",
+    "Hemen euskaraz hitz egiten du.",
+    "Hemen euskaraz hitz egiten dago."
+   ],
+   "a": 0,
+   "why": "Impersonal: izan (da)."
+  },
+  {
+   "type": "choice",
+   "q": "«Se venden pisos»",
+   "options": [
+    "Pisuak saltzen dira.",
+    "Pisuak saltzen da.",
+    "Pisuak saltzen ditu."
+   ],
+   "a": 0,
+   "why": "Plural: dira."
+  },
+  {
+   "type": "choice",
+   "q": "«¿Cómo se dice?»",
+   "options": [
+    "Nola esaten da?",
+    "Nola esaten du?",
+    "Nola da esaten?"
+   ],
+   "a": 0,
+   "why": "Interrogativa + verbo + da."
+  },
+  {
+   "type": "choice",
+   "q": "«Antes aquí se pescaba»",
+   "options": [
+    "Lehen hemen arrantza egiten zen.",
+    "Lehen hemen arrantza egiten zuen.",
+    "Lehen hemen arrantza egiten da."
+   ],
+   "a": 0,
+   "why": "Pasado impersonal: zen."
+  },
+  {
+   "type": "choice",
+   "q": "«Dicen que…» (la gente)",
+   "options": [
+    "Jendeak dio…",
+    "Jendea dio…",
+    "Jendeak esaten da…"
+   ],
+   "a": 0,
+   "why": "jendeak (con -k) + dio."
+  },
+  {
+   "type": "order",
+   "words": [
+    "da",
+    "esaten",
+    "Nola"
+   ],
+   "a": [
+    "Nola esaten da"
+   ],
+   "es": "¿Cómo se dice?",
+   "hint": "Nola + esaten + da."
+  },
+  {
+   "type": "order",
+   "words": [
+    "da",
+    "saltzen",
+    "hau",
+    "Etxe"
+   ],
+   "a": [
+    "Etxe hau saltzen da"
+   ],
+   "es": "Esta casa se vende.",
+   "hint": "Etxe hau + saltzen da."
+  },
+  {
+   "type": "order",
+   "words": [
+    "hitz",
+    "Hemen",
+    "da",
+    "egiten",
+    "euskaraz"
+   ],
+   "a": [
+    "Hemen euskaraz hitz egiten da",
+    "Euskaraz hitz egiten da hemen"
+   ],
+   "es": "Aquí se habla euskera.",
+   "hint": "Lugar + euskaraz + hitz egiten da."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "esaten da",
+     "se dice"
+    ],
+    [
+     "saltzen da",
+     "se vende"
+    ],
+    [
+     "saltzen dira",
+     "se venden"
+    ],
+    [
+     "egiten zen",
+     "se hacía"
+    ],
+    [
+     "ezin da",
+     "no se puede"
+    ],
+    [
+     "jendeak dio",
+     "dicen (la gente dice)"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Describe tu pueblo o ciudad en 5 frases impersonales: qué idiomas se hablan, qué se come, qué se puede hacer, qué no se puede hacer y qué se hacía antes.",
+  "focus": "impersonal con da/dira, zen/ziren, daiteke, ezin da; jendeak dio"
+ },
+ "links": {
+  "verbs": [],
+  "cases": [],
+  "themes": [
+   "hiria",
+   "natura"
+  ]
+ }
+}

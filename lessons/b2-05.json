@@ -1,0 +1,326 @@
+{
+ "id": "b2-05",
+ "lvl": "B2",
+ "n": 5,
+ "title": "Zehar-estiloa",
+ "es": "El estilo indirecto",
+ "goal": "Contar lo que otros dijeron, preguntaron u ordenaron, adaptando personas, tiempos y referencias.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "Ya conoces las tres piezas del estilo indirecto por separado: **-la** (que…), **-n / ea … -n** (si…, dónde…) y **-tzeko** (que + orden). En esta lección las combinas para contar conversaciones completas, que es lo que hacemos constantemente al hablar: «me dijo que…», «me preguntó si…»."
+  },
+  {
+   "h": "Afirmaciones: -la",
+   "p": "«Bihar etorriko naiz», esan zuen Mikelek → **Mikelek esan zuen hurrengo egunean etorriko zela**. Fíjate en tres cambios: la persona (**naiz → zela**, porque ahora hablamos de él), el tiempo (si el verbo principal está en pasado, la subordinada también: **nago → zegoela**) y las referencias (**bihar → hurrengo egunean**)."
+  },
+  {
+   "h": "Preguntas: -n y ea",
+   "p": "Con palabra interrogativa: «Non bizi zara?», galdetu zidan → **Non bizi nintzen galdetu zidan**. De sí o no: «Etorriko zara?» → **Ea etorriko nintzen galdetu zidan**."
+  },
+  {
+   "h": "Órdenes y peticiones: -tzeko",
+   "p": "«Etorri hona!», esan zidan → **Hara joateko esan zidan** (o **etortzeko esan zidan**). «Lagun nazazu», eskatu zidan → **Laguntzeko eskatu zidan**."
+  },
+  {
+   "h": "Las referencias que cambian",
+   "table": {
+    "head": [
+     "Estilo directo",
+     "Estilo indirecto"
+    ],
+    "rows": [
+     [
+      "gaur (hoy)",
+      "egun hartan (aquel día)"
+     ],
+     [
+      "bihar (mañana)",
+      "hurrengo egunean (al día siguiente)"
+     ],
+     [
+      "atzo (ayer)",
+      "aurreko egunean (el día anterior)"
+     ],
+     [
+      "hemen (aquí)",
+      "han (allí)"
+     ],
+     [
+      "orain (ahora)",
+      "orduan (entonces)"
+     ],
+     [
+      "hau (esto)",
+      "hura (aquello)"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Paso a paso: «Me dijo que me llamaría al día siguiente»",
+   "p": "Directo: «Bihar deituko dizut». 1) Persona y tiempo: dizut (él → a ti, presente) → **zidan** (él → a mí, pasado) + -la → **zidala**. 2) bihar → **hurrengo egunean**. 3) **Hurrengo egunean deituko zidala esan zidan**."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Etorriko naizela esan zuen* (hablando de otro) → **etorriko zela**. *Non bizi zara galdetu zidan* → **Non bizi nintzen**. *Etorriko nintzela galdetu zidan* (pregunta) → **Ea etorriko nintzen**. *Bihar etorriko zela esan zuen* (contado días después) → **hurrengo egunean**."
+  },
+  {
+   "h": "Resumen",
+   "p": "Afirmación → **-la** · Pregunta → **-n** (con **ea** si es de sí o no) · Orden → **-tzeko**. Adapta persona, tiempo y referencias (bihar → hurrengo egunean, hemen → han)."
+  }
+ ],
+ "examples": [
+  [
+   "Etorriko zela esan zuen.",
+   "Dijo que vendría."
+  ],
+  [
+   "Nekatuta zegoela esan zidan.",
+   "Me dijo que estaba cansado."
+  ],
+  [
+   "Non bizi nintzen galdetu zidan.",
+   "Me preguntó dónde vivía."
+  ],
+  [
+   "Ea etorriko nintzen galdetu zidan.",
+   "Me preguntó si vendría."
+  ],
+  [
+   "Etortzeko esan zidan.",
+   "Me dijo que viniera."
+  ],
+  [
+   "Hurrengo egunean deituko zidala esan zidan.",
+   "Me dijo que me llamaría al día siguiente."
+  ],
+  [
+   "Han itxarongo zuela esan zuen.",
+   "Dijo que esperaría allí."
+  ]
+ ],
+ "dialog": {
+  "title": "Después de hablar con la jefa",
+  "lines": [
+   [
+    "Ane",
+    "Zer esan zizun nagusiak?",
+    "¿Qué te dijo la jefa?"
+   ],
+   [
+    "Iker",
+    "Lan ona egin nuela esan zidan, eta ea hurrengo hilean Bilbora joan nintekeen galdetu zidan.",
+    "Me dijo que había hecho un buen trabajo, y me preguntó si podría ir a Bilbao el mes siguiente."
+   ],
+   [
+    "Ane",
+    "Eta zuk zer erantzun zenion?",
+    "¿Y tú qué le respondiste?"
+   ],
+   [
+    "Iker",
+    "Pentsatuko nuela. Eta nire familiarekin hitz egiteko esan zidan.",
+    "Que lo pensaría. Y me dijo que hablara con mi familia."
+   ],
+   [
+    "Ane",
+    "Ondo! Noizko erabaki behar duzu?",
+    "¡Bien! ¿Para cuándo tienes que decidirlo?"
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Mikelek esan zuen hurrengo egunean etorriko ___.",
+   "es": "Mikel dijo que vendría al día siguiente.",
+   "a": [
+    "zela"
+   ],
+   "hint": "naiz → (él) zen → zela."
+  },
+  {
+   "type": "gap",
+   "q": "Nekatuta ___ esan zidan.",
+   "es": "Me dijo que estaba cansado.",
+   "a": [
+    "zegoela"
+   ],
+   "hint": "nago → (él, pasado) zegoen → zegoela."
+  },
+  {
+   "type": "gap",
+   "q": "Non bizi ___ galdetu zidan.",
+   "es": "Me preguntó dónde vivía (yo).",
+   "a": [
+    "nintzen"
+   ],
+   "hint": "zara → (yo, pasado) nintzen."
+  },
+  {
+   "type": "gap",
+   "q": "___ etorriko nintzen galdetu zidan.",
+   "es": "Me preguntó si vendría.",
+   "a": [
+    "ea"
+   ],
+   "hint": "Pregunta de sí o no: ea."
+  },
+  {
+   "type": "gap",
+   "q": "Etor___ esan zidan.",
+   "es": "Me dijo que viniera.",
+   "a": [
+    "tzeko"
+   ],
+   "hint": "Orden: -tzeko."
+  },
+  {
+   "type": "gap",
+   "q": "«Bihar» → hurrengo ___",
+   "es": "«mañana» → al día siguiente",
+   "a": [
+    "egunean"
+   ],
+   "hint": "bihar → hurrengo egunean."
+  },
+  {
+   "type": "choice",
+   "q": "«Etorriko naiz», esan zuen →",
+   "options": [
+    "Etorriko zela esan zuen.",
+    "Etorriko naizela esan zuen.",
+    "Etorriko da esan zuen."
+   ],
+   "a": 0,
+   "why": "Cambia la persona (él) y el tiempo (pasado): zela."
+  },
+  {
+   "type": "choice",
+   "q": "«Non bizi zara?», galdetu zidan →",
+   "options": [
+    "Non bizi nintzen galdetu zidan.",
+    "Non bizi zara galdetu zidan.",
+    "Non bizi nintzela galdetu zidan."
+   ],
+   "a": 0,
+   "why": "Pregunta indirecta: -n, y persona/tiempo adaptados."
+  },
+  {
+   "type": "choice",
+   "q": "«Etorri!», esan zidan →",
+   "options": [
+    "Etortzeko esan zidan.",
+    "Etorriko nintzela esan zidan.",
+    "Etorri zela esan zidan."
+   ],
+   "a": 0,
+   "why": "Orden: -tzeko."
+  },
+  {
+   "type": "choice",
+   "q": "«hemen» en estilo indirecto:",
+   "options": [
+    "han",
+    "hor",
+    "hemen"
+   ],
+   "a": 0,
+   "why": "hemen (aquí) → han (allí)."
+  },
+  {
+   "type": "choice",
+   "q": "«Etorriko zara?», galdetu zidan →",
+   "options": [
+    "Ea etorriko nintzen galdetu zidan.",
+    "Etorriko nintzela galdetu zidan.",
+    "Etorriko banintz galdetu zidan."
+   ],
+   "a": 0,
+   "why": "Sí/no: ea + -n."
+  },
+  {
+   "type": "order",
+   "words": [
+    "zela",
+    "Etorriko",
+    "zuen",
+    "esan"
+   ],
+   "a": [
+    "Etorriko zela esan zuen"
+   ],
+   "es": "Dijo que vendría.",
+   "hint": "Subordinada con -la + esan zuen."
+  },
+  {
+   "type": "order",
+   "words": [
+    "nintzen",
+    "Non",
+    "bizi",
+    "zidan",
+    "galdetu"
+   ],
+   "a": [
+    "Non bizi nintzen galdetu zidan"
+   ],
+   "es": "Me preguntó dónde vivía.",
+   "hint": "Interrogativa + verbo con -n + galdetu zidan."
+  },
+  {
+   "type": "order",
+   "words": [
+    "esan",
+    "Etortzeko",
+    "zidan"
+   ],
+   "a": [
+    "Etortzeko esan zidan"
+   ],
+   "es": "Me dijo que viniera.",
+   "hint": "-tzeko + esan zidan."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "gaur",
+     "egun hartan"
+    ],
+    [
+     "bihar",
+     "hurrengo egunean"
+    ],
+    [
+     "atzo",
+     "aurreko egunean"
+    ],
+    [
+     "hemen",
+     "han"
+    ],
+    [
+     "orain",
+     "orduan"
+    ],
+    [
+     "hau",
+     "hura"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Reproduce en estilo indirecto una conversación reciente (real o inventada) en 6 frases: dos afirmaciones, dos preguntas y dos peticiones de la otra persona.",
+  "focus": "estilo indirecto: -la, -n / ea … -n, -tzeko; cambios de persona, tiempo y referencias"
+ },
+ "links": {
+  "verbs": [],
+  "cases": [],
+  "themes": [
+   "lokailuak"
+  ]
+ }
+}

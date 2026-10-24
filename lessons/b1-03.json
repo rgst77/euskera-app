@@ -1,0 +1,333 @@
+{
+ "id": "b1-03",
+ "lvl": "B1",
+ "n": 3,
+ "title": "Baldintzak II",
+ "es": "Hipótesis: si tuviera…, haría…",
+ "goal": "Hablar de situaciones imaginarias y pedir con cortesía: «si fuera rico, viajaría», «me gustaría…».",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "En la lección anterior viste las condiciones posibles (si llueve…). Hoy pasas a las imaginarias: «si tuviera dinero…», «si yo fuera tú…». Aparece un modo verbal nuevo, el **condicional**, que además es la base de la cortesía: **nahi nuke** (quisiera), que ya usabas como frase hecha desde el A1."
+  },
+  {
+   "h": "La condición imaginaria: ba- + formas hipotéticas",
+   "p": "Con **izan**: **banintz** (si yo fuera), **bazina** (si tú fueras), **balitz** (si él fuera), **bagina**, **bazinete**, **balira**. Con **ukan** (tener / auxiliar): **banu** (si yo tuviera), **bazenu**, **balu**, **bagenu**, **bazenute**, **balute**. Con otros verbos, futuro en -ko + esas formas: **Mikel etorriko balitz** (si Mikel viniera)."
+  },
+  {
+   "h": "La consecuencia: el condicional",
+   "table": {
+    "head": [
+     "Persona",
+     "Con izan (sin objeto)",
+     "Con ukan (con objeto)"
+    ],
+    "rows": [
+     [
+      "ni / nik",
+      "{nor:nintzateke}",
+      "{nork:nuke}"
+     ],
+     [
+      "zu / zuk",
+      "{nor:zinateke}",
+      "{nork:zenuke}"
+     ],
+     [
+      "hura / hark",
+      "{nor:litzateke}",
+      "{nork:luke}"
+     ],
+     [
+      "gu / guk",
+      "{nor:ginateke}",
+      "{nork:genuke}"
+     ],
+     [
+      "zuek",
+      "{nor:zinatekete}",
+      "{nork:zenukete}"
+     ],
+     [
+      "haiek",
+      "{nor:lirateke}",
+      "{nork:lukete}"
+     ]
+    ]
+   },
+   "p": "Se usa con el verbo en futuro (-ko): **joango nintzateke** (iría), **erosiko nuke** (compraría), **egongo nintzateke** (estaría). Fíjate en la **l-** de la 3.ª persona (**luke, litzateke**)."
+  },
+  {
+   "h": "La frase completa",
+   "p": "**Diru asko banu, mundu osoa ezagutuko nuke** (si tuviera mucho dinero, conocería el mundo entero). **Ni zu banintz, ez nuke hori egingo** (si yo fuera tú, no haría eso). **Denbora bagenu, mendira joango ginateke** (si tuviéramos tiempo, iríamos al monte)."
+  },
+  {
+   "h": "Cortesía y deseos",
+   "p": "**nahi nuke** (quisiera): **Kafe bat nahi nuke**. **Gustatuko litzaidake** (me gustaría), con el auxiliar NOR-NORI en condicional: **litzaidake** (a mí), **litzaizuke** (a ti), **litzaioke** (a él): **Gustatuko litzaidake Japonia ezagutzea**. Y **Polita litzateke** (sería bonito)."
+  },
+  {
+   "h": "Paso a paso: «Si viniera Mikel, estaría contento»",
+   "p": "1) Condición: **etorri → etorriko** + izan hipotético de él → **Mikel etorriko balitz**. 2) Consecuencia: egon → **egongo** + izan condicional de yo → **pozik egongo nintzateke**. 3) **Mikel etorriko balitz, pozik egongo nintzateke**."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Diru asko badut, ezagutuko nuke* → **banu** (es imaginario). *Erosi nuke* → **erosiko nuke** (con -ko). *Pozik egongo nuke* → **nintzateke** (egon va con izan). *Gustatuko nuke* → **Gustatuko litzaidake**."
+  },
+  {
+   "h": "Resumen",
+   "p": "Condición imaginaria: **banintz, balitz, banu, balu…** (+ participio en -ko con otros verbos). Consecuencia: **-ko + nuke / nintzateke** (luke, litzateke…). Cortesía: **nahi nuke**, **gustatuko litzaidake**, **polita litzateke**."
+  }
+ ],
+ "examples": [
+  [
+   "Diru asko banu, mundu osoa ezagutuko nuke.",
+   "Si tuviera mucho dinero, conocería el mundo entero."
+  ],
+  [
+   "Aberatsa banintz, ez nuke lan egingo.",
+   "Si fuera rico, no trabajaría."
+  ],
+  [
+   "Mikel etorriko balitz, pozik egongo nintzateke.",
+   "Si Mikel viniera, estaría contento."
+  ],
+  [
+   "Ni zu banintz, ez nuke hori egingo.",
+   "Si yo fuera tú, no haría eso."
+  ],
+  [
+   "Kafe bat nahi nuke.",
+   "Quisiera un café."
+  ],
+  [
+   "Gustatuko litzaidake Japonia ezagutzea.",
+   "Me gustaría conocer Japón."
+  ],
+  [
+   "Denbora bagenu, mendira joango ginateke.",
+   "Si tuviéramos tiempo, iríamos al monte."
+  ]
+ ],
+ "dialog": {
+  "title": "Soñar despiertos",
+  "lines": [
+   [
+    "Ane",
+    "Zer egingo zenuke diru asko bazenu?",
+    "¿Qué harías si tuvieras mucho dinero?"
+   ],
+   [
+    "Jon",
+    "Diru asko banu, mundu osoa ezagutuko nuke. Eta zuk?",
+    "Si tuviera mucho dinero, conocería el mundo entero. ¿Y tú?"
+   ],
+   [
+    "Ane",
+    "Nik etxe bat erosiko nuke itsasoaren ondoan.",
+    "Yo compraría una casa al lado del mar."
+   ],
+   [
+    "Jon",
+    "Polita litzateke! Ni zu banintz, txakur bat ere erosiko nuke.",
+    "¡Sería bonito! Si yo fuera tú, también compraría un perro."
+   ],
+   [
+    "Ane",
+    "Bai! Asko gustatuko litzaidake.",
+    "¡Sí! Me gustaría mucho."
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Diru asko ___, mundua ezagutuko nuke.",
+   "es": "Si tuviera mucho dinero, conocería el mundo.",
+   "a": [
+    "banu"
+   ],
+   "hint": "si yo tuviera = banu."
+  },
+  {
+   "type": "gap",
+   "q": "Aberatsa ___, ez nuke lan egingo.",
+   "es": "Si fuera rico, no trabajaría.",
+   "a": [
+    "banintz"
+   ],
+   "hint": "si yo fuera = banintz."
+  },
+  {
+   "type": "gap",
+   "q": "Mikel etorriko ___, pozik egongo nintzateke.",
+   "es": "Si Mikel viniera, estaría contento.",
+   "a": [
+    "balitz"
+   ],
+   "hint": "si él… (izan) = balitz."
+  },
+  {
+   "type": "gap",
+   "q": "Kafe bat nahi ___.",
+   "es": "Quisiera un café.",
+   "a": [
+    "nuke"
+   ],
+   "hint": "Condicional de ukan, yo: nuke."
+  },
+  {
+   "type": "gap",
+   "q": "Gustatuko ___ Japonia ezagutzea.",
+   "es": "Me gustaría conocer Japón.",
+   "a": [
+    "litzaidake"
+   ],
+   "hint": "NOR-NORI en condicional, a mí: litzaidake."
+  },
+  {
+   "type": "gap",
+   "q": "Denbora bagenu, mendira joango ___.",
+   "es": "Si tuviéramos tiempo, iríamos al monte.",
+   "a": [
+    "ginateke"
+   ],
+   "hint": "Condicional de izan, nosotros: ginateke."
+  },
+  {
+   "type": "choice",
+   "q": "«Si yo fuera tú»",
+   "options": [
+    "Ni zu banintz",
+    "Ni zu banaiz",
+    "Ni zu nintzen"
+   ],
+   "a": 0,
+   "why": "Hipótesis: banintz. Banaiz es condición real."
+  },
+  {
+   "type": "choice",
+   "q": "«Lo compraría»",
+   "options": [
+    "Erosiko nuke.",
+    "Erosi nuke.",
+    "Erosiko dut."
+   ],
+   "a": 0,
+   "why": "Futuro en -ko + condicional nuke."
+  },
+  {
+   "type": "choice",
+   "q": "«Estaría contento»",
+   "options": [
+    "Pozik egongo nintzateke.",
+    "Pozik egongo nuke.",
+    "Pozik nengoen."
+   ],
+   "a": 0,
+   "why": "egon va con izan: nintzateke."
+  },
+  {
+   "type": "choice",
+   "q": "«Si tuviéramos tiempo»",
+   "options": [
+    "Denbora bagenu",
+    "Denbora badugu",
+    "Denbora genuen"
+   ],
+   "a": 0,
+   "why": "Hipótesis: bagenu. Badugu es condición real."
+  },
+  {
+   "type": "choice",
+   "q": "«Me gustaría»",
+   "options": [
+    "Gustatuko litzaidake",
+    "Gustatuko nuke",
+    "Gustatzen zait"
+   ],
+   "a": 0,
+   "why": "gustatu es NOR-NORI: litzaidake."
+  },
+  {
+   "type": "order",
+   "words": [
+    "nuke",
+    "Kafe",
+    "bat",
+    "nahi"
+   ],
+   "a": [
+    "Kafe bat nahi nuke"
+   ],
+   "es": "Quisiera un café.",
+   "hint": "Lo que quieres + nahi nuke."
+  },
+  {
+   "type": "order",
+   "words": [
+    "nintzateke",
+    "egongo",
+    "Pozik"
+   ],
+   "a": [
+    "Pozik egongo nintzateke"
+   ],
+   "es": "Estaría contento.",
+   "hint": "Pozik + egongo + nintzateke."
+  },
+  {
+   "type": "order",
+   "words": [
+    "banintz",
+    "zu",
+    "Ni"
+   ],
+   "a": [
+    "Ni zu banintz"
+   ],
+   "es": "Si yo fuera tú.",
+   "hint": "Ni zu + banintz."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "banu",
+     "si yo tuviera"
+    ],
+    [
+     "banintz",
+     "si yo fuera"
+    ],
+    [
+     "balitz",
+     "si él fuera / si…"
+    ],
+    [
+     "nuke",
+     "(yo) …-ría (con objeto)"
+    ],
+    [
+     "nintzateke",
+     "(yo) …-ría (sin objeto)"
+    ],
+    [
+     "litzaidake",
+     "me …-ría (gustaría)"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Escribe 5 frases imaginando: qué harías con mucho dinero, dónde vivirías si pudieras elegir, qué harías si fueras otra persona, y dos cosas que te gustaría hacer este año.",
+  "focus": "banu/banintz/balitz + -ko nuke/nintzateke; nahi nuke; gustatuko litzaidake"
+ },
+ "links": {
+  "verbs": [],
+  "cases": [],
+  "themes": [
+   "aisialdia",
+   "bidaiak"
+  ]
+ }
+}

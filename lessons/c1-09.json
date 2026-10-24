@@ -1,0 +1,327 @@
+{
+ "id": "c1-09",
+ "lvl": "C1",
+ "n": 9,
+ "title": "Literatura",
+ "es": "Leer literatura vasca",
+ "goal": "Leer narrativa y poesía en euskera con estrategias, reconocer sus rasgos y hablar de lo leído.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "La literatura vasca contemporánea es rica y está muy traducida: Bernardo Atxaga, Kirmen Uribe, Harkaitz Cano, Miren Agur Meabe, Ramon Saizarbitoria o Joseba Sarrionandia son buenos puntos de partida. Leer en euskera literario es el paso que convierte el idioma en algo propio. Esta lección te prepara para hacerlo sin frustrarte."
+  },
+  {
+   "h": "Rasgos del texto literario",
+   "p": "1) **Pasado narrativo**: casi todo va en pasado puntual y habitual (**joan zen, joaten zen**). 2) **Diálogos con raya (—)** y, a veces, con **hika** (el tratamiento íntimo de B2-13), que reconocerás por formas como *duk / dun*. 3) **Vocabulario dialectal o poco frecuente** para dar color. 4) **Orden de palabras más libre** y recursos expresivos (metáforas, repeticiones). No hace falta dominarlo todo: basta con reconocerlo."
+  },
+  {
+   "h": "Vocabulario para hablar de libros",
+   "table": {
+    "head": [
+     "Euskera",
+     "Español"
+    ],
+    "rows": [
+     [
+      "eleberria",
+      "la novela"
+     ],
+     [
+      "ipuina",
+      "el cuento"
+     ],
+     [
+      "olerkia, poema",
+      "el poema"
+     ],
+     [
+      "pertsonaia",
+      "el personaje"
+     ],
+     [
+      "narratzailea",
+      "el narrador"
+     ],
+     [
+      "gaia",
+      "el tema"
+     ],
+     [
+      "giroa",
+      "el ambiente"
+     ],
+     [
+      "amaiera",
+      "el final"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Estrategias de lectura",
+   "p": "1) Empieza por **cuentos** o novelas cortas, mejor si conoces la historia o hay traducción. 2) Lee **por bloques**: no busques cada palabra; subraya solo las que se repiten. 3) Usa el método de C1-04 en las frases difíciles. 4) Después, **resume** cada capítulo en dos frases (lo trabajarás en la lección 14). Para empezar, la colección de lecturas graduadas de los euskaltegis es una buena opción."
+  },
+  {
+   "h": "Comentar lo leído",
+   "p": "**Eleberria … -ri buruzkoa da** (la novela trata de…), **Pertsonaia nagusia … da**, **Giroa ilun / alaia da** (el ambiente es oscuro / alegre), **Amaierak harritu nau** (el final me ha sorprendido), **Gomendatuko nuke … delako** (lo recomendaría porque…)."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "Intentar traducir palabra por palabra un texto literario: se pierde el ritmo y el sentido. Abandonar por no entender una palabra dialectal: casi siempre el contexto basta. Confundir **ipuina** (cuento) con **eleberria** (novela)."
+  },
+  {
+   "h": "Resumen",
+   "p": "Rasgos: pasado narrativo, diálogos con raya (a veces con hika), léxico dialectal, orden libre. Vocabulario: **eleberria, ipuina, olerkia, pertsonaia, narratzailea, gaia, giroa, amaiera**. Estrategia: textos cortos, lectura por bloques, resumen."
+  }
+ ],
+ "examples": [
+  [
+   "Eleberri hau maitasunari buruzkoa da.",
+   "Esta novela trata del amor."
+  ],
+  [
+   "Pertsonaia nagusia arrantzale zahar bat da.",
+   "El personaje principal es un viejo pescador."
+  ],
+  [
+   "Giroa iluna eta tristea da.",
+   "El ambiente es oscuro y triste."
+  ],
+  [
+   "Amaierak asko harritu nau.",
+   "El final me ha sorprendido mucho."
+  ],
+  [
+   "Ipuin laburrak irakurtzen hasi naiz.",
+   "He empezado a leer cuentos cortos."
+  ],
+  [
+   "Gomendatuko nuke, oso ondo idatzita dagoelako.",
+   "Lo recomendaría, porque está muy bien escrito."
+  ]
+ ],
+ "dialog": {
+  "title": "Un pasaje de estilo literario (escrito para el curso)",
+  "lines": [
+   [
+    "Narratzailea",
+    "Itsasoa grisa zegoen goiz hartan, zerua bezala.",
+    "El mar estaba gris aquella mañana, como el cielo."
+   ],
+   [
+    "Narratzailea",
+    "Mikel zaharra portura jaitsi zen, egunero egiten zuen bezala.",
+    "El viejo Mikel bajó al puerto, como hacía cada día."
+   ],
+   [
+    "Narratzailea",
+    "Ez zuen inorekin hitz egin; itsasoari begiratzen zion, isilik.",
+    "No habló con nadie; miraba al mar, en silencio."
+   ],
+   [
+    "Narratzailea",
+    "—Gaur ez da arrantzarako eguna —esan zion bere buruari.",
+    "—Hoy no es día de pesca —se dijo a sí mismo."
+   ],
+   [
+    "Narratzailea",
+    "Eta, hala ere, txalupa askatu zuen.",
+    "Y, sin embargo, desató la barca."
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Eleberri hau maitasunari ___ da.",
+   "es": "Esta novela trata del amor.",
+   "a": [
+    "buruzkoa"
+   ],
+   "hint": "tratar de = -ri buruzkoa izan."
+  },
+  {
+   "type": "gap",
+   "q": "Pertsonaia ___ arrantzale zahar bat da.",
+   "es": "El personaje principal es un viejo pescador.",
+   "a": [
+    "nagusia"
+   ],
+   "hint": "principal = nagusia."
+  },
+  {
+   "type": "gap",
+   "q": "___ iluna eta tristea da.",
+   "es": "El ambiente es oscuro y triste.",
+   "a": [
+    "giroa"
+   ],
+   "hint": "ambiente = giroa."
+  },
+  {
+   "type": "gap",
+   "q": "Amaierak asko harritu ___.",
+   "es": "El final me ha sorprendido mucho.",
+   "a": [
+    "nau"
+   ],
+   "hint": "NOR-NORK: él → me."
+  },
+  {
+   "type": "gap",
+   "q": "___ laburrak irakurtzen hasi naiz.",
+   "es": "He empezado a leer cuentos cortos.",
+   "a": [
+    "ipuin"
+   ],
+   "hint": "cuento = ipuin(a)."
+  },
+  {
+   "type": "gap",
+   "q": "Itsasoa grisa ___ goiz hartan.",
+   "es": "El mar estaba gris aquella mañana.",
+   "a": [
+    "zegoen"
+   ],
+   "hint": "egon en pasado (narrativo)."
+  },
+  {
+   "type": "choice",
+   "q": "«La novela»",
+   "options": [
+    "eleberria",
+    "ipuina",
+    "olerkia"
+   ],
+   "a": 0,
+   "why": "ipuina = cuento; olerkia = poema."
+  },
+  {
+   "type": "choice",
+   "q": "En un diálogo literario, la raya (—) indica…",
+   "options": [
+    "que habla un personaje",
+    "una pregunta",
+    "el final del capítulo"
+   ],
+   "a": 0,
+   "why": "Como en español."
+  },
+  {
+   "type": "choice",
+   "q": "Si en un diálogo ves «duk» o «dun», probablemente es…",
+   "options": [
+    "hika",
+    "un error de imprenta",
+    "inglés"
+   ],
+   "a": 0,
+   "why": "Formas del tratamiento íntimo hi."
+  },
+  {
+   "type": "choice",
+   "q": "Mejor estrategia ante una palabra dialectal desconocida:",
+   "options": [
+    "seguir leyendo y deducirla por el contexto",
+    "abandonar el libro",
+    "traducir todo el párrafo palabra por palabra"
+   ],
+   "a": 0,
+   "why": "El contexto suele bastar."
+  },
+  {
+   "type": "choice",
+   "q": "«El final me ha sorprendido»",
+   "options": [
+    "Amaierak harritu nau.",
+    "Amaiera harritu naiz.",
+    "Amaierak harritu dut."
+   ],
+   "a": 0,
+   "why": "Sujeto con -k y auxiliar nau (me)."
+  },
+  {
+   "type": "order",
+   "words": [
+    "da",
+    "buruzkoa",
+    "maitasunari",
+    "Eleberria"
+   ],
+   "a": [
+    "Eleberria maitasunari buruzkoa da"
+   ],
+   "es": "La novela trata del amor.",
+   "hint": "Sujeto + -ri buruzkoa + da."
+  },
+  {
+   "type": "order",
+   "words": [
+    "nau",
+    "harritu",
+    "Amaierak"
+   ],
+   "a": [
+    "Amaierak harritu nau"
+   ],
+   "es": "El final me ha sorprendido.",
+   "hint": "Sujeto con -k + verbo + nau."
+  },
+  {
+   "type": "order",
+   "words": [
+    "zen",
+    "jaitsi",
+    "portura",
+    "zaharra",
+    "Mikel"
+   ],
+   "a": [
+    "Mikel zaharra portura jaitsi zen"
+   ],
+   "es": "El viejo Mikel bajó al puerto.",
+   "hint": "Sujeto + lugar + verbo + auxiliar."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "eleberria",
+     "la novela"
+    ],
+    [
+     "ipuina",
+     "el cuento"
+    ],
+    [
+     "olerkia",
+     "el poema"
+    ],
+    [
+     "pertsonaia",
+     "el personaje"
+    ],
+    [
+     "narratzailea",
+     "el narrador"
+    ],
+    [
+     "giroa",
+     "el ambiente"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Escribe un breve comentario (6 a 8 frases) sobre un libro o película que te haya gustado: de qué trata, cómo es el personaje principal, el ambiente, qué te pareció el final y si lo recomendarías.",
+  "focus": "rasgos literarios, vocabulario de la lectura, comentar una obra (… buruzkoa da, pertsonaia nagusia, giroa, amaiera)"
+ },
+ "links": {
+  "verbs": [],
+  "cases": [],
+  "themes": [
+   "aisialdia",
+   "ikasketak"
+  ]
+ }
+}

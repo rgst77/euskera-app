@@ -1,0 +1,343 @@
+{
+ "id": "c1-06",
+ "lvl": "C1",
+ "n": 6,
+ "title": "Idazkera akademikoa",
+ "es": "Escribir textos académicos",
+ "goal": "Redactar un trabajo o informe con estructura, tono e hipótesis propios del registro académico.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "Un trabajo académico o un informe profesional en euskera sigue convenciones bastante fijas: una estructura reconocible, un tono impersonal y prudente, y fórmulas para citar fuentes y matizar afirmaciones. Con ellas, tus textos sonarán serios y rigurosos, que es justo lo que se pide en C1."
+  },
+  {
+   "h": "La estructura",
+   "table": {
+    "head": [
+     "Apartado",
+     "Euskera",
+     "Qué contiene"
+    ],
+    "rows": [
+     [
+      "Introducción",
+      "sarrera",
+      "tema y motivación"
+     ],
+     [
+      "Objetivos",
+      "helburuak",
+      "qué se quiere averiguar"
+     ],
+     [
+      "Metodología",
+      "metodologia",
+      "cómo se ha hecho"
+     ],
+     [
+      "Resultados",
+      "emaitzak",
+      "qué se ha encontrado"
+     ],
+     [
+      "Discusión",
+      "eztabaida",
+      "qué significan los resultados"
+     ],
+     [
+      "Conclusiones",
+      "ondorioak",
+      "resumen y propuestas"
+     ],
+     [
+      "Bibliografía",
+      "bibliografia",
+      "fuentes citadas"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Tono impersonal",
+   "p": "Se usa la forma impersonal (lección B1-12) o la primera persona del plural: **Lan honetan euskararen erabilera aztertzen da** (en este trabajo se analiza el uso del euskera), **Atal honetan emaitzak aurkeztuko ditugu** (en este apartado presentaremos los resultados)."
+  },
+  {
+   "h": "Prudencia: matizar las afirmaciones",
+   "p": "En lugar de afirmar categóricamente, se matiza: **Badirudi … -la** (parece que…), **Esan daiteke … -la** (puede decirse que…), **Litekeena da … -tzea** (es probable que…), **Datuen arabera, …** (según los datos…). Compara: *Gazteek euskara gehiago erabiltzen dute* → **Badirudi gazteek euskara gehiago erabiltzen dutela**."
+  },
+  {
+   "h": "Citar y remitir",
+   "p": "**X-ren arabera** (según X), **X-k dioen bezala** (como dice X), **aipatu bezala** (como se ha mencionado), **ikus 3. atala** (véase el apartado 3), **ondorio gisa** (como conclusión)."
+  },
+  {
+   "h": "Paso a paso: un resultado bien redactado",
+   "p": "Afirmación directa: *Jendeak euskara gutxi erabiltzen du kalean.* Versión académica: **Inkestaren datuen arabera, badirudi euskararen kale-erabilera oraindik txikia dela.** Fíjate en la fuente (inkestaren datuen arabera), la prudencia (badirudi) y el estilo nominal (kale-erabilera)."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "Usar el registro coloquial (*ze, ba, primeran*) en un texto académico. Afirmar sin fuente ni matiz. *Iruditzen zait* (muy personal) → en un trabajo, **badirudi** o **esan daiteke**. *Laburbilduz* en la introducción → va en las conclusiones."
+  },
+  {
+   "h": "Resumen",
+   "p": "Estructura: **sarrera, helburuak, metodologia, emaitzak, eztabaida, ondorioak**. Tono: impersonal (**aztertzen da**) o «nosotros». Prudencia: **badirudi, esan daiteke, litekeena da**. Citas: **-ren arabera, aipatu bezala, ondorio gisa**."
+  }
+ ],
+ "examples": [
+  [
+   "Lan honetan euskararen erabilera aztertzen da.",
+   "En este trabajo se analiza el uso del euskera."
+  ],
+  [
+   "Badirudi gazteek euskara gehiago erabiltzen dutela.",
+   "Parece que los jóvenes usan más el euskera."
+  ],
+  [
+   "Esan daiteke emaitzak positiboak direla.",
+   "Puede decirse que los resultados son positivos."
+  ],
+  [
+   "Litekeena da joera hori aldatzea.",
+   "Es probable que esa tendencia cambie."
+  ],
+  [
+   "Egileen arabera, arazoa konplexua da.",
+   "Según los autores, el problema es complejo."
+  ],
+  [
+   "Aipatu bezala, datuak 2025ekoak dira.",
+   "Como se ha mencionado, los datos son de 2025."
+  ],
+  [
+   "Ondorio gisa, ikerketa gehiago behar dira.",
+   "Como conclusión, hacen falta más investigaciones."
+  ]
+ ],
+ "dialog": {
+  "title": "Con la tutora",
+  "lines": [
+   [
+    "Ikaslea",
+    "Nola hasi behar dut lanaren sarrera?",
+    "¿Cómo tengo que empezar la introducción del trabajo?"
+   ],
+   [
+    "Irakaslea",
+    "Lehenik, lanaren helburua azaldu: «Lan honetan … aztertzen da».",
+    "Primero, explica el objetivo del trabajo: «En este trabajo se analiza…»."
+   ],
+   [
+    "Ikaslea",
+    "Eta emaitzetan «Gazteek euskara gehiago erabiltzen dute» idatzi dut.",
+    "Y en los resultados he escrito «Los jóvenes usan más el euskera»."
+   ],
+   [
+    "Irakaslea",
+    "Zuhurragoa izan: «Badirudi gazteek euskara gehiago erabiltzen dutela», edo «Datuen arabera, …».",
+    "Sé más prudente: «Parece que los jóvenes usan más el euskera», o «Según los datos, …»."
+   ],
+   [
+    "Ikaslea",
+    "Ulertuta. Eta amaieran, «Ondorio gisa…».",
+    "Entendido. Y al final, «Como conclusión…»."
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Lan honetan euskararen erabilera ___ da.",
+   "es": "En este trabajo se analiza el uso del euskera.",
+   "a": [
+    "aztertzen"
+   ],
+   "hint": "Impersonal: aztertzen da."
+  },
+  {
+   "type": "gap",
+   "q": "___ gazteek euskara gehiago erabiltzen dutela.",
+   "es": "Parece que los jóvenes usan más el euskera.",
+   "a": [
+    "badirudi"
+   ],
+   "hint": "parece que = badirudi … -la."
+  },
+  {
+   "type": "gap",
+   "q": "Esan ___ emaitzak positiboak direla.",
+   "es": "Puede decirse que los resultados son positivos.",
+   "a": [
+    "daiteke"
+   ],
+   "hint": "se puede = daiteke."
+  },
+  {
+   "type": "gap",
+   "q": "___ da joera hori aldatzea.",
+   "es": "Es probable que esa tendencia cambie.",
+   "a": [
+    "litekeena"
+   ],
+   "hint": "es probable = litekeena da."
+  },
+  {
+   "type": "gap",
+   "q": "Egileen ___, arazoa konplexua da.",
+   "es": "Según los autores, el problema es complejo.",
+   "a": [
+    "arabera"
+   ],
+   "hint": "según = -ren arabera."
+  },
+  {
+   "type": "gap",
+   "q": "Ondorio ___, ikerketa gehiago behar dira.",
+   "es": "Como conclusión, hacen falta más investigaciones.",
+   "a": [
+    "gisa"
+   ],
+   "hint": "como conclusión = ondorio gisa."
+  },
+  {
+   "type": "choice",
+   "q": "«Parece que…» en un texto académico",
+   "options": [
+    "Badirudi … -la",
+    "Iruditzen zait … -la",
+    "Dirudi … -n"
+   ],
+   "a": 0,
+   "why": "Iruditzen zait es más personal; badirudi es impersonal."
+  },
+  {
+   "type": "choice",
+   "q": "«Según los autores»",
+   "options": [
+    "egileen arabera",
+    "egileekin",
+    "egileentzat"
+   ],
+   "a": 0,
+   "why": "-ren arabera."
+  },
+  {
+   "type": "choice",
+   "q": "«Es probable que cambie»",
+   "options": [
+    "litekeena da aldatzea",
+    "liteke aldatuko da",
+    "litekeena aldatzen da"
+   ],
+   "a": 0,
+   "why": "litekeena da + -tzea."
+  },
+  {
+   "type": "choice",
+   "q": "Apartado final de un trabajo:",
+   "options": [
+    "ondorioak",
+    "sarrera",
+    "metodologia"
+   ],
+   "a": 0,
+   "why": "ondorioak = conclusiones."
+  },
+  {
+   "type": "choice",
+   "q": "«Como se ha mencionado»",
+   "options": [
+    "aipatu bezala",
+    "aipatu arren",
+    "aipatzeko"
+   ],
+   "a": 0,
+   "why": "aipatu bezala."
+  },
+  {
+   "type": "order",
+   "words": [
+    "aztertzen",
+    "da",
+    "erabilera",
+    "euskararen",
+    "honetan",
+    "Lan"
+   ],
+   "a": [
+    "Lan honetan euskararen erabilera aztertzen da"
+   ],
+   "es": "En este trabajo se analiza el uso del euskera.",
+   "hint": "Lan honetan + objeto + aztertzen da."
+  },
+  {
+   "type": "order",
+   "words": [
+    "konplexua",
+    "da",
+    "arazoa",
+    "arabera",
+    "Egileen"
+   ],
+   "a": [
+    "Egileen arabera arazoa konplexua da"
+   ],
+   "es": "Según los autores, el problema es complejo.",
+   "hint": "Fuente + afirmación."
+  },
+  {
+   "type": "order",
+   "words": [
+    "direla",
+    "positiboak",
+    "emaitzak",
+    "daiteke",
+    "Esan"
+   ],
+   "a": [
+    "Esan daiteke emaitzak positiboak direla"
+   ],
+   "es": "Puede decirse que los resultados son positivos.",
+   "hint": "Esan daiteke + -la."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "sarrera",
+     "introducción"
+    ],
+    [
+     "helburua",
+     "objetivo"
+    ],
+    [
+     "emaitzak",
+     "resultados"
+    ],
+    [
+     "eztabaida",
+     "discusión"
+    ],
+    [
+     "ondorioak",
+     "conclusiones"
+    ],
+    [
+     "-ren arabera",
+     "según"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Escribe el resumen (abstract) de un trabajo imaginario sobre los hábitos de lectura en tu ciudad en 6 a 8 frases: objetivo, método, un resultado matizado y una conclusión.",
+  "focus": "estructura académica, impersonal, badirudi / esan daiteke / litekeena da, -ren arabera, ondorio gisa"
+ },
+ "links": {
+  "verbs": [],
+  "cases": [],
+  "themes": [
+   "ikasketak",
+   "lokailuak"
+  ]
+ }
+}

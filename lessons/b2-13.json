@@ -1,0 +1,339 @@
+{
+ "id": "b2-13",
+ "lvl": "B2",
+ "n": 13,
+ "title": "Erregistroak",
+ "es": "Registro formal, neutro y coloquial",
+ "goal": "Adaptar tu euskera a la situación: una oficina, un correo, un bar con amigos.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "Hablar bien no es hablar siempre igual. Con un funcionario, en un correo de trabajo o con tus amigos en el bar se usan palabras y giros distintos. Esta lección te da las claves para reconocer cada registro y moverte entre ellos sin sonar ni demasiado rígido ni demasiado informal."
+  },
+  {
+   "h": "La cortesía en euskera",
+   "p": "El euskera no tiene un «usted» distinto de «tú»: **zu** sirve para las dos cosas. La cortesía se marca con otros recursos: el **potencial hipotético** (**Esan zenezake non dagoen geltokia?**, ¿podría decirme dónde está la estación?), el **condicional** (**Kafe bat nahi nuke**, quisiera un café), **mesedez** y fórmulas como **Ahal baduzu…** (si puede…)."
+  },
+  {
+   "h": "Registro formal: vocabulario",
+   "table": {
+    "head": [
+     "Neutro",
+     "Formal",
+     "Significado"
+    ],
+    "rows": [
+     [
+      "egin",
+      "burutu, gauzatu",
+      "realizar, llevar a cabo"
+     ],
+     [
+      "eman",
+      "eskaini",
+      "dar / ofrecer"
+     ],
+     [
+      "esan",
+      "adierazi",
+      "decir / manifestar"
+     ],
+     [
+      "hasi",
+      "abiatu",
+      "empezar / iniciar"
+     ],
+     [
+      "lortu",
+      "eskuratu",
+      "conseguir / obtener"
+     ],
+     [
+      "buruz",
+      "-ri buruz, … inguruan",
+      "sobre, acerca de"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Registro coloquial",
+   "p": "En conversación oirás **ze** por **zer** (**Ze moduz?**), **Nik ze dakit!** (¡yo qué sé!), **ea** (a ver: **Ea, zer daukagu hemen?**), **ba** como partícula de énfasis (**Ez dakit ba!**), **Aupa!** (¡hola!), **Ondo ibili!** (¡que te vaya bien!), **Ene!** o **Jo!** (¡vaya!), **Primeran!** (¡estupendo!)."
+  },
+  {
+   "h": "Una nota sobre hika",
+   "p": "Entre amigos íntimos y en algunas zonas se usa un tratamiento más familiar que «zu», llamado **hika** (pronombre **hi**), con formas verbales propias. Forma parte del euskera, pero su uso es limitado y requiere un aprendizaje aparte; este curso trabaja con **zu**, que es correcto en cualquier situación."
+  },
+  {
+   "h": "Paso a paso: la misma petición en dos registros",
+   "p": "Con un amigo: **Ea, esango didazu zer ordu den?** (a ver, ¿me dices qué hora es?). Con un desconocido en una oficina: **Barkatu, esan zenezake zer ordu den, mesedez?** (perdone, ¿podría decirme qué hora es, por favor?). Mismo significado, distinto tono."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "Usar *ze* o *Nik ze dakit* en un correo formal. Pensar que hace falta un «usted»: con **zu** y una forma cortés basta. Usar vocabulario formal (*burutu, adierazi*) en una conversación de bar suena artificial."
+  },
+  {
+   "h": "Resumen",
+   "p": "Cortesía: **zu** + potencial hipotético (**zenezake**) o condicional (**nahi nuke**) + **mesedez**. Formal: **burutu, eskaini, adierazi, abiatu, eskuratu**. Coloquial: **ze, ea, ba, aupa, ondo ibili, primeran**."
+  }
+ ],
+ "examples": [
+  [
+   "Esan zenezake non dagoen geltokia?",
+   "¿Podría decirme dónde está la estación?"
+  ],
+  [
+   "Kafe bat nahi nuke, mesedez.",
+   "Quisiera un café, por favor."
+  ],
+  [
+   "Ze moduz? Ondo, eta zu?",
+   "¿Qué tal? Bien, ¿y tú?"
+  ],
+  [
+   "Nik ze dakit!",
+   "¡Yo qué sé!"
+  ],
+  [
+   "Ea, zer daukagu hemen?",
+   "A ver, ¿qué tenemos aquí?"
+  ],
+  [
+   "Proiektua datorren urtean burutuko da.",
+   "El proyecto se llevará a cabo el año que viene."
+  ],
+  [
+   "Udalak laguntza eskaintzen du.",
+   "El ayuntamiento ofrece ayuda."
+  ]
+ ],
+ "dialog": {
+  "title": "Dos conversaciones",
+  "lines": [
+   [
+    "Ane",
+    "Barkatu, esan zenezake non dagoen zuzendariaren bulegoa?",
+    "Perdone, ¿podría decirme dónde está el despacho del director?"
+   ],
+   [
+    "Langilea",
+    "Bai, noski. Bigarren solairuan dago, eskuinera.",
+    "Sí, claro. Está en el segundo piso, a la derecha."
+   ],
+   [
+    "Ane",
+    "Aupa, Iker! Ze moduz?",
+    "¡Hola, Iker! ¿Qué tal?"
+   ],
+   [
+    "Iker",
+    "Hemen, lanean, betiko moduan. Eta zu?",
+    "Aquí, trabajando, como siempre. ¿Y tú?"
+   ],
+   [
+    "Ane",
+    "Ni ere bai. Ea, kafe bat hartuko dugu gero?",
+    "Yo también. A ver, ¿tomamos un café luego?"
+   ],
+   [
+    "Iker",
+    "Primeran! Ondo ibili!",
+    "¡Estupendo! ¡Que te vaya bien!"
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Esan ___ non dagoen geltokia?",
+   "es": "¿Podría decirme dónde está la estación?",
+   "a": [
+    "zenezake"
+   ],
+   "hint": "Cortesía: potencial hipotético."
+  },
+  {
+   "type": "gap",
+   "q": "Kafe bat nahi ___, mesedez.",
+   "es": "Quisiera un café, por favor.",
+   "a": [
+    "nuke"
+   ],
+   "hint": "Cortesía: condicional."
+  },
+  {
+   "type": "gap",
+   "q": "___ moduz?",
+   "es": "¿Qué tal? (coloquial)",
+   "a": [
+    "ze"
+   ],
+   "hint": "Coloquial de zer: ze."
+  },
+  {
+   "type": "gap",
+   "q": "Nik ze ___!",
+   "es": "¡Yo qué sé!",
+   "a": [
+    "dakit"
+   ],
+   "hint": "Expresión coloquial fija."
+  },
+  {
+   "type": "gap",
+   "q": "Proiektua datorren urtean ___ da.",
+   "es": "El proyecto se llevará a cabo el año que viene.",
+   "a": [
+    "burutuko"
+   ],
+   "hint": "Formal de egin: burutu."
+  },
+  {
+   "type": "gap",
+   "q": "Udalak laguntza ___ du.",
+   "es": "El ayuntamiento ofrece ayuda.",
+   "a": [
+    "eskaintzen"
+   ],
+   "hint": "Formal de eman: eskaini."
+  },
+  {
+   "type": "choice",
+   "q": "Forma cortés de pedir indicaciones:",
+   "options": [
+    "Esan zenezake non dagoen?",
+    "Esan non dago!",
+    "Non dago, esan."
+   ],
+   "a": 0,
+   "why": "Potencial hipotético: zenezake."
+  },
+  {
+   "type": "choice",
+   "q": "Equivalente formal de «egin»:",
+   "options": [
+    "burutu",
+    "ibili",
+    "atera"
+   ],
+   "a": 0,
+   "why": "burutu = realizar, llevar a cabo."
+  },
+  {
+   "type": "choice",
+   "q": "Equivalente formal de «esan»:",
+   "options": [
+    "adierazi",
+    "galdetu",
+    "ulertu"
+   ],
+   "a": 0,
+   "why": "adierazi = manifestar."
+  },
+  {
+   "type": "choice",
+   "q": "«¡Yo qué sé!» (coloquial)",
+   "options": [
+    "Nik ze dakit!",
+    "Nik badakit!",
+    "Ez dakizu!"
+   ],
+   "a": 0,
+   "why": "Expresión coloquial fija."
+  },
+  {
+   "type": "choice",
+   "q": "¿Tiene el euskera un «usted» distinto de «tú»?",
+   "options": [
+    "No: zu sirve para ambos; la cortesía se marca con otras formas.",
+    "Sí: se usa siempre «hura».",
+    "Sí: se usa «zuek» para una persona."
+   ],
+   "a": 0,
+   "why": "zu es neutro y cortés a la vez."
+  },
+  {
+   "type": "order",
+   "words": [
+    "zenezake",
+    "Esan",
+    "dagoen",
+    "non",
+    "geltokia"
+   ],
+   "a": [
+    "Esan zenezake non dagoen geltokia"
+   ],
+   "es": "¿Podría decirme dónde está la estación?",
+   "hint": "Esan zenezake + interrogativa indirecta."
+  },
+  {
+   "type": "order",
+   "words": [
+    "nuke",
+    "nahi",
+    "bat",
+    "Kafe"
+   ],
+   "a": [
+    "Kafe bat nahi nuke"
+   ],
+   "es": "Quisiera un café.",
+   "hint": "Objeto + nahi nuke."
+  },
+  {
+   "type": "order",
+   "words": [
+    "dakit",
+    "ze",
+    "Nik"
+   ],
+   "a": [
+    "Nik ze dakit"
+   ],
+   "es": "Yo qué sé.",
+   "hint": "Expresión fija."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "zenezake",
+     "podría(s) (cortés)"
+    ],
+    [
+     "nahi nuke",
+     "quisiera"
+    ],
+    [
+     "ze",
+     "qué (coloquial)"
+    ],
+    [
+     "burutu",
+     "realizar"
+    ],
+    [
+     "eskaini",
+     "ofrecer"
+    ],
+    [
+     "adierazi",
+     "manifestar"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Escribe la misma situación en dos registros (4 líneas cada uno): pedir información sobre un horario a un desconocido en una oficina y a un amigo por mensaje.",
+  "focus": "cortesía con zenezake/nahi nuke, vocabulario formal, expresiones coloquiales"
+ },
+ "links": {
+  "verbs": [],
+  "cases": [],
+  "themes": [
+   "agurrak",
+   "lokailuak"
+  ]
+ }
+}

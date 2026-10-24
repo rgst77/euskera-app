@@ -1,0 +1,351 @@
+{
+ "id": "b1-02",
+ "lvl": "B1",
+ "n": 2,
+ "title": "Baldintzak I",
+ "es": "El condicional real",
+ "goal": "Expresar condiciones posibles: «si llueve, me quedaré en casa», «si quieres, te ayudo».",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "Para decir «si…» en euskera no hace falta ninguna palabra aparte: basta con pegar **ba-** al principio del auxiliar o del verbo de la condición. Es una de las estructuras más útiles y más fáciles del B1."
+  },
+  {
+   "h": "La forma",
+   "p": "**ba-** + auxiliar (o verbo sintético) de la condición: **badu** (si ha / si tiene), **bazara** (si eres / si estás), **badago** (si hay / si está). **Euria ari badu, etxean geratuko naiz** (si llueve, me quedaré en casa). **Nahi baduzu, lagunduko zaitut** (si quieres, te ayudaré). Lo normal es poner la condición delante.",
+   "table": {
+    "head": [
+     "Forma",
+     "Condición",
+     "Forma",
+     "Condición"
+    ],
+    "rows": [
+     [
+      "naiz",
+      "banaiz",
+      "dut",
+      "badut"
+     ],
+     [
+      "zara",
+      "bazara",
+      "duzu",
+      "baduzu"
+     ],
+     [
+      "da",
+      "bada",
+      "du",
+      "badu"
+     ],
+     [
+      "gara",
+      "bagara",
+      "dugu",
+      "badugu"
+     ],
+     [
+      "dira",
+      "badira",
+      "dute",
+      "badute"
+     ],
+     [
+      "nago",
+      "banago",
+      "daukazu",
+      "badaukazu"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Qué tiempo usar en la condición",
+   "p": "Para condiciones sobre el futuro, **forma habitual**, como con -nean: **Etortzen bazara, afalduko dugu** (si vienes, cenaremos). Para algo ya hecho, **perfecto**: **Liburua irakurri baduzu…** (si has leído el libro…). Con verbos sintéticos, presente: **Nekatuta bazaude, atseden hartu** (si estás cansado, descansa)."
+  },
+  {
+   "h": "Negación",
+   "p": "**ez** va delante del auxiliar con ba-: **Ez baduzu dirurik, nik ordainduko dut** (si no tienes dinero, pago yo). También se oye con el verbo delante: **Etortzen ez bazara…** (si no vienes…). Y para «si no, de lo contrario»: **bestela**."
+  },
+  {
+   "h": "Dos ba- diferentes",
+   "p": "Ya conocías el **ba-** de afirmación (**Badago** = sí, hay). Se escriben igual, pero el de condición forma parte de una oración subordinada, normalmente seguida de una coma: **Ogirik badago, erosiko dut** (si hay pan, lo compraré)."
+  },
+  {
+   "h": "Paso a paso: «Si llegamos a tiempo, veremos la película entera»",
+   "p": "1) Condición: **garaiz iristen gara** (habitual, porque es futuro). 2) ba-: **garaiz iristen bagara**. 3) Principal en futuro: **filma osoa ikusiko dugu**. → **Garaiz iristen bagara, filma osoa ikusiko dugu**."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Nahi duzu ba* → **Nahi baduzu**. *Euria ari bada* → **badu** (euria ari du). *Ez duzu dirurik ba* → **Ez baduzu dirurik**. Confundir con «cuando»: **etortzen zarenean** (cuando vengas, seguro) frente a **etortzen bazara** (si vienes, quizá)."
+  },
+  {
+   "h": "Resumen",
+   "p": "«si» = **ba-** + auxiliar: banaiz, bada, badut, baduzu, badago… Futuro: forma habitual en la condición. Negación: **ez baduzu…**. **bestela** = si no."
+  }
+ ],
+ "examples": [
+  [
+   "Euria ari badu, etxean geratuko naiz.",
+   "Si llueve, me quedaré en casa."
+  ],
+  [
+   "Nahi baduzu, lagunduko zaitut.",
+   "Si quieres, te ayudaré."
+  ],
+  [
+   "Etortzen bazara, afalduko dugu.",
+   "Si vienes, cenaremos."
+  ],
+  [
+   "Nekatuta bazaude, atseden hartu.",
+   "Si estás cansado, descansa."
+  ],
+  [
+   "Ez baduzu dirurik, nik ordainduko dut.",
+   "Si no tienes dinero, pagaré yo."
+  ],
+  [
+   "Ogirik badago, erosiko dut.",
+   "Si hay pan, lo compraré."
+  ],
+  [
+   "Garaiz iristen bagara, filma osoa ikusiko dugu.",
+   "Si llegamos a tiempo, veremos la película entera."
+  ]
+ ],
+ "dialog": {
+  "title": "Planes para el monte",
+  "lines": [
+   [
+    "Iker",
+    "Bihar mendira joango gara?",
+    "¿Iremos mañana al monte?"
+   ],
+   [
+    "Nerea",
+    "Eguraldi ona badago, bai. Euria ari badu, etxean geratuko naiz.",
+    "Si hace buen tiempo, sí. Si llueve, me quedaré en casa."
+   ],
+   [
+    "Iker",
+    "Ados. Goiz jaikitzen bagara, gailurrera iritsiko gara.",
+    "De acuerdo. Si nos levantamos temprano, llegaremos a la cima."
+   ],
+   [
+    "Nerea",
+    "Zu goiz jaikitzen bazara, ni ere bai!",
+    "¡Si tú te levantas temprano, yo también!"
+   ],
+   [
+    "Iker",
+    "Nahi baduzu, zure etxera joango naiz autoz.",
+    "Si quieres, iré a tu casa en coche."
+   ],
+   [
+    "Nerea",
+    "Primeran! Bestela, autobusez joango naiz.",
+    "¡Estupendo! Si no, iré en autobús."
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Euria ari ___, etxean geratuko naiz.",
+   "es": "Si llueve, me quedaré en casa.",
+   "a": [
+    "badu"
+   ],
+   "hint": "euria ari du → ba- + du."
+  },
+  {
+   "type": "gap",
+   "q": "Nahi ___, lagunduko zaitut.",
+   "es": "Si quieres, te ayudaré.",
+   "a": [
+    "baduzu"
+   ],
+   "hint": "nahi duzu → ba- + duzu."
+  },
+  {
+   "type": "gap",
+   "q": "Etortzen ___, afalduko dugu.",
+   "es": "Si vienes, cenaremos.",
+   "a": [
+    "bazara"
+   ],
+   "hint": "etortzen zara → ba- + zara."
+  },
+  {
+   "type": "gap",
+   "q": "Nekatuta ___, atseden hartu.",
+   "es": "Si estás cansado, descansa.",
+   "a": [
+    "bazaude"
+   ],
+   "hint": "nekatuta zaude → ba- + zaude."
+  },
+  {
+   "type": "gap",
+   "q": "Ez ___ dirurik, nik ordainduko dut.",
+   "es": "Si no tienes dinero, pagaré yo.",
+   "a": [
+    "baduzu"
+   ],
+   "hint": "ez + ba- + duzu."
+  },
+  {
+   "type": "gap",
+   "q": "Goiz jaikitzen ___, gailurrera iritsiko gara.",
+   "es": "Si nos levantamos temprano, llegaremos a la cima.",
+   "a": [
+    "bagara"
+   ],
+   "hint": "jaikitzen gara → ba- + gara."
+  },
+  {
+   "type": "choice",
+   "q": "«Si quieres»",
+   "options": [
+    "nahi baduzu",
+    "nahi duzu ba",
+    "ba nahi duzu"
+   ],
+   "a": 0,
+   "why": "ba- va pegado al auxiliar."
+  },
+  {
+   "type": "choice",
+   "q": "«Si vienes, cenaremos»",
+   "options": [
+    "Etortzen bazara, afalduko dugu.",
+    "Etortzen zara ba, afalduko dugu.",
+    "Etortzen zarela, afalduko dugu."
+   ],
+   "a": 0,
+   "why": "Condición: forma habitual + ba-."
+  },
+  {
+   "type": "choice",
+   "q": "«Si no tienes dinero»",
+   "options": [
+    "Ez baduzu dirurik",
+    "Ez duzu dirurik ba",
+    "Ba ez duzu dirurik"
+   ],
+   "a": 0,
+   "why": "ez + ba- + auxiliar, y partitivo por la negación."
+  },
+  {
+   "type": "choice",
+   "q": "«Si hay pan, lo compraré»",
+   "options": [
+    "Ogirik badago, erosiko dut.",
+    "Ogirik dago ba, erosiko dut.",
+    "Ogirik badago, erosi dut."
+   ],
+   "a": 0,
+   "why": "Condición con ba- y principal en futuro."
+  },
+  {
+   "type": "choice",
+   "q": "«Si no, de lo contrario»",
+   "options": [
+    "bestela",
+    "beraz",
+    "gainera"
+   ],
+   "a": 0,
+   "why": "beraz = así que; gainera = además."
+  },
+  {
+   "type": "order",
+   "words": [
+    "badu",
+    "Euria",
+    "ari"
+   ],
+   "a": [
+    "Euria ari badu"
+   ],
+   "es": "Si llueve.",
+   "hint": "Euria ari + badu."
+  },
+  {
+   "type": "order",
+   "words": [
+    "baduzu",
+    "Nahi",
+    "zaitut",
+    "lagunduko"
+   ],
+   "a": [
+    "Nahi baduzu lagunduko zaitut",
+    "Lagunduko zaitut nahi baduzu"
+   ],
+   "es": "Si quieres, te ayudaré.",
+   "hint": "Condición + principal (o al revés)."
+  },
+  {
+   "type": "order",
+   "words": [
+    "bazara",
+    "Etortzen",
+    "dugu",
+    "afalduko"
+   ],
+   "a": [
+    "Etortzen bazara afalduko dugu",
+    "Afalduko dugu etortzen bazara"
+   ],
+   "es": "Si vienes, cenaremos.",
+   "hint": "Condición + principal (o al revés)."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "badut",
+     "si (yo) tengo / he"
+    ],
+    [
+     "baduzu",
+     "si (tú) tienes / has"
+    ],
+    [
+     "bada",
+     "si es"
+    ],
+    [
+     "bazara",
+     "si eres / si (tú)…"
+    ],
+    [
+     "badago",
+     "si hay / si está"
+    ],
+    [
+     "bestela",
+     "si no"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Escribe 5 frases con condiciones sobre tus planes del fin de semana: qué harás si hace buen tiempo, si llueve, si tienes tiempo, si viene alguien y qué pasará si no…",
+  "focus": "condicional real: ba- + auxiliar (badu, bazara, badago…), forma habitual para el futuro, bestela"
+ },
+ "links": {
+  "verbs": [
+   "nor-pres",
+   "nn-pres-3"
+  ],
+  "cases": [],
+  "themes": [
+   "eguraldia",
+   "aisialdia"
+  ]
+ }
+}

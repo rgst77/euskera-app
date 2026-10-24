@@ -1,0 +1,342 @@
+{
+ "id": "c1-13",
+ "lvl": "C1",
+ "n": 13,
+ "title": "Atsotitzak",
+ "es": "Refranes y expresiones de la tradición",
+ "goal": "Conocer los refranes vascos más usados, entender su estructura y usarlos con oportunidad.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "Los refranes (atsotitzak) condensan siglos de experiencia en pocas palabras y aparecen en conversaciones, titulares y discursos. Saber reconocerlos y usar alguno en el momento justo es una marca de dominio del idioma. Muchos tienen un equivalente en español, aunque con imágenes distintas."
+  },
+  {
+   "h": "Refranes frecuentes",
+   "table": {
+    "head": [
+     "Atsotitza",
+     "Literalmente",
+     "Equivalente español"
+    ],
+    "rows": [
+     [
+      "Ez dago bi gabe hiru.",
+      "No hay dos sin tres.",
+      "No hay dos sin tres."
+     ],
+     [
+      "Hitzak haizeak eramaten ditu.",
+      "Las palabras se las lleva el viento.",
+      "Las palabras se las lleva el viento."
+     ],
+     [
+      "Zahar hitz, zuhur hitz.",
+      "Palabra de viejo, palabra sabia.",
+      "Más sabe el diablo por viejo…"
+     ],
+     [
+      "Txakur zaunkaria, gutxi hozkaria.",
+      "Perro ladrador, poco mordedor.",
+      "Perro ladrador, poco mordedor."
+     ],
+     [
+      "Hobe berandu, inoiz ez baino.",
+      "Mejor tarde que nunca.",
+      "Más vale tarde que nunca."
+     ],
+     [
+      "Nolako zura, halako ezpala.",
+      "Como la madera, así la astilla.",
+      "De tal palo, tal astilla."
+     ],
+     [
+      "Ur handitan, arrain handiak.",
+      "En aguas grandes, peces grandes.",
+      "A gran río, gran pez."
+     ],
+     [
+      "Begiak ikusten ez duena, bihotzak ez du sentitzen.",
+      "Lo que el ojo no ve, el corazón no lo siente.",
+      "Ojos que no ven, corazón que no siente."
+     ],
+     [
+      "Poliki-poliki, urrutira.",
+      "Despacio, despacio, lejos.",
+      "Poco a poco se llega lejos."
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Su estructura",
+   "p": "Los refranes usan una gramática muy compacta: **paralelismos** (Nolako…, halako…), **elipsis del verbo** (Zahar hitz, zuhur hitz), **repeticiones** (Poliki-poliki) y, a veces, formas antiguas o dialectales. Fíjate en el juego de palabras de **zahar / zuhur** y en la rima de **zaunkaria / hozkaria**: son pensados para recordarse."
+  },
+  {
+   "h": "Cómo usarlos",
+   "p": "Se introducen con **Esaera zaharrak dioen bezala…** (como dice el refrán…) o **Zaharrek zioten bezala…** (como decían los mayores…), o se sueltan sin más, como en español. Úsalos con moderación: uno bien colocado vale más que cinco seguidos."
+  },
+  {
+   "h": "Paso a paso: usar un refrán en una conversación",
+   "p": "Situación: un amigo llega por fin a la cita con una hora de retraso. Respuesta: **Tira, esaera zaharrak dioen bezala, hobe berandu, inoiz ez baino!** (Bueno, como dice el refrán, ¡más vale tarde que nunca!)."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "Traducir literalmente un refrán español que no existe en euskera: queda raro. Cambiar palabras de un refrán (*Txakur zaunkaria, gutxi kosk egilea*): los refranes son fórmulas fijas. Abusar de ellos en un texto formal."
+  },
+  {
+   "h": "Resumen",
+   "p": "Refranes clave: **Ez dago bi gabe hiru · Hitzak haizeak eramaten ditu · Zahar hitz, zuhur hitz · Txakur zaunkaria, gutxi hozkaria · Hobe berandu, inoiz ez baino · Nolako zura, halako ezpala**. Introducción: **Esaera zaharrak dioen bezala…**."
+  }
+ ],
+ "examples": [
+  [
+   "Ez dago bi gabe hiru.",
+   "No hay dos sin tres."
+  ],
+  [
+   "Hitzak haizeak eramaten ditu.",
+   "Las palabras se las lleva el viento."
+  ],
+  [
+   "Txakur zaunkaria, gutxi hozkaria.",
+   "Perro ladrador, poco mordedor."
+  ],
+  [
+   "Hobe berandu, inoiz ez baino.",
+   "Más vale tarde que nunca."
+  ],
+  [
+   "Nolako zura, halako ezpala.",
+   "De tal palo, tal astilla."
+  ],
+  [
+   "Esaera zaharrak dioen bezala, poliki-poliki, urrutira.",
+   "Como dice el refrán, poco a poco se llega lejos."
+  ]
+ ],
+ "dialog": {
+  "title": "Hablando de un niño",
+  "lines": [
+   [
+    "Ane",
+    "Begira Iker txikiari: aita bezala, beti futbolean!",
+    "Mira al pequeño Iker: como su padre, ¡siempre jugando al fútbol!"
+   ],
+   [
+    "Jon",
+    "Nolako zura, halako ezpala!",
+    "¡De tal palo, tal astilla!"
+   ],
+   [
+    "Ane",
+    "Eta bere aitak bezala, asko hitz egiten du, baina gero…",
+    "Y como su padre, habla mucho, pero luego…"
+   ],
+   [
+    "Jon",
+    "Txakur zaunkaria, gutxi hozkaria.",
+    "Perro ladrador, poco mordedor."
+   ],
+   [
+    "Ane",
+    "Hori da! Zahar hitz, zuhur hitz.",
+    "¡Eso es! Palabra de viejo, palabra sabia."
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Ez dago bi gabe ___.",
+   "es": "No hay dos sin tres.",
+   "a": [
+    "hiru"
+   ],
+   "hint": "Refrán fijo."
+  },
+  {
+   "type": "gap",
+   "q": "Hitzak ___ eramaten ditu.",
+   "es": "Las palabras se las lleva el viento.",
+   "a": [
+    "haizeak"
+   ],
+   "hint": "El viento (sujeto con -k): haizeak."
+  },
+  {
+   "type": "gap",
+   "q": "Txakur zaunkaria, gutxi ___.",
+   "es": "Perro ladrador, poco mordedor.",
+   "a": [
+    "hozkaria"
+   ],
+   "hint": "Rima: zaunkaria / hozkaria."
+  },
+  {
+   "type": "gap",
+   "q": "Hobe berandu, inoiz ez ___.",
+   "es": "Más vale tarde que nunca.",
+   "a": [
+    "baino"
+   ],
+   "hint": "Comparación: baino."
+  },
+  {
+   "type": "gap",
+   "q": "Nolako zura, ___ ezpala.",
+   "es": "De tal palo, tal astilla.",
+   "a": [
+    "halako"
+   ],
+   "hint": "Paralelismo: nolako… halako…"
+  },
+  {
+   "type": "gap",
+   "q": "Esaera zaharrak ___ bezala…",
+   "es": "Como dice el refrán…",
+   "a": [
+    "dioen"
+   ],
+   "hint": "esan sintético (dio) + relativo: dioen."
+  },
+  {
+   "type": "choice",
+   "q": "«De tal palo, tal astilla»",
+   "options": [
+    "Nolako zura, halako ezpala.",
+    "Ur handitan, arrain handiak.",
+    "Ez dago bi gabe hiru."
+   ],
+   "a": 0,
+   "why": "zura = madera; ezpala = astilla."
+  },
+  {
+   "type": "choice",
+   "q": "«Ojos que no ven, corazón que no siente»",
+   "options": [
+    "Begiak ikusten ez duena, bihotzak ez du sentitzen.",
+    "Hitzak haizeak eramaten ditu.",
+    "Zahar hitz, zuhur hitz."
+   ],
+   "a": 0,
+   "why": "Refrán con begiak y bihotzak."
+  },
+  {
+   "type": "choice",
+   "q": "«Zahar hitz, zuhur hitz» significa…",
+   "options": [
+    "la palabra de los mayores es sabia",
+    "las palabras viejas no sirven",
+    "hay que hablar poco"
+   ],
+   "a": 0,
+   "why": "zuhur = sabio, prudente."
+  },
+  {
+   "type": "choice",
+   "q": "Fórmula para introducir un refrán:",
+   "options": [
+    "Esaera zaharrak dioen bezala…",
+    "Nire ustez, dudarik gabe…",
+    "Laburbilduz…"
+   ],
+   "a": 0,
+   "why": "«Como dice el refrán…»."
+  },
+  {
+   "type": "choice",
+   "q": "Un refrán en euskera debe…",
+   "options": [
+    "usarse tal cual, como fórmula fija",
+    "traducirse siempre desde el español",
+    "adaptarse cambiando palabras"
+   ],
+   "a": 0,
+   "why": "Los refranes son fórmulas fijas."
+  },
+  {
+   "type": "order",
+   "words": [
+    "hiru",
+    "gabe",
+    "bi",
+    "dago",
+    "Ez"
+   ],
+   "a": [
+    "Ez dago bi gabe hiru"
+   ],
+   "es": "No hay dos sin tres.",
+   "hint": "Refrán fijo."
+  },
+  {
+   "type": "order",
+   "words": [
+    "baino",
+    "ez",
+    "inoiz",
+    "berandu",
+    "Hobe"
+   ],
+   "a": [
+    "Hobe berandu inoiz ez baino"
+   ],
+   "es": "Más vale tarde que nunca.",
+   "hint": "Refrán fijo."
+  },
+  {
+   "type": "order",
+   "words": [
+    "ezpala",
+    "halako",
+    "zura",
+    "Nolako"
+   ],
+   "a": [
+    "Nolako zura halako ezpala"
+   ],
+   "es": "De tal palo, tal astilla.",
+   "hint": "Nolako… halako…"
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "Ez dago bi gabe hiru",
+     "no hay dos sin tres"
+    ],
+    [
+     "Hobe berandu, inoiz ez baino",
+     "más vale tarde que nunca"
+    ],
+    [
+     "Nolako zura, halako ezpala",
+     "de tal palo, tal astilla"
+    ],
+    [
+     "Txakur zaunkaria, gutxi hozkaria",
+     "perro ladrador, poco mordedor"
+    ],
+    [
+     "Ur handitan, arrain handiak",
+     "a gran río, gran pez"
+    ],
+    [
+     "Poliki-poliki, urrutira",
+     "poco a poco se llega lejos"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Escribe tres situaciones breves (2 o 3 frases cada una) que terminen con un refrán de la lección usado con oportunidad.",
+  "focus": "atsotitzak frecuentes, su estructura (paralelismo, elipsis, rima) y cómo introducirlos"
+ },
+ "links": {
+  "verbs": [],
+  "cases": [],
+  "themes": [
+   "lokailuak"
+  ]
+ }
+}

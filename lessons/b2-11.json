@@ -1,0 +1,292 @@
+{
+ "id": "b2-11",
+ "lvl": "B2",
+ "n": 11,
+ "title": "Kausa eta ondorioa",
+ "es": "Causa y consecuencia",
+ "goal": "Explicar causas y consecuencias con variedad: como, ya que, pues, así que, por lo tanto, tan… que.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "Para explicar el porqué ya conoces **-lako** y **horregatik**. En textos y conversaciones de nivel alto se usan otras formas que aportan matices: **-(e)nez** para presentar una causa conocida, **bait-** para justificar en registro cuidado y varios conectores de consecuencia. Variar estas formas hace que tu euskera suene mucho más natural."
+  },
+  {
+   "h": "-(e)nez: como, ya que",
+   "p": "Relativo + **-ez**. Presenta una causa que el oyente ya conoce o acepta, normalmente al principio: **Berandu denez, etxera noa** (como es tarde, me voy a casa). **Euria ari duenez, ez gara aterako** (como llueve, no saldremos)."
+  },
+  {
+   "h": "bait-: pues, ya que (registro cuidado)",
+   "p": "Prefijo que se pega al auxiliar en la segunda oración, típico de la escritura: **Ez naiz joango, nekatuta bainago** (no iré, pues estoy cansado). Al unirse, el auxiliar cambia un poco: **bait + da → baita**, **bait + dut → baitut**, **bait + du → baitu**, **bait + nago → bainago**, **bait + gara → baikara**, **bait + daukat → baitaukat**, **bait + zen → baitzen**."
+  },
+  {
+   "h": "Consecuencia",
+   "p": "**beraz** (así que, por lo tanto): **Lan asko daukat; beraz, ezin naiz etorri**. **ondorioz** (como consecuencia): **Euri asko egin du; ondorioz, ibaia gainezka dago**. **horregatik** (por eso). Para «tan… que»: **hain … non** + bait-: **Hain da garestia, non inork ez baitu erosten** (es tan caro que nadie lo compra)."
+  },
+  {
+   "h": "Paso a paso: «Como el tren llevaba retraso, llegué tarde»",
+   "p": "1) Causa conocida: **trenak atzerapena zuen** → relativo **zuen** + -ez → **zuenez**. 2) Consecuencia: **berandu iritsi nintzen**. → **Trenak atzerapena zuenez, berandu iritsi nintzen**."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Berandu dela, etxera noa* → **denez**. *Lan asko daukatbait* → **lan asko baitaukat** (el prefijo va delante del auxiliar). *baitda* → **baita**. *Horregatik ez, naiz etorri* → **Horregatik ez naiz etorri**."
+  },
+  {
+   "h": "Resumen",
+   "p": "Causa: **-lako** (porque), **-(e)nez** (como, ya que), **bait-** (pues; baita, baitut, bainago…). Consecuencia: **beraz, ondorioz, horregatik**, **hain … non … bait-**."
+  }
+ ],
+ "examples": [
+  [
+   "Berandu denez, etxera noa.",
+   "Como es tarde, me voy a casa."
+  ],
+  [
+   "Euria ari duenez, ez gara aterako.",
+   "Como llueve, no saldremos."
+  ],
+  [
+   "Ez naiz joango, nekatuta bainago.",
+   "No iré, pues estoy cansado."
+  ],
+  [
+   "Lan asko daukat; beraz, ezin naiz etorri.",
+   "Tengo mucho trabajo; así que no puedo venir."
+  ],
+  [
+   "Euri asko egin du; ondorioz, ibaia gainezka dago.",
+   "Ha llovido mucho; como consecuencia, el río se ha desbordado."
+  ],
+  [
+   "Hain da garestia, non inork ez baitu erosten.",
+   "Es tan caro que nadie lo compra."
+  ],
+  [
+   "Gaixorik zegoelako ez zen etorri.",
+   "No vino porque estaba enfermo."
+  ]
+ ],
+ "dialog": {
+  "title": "Después de la reunión",
+  "lines": [
+   [
+    "Ane",
+    "Zergatik ez zara bilerara etorri?",
+    "¿Por qué no has venido a la reunión?"
+   ],
+   [
+    "Iker",
+    "Trenak atzerapena zuenez, berandu iritsi nintzen.",
+    "Como el tren llevaba retraso, llegué tarde."
+   ],
+   [
+    "Ane",
+    "Ulertzen dut. Bilera garrantzitsua zen; beraz, laburpen bat bidaliko dizut.",
+    "Lo entiendo. La reunión era importante; así que te enviaré un resumen."
+   ],
+   [
+    "Iker",
+    "Eskerrik asko. Gaur ezin dut irakurri, lan asko baitaukat.",
+    "Gracias. Hoy no puedo leerlo, pues tengo mucho trabajo."
+   ],
+   [
+    "Ane",
+    "Ez dago presarik. Bihar irakur dezakezu.",
+    "No hay prisa. Puedes leerlo mañana."
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Berandu ___, etxera noa.",
+   "es": "Como es tarde, me voy a casa.",
+   "a": [
+    "denez"
+   ],
+   "hint": "da → den → denez."
+  },
+  {
+   "type": "gap",
+   "q": "Euria ari ___, ez gara aterako.",
+   "es": "Como llueve, no saldremos.",
+   "a": [
+    "duenez"
+   ],
+   "hint": "du → duen → duenez."
+  },
+  {
+   "type": "gap",
+   "q": "Ez naiz joango, nekatuta ___.",
+   "es": "No iré, pues estoy cansado.",
+   "a": [
+    "bainago"
+   ],
+   "hint": "bait + nago → bainago."
+  },
+  {
+   "type": "gap",
+   "q": "Lan asko daukat; ___, ezin naiz etorri.",
+   "es": "Tengo mucho trabajo; así que no puedo venir.",
+   "a": [
+    "beraz"
+   ],
+   "hint": "así que = beraz."
+  },
+  {
+   "type": "gap",
+   "q": "Euri asko egin du; ___, ibaia gainezka dago.",
+   "es": "Ha llovido mucho; como consecuencia, el río se ha desbordado.",
+   "a": [
+    "ondorioz"
+   ],
+   "hint": "como consecuencia = ondorioz."
+  },
+  {
+   "type": "gap",
+   "q": "Hain da garestia, non inork ez ___ erosten.",
+   "es": "Es tan caro que nadie lo compra.",
+   "a": [
+    "baitu"
+   ],
+   "hint": "bait + du → baitu."
+  },
+  {
+   "type": "choice",
+   "q": "«Como es tarde, me voy a casa»",
+   "options": [
+    "Berandu denez, etxera noa.",
+    "Berandu dela, etxera noa.",
+    "Berandu delako ez, etxera noa."
+   ],
+   "a": 0,
+   "why": "Causa conocida: -(e)nez."
+  },
+  {
+   "type": "choice",
+   "q": "«…pues tengo mucho trabajo»",
+   "options": [
+    "lan asko baitaukat",
+    "lan asko daukatbait",
+    "bait lan asko daukat"
+   ],
+   "a": 0,
+   "why": "bait- va pegado delante del auxiliar."
+  },
+  {
+   "type": "choice",
+   "q": "«Como consecuencia»",
+   "options": [
+    "ondorioz",
+    "arren",
+    "bitartean"
+   ],
+   "a": 0,
+   "why": "arren = aunque; bitartean = mientras."
+  },
+  {
+   "type": "choice",
+   "q": "bait- + da:",
+   "options": [
+    "baita",
+    "baitda",
+    "bada"
+   ],
+   "a": 0,
+   "why": "bait + da → baita."
+  },
+  {
+   "type": "choice",
+   "q": "«Así que no puedo venir»",
+   "options": [
+    "beraz, ezin naiz etorri",
+    "horregatik ez, naiz etorri",
+    "beraz ezin etorri naiz"
+   ],
+   "a": 0,
+   "why": "Conector + ezin + auxiliar + participio."
+  },
+  {
+   "type": "order",
+   "words": [
+    "noa",
+    "etxera",
+    "denez",
+    "Berandu"
+   ],
+   "a": [
+    "Berandu denez etxera noa"
+   ],
+   "es": "Como es tarde, me voy a casa.",
+   "hint": "Causa con -nez + principal."
+  },
+  {
+   "type": "order",
+   "words": [
+    "bainago",
+    "nekatuta",
+    "joango",
+    "naiz",
+    "Ez"
+   ],
+   "a": [
+    "Ez naiz joango nekatuta bainago"
+   ],
+   "es": "No iré, pues estoy cansado.",
+   "hint": "Principal + causa con bait-."
+  },
+  {
+   "type": "order",
+   "words": [
+    "etorri",
+    "naiz",
+    "ezin",
+    "Beraz"
+   ],
+   "a": [
+    "Beraz ezin naiz etorri"
+   ],
+   "es": "Así que no puedo venir.",
+   "hint": "Beraz + ezin naiz + participio."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "-lako",
+     "porque"
+    ],
+    [
+     "-(e)nez",
+     "como, ya que"
+    ],
+    [
+     "bait-",
+     "pues (registro cuidado)"
+    ],
+    [
+     "beraz",
+     "así que"
+    ],
+    [
+     "ondorioz",
+     "como consecuencia"
+    ],
+    [
+     "hain … non",
+     "tan … que"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Escribe un párrafo de 5 o 6 frases explicando una decisión reciente (un cambio de trabajo, un viaje, empezar a estudiar euskera): sus causas y sus consecuencias, con al menos cuatro formas distintas.",
+  "focus": "-lako, -(e)nez, bait-, beraz, ondorioz, horregatik, hain … non"
+ },
+ "links": {
+  "verbs": [],
+  "cases": [],
+  "themes": [
+   "lokailuak"
+  ]
+ }
+}

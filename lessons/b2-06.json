@@ -1,0 +1,326 @@
+{
+ "id": "b2-06",
+ "lvl": "B2",
+ "n": 6,
+ "title": "Moduak",
+ "es": "Oraciones y expresiones de modo",
+ "goal": "Decir cómo se hace algo: «como quieras», «corriendo», «llorando», «sentado», «escuchando música».",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "El español usa mucho el gerundio para el modo: «vino corriendo», «estaba llorando». El euskera no tiene una sola forma para eso: según el caso usa **-ka**, **-z**, **-ta** o **-la**. Además, aprenderás **bezala** para «como». Son expresiones muy frecuentes en la narración."
+  },
+  {
+   "h": "Como: -n bezala",
+   "p": "Relativo + **bezala**: **Nahi duzun bezala** (como quieras), **Esan dudan bezala** (como he dicho), **Behar den bezala** (como es debido). Con nombres y pronombres, sin relativo: **zu bezala** (como tú)."
+  },
+  {
+   "h": "Las formas de modo",
+   "table": {
+    "head": [
+     "Forma",
+     "Uso",
+     "Ejemplos"
+    ],
+    "rows": [
+     [
+      "-ka",
+      "acción repetida o manera",
+      "**korrika** (corriendo), **oihuka** (gritando), **saltoka** (saltando)"
+     ],
+     [
+      "-z",
+      "emoción o estado que acompaña",
+      "**negarrez** (llorando), **barrez** (riendo), **pozez** (de alegría), **oinez** (a pie)"
+     ],
+     [
+      "-ta / -rik",
+      "postura o estado",
+      "**eserita** (sentado), **etzanda** (tumbado), **isilik** (en silencio), **zutik** (de pie)"
+     ],
+     [
+      "-la",
+      "acción simultánea",
+      "**Musika entzuten nuela**, lo hartu nuen (escuchando música, me dormí)"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "-la de simultaneidad",
+   "p": "Ya lo usaste en B1 con verbos sintéticos (**etxera nindoala**). Funciona con cualquier verbo conjugado: **Telebista ikusten genuela, afaldu genuen** (cenamos viendo la tele). **Euria ari zuela irten ginen** (salimos con lluvia, literalmente «lloviendo»)."
+  },
+  {
+   "h": "Paso a paso: «Los niños entraron corriendo y gritando»",
+   "p": "1) «corriendo» = **korrika**; «gritando» = **oihuka**. 2) entrar, ellos, pasado → **sartu ziren**. 3) **Umeak korrika eta oihuka sartu ziren**."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Korritzen etorri zen* → **Korrika etorri zen**. *Negartzen zegoen* → **Negarrez zegoen**. *Eserita naiz* → **Eserita nago** (estado con egon). *Nahi duzu bezala* → **Nahi duzun bezala**."
+  },
+  {
+   "h": "Resumen",
+   "p": "«como» = relativo + **bezala**. Modo: **-ka** (korrika, oihuka), **-z** (negarrez, barrez), **-ta / -rik** (eserita, isilik), **-la** (acción simultánea: musika entzuten nuela)."
+  }
+ ],
+ "examples": [
+  [
+   "Nahi duzun bezala egin.",
+   "Hazlo como quieras."
+  ],
+  [
+   "Esan dudan bezala, bilera bihar da.",
+   "Como he dicho, la reunión es mañana."
+  ],
+  [
+   "Umeak korrika etorri ziren.",
+   "Los niños vinieron corriendo."
+  ],
+  [
+   "Neska negarrez zegoen.",
+   "La chica estaba llorando."
+  ],
+  [
+   "Denok barrez hasi ginen.",
+   "Todos empezamos a reír."
+  ],
+  [
+   "Eserita nago.",
+   "Estoy sentado."
+  ],
+  [
+   "Musika entzuten nuela, lo hartu nuen.",
+   "Escuchando música, me dormí."
+  ]
+ ],
+ "dialog": {
+  "title": "La fiesta sorpresa",
+  "lines": [
+   [
+    "Jon",
+    "Zer gertatu zen festan?",
+    "¿Qué pasó en la fiesta?"
+   ],
+   [
+    "Miren",
+    "Mikel oihuka sartu zen: «Zorionak!». Denok barrez hasi ginen.",
+    "Mikel entró gritando: «¡Felicidades!». Todos empezamos a reír."
+   ],
+   [
+    "Jon",
+    "Eta Ane?",
+    "¿Y Ane?"
+   ],
+   [
+    "Miren",
+    "Ane pozez negarrez zegoen. Ez zekien ezer!",
+    "Ane estaba llorando de alegría. ¡No sabía nada!"
+   ],
+   [
+    "Jon",
+    "Nik esan nuen bezala, sorpresa ona izan zen.",
+    "Como dije yo, fue una buena sorpresa."
+   ],
+   [
+    "Miren",
+    "Bai, dena behar zen bezala atera zen.",
+    "Sí, todo salió como debía."
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Nahi duzun ___ egin.",
+   "es": "Hazlo como quieras.",
+   "a": [
+    "bezala"
+   ],
+   "hint": "como = -n bezala."
+  },
+  {
+   "type": "gap",
+   "q": "Umeak korri___ etorri ziren.",
+   "es": "Los niños vinieron corriendo.",
+   "a": [
+    "ka"
+   ],
+   "hint": "corriendo = korrika."
+  },
+  {
+   "type": "gap",
+   "q": "Neska negarre___ zegoen.",
+   "es": "La chica estaba llorando.",
+   "a": [
+    "z"
+   ],
+   "hint": "llorando = negarrez."
+  },
+  {
+   "type": "gap",
+   "q": "Denok bar___ hasi ginen.",
+   "es": "Todos empezamos a reír.",
+   "a": [
+    "rez"
+   ],
+   "hint": "riendo = barrez."
+  },
+  {
+   "type": "gap",
+   "q": "Eseri___ nago.",
+   "es": "Estoy sentado.",
+   "a": [
+    "ta"
+   ],
+   "hint": "postura: -ta."
+  },
+  {
+   "type": "gap",
+   "q": "Musika entzuten ___, lo hartu nuen.",
+   "es": "Escuchando música, me dormí.",
+   "a": [
+    "nuela"
+   ],
+   "hint": "Simultaneidad: nuen + -la."
+  },
+  {
+   "type": "choice",
+   "q": "«Como quieras»",
+   "options": [
+    "nahi duzun bezala",
+    "nahi duzu bezala",
+    "nahi duzula bezala"
+   ],
+   "a": 0,
+   "why": "Relativo + bezala."
+  },
+  {
+   "type": "choice",
+   "q": "«Corriendo»",
+   "options": [
+    "korrika",
+    "korritzen",
+    "korrikaz"
+   ],
+   "a": 0,
+   "why": "Forma fija: korrika."
+  },
+  {
+   "type": "choice",
+   "q": "«Llorando»",
+   "options": [
+    "negarrez",
+    "negartzen",
+    "negarrik"
+   ],
+   "a": 0,
+   "why": "Emoción que acompaña: -z."
+  },
+  {
+   "type": "choice",
+   "q": "«Estoy sentado»",
+   "options": [
+    "Eserita nago.",
+    "Eserita naiz.",
+    "Esertzen nago."
+   ],
+   "a": 0,
+   "why": "Estado: -ta + egon."
+  },
+  {
+   "type": "choice",
+   "q": "«Escuchando música, me dormí»",
+   "options": [
+    "Musika entzuten nuela, lo hartu nuen.",
+    "Musika entzun nuen, lo hartu nuela.",
+    "Musika entzutea, lo hartu nuen."
+   ],
+   "a": 0,
+   "why": "Acción simultánea: verbo conjugado + -la."
+  },
+  {
+   "type": "order",
+   "words": [
+    "egin",
+    "bezala",
+    "duzun",
+    "Nahi"
+   ],
+   "a": [
+    "Nahi duzun bezala egin"
+   ],
+   "es": "Hazlo como quieras.",
+   "hint": "Relativo + bezala + verbo."
+  },
+  {
+   "type": "order",
+   "words": [
+    "ziren",
+    "etorri",
+    "korrika",
+    "Umeak"
+   ],
+   "a": [
+    "Umeak korrika etorri ziren"
+   ],
+   "es": "Los niños vinieron corriendo.",
+   "hint": "Sujeto + modo + verbo + auxiliar."
+  },
+  {
+   "type": "order",
+   "words": [
+    "zegoen",
+    "negarrez",
+    "Neska"
+   ],
+   "a": [
+    "Neska negarrez zegoen"
+   ],
+   "es": "La chica estaba llorando.",
+   "hint": "Sujeto + modo + zegoen."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "korrika",
+     "corriendo"
+    ],
+    [
+     "oihuka",
+     "gritando"
+    ],
+    [
+     "negarrez",
+     "llorando"
+    ],
+    [
+     "barrez",
+     "riendo"
+    ],
+    [
+     "eserita",
+     "sentado"
+    ],
+    [
+     "zutik",
+     "de pie"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Describe una escena (una fiesta, una boda, una tarde en el parque) en 5 o 6 frases, explicando cómo hacía cada persona lo que hacía.",
+  "focus": "-n bezala, -ka, -z, -ta/-rik, -la de simultaneidad"
+ },
+ "links": {
+  "verbs": [],
+  "cases": [
+   "ins"
+  ],
+  "themes": [
+   "aditzak",
+   "pertsonak"
+  ]
+ }
+}

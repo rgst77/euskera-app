@@ -1,0 +1,350 @@
+{
+ "id": "a2-11",
+ "lvl": "A2",
+ "n": 11,
+ "title": "Zer eman diozu?",
+ "es": "NOR-NORI-NORK en presente",
+ "goal": "Decir qué das, dices, envías o enseñas a alguien.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "Esta es la lección más exigente del A2, y la más satisfactoria: cuando la domines, podrás decir «se lo he dado», «me lo ha dicho» o «te lo enviaré» con una sola palabra. Tres protagonistas caben dentro del auxiliar: quién da ({nork:NORK}), qué da ({nor:NOR}) y a quién ({nori:NORI})."
+  },
+  {
+   "h": "La estructura",
+   "p": "**di-** + marca de **a quién** + marca de **quién**: di-**zu**-**t** = (yo) te lo; di-**o**-**t** = (yo) se lo (a él); di-**t** = (él) me lo. Marcas de NORI en el medio: **-da-** o **-t** (a mí), **-zu-** (a ti), **-o-** (a él/ella), **-gu-** (a nosotros), **-zue-** (a vosotros), **-e-** (a ellos). La marca de NORK al final es la de siempre (-t, -zu, nada, -gu, -zue, -te)."
+  },
+  {
+   "h": "Las formas más frecuentes",
+   "table": {
+    "head": [
+     "NORK ↓ / NORI →",
+     "a mí",
+     "a ti",
+     "a él / ella",
+     "a nosotros",
+     "a ellos"
+    ],
+    "rows": [
+     [
+      "nik (yo)",
+      "—",
+      "{nori:dizut}",
+      "{nori:diot}",
+      "—",
+      "{nori:diet}"
+     ],
+     [
+      "zuk (tú)",
+      "{nori:didazu}",
+      "—",
+      "{nori:diozu}",
+      "{nori:diguzu}",
+      "{nori:diezu}"
+     ],
+     [
+      "hark (él)",
+      "{nori:dit}",
+      "{nori:dizu}",
+      "{nori:dio}",
+      "{nori:digu}",
+      "{nori:die}"
+     ],
+     [
+      "guk",
+      "—",
+      "{nori:dizugu}",
+      "{nori:diogu}",
+      "—",
+      "{nori:diegu}"
+     ],
+     [
+      "haiek",
+      "{nori:didate}",
+      "{nori:dizute}",
+      "{nori:diote}",
+      "{nori:digute}",
+      "{nori:diete}"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Si lo que das es plural: -zki-",
+   "p": "Se añade **-zki-** después de di-: **diot → dizkiot** (se los he dado a él), **dizut → dizkizut**, **dit → dizkit**. **Loreak eman dizkiot** (le he dado las flores)."
+  },
+  {
+   "h": "Los verbos de este grupo",
+   "p": "**eman** (dar), **esan** (decir), **bidali** (enviar), **erakutsi** (enseñar, mostrar), **ekarri** (traer), **galdetu** (preguntar), **oparitu** (regalar), **azaldu** (explicar), **deitu** (llamar por teléfono: **deituko dizut**, te llamaré), **utzi** (prestar, dejar). La persona que recibe va en dativo: **niri, Mikeli, amari**."
+  },
+  {
+   "h": "Paso a paso: «Mañana te enseñaré las fotos»",
+   "p": "1) Verbo en futuro: **erakutsiko**. 2) A quién: te → **-zu-**. 3) Quién: yo → **-t**. 4) Qué: las fotos, plural → **-zki-**. 5) di + zki + zu + t → **dizkizut**. → **Bihar argazkiak erakutsiko dizkizut**."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Liburua eman dut Mikeli* → **eman diot** (hay a quién: hace falta NORI en el auxiliar). *Esan diot* para «me lo ha dicho» → **Esan dit**. *Loreak eman diot* → **dizkiot**. *Mikel eman dio* → **Mikelek** (sujeto con -k)."
+  },
+  {
+   "h": "Resumen",
+   "p": "**di- + NORI + NORK**: dizut, diot, dit, didazu, diogu, digute… Plural: **dizki-**. Verbos: eman, esan, bidali, erakutsi, ekarri, galdetu, oparitu, deitu. Receptor en dativo (niri, Mikeli)."
+  }
+ ],
+ "examples": [
+  [
+   "Liburua eman diot.",
+   "Le he dado el libro."
+  ],
+  [
+   "Amari esan diogu.",
+   "Se lo hemos dicho a la madre."
+  ],
+  [
+   "Zer esan dizu?",
+   "¿Qué te ha dicho?"
+  ],
+  [
+   "Mezu bat bidali didazu?",
+   "¿Me has enviado un mensaje?"
+  ],
+  [
+   "Argazkiak erakutsiko dizkizut.",
+   "Te enseñaré las fotos."
+  ],
+  [
+   "Mikelek opari bat ekarri dit.",
+   "Mikel me ha traído un regalo."
+  ],
+  [
+   "Loreak eman dizkiot.",
+   "Le he dado las flores."
+  ]
+ ],
+ "dialog": {
+  "title": "El cumpleaños de Ane",
+  "lines": [
+   [
+    "Jon",
+    "Zer oparituko diozu Aneri?",
+    "¿Qué le regalarás a Ane?"
+   ],
+   [
+    "Miren",
+    "Liburu bat erosi dut. Bihar emango diot.",
+    "He comprado un libro. Se lo daré mañana."
+   ],
+   [
+    "Jon",
+    "Ondo! Nik lore batzuk bidaliko dizkiot.",
+    "¡Bien! Yo le enviaré unas flores."
+   ],
+   [
+    "Miren",
+    "Aneri loreak asko gustatzen zaizkio.",
+    "A Ane le gustan mucho las flores."
+   ],
+   [
+    "Jon",
+    "Badakit! Berak esan dit.",
+    "¡Lo sé! Me lo ha dicho ella."
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Liburua eman ___.",
+   "es": "Le he dado el libro (a él).",
+   "a": [
+    "diot"
+   ],
+   "hint": "yo → a él: di-o-t."
+  },
+  {
+   "type": "gap",
+   "q": "Zer esan ___?",
+   "es": "¿Qué te ha dicho (él)?",
+   "a": [
+    "dizu"
+   ],
+   "hint": "él → a ti: di-zu."
+  },
+  {
+   "type": "gap",
+   "q": "Mezu bat bidali ___?",
+   "es": "¿Me has enviado un mensaje?",
+   "a": [
+    "didazu"
+   ],
+   "hint": "tú → a mí: di-da-zu."
+  },
+  {
+   "type": "gap",
+   "q": "Argazkiak erakutsiko ___.",
+   "es": "Te enseñaré las fotos.",
+   "a": [
+    "dizkizut"
+   ],
+   "hint": "yo → a ti, objeto plural: di-zki-zu-t."
+  },
+  {
+   "type": "gap",
+   "q": "Amari esan ___.",
+   "es": "Se lo hemos dicho a la madre.",
+   "a": [
+    "diogu"
+   ],
+   "hint": "nosotros → a ella: di-o-gu."
+  },
+  {
+   "type": "gap",
+   "q": "Mikelek opari bat ekarri ___.",
+   "es": "Mikel me ha traído un regalo.",
+   "a": [
+    "dit"
+   ],
+   "hint": "él → a mí: di-t."
+  },
+  {
+   "type": "choice",
+   "q": "«Se lo he dado (a él)»",
+   "options": [
+    "Eman diot.",
+    "Eman dut.",
+    "Eman dit."
+   ],
+   "a": 0,
+   "why": "Hay receptor: diot. Eman dit es «me lo ha dado»."
+  },
+  {
+   "type": "choice",
+   "q": "«Me lo ha dicho (él)»",
+   "options": [
+    "Esan dit.",
+    "Esan diot.",
+    "Esan dut."
+   ],
+   "a": 0,
+   "why": "él → a mí: dit."
+  },
+  {
+   "type": "choice",
+   "q": "«Te enseñaré las fotos»",
+   "options": [
+    "Argazkiak erakutsiko dizkizut.",
+    "Argazkiak erakutsiko dizut.",
+    "Argazkiak erakutsiko ditut."
+   ],
+   "a": 0,
+   "why": "Objeto plural y receptor «ti»: dizkizut."
+  },
+  {
+   "type": "choice",
+   "q": "«Les hemos escrito (a ellos)»",
+   "options": [
+    "Idatzi diegu.",
+    "Idatzi dugu.",
+    "Idatzi digute."
+   ],
+   "a": 0,
+   "why": "nosotros → a ellos: di-e-gu. Digute es «ellos nos»."
+  },
+  {
+   "type": "choice",
+   "q": "«¿Qué le has dicho a Mikel?»",
+   "options": [
+    "Zer esan diozu Mikeli?",
+    "Zer esan duzu Mikel?",
+    "Zer esan dizu Mikeli?"
+   ],
+   "a": 0,
+   "why": "tú → a él: diozu, y Mikel en dativo."
+  },
+  {
+   "type": "order",
+   "words": [
+    "diot",
+    "Liburua",
+    "eman"
+   ],
+   "a": [
+    "Liburua eman diot"
+   ],
+   "es": "Le he dado el libro.",
+   "hint": "Objeto + verbo + auxiliar."
+  },
+  {
+   "type": "order",
+   "words": [
+    "dit",
+    "Mikelek",
+    "ekarri",
+    "opari",
+    "bat"
+   ],
+   "a": [
+    "Mikelek opari bat ekarri dit"
+   ],
+   "es": "Mikel me ha traído un regalo.",
+   "hint": "Sujeto con -k + objeto + verbo + auxiliar."
+  },
+  {
+   "type": "order",
+   "words": [
+    "dizkizut",
+    "Argazkiak",
+    "erakutsiko"
+   ],
+   "a": [
+    "Argazkiak erakutsiko dizkizut"
+   ],
+   "es": "Te enseñaré las fotos.",
+   "hint": "Objeto + verbo + auxiliar."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "diot",
+     "yo → a él"
+    ],
+    [
+     "dizut",
+     "yo → a ti"
+    ],
+    [
+     "dit",
+     "él → a mí"
+    ],
+    [
+     "didazu",
+     "tú → a mí"
+    ],
+    [
+     "diogu",
+     "nosotros → a él"
+    ],
+    [
+     "digute",
+     "ellos → a nosotros"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Escribe 5 frases sobre regalos y mensajes: qué le regalaste o regalarás a alguien, qué te ha dicho alguien hoy, a quién enviarás un mensaje y qué te enseñaron tus amigos.",
+  "focus": "NOR-NORI-NORK presente (diot, dizut, dit…) y plural con -zki-"
+ },
+ "links": {
+  "verbs": [
+   "nnn-pres",
+   "nnn-pres-pl"
+  ],
+  "cases": [
+   "dat"
+  ],
+  "themes": [
+   "aditzak"
+  ]
+ }
+}

@@ -1,0 +1,327 @@
+{
+ "id": "a2-02",
+ "lvl": "A2",
+ "n": 2,
+ "title": "Ba al duzu?",
+ "es": "El partitivo -rik y las preguntas con al",
+ "goal": "Decir que no tienes o no hay algo, y preguntar si hay o si tienes algo.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "En español decimos «no tengo dinero» o «¿hay pan?» sin artículo. El euskera tiene una terminación especial para estos casos: **-rik**, el partitivo. Aparece sobre todo en frases negativas y en preguntas. Es pequeña, pero muy frecuente: si la dominas, sonarás mucho más natural."
+  },
+  {
+   "h": "Cuándo se usa -rik",
+   "p": "Sustituye al artículo (**-a / -ak**) en: 1) **frases negativas**: **Ez daukat dirurik** (no tengo dinero), **Ez dago ogirik** (no hay pan); 2) **preguntas** de sí o no sobre existencia o posesión: **Ba al dago ogirik?** (¿hay pan?). Compara: **Dirua daukat** (tengo dinero) / **Ez daukat dirurik** (no tengo dinero)."
+  },
+  {
+   "h": "La forma",
+   "p": "**-rik** tras vocal y **-ik** tras consonante. Es igual en singular y plural.",
+   "table": {
+    "head": [
+     "Palabra",
+     "Afirmativa",
+     "Negativa con partitivo"
+    ],
+    "rows": [
+     [
+      "diru (dinero)",
+      "dirua daukat",
+      "ez daukat diru**rik**"
+     ],
+     [
+      "ogi (pan)",
+      "ogia dago",
+      "ez dago ogi**rik**"
+     ],
+     [
+      "lan (trabajo)",
+      "lana daukat",
+      "ez daukat lan**ik**"
+     ],
+     [
+      "arazo (problema)",
+      "arazo bat dago",
+      "ez dago arazo**rik**"
+     ],
+     [
+      "denbora (tiempo)",
+      "denbora daukat",
+      "ez daukat denbora**rik**"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Preguntar con al",
+   "p": "En las preguntas de sí o no se puede añadir la partícula **al** delante del verbo, junto con **ba-**: **Ba al dago ogirik?** (¿hay pan?), **Ba al daukazu dirurik?** (¿tienes dinero?), **Etorriko al zara?** (¿vendrás?). Sin al, solo con la entonación, también es correcto: **Ogirik ba dago?**"
+  },
+  {
+   "h": "Responder «sí» con ba-",
+   "p": "Para responder afirmativamente con el verbo solo, se le pega **ba-**: **Bai, badago** (sí, hay), **Bai, badaukat** (sí, tengo), **Badakit** (lo sé). Y la respuesta negativa: **Ez, ez dago** (no, no hay)."
+  },
+  {
+   "h": "Paso a paso: «No tenemos tiempo»",
+   "p": "1) Afirmativa: **Denbora daukagu**. 2) Negativa: **ez + verbo** delante → **Ez daukagu**. 3) El nombre pierde el artículo y toma -rik: denbora → **denborarik**. 4) **Ez daukagu denborarik**."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Ez daukat dirua* → **Ez daukat dirurik**. *Ez dago ogia* → **Ez dago ogirik**. *lanrik* → **lanik** (tras consonante, -ik). *Bai, dago* como respuesta sola → **Bai, badago**."
+  },
+  {
+   "h": "Resumen",
+   "p": "Negativas y preguntas de existencia: **-rik** (vocal) / **-ik** (consonante) en lugar del artículo. **Ba al dago …-rik?**, **Ba al daukazu …-rik?**. Respuesta afirmativa corta: **badago, badaukat, badakit**."
+  }
+ ],
+ "examples": [
+  [
+   "Ez daukat dirurik.",
+   "No tengo dinero."
+  ],
+  [
+   "Ez dago ogirik.",
+   "No hay pan."
+  ],
+  [
+   "Ba al dago ogirik?",
+   "¿Hay pan?"
+  ],
+  [
+   "Bai, badago.",
+   "Sí, hay."
+  ],
+  [
+   "Ez dago arazorik.",
+   "No hay problema."
+  ],
+  [
+   "Ba al daukazu denborarik?",
+   "¿Tienes tiempo?"
+  ],
+  [
+   "Gaur ez daukat lanik.",
+   "Hoy no tengo trabajo."
+  ]
+ ],
+ "dialog": {
+  "title": "En la panadería",
+  "lines": [
+   [
+    "Iker",
+    "Egun on! Ba al dago ogirik?",
+    "¡Buenos días! ¿Hay pan?"
+   ],
+   [
+    "Dendaria",
+    "Bai, badago. Zenbat nahi duzu?",
+    "Sí, hay. ¿Cuánto quieres?"
+   ],
+   [
+    "Iker",
+    "Bi barra, mesedez. Eta ba al dago esnerik?",
+    "Dos barras, por favor. ¿Y hay leche?"
+   ],
+   [
+    "Dendaria",
+    "Ez, gaur ez dago esnerik. Barkatu.",
+    "No, hoy no hay leche. Perdona."
+   ],
+   [
+    "Iker",
+    "Ez dago arazorik. Txartelez ordaindu nahi dut.",
+    "No hay problema. Quiero pagar con tarjeta."
+   ],
+   [
+    "Dendaria",
+    "Ados, noski.",
+    "De acuerdo, claro."
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Ez daukat diru___.",
+   "es": "No tengo dinero.",
+   "a": [
+    "rik"
+   ],
+   "hint": "Tras vocal: -rik."
+  },
+  {
+   "type": "gap",
+   "q": "Gaur ez daukat lan___.",
+   "es": "Hoy no tengo trabajo.",
+   "a": [
+    "ik"
+   ],
+   "hint": "Tras consonante: -ik."
+  },
+  {
+   "type": "gap",
+   "q": "Ba ___ dago ogirik?",
+   "es": "¿Hay pan?",
+   "a": [
+    "al"
+   ],
+   "hint": "Partícula de pregunta: ba + al."
+  },
+  {
+   "type": "gap",
+   "q": "Bai, ___dago.",
+   "es": "Sí, hay.",
+   "a": [
+    "ba"
+   ],
+   "hint": "Respuesta afirmativa con el verbo solo: ba- + verbo."
+  },
+  {
+   "type": "gap",
+   "q": "Ez dago arazo___.",
+   "es": "No hay problema.",
+   "a": [
+    "rik"
+   ],
+   "hint": "arazo acaba en vocal: -rik."
+  },
+  {
+   "type": "choice",
+   "q": "«No hay pan»",
+   "options": [
+    "Ez dago ogirik.",
+    "Ez dago ogia.",
+    "Ez da ogirik."
+   ],
+   "a": 0,
+   "why": "Negativa de existencia: dago + partitivo."
+  },
+  {
+   "type": "choice",
+   "q": "«¿Tienes tiempo?»",
+   "options": [
+    "Ba al daukazu denborarik?",
+    "Ba al daukazu denbora?",
+    "Al daukazu denboraik?"
+   ],
+   "a": 0,
+   "why": "Pregunta de posesión: ba al + verbo, y -rik tras vocal."
+  },
+  {
+   "type": "choice",
+   "q": "«Sí, lo sé»",
+   "options": [
+    "Bai, badakit.",
+    "Bai, dakit.",
+    "Bai, ba dakit al."
+   ],
+   "a": 0,
+   "why": "Respuesta afirmativa corta: ba- pegado al verbo."
+  },
+  {
+   "type": "choice",
+   "q": "«Tengo dinero»",
+   "options": [
+    "Dirua daukat.",
+    "Dirurik daukat.",
+    "Ez daukat dirua."
+   ],
+   "a": 0,
+   "why": "En afirmativa se usa el artículo, no el partitivo."
+  },
+  {
+   "type": "choice",
+   "q": "Partitivo de lan (trabajo):",
+   "options": [
+    "lanik",
+    "lanrik",
+    "lanerik"
+   ],
+   "a": 0,
+   "why": "Tras consonante: -ik."
+  },
+  {
+   "type": "order",
+   "words": [
+    "daukat",
+    "Ez",
+    "dirurik"
+   ],
+   "a": [
+    "Ez daukat dirurik"
+   ],
+   "es": "No tengo dinero.",
+   "hint": "ez + verbo delante, el nombre con -rik detrás."
+  },
+  {
+   "type": "order",
+   "words": [
+    "dago",
+    "Ba",
+    "ogirik",
+    "al"
+   ],
+   "a": [
+    "Ba al dago ogirik"
+   ],
+   "es": "¿Hay pan?",
+   "hint": "Ba al + verbo + nombre con -rik."
+  },
+  {
+   "type": "order",
+   "words": [
+    "daukagu",
+    "Ez",
+    "denborarik"
+   ],
+   "a": [
+    "Ez daukagu denborarik"
+   ],
+   "es": "No tenemos tiempo.",
+   "hint": "ez + verbo + nombre con -rik."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "dirurik",
+     "dinero (en negativa)"
+    ],
+    [
+     "ogirik",
+     "pan (en negativa)"
+    ],
+    [
+     "lanik",
+     "trabajo (en negativa)"
+    ],
+    [
+     "badago",
+     "sí hay"
+    ],
+    [
+     "badakit",
+     "sí lo sé"
+    ],
+    [
+     "Ba al dago?",
+     "¿hay?"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Imagina que revisas tu cocina: escribe 5 frases sobre qué hay y qué no hay, y dos preguntas para tu compañero de piso (Ba al dago …-rik?).",
+  "focus": "partitivo -rik/-ik en negativas y preguntas, ba al, respuestas con ba-"
+ },
+ "links": {
+  "verbs": [
+   "syn-pres-1",
+   "syn-pres-2"
+  ],
+  "cases": [],
+  "themes": [
+   "janaria",
+   "erosketak"
+  ]
+ }
+}

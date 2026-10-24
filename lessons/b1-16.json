@@ -1,0 +1,329 @@
+{
+ "id": "b1-16",
+ "lvl": "B1",
+ "n": 16,
+ "title": "Kontakizunak",
+ "es": "Narrar en pasado",
+ "goal": "Contar una historia ordenada combinando los pasados y los conectores narrativos.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "Última lección del B1. Vas a juntar todo lo que sabes sobre el pasado para contar historias: lo que pasó una vez, lo que solía pasar, lo que estaba pasando cuando ocurrió algo, y los conectores que dan ritmo a un relato. Es el examen práctico de todo el nivel."
+  },
+  {
+   "h": "Los tres pasados juntos",
+   "table": {
+    "head": [
+     "Para…",
+     "Forma",
+     "Ejemplo"
+    ],
+    "rows": [
+     [
+      "una acción terminada",
+      "participio + nintzen / nuen",
+      "Mendira **joan nintzen**."
+     ],
+     [
+      "una costumbre",
+      "-tzen + nintzen / nuen",
+      "Udan herrira **joaten ginen**."
+     ],
+     [
+      "una acción en curso",
+      "-tzen ari nintzen",
+      "Telebista **ikusten ari ginen**…"
+     ],
+     [
+      "una situación o estado",
+      "sintético en pasado",
+      "Eguraldi ona **zegoen**."
+     ]
+    ]
+   }
+  },
+  {
+   "h": "«Mientras iba…»: -la",
+   "p": "Para una acción en curso que sirve de fondo, se añade **-la** a un verbo sintético en pasado: **Etxera nindoala, Mikel ikusi nuen** (mientras iba a casa, vi a Mikel). **Kalean nengoela, euria hasi zuen** (estando en la calle, empezó a llover)."
+  },
+  {
+   "h": "Conectores narrativos",
+   "p": "**Egun batean** (un día), **behin** (una vez), **hasieran** (al principio), **lehenengo** (primero), **gero** (luego), **orduan** (entonces), **bat-batean** (de repente), **handik gutxira** (poco después), **bitartean** (mientras tanto), **azkenean** (al final). Y todas las oraciones temporales del nivel: **-nean**, **-takoan**, **eta gero**, **baino lehen**."
+  },
+  {
+   "h": "Paso a paso: una historia en cuatro frases",
+   "p": "1) Marco: **Egun batean, mendira joan nintzen lagunekin.** 2) Situación: **Eguraldi ona zegoen eta pozik gindoazen.** 3) Acontecimiento: **Bat-batean, euria hasi zuen.** 4) Desenlace: **Azkenean, borda batean babestu ginen eta kartetan jolastu genuen.**"
+  },
+  {
+   "h": "Errores típicos",
+   "p": "Contar todo con el pasado puntual: *Txikitan herrira joan ginen udan* → **joaten ginen** (costumbre). *Telebista ikusi genuen argia joan zenean* → **ikusten ari ginen** (acción interrumpida). *Etxera noala* → **nindoala** (pasado)."
+  },
+  {
+   "h": "Resumen",
+   "p": "Puntual: **joan nintzen**. Costumbre: **joaten nintzen**. En curso: **ari nintzen**, **nindoala**. Estados: **zegoen, neukan**. Conectores: egun batean, hasieran, bat-batean, handik gutxira, azkenean. Con esta lección has completado el B1. Zorionak!"
+  }
+ ],
+ "examples": [
+  [
+   "Egun batean, mendira joan nintzen.",
+   "Un día fui al monte."
+  ],
+  [
+   "Txikia nintzenean, udan herrira joaten ginen.",
+   "Cuando era pequeño, en verano íbamos al pueblo."
+  ],
+  [
+   "Etxera nindoala, Mikel ikusi nuen.",
+   "Mientras iba a casa, vi a Mikel."
+  ],
+  [
+   "Bat-batean, euria hasi zuen.",
+   "De repente, empezó a llover."
+  ],
+  [
+   "Telebista ikusten ari ginen, argia joan zenean.",
+   "Estábamos viendo la tele cuando se fue la luz."
+  ],
+  [
+   "Handik gutxira, lagunak iritsi ziren.",
+   "Poco después, llegaron los amigos."
+  ],
+  [
+   "Azkenean, garaiz iritsi ginen.",
+   "Al final, llegamos a tiempo."
+  ]
+ ],
+ "dialog": {
+  "title": "Un reencuentro",
+  "lines": [
+   [
+    "Ane",
+    "Zer gertatu zitzaizun atzo?",
+    "¿Qué te pasó ayer?"
+   ],
+   [
+    "Jon",
+    "Etxera nindoala, nire lagun zahar bat ikusi nuen.",
+    "Mientras iba a casa, vi a un viejo amigo."
+   ],
+   [
+    "Ane",
+    "Benetan? Nor?",
+    "¿De verdad? ¿Quién?"
+   ],
+   [
+    "Jon",
+    "Mikel! Txikiak ginenean, egunero jolasten genuen elkarrekin.",
+    "¡Mikel! Cuando éramos pequeños, jugábamos juntos todos los días."
+   ],
+   [
+    "Ane",
+    "Eta zer esan zizun?",
+    "¿Y qué te dijo?"
+   ],
+   [
+    "Jon",
+    "Hasieran ez ninduen ezagutu! Gero, kafe bat hartu genuen eta ordubete hitz egin genuen.",
+    "¡Al principio no me reconoció! Luego tomamos un café y hablamos una hora."
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "___ batean, mendira joan nintzen.",
+   "es": "Un día fui al monte.",
+   "a": [
+    "egun"
+   ],
+   "hint": "un día = egun batean."
+  },
+  {
+   "type": "gap",
+   "q": "Txikia nintzenean, udan herrira joaten ___.",
+   "es": "Cuando era pequeño, en verano íbamos al pueblo.",
+   "a": [
+    "ginen"
+   ],
+   "hint": "Costumbre: -tzen + ginen."
+  },
+  {
+   "type": "gap",
+   "q": "Etxera ___, Mikel ikusi nuen.",
+   "es": "Mientras iba a casa, vi a Mikel.",
+   "a": [
+    "nindoala"
+   ],
+   "hint": "joan en pasado (nindoan) + -la."
+  },
+  {
+   "type": "gap",
+   "q": "Bat-___, euria hasi zuen.",
+   "es": "De repente, empezó a llover.",
+   "a": [
+    "batean"
+   ],
+   "hint": "de repente = bat-batean."
+  },
+  {
+   "type": "gap",
+   "q": "Telebista ikusten ari ___, argia joan zenean.",
+   "es": "Estábamos viendo la tele cuando se fue la luz.",
+   "a": [
+    "ginen"
+   ],
+   "hint": "En curso: ari + ginen."
+  },
+  {
+   "type": "gap",
+   "q": "Hasieran ez ___ ezagutu.",
+   "es": "Al principio no me reconoció.",
+   "a": [
+    "ninduen"
+   ],
+   "hint": "él → a mí, pasado: ninduen."
+  },
+  {
+   "type": "choice",
+   "q": "«De repente»",
+   "options": [
+    "bat-batean",
+    "batzuetan",
+    "behin"
+   ],
+   "a": 0,
+   "why": "batzuetan = a veces; behin = una vez."
+  },
+  {
+   "type": "choice",
+   "q": "«Al final»",
+   "options": [
+    "azkenean",
+    "hasieran",
+    "bitartean"
+   ],
+   "a": 0,
+   "why": "hasieran = al principio; bitartean = mientras tanto."
+  },
+  {
+   "type": "choice",
+   "q": "«Íbamos al pueblo (cada verano)»",
+   "options": [
+    "herrira joaten ginen",
+    "herrira joan ginen",
+    "herrira goaz"
+   ],
+   "a": 0,
+   "why": "Costumbre en el pasado: -tzen + ginen."
+  },
+  {
+   "type": "choice",
+   "q": "«Mientras iba a casa»",
+   "options": [
+    "etxera nindoala",
+    "etxera noala",
+    "etxera joan nintzenean"
+   ],
+   "a": 0,
+   "why": "Sintético en pasado + -la."
+  },
+  {
+   "type": "choice",
+   "q": "«Estábamos viendo la tele cuando…»",
+   "options": [
+    "Telebista ikusten ari ginen…",
+    "Telebista ikusi genuen…",
+    "Telebista ikusten dugu…"
+   ],
+   "a": 0,
+   "why": "Acción interrumpida: ari + pasado."
+  },
+  {
+   "type": "order",
+   "words": [
+    "nintzen",
+    "joan",
+    "mendira",
+    "batean",
+    "Egun"
+   ],
+   "a": [
+    "Egun batean mendira joan nintzen"
+   ],
+   "es": "Un día fui al monte.",
+   "hint": "Conector + lugar + verbo + auxiliar."
+  },
+  {
+   "type": "order",
+   "words": [
+    "zuen",
+    "hasi",
+    "euria",
+    "Bat-batean"
+   ],
+   "a": [
+    "Bat-batean euria hasi zuen"
+   ],
+   "es": "De repente empezó a llover.",
+   "hint": "Conector + euria + hasi zuen."
+  },
+  {
+   "type": "order",
+   "words": [
+    "ginen",
+    "iritsi",
+    "garaiz",
+    "Azkenean"
+   ],
+   "a": [
+    "Azkenean garaiz iritsi ginen"
+   ],
+   "es": "Al final llegamos a tiempo.",
+   "hint": "Conector + garaiz + verbo + auxiliar."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "egun batean",
+     "un día"
+    ],
+    [
+     "hasieran",
+     "al principio"
+    ],
+    [
+     "gero",
+     "luego"
+    ],
+    [
+     "bat-batean",
+     "de repente"
+    ],
+    [
+     "handik gutxira",
+     "poco después"
+    ],
+    [
+     "azkenean",
+     "al final"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Cuenta una anécdota real o inventada en 8 a 10 frases: el marco (cuándo, dónde), cómo era la situación, qué pasó de repente y cómo terminó. Usa los tres pasados y al menos cinco conectores.",
+  "focus": "narración: pasado puntual, habitual y en curso (ari nintzen, nindoala), sintéticos en pasado, conectores narrativos"
+ },
+ "links": {
+  "verbs": [
+   "nor-past",
+   "nn-past-3",
+   "syn-past"
+  ],
+  "cases": [],
+  "themes": [
+   "denbora"
+  ]
+ }
+}

@@ -1,0 +1,324 @@
+{
+ "id": "b1-13",
+ "lvl": "B1",
+ "n": 13,
+ "title": "Lagunarengana",
+ "es": "Los casos de lugar con personas",
+ "goal": "Decir «voy al médico», «ven a mí», «lo he recibido de un amigo», «confío en ti».",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "Desde el A1 usas los casos de lugar con cosas: **etxean, etxera, etxetik**. Pero con personas y animales no se pueden usar esas terminaciones: no se dice *medikura noa* para «voy al médico». El euskera tiene una serie propia para seres vivos, construida con **-gan**. Es la última pieza del sistema de casos que te faltaba."
+  },
+  {
+   "h": "La serie -gan",
+   "p": "Se forma sobre el genitivo (**-(r)en**) añadiendo **-gan**, **-gana** o **-gandik**:",
+   "table": {
+    "head": [
+     "Caso",
+     "Con cosas",
+     "Con personas",
+     "Ejemplo"
+    ],
+    "rows": [
+     [
+      "NON (en)",
+      "-an",
+      "-(r)en**gan**",
+      "Zure**gan** konfiantza daukat (confío en ti)"
+     ],
+     [
+      "NORA (a)",
+      "-ra",
+      "-(r)en**gana**",
+      "Medikuaren**gana** noa (voy al médico)"
+     ],
+     [
+      "NONDIK (de)",
+      "-tik",
+      "-(r)en**gandik**",
+      "Lagunaren**gandik** jaso dut (lo he recibido de un amigo)"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Con nombres y pronombres",
+   "p": "Singular: **lagunarengana** (al amigo), **amarengandik** (de la madre). Plural: **gurasoengana** (a los padres). Nombres propios: **Mikelengana**, **Anerengandik**. Pronombres: con ellos se usa una forma más corta: **nigana** (a mí), **zugana** (a ti), **harengana** (a él), **gugana**, **zuengana**, **haiengana**; **nigan**, **zugandik**…"
+  },
+  {
+   "h": "En el habla",
+   "p": "Para «ir a casa de alguien», lo más natural es decirlo tal cual: **Amaren etxera noa** (voy a casa de mi madre). Y «voy al médico» también se oye como **medikuarenera noa**. Pero en la escritura y en el habla cuidada, la serie -gan es la correcta."
+  },
+  {
+   "h": "Paso a paso: «He aprendido mucho de mi profesora»",
+   "p": "1) De quién: **nire irakaslea** (persona) → NONDIK de persona: **nire irakaslearengandik**. 2) **asko ikasi dut**. → **Nire irakaslearengandik asko ikasi dut**."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Medikura noa* → **Medikuarengana noa**. *Zatoz nira* → **Zatoz nigana**. *Lagunetik jaso dut* → **Lagunarengandik**. *Zuan konfiantza* → **Zugan** (o **zuregan**) **konfiantza**."
+  },
+  {
+   "h": "Resumen",
+   "p": "Con seres vivos: **-(r)engan** (en), **-(r)engana** (a), **-(r)engandik** (de, desde). Pronombres: **nigana, zugana, harengana…**. Ya conoces todos los casos de lugar del euskera."
+  }
+ ],
+ "examples": [
+  [
+   "Medikuarengana noa.",
+   "Voy al médico."
+  ],
+  [
+   "Zatoz nigana!",
+   "¡Ven a mí!"
+  ],
+  [
+   "Lagunarengandik jaso dut mezua.",
+   "He recibido el mensaje de un amigo."
+  ],
+  [
+   "Zugan konfiantza daukat.",
+   "Confío en ti."
+  ],
+  [
+   "Amarengana joan da.",
+   "Ha ido a ver a su madre."
+  ],
+  [
+   "Haurrak gurasoengana joan ziren.",
+   "Los niños fueron hacia sus padres."
+  ],
+  [
+   "Mikelengandik asko ikasi dut.",
+   "He aprendido mucho de Mikel."
+  ]
+ ],
+ "dialog": {
+  "title": "Recados",
+  "lines": [
+   [
+    "Jon",
+    "Nora zoaz?",
+    "¿Adónde vas?"
+   ],
+   [
+    "Miren",
+    "Medikuarengana noa. Buruak min ematen dit.",
+    "Voy al médico. Me duele la cabeza."
+   ],
+   [
+    "Jon",
+    "Ene! Eta gero?",
+    "¡Vaya! ¿Y luego?"
+   ],
+   [
+    "Miren",
+    "Gero amonarengana joango naiz. Lagun batengandik jaso dudan opari bat daukat harentzat.",
+    "Luego iré a ver a mi abuela. Tengo para ella un regalo que he recibido de una amiga."
+   ],
+   [
+    "Jon",
+    "Gero zatoz nigana, eta kafe bat hartuko dugu.",
+    "Luego ven a verme, y tomaremos un café."
+   ],
+   [
+    "Miren",
+    "Ados!",
+    "¡De acuerdo!"
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Mediku___ noa.",
+   "es": "Voy al médico.",
+   "a": [
+    "arengana"
+   ],
+   "hint": "A una persona: -arengana."
+  },
+  {
+   "type": "gap",
+   "q": "Zatoz ___!",
+   "es": "¡Ven a mí!",
+   "a": [
+    "nigana"
+   ],
+   "hint": "Pronombre: nigana."
+  },
+  {
+   "type": "gap",
+   "q": "Lagunaren___ jaso dut mezua.",
+   "es": "He recibido el mensaje de un amigo.",
+   "a": [
+    "gandik"
+   ],
+   "hint": "De una persona: -(r)engandik."
+  },
+  {
+   "type": "gap",
+   "q": "Zu___ konfiantza daukat.",
+   "es": "Confío en ti.",
+   "a": [
+    "gan"
+   ],
+   "hint": "En una persona: -gan."
+  },
+  {
+   "type": "gap",
+   "q": "Ama___ joan da.",
+   "es": "Ha ido a ver a su madre.",
+   "a": [
+    "rengana"
+   ],
+   "hint": "ama acaba en -a: -rengana."
+  },
+  {
+   "type": "gap",
+   "q": "Mikel___ asko ikasi dut.",
+   "es": "He aprendido mucho de Mikel.",
+   "a": [
+    "engandik"
+   ],
+   "hint": "Nombre propio en consonante: -engandik."
+  },
+  {
+   "type": "choice",
+   "q": "«Voy al médico»",
+   "options": [
+    "Medikuarengana noa.",
+    "Medikura noa.",
+    "Medikuan noa."
+   ],
+   "a": 0,
+   "why": "Con personas: -rengana."
+  },
+  {
+   "type": "choice",
+   "q": "«Ven a mí»",
+   "options": [
+    "Zatoz nigana!",
+    "Zatoz nira!",
+    "Zatoz niri!"
+   ],
+   "a": 0,
+   "why": "Pronombre de lugar: nigana."
+  },
+  {
+   "type": "choice",
+   "q": "«Lo he recibido de un amigo»",
+   "options": [
+    "Lagun batengandik jaso dut.",
+    "Lagun batetik jaso dut.",
+    "Lagun bati jaso dut."
+   ],
+   "a": 0,
+   "why": "Procedencia de una persona: -engandik."
+  },
+  {
+   "type": "choice",
+   "q": "«Confío en ti»",
+   "options": [
+    "Zugan konfiantza daukat.",
+    "Zuan konfiantza daukat.",
+    "Zuri konfiantza daukat."
+   ],
+   "a": 0,
+   "why": "En una persona: zugan."
+  },
+  {
+   "type": "choice",
+   "q": "«Hacia los padres»",
+   "options": [
+    "gurasoengana",
+    "gurasoetara",
+    "gurasoei"
+   ],
+   "a": 0,
+   "why": "Plural de persona: -engana."
+  },
+  {
+   "type": "order",
+   "words": [
+    "da",
+    "joan",
+    "Amarengana"
+   ],
+   "a": [
+    "Amarengana joan da"
+   ],
+   "es": "Ha ido a ver a su madre.",
+   "hint": "A quién + joan da."
+  },
+  {
+   "type": "order",
+   "words": [
+    "dut",
+    "jaso",
+    "Lagunarengandik",
+    "mezua"
+   ],
+   "a": [
+    "Lagunarengandik jaso dut mezua",
+    "Mezua lagunarengandik jaso dut"
+   ],
+   "es": "He recibido el mensaje de un amigo.",
+   "hint": "De quién + jaso dut (+ objeto)."
+  },
+  {
+   "type": "order",
+   "words": [
+    "ikasi",
+    "dut",
+    "Mikelengandik"
+   ],
+   "a": [
+    "Mikelengandik ikasi dut"
+   ],
+   "es": "He aprendido de Mikel.",
+   "hint": "De quién + ikasi dut."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "-(r)engan",
+     "en (persona)"
+    ],
+    [
+     "-(r)engana",
+     "a (persona)"
+    ],
+    [
+     "-(r)engandik",
+     "de, desde (persona)"
+    ],
+    [
+     "nigana",
+     "a mí"
+    ],
+    [
+     "zugandik",
+     "de ti"
+    ],
+    [
+     "harengana",
+     "a él / ella"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Escribe 5 frases sobre tus visitas y relaciones: a quién vas a ver esta semana, de quién has recibido algo, de quién has aprendido mucho, en quién confías y quién viene a verte.",
+  "focus": "casos de lugar con personas: -(r)engan, -(r)engana, -(r)engandik; nigana, zugandik…"
+ },
+ "links": {
+  "verbs": [],
+  "cases": [],
+  "themes": [
+   "familia",
+   "pertsonak"
+  ]
+ }
+}

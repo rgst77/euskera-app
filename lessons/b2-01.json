@@ -1,0 +1,330 @@
+{
+ "id": "b2-01",
+ "lvl": "B2",
+ "n": 1,
+ "title": "Trinko gehiago",
+ "es": "Más verbos sintéticos",
+ "goal": "Usar con soltura los verbos sintéticos frecuentes que faltaban: traer, llevar, andar, saber (en pasado) y parecer.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "Bienvenido al B2. Ya conoces los sintéticos más básicos (egon, joan, etorri, eduki, jakin, esan). En la lengua real aparecen algunos más, sobre todo en el habla cuidada y en los textos. Esta lección completa ese grupo y te hace la lectura mucho más fluida."
+  },
+  {
+   "h": "ekarri (traer) y eraman (llevar)",
+   "p": "Funcionan como dut: la terminación indica quién (-t, -zu, nada, -gu, -zue, -te). **Zer dakarzu?** (¿qué traes?), **Opari bat dakart** (traigo un regalo), **Zer daramazu poltsan?** (¿qué llevas en el bolso?). **eraman** también sirve para el tiempo transcurrido: **Bi urte daramatzat euskara ikasten** (llevo dos años estudiando euskera); con urte en plural la forma es daramatzat, que puedes aprender como bloque.",
+   "table": {
+    "head": [
+     "NORK",
+     "ekarri (traer)",
+     "eraman (llevar)"
+    ],
+    "rows": [
+     [
+      "nik",
+      "{nork:dakart}",
+      "{nork:daramat}"
+     ],
+     [
+      "zuk",
+      "{nork:dakarzu}",
+      "{nork:daramazu}"
+     ],
+     [
+      "hark",
+      "{nork:dakar}",
+      "{nork:darama}"
+     ],
+     [
+      "guk",
+      "{nork:dakargu}",
+      "{nork:daramagu}"
+     ],
+     [
+      "zuek",
+      "{nork:dakarzue}",
+      "{nork:daramazue}"
+     ],
+     [
+      "haiek",
+      "{nork:dakarte}",
+      "{nork:daramate}"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "ibili y jakin en pasado",
+   "p": "**ibili** (andar, estar dedicado a algo) en pasado: **nenbilen, zenbiltzan, zebilen, genbiltzan, zenbiltzaten, zebiltzan**: **Lan bila nenbilen** (andaba buscando trabajo). **jakin** en pasado, muy frecuente en negativa: **nekien, zenekien, zekien, genekien, zenekiten, zekiten**: **Ez nekien!** (¡no lo sabía!), **Bazenekien?** (¿lo sabías?)."
+  },
+  {
+   "h": "dirudi (parece)",
+   "p": "Forma sintética de **iruditu**, para decir cómo parece algo, sin persona: **Zaila dirudi** (parece difícil), **Nekatuta zaudela dirudi** (parece que estás cansado), en plural **dirudite** y en pasado **zirudien**: **Pozik zirudien** (parecía contento). Compara: **Zaila iruditzen zait** (me parece difícil, con persona)."
+  },
+  {
+   "h": "Paso a paso: «¿Lo sabías? Llevo tres años viviendo aquí»",
+   "p": "1) «¿Lo sabías?»: jakin, pasado, tú → **zenekien**, con ba- en pregunta afirmativa → **Bazenekien?** 2) «Llevo tres años viviendo aquí»: **Hiru urte daramatzat hemen bizitzen**. (Con «urte» en plural, la forma es daramatzat; la aprenderás de oído como bloque.)"
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Ez nuen jakin* para «no lo sabía» → lo natural es **Ez nekien**. *Zaila dirudit* → **Zaila dirudi** (sin persona). *Dakart zuk?* → **Dakarzu?** *Zaila iruditzen du* → **zaila iruditzen zait** o **zaila dirudi**."
+  },
+  {
+   "h": "Resumen",
+   "p": "**dakart, dakarzu, dakar…** (traer) · **daramat, daramazu, darama…** (llevar; también tiempo) · **nenbilen…** (andaba) · **nekien, zenekien, zekien…** (sabía) · **dirudi / dirudite / zirudien** (parece / parecía)."
+  }
+ ],
+ "examples": [
+  [
+   "Zer dakarzu?",
+   "¿Qué traes?"
+  ],
+  [
+   "Opari bat dakart.",
+   "Traigo un regalo."
+  ],
+  [
+   "Zer daramazu poltsan?",
+   "¿Qué llevas en el bolso?"
+  ],
+  [
+   "Ez nekien!",
+   "¡No lo sabía!"
+  ],
+  [
+   "Lan bila nenbilen.",
+   "Andaba buscando trabajo."
+  ],
+  [
+   "Zaila dirudi.",
+   "Parece difícil."
+  ],
+  [
+   "Pozik zirudien.",
+   "Parecía contento."
+  ]
+ ],
+ "dialog": {
+  "title": "La sorpresa",
+  "lines": [
+   [
+    "Iker",
+    "Zer dakarzu hor?",
+    "¿Qué traes ahí?"
+   ],
+   [
+    "Ane",
+    "Tarta bat dakart. Mikelen urtebetetzea da gaur.",
+    "Traigo una tarta. Hoy es el cumpleaños de Mikel."
+   ],
+   [
+    "Iker",
+    "Benetan? Ez nekien!",
+    "¿De verdad? ¡No lo sabía!"
+   ],
+   [
+    "Ane",
+    "Bai! Atzo triste zirudien, eta sorpresa bat egin nahi diogu.",
+    "¡Sí! Ayer parecía triste, y queremos darle una sorpresa."
+   ],
+   [
+    "Iker",
+    "Ideia ona dirudi. Zer daramazu poltsan?",
+    "Parece buena idea. ¿Qué llevas en el bolso?"
+   ],
+   [
+    "Ane",
+    "Opari bat. Aste osoan opari bila nenbilen!",
+    "Un regalo. ¡Toda la semana anduve buscando regalo!"
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Zer ___? (tú)",
+   "es": "¿Qué traes?",
+   "a": [
+    "dakarzu"
+   ],
+   "hint": "ekarri, tú: dakarzu."
+  },
+  {
+   "type": "gap",
+   "q": "Opari bat ___.",
+   "es": "Traigo un regalo.",
+   "a": [
+    "dakart"
+   ],
+   "hint": "ekarri, yo: dakart."
+  },
+  {
+   "type": "gap",
+   "q": "Zer ___ poltsan? (tú)",
+   "es": "¿Qué llevas en el bolso?",
+   "a": [
+    "daramazu"
+   ],
+   "hint": "eraman, tú: daramazu."
+  },
+  {
+   "type": "gap",
+   "q": "Ez ___!",
+   "es": "¡No lo sabía!",
+   "a": [
+    "nekien"
+   ],
+   "hint": "jakin en pasado, yo: nekien."
+  },
+  {
+   "type": "gap",
+   "q": "Lan bila ___.",
+   "es": "Andaba buscando trabajo.",
+   "a": [
+    "nenbilen"
+   ],
+   "hint": "ibili en pasado, yo: nenbilen."
+  },
+  {
+   "type": "gap",
+   "q": "Zaila ___.",
+   "es": "Parece difícil.",
+   "a": [
+    "dirudi"
+   ],
+   "hint": "parecer (sin persona): dirudi."
+  },
+  {
+   "type": "choice",
+   "q": "«No lo sabía»",
+   "options": [
+    "Ez nekien.",
+    "Ez dakit.",
+    "Ez nuen jakin."
+   ],
+   "a": 0,
+   "why": "Lo natural es el sintético en pasado: nekien."
+  },
+  {
+   "type": "choice",
+   "q": "«Parece difícil»",
+   "options": [
+    "Zaila dirudi.",
+    "Zaila dirudit.",
+    "Zaila iruditzen du."
+   ],
+   "a": 0,
+   "why": "dirudi, sin persona."
+  },
+  {
+   "type": "choice",
+   "q": "«¿Qué traes?»",
+   "options": [
+    "Zer dakarzu?",
+    "Zer daramazu?",
+    "Zer daukazu?"
+   ],
+   "a": 0,
+   "why": "traer = ekarri (dakarzu); llevar = eraman."
+  },
+  {
+   "type": "choice",
+   "q": "«Parecía contento»",
+   "options": [
+    "Pozik zirudien.",
+    "Pozik dirudi.",
+    "Pozik zegoen dirudi."
+   ],
+   "a": 0,
+   "why": "Pasado de dirudi: zirudien."
+  },
+  {
+   "type": "choice",
+   "q": "«¿Lo sabías?»",
+   "options": [
+    "Bazenekien?",
+    "Badakizu?",
+    "Bazenuen jakin?"
+   ],
+   "a": 0,
+   "why": "jakin en pasado, tú: zenekien (con ba-)."
+  },
+  {
+   "type": "order",
+   "words": [
+    "dakart",
+    "Opari",
+    "bat"
+   ],
+   "a": [
+    "Opari bat dakart"
+   ],
+   "es": "Traigo un regalo.",
+   "hint": "Objeto + verbo."
+  },
+  {
+   "type": "order",
+   "words": [
+    "nekien",
+    "Ez"
+   ],
+   "a": [
+    "Ez nekien"
+   ],
+   "es": "No lo sabía.",
+   "hint": "Ez + verbo."
+  },
+  {
+   "type": "order",
+   "words": [
+    "zirudien",
+    "Pozik"
+   ],
+   "a": [
+    "Pozik zirudien"
+   ],
+   "es": "Parecía contento.",
+   "hint": "Estado + zirudien."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "dakart",
+     "traigo"
+    ],
+    [
+     "daramat",
+     "llevo"
+    ],
+    [
+     "nenbilen",
+     "andaba"
+    ],
+    [
+     "nekien",
+     "sabía"
+    ],
+    [
+     "dirudi",
+     "parece"
+    ],
+    [
+     "zirudien",
+     "parecía"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Escribe 5 frases: qué llevas normalmente encima, qué traerías a una fiesta, algo que no sabías hasta hace poco, en qué andabas metido el año pasado y qué te parece algo (dirudi).",
+  "focus": "ekarri y eraman sintéticos, ibili y jakin en pasado, dirudi/zirudien"
+ },
+ "links": {
+  "verbs": [],
+  "cases": [],
+  "themes": [
+   "aditzak"
+  ]
+ }
+}

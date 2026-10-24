@@ -1,0 +1,291 @@
+{
+ "id": "b2-08",
+ "lvl": "B2",
+ "n": 8,
+ "title": "Partizipioa",
+ "es": "Los usos del participio",
+ "goal": "Usar el participio como adjetivo y como estado: «la ventana está abierta», «el pan comprado ayer», «se fue sin cenar».",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "El participio (**ikusi, egin, erosi**) es la forma que más has usado en el curso, siempre junto a un auxiliar. Pero también funciona solo, con pequeñas terminaciones, para describir estados y cosas. Dominar estos usos te permite construir frases compactas y naturales, muy típicas del euskera escrito."
+  },
+  {
+   "h": "-ta / -da: estado resultante",
+   "p": "Participio + **-ta** (o **-da** tras n y l) + egon: **Leihoa irekita dago** (la ventana está abierta), **Afalduta nago** (ya he cenado), **Dena eginda dago** (todo está hecho), **Mahaia jarrita dago** (la mesa está puesta). En registros más formales verás **-rik** con el mismo valor: **bizirik** (vivo), **ezkondurik** (casado)."
+  },
+  {
+   "h": "-tako / -dako: participio adjetivo",
+   "p": "Delante de un nombre, el participio + **-tako** (o **-dako** tras n) funciona como un relativo corto: **atzo erositako ogia** (el pan comprado ayer = el pan que compré ayer), **galdutako giltzak** (las llaves perdidas), **egindako lana** (el trabajo hecho). Con artículo, sin nombre: **Ikasitakoa ez da ahazten** (lo aprendido no se olvida)."
+  },
+  {
+   "h": "-tu gabe: sin + infinitivo",
+   "p": "Participio + **gabe**: **Afaldu gabe joan zen** (se fue sin cenar), **Ezer esan gabe** (sin decir nada), **Ikasi gabe gainditu zuen** (aprobó sin estudiar)."
+  },
+  {
+   "h": "Paso a paso: «Las fotos hechas en el viaje están en el ordenador»",
+   "p": "1) «hechas en el viaje»: **bidaian ateratako** (ateratu → ateratako). 2) Nombre: **argazkiak**. 3) Resto: **ordenagailuan daude**. → **Bidaian ateratako argazkiak ordenagailuan daude**."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Leihoa ireki da* para «está abierta» → **irekita dago**. *Egitako lana* → **egindako lana** (-dako tras n). *Afaltzen gabe* → **Afaldu gabe**. *Giltzak galdutako* → **galdutako giltzak** (delante del nombre)."
+  },
+  {
+   "h": "Resumen",
+   "p": "**-ta / -da + egon** (estado: irekita dago), **-tako / -dako** (adjetivo: erositako ogia; sin nombre: ikasitakoa), **-tu gabe** (sin: afaldu gabe)."
+  }
+ ],
+ "examples": [
+  [
+   "Leihoa irekita dago.",
+   "La ventana está abierta."
+  ],
+  [
+   "Afalduta nago.",
+   "Ya he cenado."
+  ],
+  [
+   "Atzo erositako ogia gogorra dago.",
+   "El pan comprado ayer está duro."
+  ],
+  [
+   "Galdutako giltzak aurkitu ditut.",
+   "He encontrado las llaves perdidas."
+  ],
+  [
+   "Ezer esan gabe joan zen.",
+   "Se fue sin decir nada."
+  ],
+  [
+   "Dena eginda dago.",
+   "Todo está hecho."
+  ],
+  [
+   "Ikasitakoa ez da ahazten.",
+   "Lo aprendido no se olvida."
+  ]
+ ],
+ "dialog": {
+  "title": "Antes de la cena",
+  "lines": [
+   [
+    "Jon",
+    "Afaria prestatuta dago?",
+    "¿Está preparada la cena?"
+   ],
+   [
+    "Ane",
+    "Bai, dena eginda dago. Mahaia ere jarrita dago.",
+    "Sí, todo está hecho. La mesa también está puesta."
+   ],
+   [
+    "Jon",
+    "Primeran! Atzo erositako ardoa ireki dezakegu.",
+    "¡Estupendo! Podemos abrir el vino comprado ayer."
+   ],
+   [
+    "Ane",
+    "Ados. Baina itxaron: Mikel oraindik ez da iritsi. Ezer esan gabe joan zen goizean.",
+    "Vale. Pero espera: Mikel todavía no ha llegado. Se fue esta mañana sin decir nada."
+   ],
+   [
+    "Jon",
+    "Ez kezkatu, deituko diot.",
+    "No te preocupes, lo llamaré."
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Leihoa ireki___ dago.",
+   "es": "La ventana está abierta.",
+   "a": [
+    "ta"
+   ],
+   "hint": "Estado: participio + -ta."
+  },
+  {
+   "type": "gap",
+   "q": "Afaldu___ nago.",
+   "es": "Ya he cenado.",
+   "a": [
+    "ta"
+   ],
+   "hint": "Estado: afalduta."
+  },
+  {
+   "type": "gap",
+   "q": "Atzo erosi___ ogia gogorra dago.",
+   "es": "El pan comprado ayer está duro.",
+   "a": [
+    "tako"
+   ],
+   "hint": "Delante del nombre: -tako."
+  },
+  {
+   "type": "gap",
+   "q": "Dena egin___ dago.",
+   "es": "Todo está hecho.",
+   "a": [
+    "da"
+   ],
+   "hint": "Tras n: -da."
+  },
+  {
+   "type": "gap",
+   "q": "Ezer esan ___ joan zen.",
+   "es": "Se fue sin decir nada.",
+   "a": [
+    "gabe"
+   ],
+   "hint": "sin + infinitivo = participio + gabe."
+  },
+  {
+   "type": "gap",
+   "q": "Ikasitako___ ez da ahazten.",
+   "es": "Lo aprendido no se olvida.",
+   "a": [
+    "a"
+   ],
+   "hint": "Sin nombre: -tako + artículo."
+  },
+  {
+   "type": "choice",
+   "q": "«La ventana está abierta»",
+   "options": [
+    "Leihoa irekita dago.",
+    "Leihoa ireki da.",
+    "Leihoa irekitzen dago."
+   ],
+   "a": 0,
+   "why": "Estado resultante: -ta + egon."
+  },
+  {
+   "type": "choice",
+   "q": "«El trabajo hecho»",
+   "options": [
+    "egindako lana",
+    "egitako lana",
+    "lana egindako"
+   ],
+   "a": 0,
+   "why": "Tras n: -dako, delante del nombre."
+  },
+  {
+   "type": "choice",
+   "q": "«Se fue sin cenar»",
+   "options": [
+    "Afaldu gabe joan zen.",
+    "Afaltzen gabe joan zen.",
+    "Afaldu ez joan zen."
+   ],
+   "a": 0,
+   "why": "Participio + gabe."
+  },
+  {
+   "type": "choice",
+   "q": "«Las llaves perdidas»",
+   "options": [
+    "galdutako giltzak",
+    "giltzak galdutako",
+    "galdu giltzak"
+   ],
+   "a": 0,
+   "why": "-tako delante del nombre."
+  },
+  {
+   "type": "choice",
+   "q": "«Lo aprendido»",
+   "options": [
+    "ikasitakoa",
+    "ikasitako",
+    "ikastea"
+   ],
+   "a": 0,
+   "why": "Sin nombre: -tako + -a."
+  },
+  {
+   "type": "order",
+   "words": [
+    "dago",
+    "irekita",
+    "Leihoa"
+   ],
+   "a": [
+    "Leihoa irekita dago"
+   ],
+   "es": "La ventana está abierta.",
+   "hint": "Sujeto + -ta + dago."
+  },
+  {
+   "type": "order",
+   "words": [
+    "ogia",
+    "erositako",
+    "Atzo"
+   ],
+   "a": [
+    "Atzo erositako ogia"
+   ],
+   "es": "El pan comprado ayer.",
+   "hint": "Tiempo + -tako + nombre."
+  },
+  {
+   "type": "order",
+   "words": [
+    "zen",
+    "joan",
+    "gabe",
+    "esan",
+    "Ezer"
+   ],
+   "a": [
+    "Ezer esan gabe joan zen"
+   ],
+   "es": "Se fue sin decir nada.",
+   "hint": "Ezer esan gabe + joan zen."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "irekita",
+     "abierto"
+    ],
+    [
+     "eginda",
+     "hecho"
+    ],
+    [
+     "afalduta",
+     "ya cenado"
+    ],
+    [
+     "erositako",
+     "comprado (delante del nombre)"
+    ],
+    [
+     "esan gabe",
+     "sin decir"
+    ],
+    [
+     "ikasitakoa",
+     "lo aprendido"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Describe en 5 frases cómo está tu casa en este momento (qué está abierto, cerrado, hecho o por hacer) y menciona dos cosas que compraste o hiciste recientemente usando -tako.",
+  "focus": "-ta/-da + egon, -tako/-dako, -tu gabe"
+ },
+ "links": {
+  "verbs": [],
+  "cases": [],
+  "themes": [
+   "etxea",
+   "aditzak"
+  ]
+ }
+}

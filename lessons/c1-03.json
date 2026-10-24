@@ -1,0 +1,316 @@
+{
+ "id": "c1-03",
+ "lvl": "C1",
+ "n": 3,
+ "title": "Ahalera osoa",
+ "es": "El potencial completo",
+ "goal": "Ofrecer, pedir y preguntar con las formas potenciales de personas y de tres protagonistas: «puedo ayudarte», «¿podría decirme…?».",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "Conoces el potencial con NOR y NOR-NORK de objeto «lo» (**naiteke, dezaket**) y su forma hipotética (**ninteke, nezake**). Faltan las formas con personas («puedo ayudarte») y con tres protagonistas («¿me lo puedes dar?»). Son menos frecuentes, pero la fórmula de cortesía **Esan zeniezadake…?** (¿podría decirme…?) es de las más útiles del C1."
+  },
+  {
+   "h": "Con personas: zaitzaket, nazakezu",
+   "p": "Mismo principio que en presente (el inicio indica a quién): **Lagun zaitzaket** (puedo ayudarte), **Lagun nazakezu?** (¿puedes ayudarme?), **Ikus gaitzakezu?** (¿puedes vernos?). Fíjate en la raíz (**lagun**, de lagundu), habitual en el potencial cuidado."
+  },
+  {
+   "h": "Con tres protagonistas",
+   "table": {
+    "head": [
+     "Puedo / puedes…",
+     "Forma",
+     "Ejemplo"
+    ],
+    "rows": [
+     [
+      "yo → a él",
+      "{nori:diezaioket}",
+      "Liburua **eman diezaioket** (puedo dárselo)."
+     ],
+     [
+      "yo → a ti",
+      "{nori:diezazuket}",
+      "Egia **esan diezazuket** (te puedo decir la verdad)."
+     ],
+     [
+      "tú → a mí",
+      "{nori:diezadakezu}",
+      "Mezua **bidal diezadakezu?** (¿me lo puedes enviar?)"
+     ],
+     [
+      "tú → a él",
+      "{nori:diezaiokezu}",
+      "**Eraman diezaiokezu?** (¿se lo puedes llevar?)"
+     ],
+     [
+      "él → a él",
+      "{nori:diezaioke}",
+      "Hark **eman diezaioke** (él puede dárselo)."
+     ]
+    ]
+   }
+  },
+  {
+   "h": "La forma hipotética: cortesía máxima",
+   "p": "**zeniezadake** (tú → a mí, «podrías»): **Esan zeniezadake non dagoen geltokia?** (¿podría decirme dónde está la estación?). Es la forma más cortés para pedir algo a un desconocido. Otras: **niezaioke** (yo → a él: **Nik esan niezaioke**, yo podría decírselo), **ziezadake** (él → a mí)."
+  },
+  {
+   "h": "Paso a paso: «¿Podrías enviarme el informe?»",
+   "p": "1) Raíz de bidali → **bidal**. 2) tú → a mí, hipotético → **zeniezadake**. 3) **Txostena bidal zeniezadake?** Más directo, con potencial presente: **Txostena bidal diezadakezu?** (¿puedes enviarme el informe?)."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Lagun dezaket zu* → **Lagun zaitzaket**. *Eman dezakezu niri?* se entiende, pero lo correcto es **Eman diezadakezu?** (el auxiliar debe marcar «a mí»). *Esan zenezake niri…* → en registro cuidado, **Esan zeniezadake…**."
+  },
+  {
+   "h": "Resumen",
+   "p": "Con personas: **zaitzaket, nazakezu, gaitzakezu**. Tres protagonistas: **diezaioket, diezazuket, diezadakezu, diezaiokezu**. Cortesía: **Esan zeniezadake…?**. Con estas formas tienes todo el potencial del euskera."
+  }
+ ],
+ "examples": [
+  [
+   "Lagun zaitzaket.",
+   "Puedo ayudarte."
+  ],
+  [
+   "Lagun nazakezu?",
+   "¿Puedes ayudarme?"
+  ],
+  [
+   "Egia esan diezazuket.",
+   "Te puedo decir la verdad."
+  ],
+  [
+   "Liburua eman diezaioket.",
+   "Puedo dárselo (el libro, a él)."
+  ],
+  [
+   "Mezua bidal diezadakezu?",
+   "¿Me puedes enviar el mensaje?"
+  ],
+  [
+   "Esan zeniezadake non dagoen geltokia?",
+   "¿Podría decirme dónde está la estación?"
+  ],
+  [
+   "Nik esan niezaioke.",
+   "Yo podría decírselo."
+  ]
+ ],
+ "dialog": {
+  "title": "En la calle",
+  "lines": [
+   [
+    "Ane",
+    "Barkatu, esan zeniezadake non dagoen liburutegia?",
+    "Perdone, ¿podría decirme dónde está la biblioteca?"
+   ],
+   [
+    "Gizona",
+    "Bai, lagun zaitzaket. Zuzen joan eta bigarren kalean, ezkerrera.",
+    "Sí, puedo ayudarle. Vaya recto y en la segunda calle, a la izquierda."
+   ],
+   [
+    "Ane",
+    "Eskerrik asko. Eta liburu hau eraman diezaiokezu Mireni? Liburutegian egiten du lan.",
+    "Gracias. ¿Y le puede llevar este libro a Miren? Trabaja en la biblioteca."
+   ],
+   [
+    "Gizona",
+    "Bai, noski. Eraman diezaioket; gaur han izango naiz.",
+    "Sí, claro. Puedo llevárselo; hoy estaré allí."
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Lagun ___.",
+   "es": "Puedo ayudarte.",
+   "a": [
+    "zaitzaket"
+   ],
+   "hint": "yo → te, potencial."
+  },
+  {
+   "type": "gap",
+   "q": "Lagun ___?",
+   "es": "¿Puedes ayudarme?",
+   "a": [
+    "nazakezu"
+   ],
+   "hint": "tú → me, potencial."
+  },
+  {
+   "type": "gap",
+   "q": "Egia esan ___.",
+   "es": "Te puedo decir la verdad.",
+   "a": [
+    "diezazuket"
+   ],
+   "hint": "yo → a ti, potencial."
+  },
+  {
+   "type": "gap",
+   "q": "Liburua eman ___.",
+   "es": "Puedo dárselo (a él).",
+   "a": [
+    "diezaioket"
+   ],
+   "hint": "yo → a él, potencial."
+  },
+  {
+   "type": "gap",
+   "q": "Mezua bidal ___?",
+   "es": "¿Me puedes enviar el mensaje?",
+   "a": [
+    "diezadakezu"
+   ],
+   "hint": "tú → a mí, potencial."
+  },
+  {
+   "type": "gap",
+   "q": "Esan ___ non dagoen?",
+   "es": "¿Podría decirme dónde está?",
+   "a": [
+    "zeniezadake"
+   ],
+   "hint": "tú → a mí, hipotético (cortesía)."
+  },
+  {
+   "type": "choice",
+   "q": "«Puedo ayudarte»",
+   "options": [
+    "Lagun zaitzaket.",
+    "Lagun dezaket zu.",
+    "Lagun naiteke."
+   ],
+   "a": 0,
+   "why": "Objeto personal (te): zaitzaket."
+  },
+  {
+   "type": "choice",
+   "q": "«¿Me lo puedes dar?»",
+   "options": [
+    "Eman diezadakezu?",
+    "Eman diezazuket?",
+    "Eman nazakezu?"
+   ],
+   "a": 0,
+   "why": "tú → a mí: diezadakezu. Diezazuket es «yo a ti»."
+  },
+  {
+   "type": "choice",
+   "q": "«¿Podría decirme…?» (muy cortés)",
+   "options": [
+    "Esan zeniezadake…?",
+    "Esan ziezadake…?",
+    "Esan niezaioke…?"
+   ],
+   "a": 0,
+   "why": "tú → a mí, hipotético: zeniezadake."
+  },
+  {
+   "type": "choice",
+   "q": "«Puedo decírselo (a él)»",
+   "options": [
+    "Esan diezaioket.",
+    "Esan diezazuket.",
+    "Esan dezaket hari."
+   ],
+   "a": 0,
+   "why": "El auxiliar debe marcar «a él»: diezaioket."
+  },
+  {
+   "type": "choice",
+   "q": "«¿Me puedes ayudar?»",
+   "options": [
+    "Lagun nazakezu?",
+    "Lagun zaitzaket?",
+    "Lagun dezakezu?"
+   ],
+   "a": 0,
+   "why": "tú → me: nazakezu."
+  },
+  {
+   "type": "order",
+   "words": [
+    "zaitzaket",
+    "Lagun"
+   ],
+   "a": [
+    "Lagun zaitzaket"
+   ],
+   "es": "Puedo ayudarte.",
+   "hint": "Raíz + potencial."
+  },
+  {
+   "type": "order",
+   "words": [
+    "diezaioket",
+    "eman",
+    "Liburua"
+   ],
+   "a": [
+    "Liburua eman diezaioket"
+   ],
+   "es": "Puedo dárselo.",
+   "hint": "Objeto + verbo + potencial."
+  },
+  {
+   "type": "order",
+   "words": [
+    "zeniezadake",
+    "Esan",
+    "dagoen",
+    "non"
+   ],
+   "a": [
+    "Esan zeniezadake non dagoen"
+   ],
+   "es": "¿Podría decirme dónde está?",
+   "hint": "Esan zeniezadake + indirecta."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "zaitzaket",
+     "(yo) te puedo…"
+    ],
+    [
+     "nazakezu",
+     "(tú) me puedes…"
+    ],
+    [
+     "diezaioket",
+     "(yo) se lo puedo…"
+    ],
+    [
+     "diezadakezu",
+     "(tú) me lo puedes…"
+    ],
+    [
+     "zeniezadake",
+     "(tú) me lo podrías…"
+    ],
+    [
+     "niezaioke",
+     "(yo) se lo podría…"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Escribe 5 peticiones u ofrecimientos corteses en distintas situaciones (en una tienda, al teléfono, en el trabajo), usando las formas de esta lección.",
+  "focus": "potencial con personas (zaitzaket, nazakezu) y NOR-NORI-NORK (diezaioket, diezadakezu), zeniezadake"
+ },
+ "links": {
+  "verbs": [],
+  "cases": [],
+  "themes": [
+   "aditzak"
+  ]
+ }
+}

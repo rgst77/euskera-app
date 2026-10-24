@@ -1,0 +1,357 @@
+{
+ "id": "a2-05",
+ "lvl": "A2",
+ "n": 5,
+ "title": "Lehen eta orain",
+ "es": "El pasado habitual",
+ "goal": "Contar cómo era tu vida antes: dónde vivías, qué hacías, qué te gustaba.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "En el A1 aprendiste a contar algo que pasó una vez: **Atzo Bilbora joan nintzen** (ayer fui a Bilbao). Pero para hablar de costumbres del pasado («de pequeño iba a la playa», «antes vivía en Bilbao») hace falta otra forma, el equivalente del imperfecto español. La buena noticia: no hay piezas nuevas que aprender, solo una combinación nueva de piezas que ya conoces."
+  },
+  {
+   "h": "La forma",
+   "p": "Verbo en **-tzen / -ten** (como en el presente habitual) + auxiliar en **pasado** (como en «atzo»): **joaten nintzen** (iba), **jokatzen nuen** (jugaba), **irakurtzen nituen** (leía, con objeto plural). Compara la familia completa: **joaten naiz** (voy), **joan nintzen** (fui), **joaten nintzen** (iba)."
+  },
+  {
+   "h": "Una vez o muchas",
+   "p": "**joan nintzen** = fui (una vez, acción terminada) · **joaten nintzen** = iba (costumbre). **Atzo hondartzara joan nintzen** (ayer fui a la playa). **Txikitan hondartzara joaten nintzen** (de pequeño iba a la playa)."
+  },
+  {
+   "h": "Verbos sintéticos en pasado",
+   "p": "Los verbos que se conjugan solos también tienen pasado. Fíjate en el patrón: inicial de persona + raíz + **-en**, y la 3.ª persona con **z-**.",
+   "table": {
+    "head": [
+     "",
+     "egon (estaba)",
+     "joan (iba)",
+     "etorri (venía)",
+     "eduki (tenía)"
+    ],
+    "rows": [
+     [
+      "ni / nik",
+      "nengoen",
+      "nindoan",
+      "nentorren",
+      "neukan"
+     ],
+     [
+      "zu / zuk",
+      "zeunden",
+      "zindoazen",
+      "zentozen",
+      "zeneukan"
+     ],
+     [
+      "hura / hark",
+      "zegoen",
+      "zihoan",
+      "zetorren",
+      "zeukan"
+     ],
+     [
+      "gu / guk",
+      "geunden",
+      "gindoazen",
+      "gentozen",
+      "geneukan"
+     ],
+     [
+      "zuek",
+      "zeundeten",
+      "zindoazten",
+      "zentozten",
+      "zeneukaten"
+     ],
+     [
+      "haiek",
+      "zeuden",
+      "zihoazen",
+      "zetozen",
+      "zeukaten"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Gustar en pasado",
+   "p": "El auxiliar de **gustatu** también tiene pasado: **zitzaidan** (a mí), **zitzaizun** (a ti), **zitzaion** (a él/ella)…; con lo que gusta en plural, **zitzaizkidan**… **Txikitan txokolatea asko gustatzen zitzaidan** (de pequeño me gustaba mucho el chocolate). **Pelikula gustatu zitzaidan** (me gustó la película)."
+  },
+  {
+   "h": "Expresiones del pasado",
+   "p": "**lehen** (antes), **orain** (ahora), **txikitan** (de pequeño), **gaztetan** (de joven), **garai hartan** (en aquella época), **orduan** (entonces), **duela urte asko** (hace muchos años)."
+  },
+  {
+   "h": "Paso a paso: «De joven leía muchos libros»",
+   "p": "1) Verbo: **irakurri → irakurtzen**. 2) ¿Objeto? Sí, y plural (liburu asko) → ukan pasado, yo, plural → **nituen**. 3) **Gaztetan liburu asko irakurtzen nituen**."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Txikitan hondartzara joan nintzen* para una costumbre → **joaten nintzen**. *Lehen kotxe bat daukat* → **neukan**. *Txokolatea gustatzen nuen* → **gustatzen zitzaidan**. *Atzo etxean nintzen* para «estaba en casa» → **nengoen** (estar es egon)."
+  },
+  {
+   "h": "Resumen",
+   "p": "Pasado habitual = **-tzen + nintzen / nuen** (iba, jugaba). Sintéticos: **nengoen, nindoan, nentorren, neukan**. gustatu: **zitzaidan / zitzaizkidan**. Una vez → **joan nintzen**; costumbre → **joaten nintzen**."
+  }
+ ],
+ "examples": [
+  [
+   "Lehen Bilbon bizi nintzen.",
+   "Antes vivía en Bilbao."
+  ],
+  [
+   "Txikitan futbolean jokatzen nuen.",
+   "De pequeño jugaba al fútbol."
+  ],
+  [
+   "Gaztetan liburu asko irakurtzen nituen.",
+   "De joven leía muchos libros."
+  ],
+  [
+   "Lehen kotxe zahar bat neukan.",
+   "Antes tenía un coche viejo."
+  ],
+  [
+   "Garai hartan txokolatea asko gustatzen zitzaidan.",
+   "En aquella época me gustaba mucho el chocolate."
+  ],
+  [
+   "Atzo etxean nengoen.",
+   "Ayer estaba en casa."
+  ],
+  [
+   "Orduan lanera oinez joaten ginen.",
+   "Entonces íbamos andando al trabajo."
+  ]
+ ],
+ "dialog": {
+  "title": "Fotos antiguas",
+  "lines": [
+   [
+    "Miren",
+    "Begira argazki hau! Txikitan hemen bizi nintzen.",
+    "¡Mira esta foto! De pequeña vivía aquí."
+   ],
+   [
+    "Jon",
+    "Benetan? Eta zer egiten zenuen?",
+    "¿De verdad? ¿Y qué hacías?"
+   ],
+   [
+    "Miren",
+    "Egunero hondartzara joaten nintzen. Txakur bat neukan, Txuri.",
+    "Todos los días iba a la playa. Tenía un perro, Txuri."
+   ],
+   [
+    "Jon",
+    "Nik ere txakur bat neukan! Asko gustatzen zitzaidan.",
+    "¡Yo también tenía un perro! Me gustaba mucho."
+   ],
+   [
+    "Miren",
+    "Orain ez daukat txakurrik, baina katu bat daukat.",
+    "Ahora no tengo perro, pero tengo un gato."
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Lehen Bilbon bizi ___.",
+   "es": "Antes vivía en Bilbao.",
+   "a": [
+    "nintzen"
+   ],
+   "hint": "bizi izan → izan; pasado, yo → nintzen."
+  },
+  {
+   "type": "gap",
+   "q": "Txikitan futbolean jokatzen ___.",
+   "es": "De pequeño jugaba al fútbol.",
+   "a": [
+    "nuen"
+   ],
+   "hint": "jugar → ukan; pasado, yo → nuen."
+  },
+  {
+   "type": "gap",
+   "q": "Lehen kotxe zahar bat ___.",
+   "es": "Antes tenía un coche viejo.",
+   "a": [
+    "neukan"
+   ],
+   "hint": "eduki en pasado, yo: neukan."
+  },
+  {
+   "type": "gap",
+   "q": "Atzo etxean ___.",
+   "es": "Ayer estaba en casa.",
+   "a": [
+    "nengoen"
+   ],
+   "hint": "egon en pasado, yo: nengoen."
+  },
+  {
+   "type": "gap",
+   "q": "Txokolatea asko gustatzen ___.",
+   "es": "Me gustaba mucho el chocolate.",
+   "a": [
+    "zitzaidan"
+   ],
+   "hint": "gustatu en pasado, a mí: zitzaidan."
+  },
+  {
+   "type": "gap",
+   "q": "Lanera oinez joaten ___.",
+   "es": "Íbamos andando al trabajo.",
+   "a": [
+    "ginen"
+   ],
+   "hint": "ir → izan; pasado, nosotros → ginen."
+  },
+  {
+   "type": "choice",
+   "q": "«Iba a la playa» (costumbre)",
+   "options": [
+    "Hondartzara joaten nintzen.",
+    "Hondartzara joan nintzen.",
+    "Hondartzara joaten naiz."
+   ],
+   "a": 0,
+   "why": "Costumbre en el pasado: -tzen + nintzen."
+  },
+  {
+   "type": "choice",
+   "q": "«Fui a la playa» (una vez)",
+   "options": [
+    "Hondartzara joan nintzen.",
+    "Hondartzara joaten nintzen.",
+    "Hondartzara joaten naiz."
+   ],
+   "a": 0,
+   "why": "Una vez: participio + nintzen."
+  },
+  {
+   "type": "choice",
+   "q": "«Tenía dos perros»",
+   "options": [
+    "Bi txakur neuzkan.",
+    "Bi txakur neukan.",
+    "Bi txakur dauzkat."
+   ],
+   "a": 0,
+   "why": "Varias cosas: neuzkan (pasado plural de eduki)."
+  },
+  {
+   "type": "choice",
+   "q": "«Me gustaba»",
+   "options": [
+    "gustatzen zitzaidan",
+    "gustatzen nuen",
+    "gustatzen zait"
+   ],
+   "a": 0,
+   "why": "gustatu usa NOR-NORI: zitzaidan en pasado."
+  },
+  {
+   "type": "choice",
+   "q": "«Estabas cansado»",
+   "options": [
+    "Nekatuta zeunden.",
+    "Nekatuta zinen.",
+    "Nekatuta zaude."
+   ],
+   "a": 0,
+   "why": "Estado → egon; pasado, tú → zeunden."
+  },
+  {
+   "type": "order",
+   "words": [
+    "nintzen",
+    "Lehen",
+    "bizi",
+    "Bilbon"
+   ],
+   "a": [
+    "Lehen Bilbon bizi nintzen"
+   ],
+   "es": "Antes vivía en Bilbao.",
+   "hint": "Tiempo + lugar + bizi + auxiliar."
+  },
+  {
+   "type": "order",
+   "words": [
+    "nuen",
+    "Txikitan",
+    "jokatzen",
+    "futbolean"
+   ],
+   "a": [
+    "Txikitan futbolean jokatzen nuen"
+   ],
+   "es": "De pequeño jugaba al fútbol.",
+   "hint": "Tiempo + futbolean + verbo + auxiliar."
+  },
+  {
+   "type": "order",
+   "words": [
+    "zitzaidan",
+    "gustatzen",
+    "Txokolatea"
+   ],
+   "a": [
+    "Txokolatea gustatzen zitzaidan"
+   ],
+   "es": "Me gustaba el chocolate.",
+   "hint": "Lo que gusta + gustatzen + auxiliar."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "nengoen",
+     "estaba"
+    ],
+    [
+     "nindoan",
+     "iba (en ese momento)"
+    ],
+    [
+     "nentorren",
+     "venía"
+    ],
+    [
+     "neukan",
+     "tenía"
+    ],
+    [
+     "zitzaidan",
+     "me (gustaba…)"
+    ],
+    [
+     "zegoen",
+     "él / ella estaba"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Compara tu vida de antes con la de ahora en 5 o 6 frases: dónde vivías, qué hacías, qué tenías y qué te gustaba, y qué ha cambiado.",
+  "focus": "pasado habitual (-tzen nintzen/nuen), sintéticos en pasado (nengoen, neukan…), gustatzen zitzaidan"
+ },
+ "links": {
+  "verbs": [
+   "nor-past",
+   "nn-past-3",
+   "syn-past",
+   "nni-past"
+  ],
+  "cases": [],
+  "themes": [
+   "denbora",
+   "aisialdia"
+  ]
+ }
+}

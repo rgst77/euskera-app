@@ -1,0 +1,306 @@
+{
+ "id": "a2-12",
+ "lvl": "A2",
+ "n": 12,
+ "title": "Osasuna",
+ "es": "La salud",
+ "goal": "Explicar qué te duele y cómo te encuentras, y entender al médico.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "Ir al médico en otro idioma da respeto, pero con muy pocas estructuras puedes explicarte bien. Además, esta lección te sirve de repaso del NOR-NORI-NORK de la lección anterior, porque en euskera **lo que duele «te da dolor»**."
+  },
+  {
+   "h": "Dos maneras de decir que algo duele",
+   "p": "1) Con **eduki**: lugar + **-ko** + **mina** + **daukat**: **Buruko mina daukat** (tengo dolor de cabeza), **sabeleko mina** (de tripa), **hortzetako mina** (de muelas), **eztarriko mina** (de garganta). 2) Con **min eman** (dar dolor), que usa NOR-NORI-NORK: **Buruak min ematen dit** (me duele la cabeza, literalmente «la cabeza me da dolor»). Como la cabeza es quien «da», lleva **-k**. Si es plural: **Begiek min ematen didate** (me duelen los ojos)."
+  },
+  {
+   "h": "Síntomas y estados",
+   "p": "**Gaixorik nago** (estoy enfermo), **Sukarra daukat** (tengo fiebre), **Eztula daukat** (tengo tos), **Hotzeria daukat** (estoy resfriado), **Zorabiatuta nago** (estoy mareado), **Nekatuta nago** (estoy cansado). Desde cuándo: **-tik**: **Atzotik** (desde ayer), **Astelehenetik** (desde el lunes)."
+  },
+  {
+   "h": "En la consulta",
+   "p": "El médico pregunta **Zer duzu?** (¿qué te pasa?, literalmente «¿qué tienes?») y **Noiztik?** (¿desde cuándo?). Las indicaciones suelen ir en imperativo con participio: **Hartu pilula hau egunean hiru aldiz** (tome esta pastilla tres veces al día), **Edan ur asko** (beba mucha agua), **Atseden hartu** (descanse). Para despedirse: **Ondo sendatu!** (¡que te mejores!)."
+  },
+  {
+   "h": "Paso a paso: «Me duelen los pies desde el lunes»",
+   "p": "1) Quién «da» el dolor: los pies, plural, con -k → **oinek**. 2) **min ematen**. 3) Auxiliar: ellos → a mí → **didate**. 4) Desde el lunes: **astelehenetik**. → **Astelehenetik oinek min ematen didate**."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Burua min ematen dit* → **Buruak** (lo que duele lleva -k). *Oinek min ematen dit* → **didate** (plural). *Gaixorik naiz* → lo natural es **Gaixorik nago**. *Sukarrik daukat* → **Sukarra daukat** (el partitivo es para negativas)."
+  },
+  {
+   "h": "Resumen",
+   "p": "**…-ko mina daukat** o **…-k min ematen dit / didate**. Síntomas con eduki (**sukarra, eztula, hotzeria daukat**) o egon (**gaixorik, zorabiatuta nago**). **Zer duzu? Noiztik?** · **Hartu… / Edan… / Ondo sendatu!**"
+  }
+ ],
+ "examples": [
+  [
+   "Buruko mina daukat.",
+   "Tengo dolor de cabeza."
+  ],
+  [
+   "Buruak min ematen dit.",
+   "Me duele la cabeza."
+  ],
+  [
+   "Begiek min ematen didate.",
+   "Me duelen los ojos."
+  ],
+  [
+   "Sukarra daukat.",
+   "Tengo fiebre."
+  ],
+  [
+   "Gaixorik nago.",
+   "Estoy enfermo."
+  ],
+  [
+   "Atzotik eztula daukat.",
+   "Tengo tos desde ayer."
+  ],
+  [
+   "Hartu pilula hau egunean hiru aldiz.",
+   "Tome esta pastilla tres veces al día."
+  ]
+ ],
+ "dialog": {
+  "title": "En el centro de salud",
+  "lines": [
+   [
+    "Medikua",
+    "Egun on. Zer duzu?",
+    "Buenos días. ¿Qué le pasa?"
+   ],
+   [
+    "Iker",
+    "Buruak min ematen dit, eta sukarra daukat.",
+    "Me duele la cabeza, y tengo fiebre."
+   ],
+   [
+    "Medikua",
+    "Noiztik?",
+    "¿Desde cuándo?"
+   ],
+   [
+    "Iker",
+    "Atzotik. Eztarriko mina ere badaukat.",
+    "Desde ayer. También tengo dolor de garganta."
+   ],
+   [
+    "Medikua",
+    "Hotzeria da. Hartu pilula hau egunean hiru aldiz, eta edan ur asko.",
+    "Es un resfriado. Tome esta pastilla tres veces al día, y beba mucha agua."
+   ],
+   [
+    "Iker",
+    "Eskerrik asko!",
+    "¡Muchas gracias!"
+   ],
+   [
+    "Medikua",
+    "Ez horregatik. Ondo sendatu!",
+    "De nada. ¡Que se mejore!"
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Buruko mina ___.",
+   "es": "Tengo dolor de cabeza.",
+   "a": [
+    "daukat"
+   ],
+   "hint": "eduki, yo: daukat."
+  },
+  {
+   "type": "gap",
+   "q": "Buruak min ematen ___.",
+   "es": "Me duele la cabeza.",
+   "a": [
+    "dit"
+   ],
+   "hint": "la cabeza (él) → a mí: dit."
+  },
+  {
+   "type": "gap",
+   "q": "Begiek min ematen ___.",
+   "es": "Me duelen los ojos.",
+   "a": [
+    "didate"
+   ],
+   "hint": "los ojos (ellos) → a mí: didate."
+  },
+  {
+   "type": "gap",
+   "q": "Gaixorik ___.",
+   "es": "Estoy enfermo.",
+   "a": [
+    "nago"
+   ],
+   "hint": "Estado: egon → nago."
+  },
+  {
+   "type": "gap",
+   "q": "Atzo___ eztula daukat.",
+   "es": "Tengo tos desde ayer.",
+   "a": [
+    "tik"
+   ],
+   "hint": "desde = -tik."
+  },
+  {
+   "type": "gap",
+   "q": "Hanka___ min ematen dit.",
+   "es": "Me duele la pierna.",
+   "a": [
+    "k"
+   ],
+   "hint": "Lo que duele lleva -k (hanka acaba en vocal)."
+  },
+  {
+   "type": "choice",
+   "q": "«Me duele la cabeza»",
+   "options": [
+    "Buruak min ematen dit.",
+    "Burua min ematen dit.",
+    "Buruak min ematen dut."
+   ],
+   "a": 0,
+   "why": "La cabeza «da» el dolor: lleva -k, y el auxiliar es dit."
+  },
+  {
+   "type": "choice",
+   "q": "«Me duelen los pies»",
+   "options": [
+    "Oinek min ematen didate.",
+    "Oinak min ematen dit.",
+    "Oinek min ematen dit."
+   ],
+   "a": 0,
+   "why": "Plural: oinek y didate."
+  },
+  {
+   "type": "choice",
+   "q": "«Tengo fiebre»",
+   "options": [
+    "Sukarra daukat.",
+    "Sukarra nago.",
+    "Sukarrik daukat."
+   ],
+   "a": 0,
+   "why": "eduki con artículo; el partitivo solo en negativa."
+  },
+  {
+   "type": "choice",
+   "q": "«¿Desde cuándo?»",
+   "options": [
+    "Noiztik?",
+    "Noiz arte?",
+    "Nondik?"
+   ],
+   "a": 0,
+   "why": "noiz + -tik = desde cuándo. Nondik es «de dónde»."
+  },
+  {
+   "type": "choice",
+   "q": "«¡Que te mejores!»",
+   "options": [
+    "Ondo sendatu!",
+    "On egin!",
+    "Zorionak!"
+   ],
+   "a": 0,
+   "why": "On egin = que aproveche; Zorionak = felicidades."
+  },
+  {
+   "type": "order",
+   "words": [
+    "daukat",
+    "Buruko",
+    "mina"
+   ],
+   "a": [
+    "Buruko mina daukat"
+   ],
+   "es": "Tengo dolor de cabeza.",
+   "hint": "Buruko mina + daukat."
+  },
+  {
+   "type": "order",
+   "words": [
+    "dit",
+    "Buruak",
+    "min",
+    "ematen"
+   ],
+   "a": [
+    "Buruak min ematen dit"
+   ],
+   "es": "Me duele la cabeza.",
+   "hint": "Buruak + min ematen + dit."
+  },
+  {
+   "type": "order",
+   "words": [
+    "eztula",
+    "Atzotik",
+    "daukat"
+   ],
+   "a": [
+    "Atzotik eztula daukat",
+    "Eztula daukat atzotik"
+   ],
+   "es": "Tengo tos desde ayer.",
+   "hint": "Desde cuándo + síntoma + daukat."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "buruko mina",
+     "dolor de cabeza"
+    ],
+    [
+     "sukarra",
+     "fiebre"
+    ],
+    [
+     "eztula",
+     "tos"
+    ],
+    [
+     "hotzeria",
+     "resfriado"
+    ],
+    [
+     "gaixorik",
+     "enfermo"
+    ],
+    [
+     "zorabiatuta",
+     "mareado"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Escribe un diálogo breve en la consulta del médico (6 líneas): explica qué te duele, desde cuándo y cómo te encuentras, y escribe lo que te recomienda el médico.",
+  "focus": "…-ko mina daukat, …-k min ematen dit/didate, síntomas, -tik (desde), imperativo con participio"
+ },
+ "links": {
+  "verbs": [
+   "nnn-pres"
+  ],
+  "cases": [
+   "erg",
+   "abl"
+  ],
+  "themes": [
+   "osasuna",
+   "gorputza"
+  ]
+ }
+}

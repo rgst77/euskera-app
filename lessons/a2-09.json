@@ -1,0 +1,307 @@
+{
+ "id": "a2-09",
+ "lvl": "A2",
+ "n": 9,
+ "title": "Aginduak",
+ "es": "Órdenes, instrucciones y direcciones",
+ "goal": "Dar y entender instrucciones sencillas y direcciones para llegar a un sitio.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "Para pedir algo o indicar el camino necesitas el imperativo. El euskera tiene formas imperativas completas (las verás en B2), pero en la vida diaria se usa muchísimo una forma muy fácil: **el participio solo**. Con lo que ya sabes, puedes dar instrucciones desde hoy."
+  },
+  {
+   "h": "El imperativo fácil: el participio",
+   "p": "El verbo en su forma de diccionario funciona como orden: **Etorri hona!** (¡ven aquí!), **Itxi atea!** (¡cierra la puerta!), **Hartu lehen kalea!** (¡coge la primera calle!). Para suavizar, **mesedez**: **Itxi leihoa, mesedez**. En carteles e instrucciones, la negación se hace con **ez** delante: **Ez erre** (no fumar)."
+  },
+  {
+   "h": "Verbos sintéticos como orden",
+   "p": "Algunas formas que ya conoces sirven también como imperativo: **Zatoz!** (¡ven!), **Zoaz!** (¡ve!, ¡vete!), **Zaude lasai!** (¡tranquilo!, literalmente «estate tranquilo»), y en plural **Zatozte!** (¡venid!)."
+  },
+  {
+   "h": "Indicar el camino",
+   "p": "**zuzen** (recto), **ezkerrera** (a la izquierda), **eskuinera** (a la derecha), **gurutzatu** (cruzar), **jarraitu** (seguir), **igo** (subir), **jaitsi** (bajar). Dos terminaciones nuevas: **-raino** (hasta): **plazaraino** (hasta la plaza), **Bilboraino**; y **-rantz** (hacia): **itsasorantz** (hacia el mar), **mendirantz**. Tras consonante, **-eraino** y **-erantz**."
+  },
+  {
+   "h": "Medio de transporte: -z",
+   "p": "Para decir cómo vas, se añade **-z** (o **-ez** tras consonante), sin artículo: **trenez** (en tren), **autoz** (en coche), **bizikletaz** (en bici), **autobusez** (en autobús), **oinez** (a pie). Es el mismo caso de **euskaraz** (en euskera). Ojo: **autobusean** es «dentro del autobús»."
+  },
+  {
+   "h": "Paso a paso: «Sigue recto hasta el puente y luego a la izquierda»",
+   "p": "1) Seguir: **jarraitu**. 2) Recto: **zuzen**. 3) Hasta el puente: **zubi + -raino → zubiraino**. 4) Luego a la izquierda: **eta gero ezkerrera**. → **Jarraitu zuzen zubiraino, eta gero ezkerrera**."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Itxi leihora* → **Itxi leihoa** (el objeto lleva artículo, no NORA). *autobusean noa* para «voy en autobús» → **autobusez noa**. *plazara* para «hasta la plaza» → **plazaraino** (plazara es «a la plaza»)."
+  },
+  {
+   "h": "Resumen",
+   "p": "Orden fácil = participio (**Etorri! Itxi atea!**) + **mesedez**. Sintéticos: **Zatoz! Zoaz! Zaude lasai!**. Direcciones: zuzen, ezkerrera, eskuinera; **-raino** (hasta), **-rantz** (hacia). Transporte: **-z** (trenez, oinez)."
+  }
+ ],
+ "examples": [
+  [
+   "Etorri hona, mesedez!",
+   "¡Ven aquí, por favor!"
+  ],
+  [
+   "Itxi atea!",
+   "¡Cierra la puerta!"
+  ],
+  [
+   "Hartu lehen kalea eskuinera.",
+   "Coge la primera calle a la derecha."
+  ],
+  [
+   "Zuzen joan plazaraino.",
+   "Ve recto hasta la plaza."
+  ],
+  [
+   "Zatoz nirekin!",
+   "¡Ven conmigo!"
+  ],
+  [
+   "Bilbora trenez noa.",
+   "Voy a Bilbao en tren."
+  ],
+  [
+   "Joan itsasorantz.",
+   "Ve hacia el mar."
+  ]
+ ],
+ "dialog": {
+  "title": "¿Dónde está la estación?",
+  "lines": [
+   [
+    "Ane",
+    "Barkatu, non dago geltokia?",
+    "Perdone, ¿dónde está la estación?"
+   ],
+   [
+    "Gizona",
+    "Hartu kale hau eta joan zuzen plazaraino.",
+    "Coja esta calle y vaya recto hasta la plaza."
+   ],
+   [
+    "Ane",
+    "Eta gero?",
+    "¿Y luego?"
+   ],
+   [
+    "Gizona",
+    "Plazan, eskuinera. Geltokia ibaiaren ondoan dago.",
+    "En la plaza, a la derecha. La estación está al lado del río."
+   ],
+   [
+    "Ane",
+    "Urrun dago? Oinez joan ahal dut?",
+    "¿Está lejos? ¿Puedo ir andando?"
+   ],
+   [
+    "Gizona",
+    "Bai, hurbil dago: hamar minutu oinez.",
+    "Sí, está cerca: diez minutos a pie."
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "___ hona, mesedez!",
+   "es": "¡Ven aquí, por favor!",
+   "a": [
+    "etorri",
+    "zatoz"
+   ],
+   "hint": "Participio de venir, o la forma sintética de «tú vienes»."
+  },
+  {
+   "type": "gap",
+   "q": "Itxi ___!",
+   "es": "¡Cierra la puerta!",
+   "a": [
+    "atea"
+   ],
+   "hint": "El objeto lleva artículo: ate → atea."
+  },
+  {
+   "type": "gap",
+   "q": "Zuzen joan plaza___.",
+   "es": "Ve recto hasta la plaza.",
+   "a": [
+    "raino"
+   ],
+   "hint": "hasta = -raino."
+  },
+  {
+   "type": "gap",
+   "q": "Bilbora tren___ noa.",
+   "es": "Voy a Bilbao en tren.",
+   "a": [
+    "ez"
+   ],
+   "hint": "Transporte: -z, y tras consonante -ez."
+  },
+  {
+   "type": "gap",
+   "q": "Hartu lehen kalea eskuin___.",
+   "es": "Coge la primera calle a la derecha.",
+   "a": [
+    "era"
+   ],
+   "hint": "A la derecha = eskuinera."
+  },
+  {
+   "type": "gap",
+   "q": "Joan itsaso___.",
+   "es": "Ve hacia el mar.",
+   "a": [
+    "rantz"
+   ],
+   "hint": "hacia = -rantz."
+  },
+  {
+   "type": "choice",
+   "q": "«Cierra la ventana»",
+   "options": [
+    "Itxi leihoa!",
+    "Itxi leihora!",
+    "Leihoa itxi duzu!"
+   ],
+   "a": 0,
+   "why": "Participio + objeto con artículo."
+  },
+  {
+   "type": "choice",
+   "q": "«En autobús»",
+   "options": [
+    "autobusez",
+    "autobusean",
+    "autobusera"
+   ],
+   "a": 0,
+   "why": "Medio de transporte: -ez. Autobusean es «dentro del autobús»."
+  },
+  {
+   "type": "choice",
+   "q": "«Hasta la plaza»",
+   "options": [
+    "plazaraino",
+    "plazara",
+    "plazatik"
+   ],
+   "a": 0,
+   "why": "-raino = hasta; -ra = a; -tik = desde."
+  },
+  {
+   "type": "choice",
+   "q": "«¡Ven conmigo!»",
+   "options": [
+    "Zatoz nirekin!",
+    "Zoaz nirekin!",
+    "Nirekin zara!"
+   ],
+   "a": 0,
+   "why": "zatoz = ven; zoaz = ve, vete."
+  },
+  {
+   "type": "choice",
+   "q": "«No fumar» (cartel)",
+   "options": [
+    "Ez erre.",
+    "Ez erretzen.",
+    "Erre ez."
+   ],
+   "a": 0,
+   "why": "Instrucción negativa: ez + participio."
+  },
+  {
+   "type": "order",
+   "words": [
+    "hona",
+    "Etorri",
+    "mesedez"
+   ],
+   "a": [
+    "Etorri hona mesedez",
+    "Mesedez etorri hona"
+   ],
+   "es": "Ven aquí, por favor.",
+   "hint": "Participio + hona (+ mesedez)."
+  },
+  {
+   "type": "order",
+   "words": [
+    "plazaraino",
+    "joan",
+    "Zuzen"
+   ],
+   "a": [
+    "Zuzen joan plazaraino"
+   ],
+   "es": "Ve recto hasta la plaza.",
+   "hint": "Zuzen + joan + hasta dónde."
+  },
+  {
+   "type": "order",
+   "words": [
+    "trenez",
+    "Bilbora",
+    "noa"
+   ],
+   "a": [
+    "Bilbora trenez noa",
+    "Trenez Bilbora noa"
+   ],
+   "es": "Voy a Bilbao en tren.",
+   "hint": "Lugar y transporte delante; noa al final."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "ezkerrera",
+     "a la izquierda"
+    ],
+    [
+     "eskuinera",
+     "a la derecha"
+    ],
+    [
+     "zuzen",
+     "recto"
+    ],
+    [
+     "trenez",
+     "en tren"
+    ],
+    [
+     "oinez",
+     "a pie"
+    ],
+    [
+     "plazaraino",
+     "hasta la plaza"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Explica a un amigo cómo llegar desde tu casa a un sitio que conozcas (la estación, una plaza, un bar) en 4 o 5 instrucciones. Di también cómo se puede ir (oinez, autobusez…).",
+  "focus": "imperativo con participio, direcciones, -raino, -rantz, transporte con -z"
+ },
+ "links": {
+  "verbs": [
+   "syn-pres-1"
+  ],
+  "cases": [
+   "ins",
+   "ter"
+  ],
+  "themes": [
+   "norabideak",
+   "bidaiak",
+   "hiria"
+  ]
+ }
+}

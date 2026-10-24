@@ -1,0 +1,330 @@
+{
+ "id": "a1-13",
+ "lvl": "A1",
+ "n": 13,
+ "title": "Zer egin duzu?",
+ "es": "El pretérito perfecto: izan o ukan",
+ "goal": "Contar lo que has hecho hoy o recientemente.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "En la lección 11 aprendiste el sistema de dos piezas (verbo + auxiliar) para hablar de hábitos. Hoy usas el mismo sistema para el pasado reciente: «he comido», «he ido». La gran ventaja es que el auxiliar ya lo conoces: es el mismo **naiz / dut** del presente. Solo cambia la primera pieza."
+  },
+  {
+   "h": "La forma",
+   "p": "Verbo en su forma de diccionario (participio) + auxiliar en presente: **Kafea edan dut** (he bebido café), **Bilbora joan naiz** (he ido a Bilbao), **Zer egin duzu?** (¿qué has hecho?). Compara: **edaten dut** = bebo (hábito) · **edan dut** = he bebido."
+  },
+  {
+   "h": "¿naiz o dut? La regla de siempre",
+   "p": "Sin objeto → **izan** (naiz, zara, da…). Con objeto → **ukan** (dut, duzu, du…) y el sujeto con **-k**. Si el objeto es plural, **ditut, dituzu…**",
+   "table": {
+    "head": [
+     "Con izan (sin objeto)",
+     "Con ukan (con objeto)"
+    ],
+    "rows": [
+     [
+      "joan naiz (he ido)",
+      "egin dut (he hecho)"
+     ],
+     [
+      "etorri naiz (he venido)",
+      "ikusi dut (he visto)"
+     ],
+     [
+      "iritsi naiz (he llegado)",
+      "jan dut (he comido)"
+     ],
+     [
+      "jaiki naiz (me he levantado)",
+      "erosi dut (he comprado)"
+     ],
+     [
+      "geratu naiz (me he quedado)",
+      "irakurri dut (he leído)"
+     ],
+     [
+      "jaio naiz (he nacido)",
+      "lan egin dut (he trabajado)"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Cuándo se usa",
+   "p": "Para lo ocurrido **hoy** o en un periodo que aún no ha terminado: **gaur** (hoy), **gaur goizean** (esta mañana), **aste honetan** (esta semana). Para ayer o antes se usa otro pasado, el de la lección 16."
+  },
+  {
+   "h": "Negar y preguntar",
+   "p": "**ez + auxiliar** delante, el verbo al final: **Ez dut kafea edan**, **Ez naiz joan**. Con **ezer** (nada): **Ez dut ezer jan** (no he comido nada). Preguntas: **Zer egin duzu?**, **Nora joan zara?**"
+  },
+  {
+   "h": "Paso a paso: «Esta mañana he comprado dos libros»",
+   "p": "1) Verbo: **erosi**. 2) ¿Objeto? Sí, dos libros, y es plural → **ditut**. 3) Orden: tiempo + objeto + verbo + auxiliar → **Gaur goizean bi liburu erosi ditut**."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Jan naiz* → **Jan dut** (comer tiene objeto). *Etorri dut* → **Etorri naiz**. *Ez filma ikusi dut* → **Ez dut filma ikusi**. *Bi liburu erosi dut* → **ditut** (objeto plural)."
+  },
+  {
+   "h": "Resumen",
+   "p": "Perfecto = participio + **naiz / dut**. Sin objeto: joan naiz. Con objeto: ikusi dut (plural: ditut). Para hoy y periodos abiertos. Negación: **ez dut … ikusi**."
+  }
+ ],
+ "examples": [
+  [
+   "Gaur goizean kafea edan dut.",
+   "Esta mañana he bebido café."
+  ],
+  [
+   "Bilbora joan naiz.",
+   "He ido a Bilbao."
+  ],
+  [
+   "Zer egin duzu?",
+   "¿Qué has hecho?"
+  ],
+  [
+   "Liburu bat irakurri dut.",
+   "He leído un libro."
+  ],
+  [
+   "Ane berandu iritsi da.",
+   "Ane ha llegado tarde."
+  ],
+  [
+   "Ez dut ezer jan.",
+   "No he comido nada."
+  ],
+  [
+   "Bi liburu erosi ditut.",
+   "He comprado dos libros."
+  ]
+ ],
+ "dialog": {
+  "title": "Al final del día",
+  "lines": [
+   [
+    "Miren",
+    "Kaixo! Zer egin duzu gaur?",
+    "¡Hola! ¿Qué has hecho hoy?"
+   ],
+   [
+    "Jon",
+    "Goizean lan egin dut, eta gero mendira joan naiz.",
+    "Por la mañana he trabajado, y luego he ido al monte."
+   ],
+   [
+    "Miren",
+    "Oso ondo! Eta bazkaldu duzu?",
+    "¡Muy bien! ¿Y has comido?"
+   ],
+   [
+    "Jon",
+    "Bai, ogitarteko bat jan dut mendian. Eta zuk?",
+    "Sí, me he comido un bocadillo en el monte. ¿Y tú?"
+   ],
+   [
+    "Miren",
+    "Nik gaur ez dut lan egin. Etxean geratu naiz eta liburu bat irakurri dut.",
+    "Yo hoy no he trabajado. Me he quedado en casa y he leído un libro."
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Gaur kafea edan ___.",
+   "es": "Hoy he bebido café.",
+   "a": [
+    "dut"
+   ],
+   "hint": "Beber tiene objeto → dut."
+  },
+  {
+   "type": "gap",
+   "q": "Bilbora joan ___.",
+   "es": "He ido a Bilbao.",
+   "a": [
+    "naiz"
+   ],
+   "hint": "Ir no tiene objeto → naiz."
+  },
+  {
+   "type": "gap",
+   "q": "Zer egin ___?",
+   "es": "¿Qué has hecho?",
+   "a": [
+    "duzu"
+   ],
+   "hint": "Hacer tiene objeto; tú → duzu."
+  },
+  {
+   "type": "gap",
+   "q": "Ane berandu iritsi ___.",
+   "es": "Ane ha llegado tarde.",
+   "a": [
+    "da"
+   ],
+   "hint": "Llegar no tiene objeto; ella → da."
+  },
+  {
+   "type": "gap",
+   "q": "Bi liburu erosi ___.",
+   "es": "He comprado dos libros.",
+   "a": [
+    "ditut"
+   ],
+   "hint": "Objeto plural, yo → ditut."
+  },
+  {
+   "type": "gap",
+   "q": "Gu etxean geratu ___.",
+   "es": "Nos hemos quedado en casa.",
+   "a": [
+    "gara"
+   ],
+   "hint": "Quedarse no tiene objeto; nosotros → gara."
+  },
+  {
+   "type": "choice",
+   "q": "«He comido»",
+   "options": [
+    "Jan dut.",
+    "Jan naiz.",
+    "Jaten dut."
+   ],
+   "a": 0,
+   "why": "Comer tiene objeto → dut. Jaten dut es «como» (hábito)."
+  },
+  {
+   "type": "choice",
+   "q": "«Hemos venido»",
+   "options": [
+    "Etorri gara.",
+    "Etorri dugu.",
+    "Etortzen gara."
+   ],
+   "a": 0,
+   "why": "Venir no tiene objeto → gara."
+  },
+  {
+   "type": "choice",
+   "q": "«No he visto la película»",
+   "options": [
+    "Ez dut filma ikusi.",
+    "Ez filma ikusi dut.",
+    "Ez ikusi dut filma."
+   ],
+   "a": 0,
+   "why": "ez + auxiliar, objeto, verbo al final."
+  },
+  {
+   "type": "choice",
+   "q": "«¿Adónde has ido?»",
+   "options": [
+    "Nora joan zara?",
+    "Nora joan duzu?",
+    "Nora joaten zara?"
+   ],
+   "a": 0,
+   "why": "Ir → izan (zara). Joaten zara es «vas» (hábito)."
+  },
+  {
+   "type": "choice",
+   "q": "¿Cuál significa «he bebido café»?",
+   "options": [
+    "Kafea edan dut.",
+    "Kafea edaten dut.",
+    "Kafea edango dut."
+   ],
+   "a": 0,
+   "why": "Participio (edan) + dut = he bebido."
+  },
+  {
+   "type": "order",
+   "words": [
+    "dut",
+    "Gaur",
+    "kafea",
+    "edan"
+   ],
+   "a": [
+    "Gaur kafea edan dut"
+   ],
+   "es": "Hoy he bebido café.",
+   "hint": "Tiempo + objeto + verbo + auxiliar."
+  },
+  {
+   "type": "order",
+   "words": [
+    "naiz",
+    "Mendira",
+    "joan"
+   ],
+   "a": [
+    "Mendira joan naiz"
+   ],
+   "es": "He ido al monte.",
+   "hint": "Lugar + verbo + auxiliar."
+  },
+  {
+   "type": "order",
+   "words": [
+    "dut",
+    "Ez",
+    "ezer",
+    "jan"
+   ],
+   "a": [
+    "Ez dut ezer jan"
+   ],
+   "es": "No he comido nada.",
+   "hint": "ez + auxiliar delante, el verbo al final."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "joan naiz",
+     "he ido"
+    ],
+    [
+     "etorri naiz",
+     "he venido"
+    ],
+    [
+     "ikusi dut",
+     "he visto"
+    ],
+    [
+     "egin dut",
+     "he hecho"
+    ],
+    [
+     "jan dut",
+     "he comido"
+    ],
+    [
+     "iritsi naiz",
+     "he llegado"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Cuenta en 5 frases qué has hecho hoy: a qué hora te has levantado, qué has comido, adónde has ido y algo que no has hecho.",
+  "focus": "pretérito perfecto: participio + naiz (sin objeto) o dut/ditut (con objeto)"
+ },
+ "links": {
+  "verbs": [
+   "nor-pres",
+   "nn-pres-3"
+  ],
+  "cases": [],
+  "themes": [
+   "aditzak",
+   "denbora"
+  ]
+ }
+}

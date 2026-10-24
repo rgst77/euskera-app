@@ -1,0 +1,323 @@
+{
+ "id": "b2-03",
+ "lvl": "B2",
+ "n": 3,
+ "title": "Ahalera iraganean",
+ "es": "El potencial hipotético y pasado",
+ "goal": "Decir lo que podrías hacer, sugerir con suavidad y contar lo que podías hacer antes.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "En B1 aprendiste el potencial en presente (**egin dezaket**, puedo hacerlo). Ahora le añades dos matices: el hipotético («**podría** hacerlo») y el pasado («**podía** hacerlo»). El primero es muy útil para ofrecer ayuda y sugerir sin imponer."
+  },
+  {
+   "h": "Hipotético: podría",
+   "table": {
+    "head": [
+     "Persona",
+     "Sin objeto (izan)",
+     "Con objeto (ukan)"
+    ],
+    "rows": [
+     [
+      "ni / nik",
+      "{nor:ninteke}",
+      "{nork:nezake}"
+     ],
+     [
+      "zu / zuk",
+      "{nor:zintezke}",
+      "{nork:zenezake}"
+     ],
+     [
+      "hura / hark",
+      "{nor:liteke}",
+      "{nork:lezake}"
+     ],
+     [
+      "gu / guk",
+      "{nor:gintezke}",
+      "{nork:genezake}"
+     ],
+     [
+      "zuek",
+      "{nor:zintezkete}",
+      "{nork:zenezakete}"
+     ],
+     [
+      "haiek",
+      "{nor:litezke}",
+      "{nork:lezakete}"
+     ]
+    ]
+   },
+   "p": "**Lagundu nezake** (podría ayudar), **Bihar etorri ninteke** (mañana podría venir), **Hori egin zenezake** (podrías hacer eso), una forma muy amable de sugerir. **Liteke** sola significa «puede ser, es posible»: **Liteke euria egitea** (es posible que llueva)."
+  },
+  {
+   "h": "Pasado: podía",
+   "p": "Se añade **-en** a las formas anteriores: **nezakeen** (podía hacer), **nintekeen** (podía ir / venir), **zezakeen** (él podía). **Lehen egunero korrika egin nezakeen** (antes podía correr todos los días). **Txikitan ordu askotan igeri egin nezakeen**. En negativa, lo más habitual sigue siendo **ezin** con el auxiliar normal: **Ezin nuen etorri** (no podía venir / no pude venir)."
+  },
+  {
+   "h": "Paso a paso: «Podríamos ir al cine esta tarde»",
+   "p": "1) Verbo: **joan**, sin objeto → izan. 2) Hipotético, nosotros → **gintezke**. 3) **Gaur arratsaldean zinemara joan gintezke**."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Lagundu ninteke* → **nezake** (ayudar a alguien va con ukan). *Etorri nezake* → **ninteke**. *Lehen korrika egin nezake* para «antes podía» → **nezakeen**. *Ez nezakeen etorri* → lo habitual es **Ezin nintzen etorri**."
+  },
+  {
+   "h": "Resumen",
+   "p": "Podría: **ninteke, liteke…** (sin objeto) / **nezake, lezake…** (con objeto). Podía: **nintekeen, nezakeen…**. **Liteke** = puede ser. Sugerencia amable: **… zenezake**."
+  }
+ ],
+ "examples": [
+  [
+   "Lagundu nezake.",
+   "Podría ayudar."
+  ],
+  [
+   "Bihar etorri ninteke.",
+   "Mañana podría venir."
+  ],
+  [
+   "Hori egin zenezake.",
+   "Podrías hacer eso."
+  ],
+  [
+   "Liteke euria egitea.",
+   "Es posible que llueva."
+  ],
+  [
+   "Lehen egunero korrika egin nezakeen.",
+   "Antes podía correr todos los días."
+  ],
+  [
+   "Ezin nintzen etorri.",
+   "No pude venir."
+  ],
+  [
+   "Gaur arratsaldean zinemara joan gintezke.",
+   "Esta tarde podríamos ir al cine."
+  ]
+ ],
+ "dialog": {
+  "title": "Un problema con el ordenador",
+  "lines": [
+   [
+    "Nerea",
+    "Ordenagailuak ez du funtzionatzen. Lagundu zenezake?",
+    "El ordenador no funciona. ¿Podrías ayudar?"
+   ],
+   [
+    "Jon",
+    "Bai, begiratu nezake. Baina gaur ezin dut; bihar etorri ninteke.",
+    "Sí, podría mirarlo. Pero hoy no puedo; mañana podría venir."
+   ],
+   [
+    "Nerea",
+    "Eskerrik asko. Lehen nik konpondu nezakeen, baina orain sistema berria da.",
+    "Gracias. Antes yo podía arreglarlo, pero ahora el sistema es nuevo."
+   ],
+   [
+    "Jon",
+    "Liteke arazoa txikia izatea.",
+    "Puede que el problema sea pequeño."
+   ],
+   [
+    "Nerea",
+    "Hala espero dut!",
+    "¡Eso espero!"
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Lagundu ___.",
+   "es": "Podría ayudar.",
+   "a": [
+    "nezake"
+   ],
+   "hint": "Con objeto, yo, hipotético: nezake."
+  },
+  {
+   "type": "gap",
+   "q": "Bihar etorri ___.",
+   "es": "Mañana podría venir.",
+   "a": [
+    "ninteke"
+   ],
+   "hint": "Sin objeto, yo, hipotético: ninteke."
+  },
+  {
+   "type": "gap",
+   "q": "Hori egin ___.",
+   "es": "Podrías hacer eso.",
+   "a": [
+    "zenezake"
+   ],
+   "hint": "Con objeto, tú: zenezake."
+  },
+  {
+   "type": "gap",
+   "q": "___ euria egitea.",
+   "es": "Es posible que llueva.",
+   "a": [
+    "liteke"
+   ],
+   "hint": "puede ser = liteke."
+  },
+  {
+   "type": "gap",
+   "q": "Lehen egunero korrika egin ___.",
+   "es": "Antes podía correr todos los días.",
+   "a": [
+    "nezakeen"
+   ],
+   "hint": "Pasado: nezake + -en."
+  },
+  {
+   "type": "gap",
+   "q": "Zinemara joan ___.",
+   "es": "Podríamos ir al cine.",
+   "a": [
+    "gintezke"
+   ],
+   "hint": "Sin objeto, nosotros: gintezke."
+  },
+  {
+   "type": "choice",
+   "q": "«Podría ayudarte»",
+   "options": [
+    "Lagundu nezake.",
+    "Lagundu ninteke.",
+    "Lagundu dezaket."
+   ],
+   "a": 0,
+   "why": "Hipotético con objeto: nezake. Dezaket = puedo."
+  },
+  {
+   "type": "choice",
+   "q": "«Mañana podría venir»",
+   "options": [
+    "Bihar etorri ninteke.",
+    "Bihar etorri nezake.",
+    "Bihar etorri naiteke."
+   ],
+   "a": 0,
+   "why": "Sin objeto, hipotético: ninteke. Naiteke = puedo."
+  },
+  {
+   "type": "choice",
+   "q": "«Antes podía correr»",
+   "options": [
+    "Lehen korrika egin nezakeen.",
+    "Lehen korrika egin nezake.",
+    "Lehen korrika egin dezaket."
+   ],
+   "a": 0,
+   "why": "Pasado: nezakeen."
+  },
+  {
+   "type": "choice",
+   "q": "«Es posible / puede ser»",
+   "options": [
+    "Liteke.",
+    "Daiteke.",
+    "Ninteke."
+   ],
+   "a": 0,
+   "why": "liteke = puede ser (hipotético)."
+  },
+  {
+   "type": "choice",
+   "q": "«No pude venir»",
+   "options": [
+    "Ezin nintzen etorri.",
+    "Ez nintekeen etorri.",
+    "Ezin ninteke etorri."
+   ],
+   "a": 0,
+   "why": "Negación habitual: ezin + auxiliar normal."
+  },
+  {
+   "type": "order",
+   "words": [
+    "nezake",
+    "Lagundu"
+   ],
+   "a": [
+    "Lagundu nezake"
+   ],
+   "es": "Podría ayudar.",
+   "hint": "Participio + nezake."
+  },
+  {
+   "type": "order",
+   "words": [
+    "ninteke",
+    "etorri",
+    "Bihar"
+   ],
+   "a": [
+    "Bihar etorri ninteke"
+   ],
+   "es": "Mañana podría venir.",
+   "hint": "Tiempo + participio + ninteke."
+  },
+  {
+   "type": "order",
+   "words": [
+    "nezakeen",
+    "egin",
+    "korrika",
+    "Lehen"
+   ],
+   "a": [
+    "Lehen korrika egin nezakeen"
+   ],
+   "es": "Antes podía correr.",
+   "hint": "Tiempo + korrika egin + nezakeen."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "nezake",
+     "podría (con objeto)"
+    ],
+    [
+     "ninteke",
+     "podría (sin objeto)"
+    ],
+    [
+     "zenezake",
+     "podrías (con objeto)"
+    ],
+    [
+     "liteke",
+     "puede ser"
+    ],
+    [
+     "nezakeen",
+     "podía (con objeto)"
+    ],
+    [
+     "nintekeen",
+     "podía (sin objeto)"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Escribe 5 frases: tres ofertas o sugerencias amables (… nezake, … zenezake, … gintezke), algo que podías hacer de joven y ya no, y algo que es posible que pase mañana (liteke).",
+  "focus": "potencial hipotético (nezake, ninteke, liteke) y pasado (nezakeen, nintekeen)"
+ },
+ "links": {
+  "verbs": [],
+  "cases": [],
+  "themes": [
+   "aditzak"
+  ]
+ }
+}

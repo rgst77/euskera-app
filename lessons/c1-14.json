@@ -1,0 +1,317 @@
+{
+ "id": "c1-14",
+ "lvl": "C1",
+ "n": 14,
+ "title": "Laburpenak",
+ "es": "Resumir y sintetizar",
+ "goal": "Resumir un texto o una exposición con tus propias palabras, de forma fiel y concisa.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "Resumir es una de las tareas más exigentes y más evaluadas del C1: demuestra que entiendes un texto y que puedes reformularlo. No se trata de copiar frases, sino de extraer lo esencial y expresarlo con tus palabras, en un registro neutro y sin añadir opiniones."
+  },
+  {
+   "h": "El método en cinco pasos",
+   "p": "1) **Lee el texto entero** una vez sin detenerte. 2) **Identifica la idea principal** (ideia nagusia) y las secundarias. 3) **Subraya palabras clave** (hitz gakoak). 4) **Reescribe con tus palabras**, más corto (entre un tercio y un cuarto del original). 5) **Revisa**: ¿falta algo esencial? ¿hay opiniones tuyas? Si las hay, elimínalas."
+  },
+  {
+   "h": "Fórmulas para resumir",
+   "table": {
+    "head": [
+     "Función",
+     "Fórmula"
+    ],
+    "rows": [
+     [
+      "Presentar el tema",
+      "Testuak … du hizpide. / Testuak … aztertzen du."
+     ],
+     [
+      "Atribuir al autor",
+      "Egileak dio … -la. / Egilearen ustez, …"
+     ],
+     [
+      "Ordenar",
+      "Lehenik, … Ondoren, … Azkenik, …"
+     ],
+     [
+      "Idea principal",
+      "Testuaren ideia nagusia … da."
+     ],
+     [
+      "Concluir",
+      "Laburbilduz, egileak … defendatzen du."
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Técnicas de condensación",
+   "p": "Generalizar (en lugar de enumerar «pan, leche, huevos» → **elikagaiak**), **nominalizar** (C1-05: *prezioak igo dira* → **prezioen igoera**), suprimir ejemplos y repeticiones, y usar el estilo indirecto (B2-05) para lo que dice el autor."
+  },
+  {
+   "h": "Un ejemplo",
+   "p": "Texto (resumido aquí): un artículo explica que cada vez más adultos aprenden euskera, que muchos lo hacen por trabajo o por sus hijos, y que los euskaltegis ofrecen ahora más cursos en línea. Resumen: **Testuak helduen euskara-ikaskuntza du hizpide. Egilearen arabera, gero eta heldu gehiagok ikasten dute euskara, batez ere lanagatik edo seme-alabengatik, eta euskaltegiek sareko eskaintza handitu dute.**"
+  },
+  {
+   "h": "Errores típicos",
+   "p": "Copiar frases enteras del original. Añadir opiniones propias (*nire ustez…*) en un resumen. Mantener los ejemplos y detalles secundarios. Hacer un resumen casi tan largo como el texto."
+  },
+  {
+   "h": "Resumen",
+   "p": "Método: leer → idea principal → palabras clave → reescribir con tus palabras → revisar. Fórmulas: **Testuak … du hizpide**, **Egileak dio … -la**, **ideia nagusia**, **laburbilduz**. Técnicas: generalizar, nominalizar, suprimir ejemplos, estilo indirecto."
+  }
+ ],
+ "examples": [
+  [
+   "Testuak helduen euskara-ikaskuntza du hizpide.",
+   "El texto trata del aprendizaje del euskera por parte de adultos."
+  ],
+  [
+   "Egileak dio gero eta heldu gehiagok ikasten dutela euskara.",
+   "El autor dice que cada vez más adultos aprenden euskera."
+  ],
+  [
+   "Testuaren ideia nagusia hau da: euskara ikasteko arrazoiak aldatu egin dira.",
+   "La idea principal del texto es esta: las razones para aprender euskera han cambiado."
+  ],
+  [
+   "Lehenik, egileak datuak aurkezten ditu; ondoren, arrazoiak aztertzen ditu.",
+   "Primero, el autor presenta los datos; después, analiza las razones."
+  ],
+  [
+   "Laburbilduz, egileak euskaltegien lana defendatzen du.",
+   "En resumen, el autor defiende el trabajo de los euskaltegis."
+  ]
+ ],
+ "dialog": {
+  "title": "Preparando un resumen",
+  "lines": [
+   [
+    "Ane",
+    "Nola egingo dut testu honen laburpena?",
+    "¿Cómo haré el resumen de este texto?"
+   ],
+   [
+    "Iker",
+    "Lehenik, irakurri osorik eta bilatu ideia nagusia.",
+    "Primero, léelo entero y busca la idea principal."
+   ],
+   [
+    "Ane",
+    "Uste dut ideia nagusia hau dela: heldu gehiagok ikasten dutela euskara.",
+    "Creo que la idea principal es esta: que más adultos aprenden euskera."
+   ],
+   [
+    "Iker",
+    "Ondo. Orain idatzi zure hitzekin, eta kendu adibideak.",
+    "Bien. Ahora escríbelo con tus palabras, y quita los ejemplos."
+   ],
+   [
+    "Ane",
+    "Eta nire iritzia?",
+    "¿Y mi opinión?"
+   ],
+   [
+    "Iker",
+    "Laburpen batean, ez! Iritzia beste ariketa bat da.",
+    "¡En un resumen, no! La opinión es otro ejercicio."
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Testuak helduen euskara-ikaskuntza du ___.",
+   "es": "El texto trata del aprendizaje del euskera por parte de adultos.",
+   "a": [
+    "hizpide"
+   ],
+   "hint": "tratar de = … du hizpide."
+  },
+  {
+   "type": "gap",
+   "q": "Egileak ___ gero eta heldu gehiagok ikasten dutela.",
+   "es": "El autor dice que cada vez más adultos aprenden.",
+   "a": [
+    "dio"
+   ],
+   "hint": "esan sintético: dio."
+  },
+  {
+   "type": "gap",
+   "q": "Testuaren ideia ___ hau da.",
+   "es": "La idea principal del texto es esta.",
+   "a": [
+    "nagusia"
+   ],
+   "hint": "principal = nagusia."
+  },
+  {
+   "type": "gap",
+   "q": "Lehenik, datuak aurkezten ditu; ___, arrazoiak aztertzen ditu.",
+   "es": "Primero presenta los datos; después, analiza las razones.",
+   "a": [
+    "ondoren"
+   ],
+   "hint": "después = ondoren."
+  },
+  {
+   "type": "gap",
+   "q": "___, egileak euskaltegien lana defendatzen du.",
+   "es": "En resumen, el autor defiende el trabajo de los euskaltegis.",
+   "a": [
+    "laburbilduz"
+   ],
+   "hint": "en resumen = laburbilduz."
+  },
+  {
+   "type": "gap",
+   "q": "Hitz ___ azpimarratu.",
+   "es": "Subraya las palabras clave.",
+   "a": [
+    "gakoak"
+   ],
+   "hint": "palabras clave = hitz gakoak."
+  },
+  {
+   "type": "choice",
+   "q": "¿Qué NO debe tener un resumen?",
+   "options": [
+    "opiniones propias",
+    "la idea principal",
+    "las palabras clave"
+   ],
+   "a": 0,
+   "why": "El resumen es fiel y neutro."
+  },
+  {
+   "type": "choice",
+   "q": "«El texto trata de…»",
+   "options": [
+    "Testuak … du hizpide.",
+    "Testuak … du hitza.",
+    "Testua … da hizpide."
+   ],
+   "a": 0,
+   "why": "Fórmula fija."
+  },
+  {
+   "type": "choice",
+   "q": "Longitud recomendada de un resumen:",
+   "options": [
+    "entre un tercio y un cuarto del original",
+    "igual que el original",
+    "una sola palabra"
+   ],
+   "a": 0,
+   "why": "Condensar sin perder lo esencial."
+  },
+  {
+   "type": "choice",
+   "q": "Técnica para condensar «pan, leche, huevos»:",
+   "options": [
+    "generalizar: elikagaiak",
+    "repetir la lista",
+    "añadir más ejemplos"
+   ],
+   "a": 0,
+   "why": "Generalizar con un hiperónimo."
+  },
+  {
+   "type": "choice",
+   "q": "«Según el autor…»",
+   "options": [
+    "Egilearen ustez…",
+    "Nire ustez…",
+    "Zure ustez…"
+   ],
+   "a": 0,
+   "why": "Se atribuye la opinión al autor."
+  },
+  {
+   "type": "order",
+   "words": [
+    "du",
+    "hizpide",
+    "ikaskuntza",
+    "Testuak"
+   ],
+   "a": [
+    "Testuak ikaskuntza du hizpide"
+   ],
+   "es": "El texto trata del aprendizaje.",
+   "hint": "Testuak + tema + du hizpide."
+  },
+  {
+   "type": "order",
+   "words": [
+    "da",
+    "hau",
+    "nagusia",
+    "ideia",
+    "Testuaren"
+   ],
+   "a": [
+    "Testuaren ideia nagusia hau da"
+   ],
+   "es": "La idea principal del texto es esta.",
+   "hint": "Testuaren ideia nagusia + hau da."
+  },
+  {
+   "type": "order",
+   "words": [
+    "defendatzen",
+    "du",
+    "egileak",
+    "Laburbilduz"
+   ],
+   "a": [
+    "Laburbilduz egileak defendatzen du"
+   ],
+   "es": "En resumen, el autor defiende…",
+   "hint": "Conector + sujeto + verbo."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "laburpena",
+     "el resumen"
+    ],
+    [
+     "ideia nagusia",
+     "la idea principal"
+    ],
+    [
+     "hitz gakoak",
+     "las palabras clave"
+    ],
+    [
+     "egilea",
+     "el autor"
+    ],
+    [
+     "hizpide",
+     "tema (… du hizpide)"
+    ],
+    [
+     "azpimarratu",
+     "subrayar"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Elige una lección anterior de este curso (por ejemplo, B1-15 o C1-08) y escribe un resumen de su explicación en 5 o 6 frases, usando las fórmulas de la lección y sin copiar frases literales.",
+  "focus": "método de resumen, fórmulas (… du hizpide, egileak dio … -la, ideia nagusia, laburbilduz), técnicas de condensación"
+ },
+ "links": {
+  "verbs": [],
+  "cases": [],
+  "themes": [
+   "ikasketak",
+   "lokailuak"
+  ]
+ }
+}

@@ -1,0 +1,334 @@
+{
+ "id": "a1-14",
+ "lvl": "A1",
+ "n": 14,
+ "title": "Biharko planak",
+ "es": "El futuro con -ko / -go",
+ "goal": "Hablar de planes: qué harás mañana, el fin de semana o el año que viene.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "Ya sabes el presente habitual (edaten dut) y el perfecto (edan dut). El futuro es el tercer miembro de la familia y se forma igual: una pieza que lleva el significado + el auxiliar de siempre. Con esto completas el sistema básico de tiempos con naiz y dut."
+  },
+  {
+   "h": "La forma",
+   "p": "Participio + **-ko** + auxiliar en presente: **etorri → etorriko naiz** (vendré), **ikusi → ikusiko dut** (veré). Si el participio acaba en **-n**, se usa **-go**: **egin → egingo dut** (haré), **joan → joango naiz** (iré), **jan → jango dut** (comeré), **egon → egongo naiz** (estaré).",
+   "table": {
+    "head": [
+     "Participio",
+     "Futuro",
+     "Español"
+    ],
+    "rows": [
+     [
+      "etorri",
+      "etorri**ko** naiz",
+      "vendré"
+     ],
+     [
+      "ikusi",
+      "ikusi**ko** dut",
+      "veré"
+     ],
+     [
+      "erosi",
+      "erosi**ko** dut",
+      "compraré"
+     ],
+     [
+      "egin",
+      "egin**go** dut",
+      "haré"
+     ],
+     [
+      "joan",
+      "joan**go** naiz",
+      "iré"
+     ],
+     [
+      "jan",
+      "jan**go** dut",
+      "comeré"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Toda la familia junta",
+   "p": "**edaten dut** (bebo) · **edan dut** (he bebido) · **edango dut** (beberé). El auxiliar no cambia; solo cambia la forma del verbo principal. La elección entre naiz y dut sigue la regla de siempre: sin objeto, naiz; con objeto, dut."
+  },
+  {
+   "h": "Expresiones de futuro",
+   "p": "**bihar** (mañana), **etzi** (pasado mañana), **gero** (luego), **gaur arratsaldean** (esta tarde), **datorren astean** (la semana que viene), **datorren urtean** (el año que viene)."
+  },
+  {
+   "h": "Paso a paso: «No compraré nada»",
+   "p": "1) Verbo: **erosi** → **erosiko**. 2) ¿Objeto? Sí (ezer) → **dut**. 3) Negativa: **ez dut** delante, el verbo al final → **Ez dut ezer erosiko**."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*eginko* → **egingo** (acaba en -n). *Bihar joango dut* → **naiz**. *Ez erosiko dut* → **Ez dut erosiko**. *Bihar joan naiz* significa «mañana he ido»: para el futuro, **joango naiz**."
+  },
+  {
+   "h": "Resumen",
+   "p": "Futuro = participio + **-ko** (o **-go** tras -n) + naiz / dut. etorriko naiz, ikusiko dut, egingo dut, joango naiz. Negación: **ez dut … erosiko**."
+  }
+ ],
+ "examples": [
+  [
+   "Bihar Bilbora joango naiz.",
+   "Mañana iré a Bilbao."
+  ],
+  [
+   "Gero etxean egongo naiz.",
+   "Luego estaré en casa."
+  ],
+  [
+   "Datorren astean etxe berria ikusiko dugu.",
+   "La semana que viene veremos la casa nueva."
+  ],
+  [
+   "Bihar ez dut lan egingo.",
+   "Mañana no trabajaré."
+  ],
+  [
+   "Zer egingo duzu asteburuan?",
+   "¿Qué harás el fin de semana?"
+  ],
+  [
+   "Ane etzi etorriko da.",
+   "Ane vendrá pasado mañana."
+  ]
+ ],
+ "dialog": {
+  "title": "Planes para el fin de semana",
+  "lines": [
+   [
+    "Iker",
+    "Zer egingo duzu asteburuan?",
+    "¿Qué harás el fin de semana?"
+   ],
+   [
+    "Nerea",
+    "Larunbatean mendira joango naiz lagunekin.",
+    "El sábado iré al monte con los amigos."
+   ],
+   [
+    "Iker",
+    "Eta igandean?",
+    "¿Y el domingo?"
+   ],
+   [
+    "Nerea",
+    "Igandean etxean geratuko naiz. Liburu bat irakurriko dut.",
+    "El domingo me quedaré en casa. Leeré un libro."
+   ],
+   [
+    "Iker",
+    "Ni ere mendira joango naiz larunbatean!",
+    "¡Yo también iré al monte el sábado!"
+   ],
+   [
+    "Nerea",
+    "Primeran! Elkarrekin joango gara.",
+    "¡Estupendo! Iremos juntos."
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Bihar Bilbora joan___ naiz.",
+   "es": "Mañana iré a Bilbao.",
+   "a": [
+    "go"
+   ],
+   "hint": "joan acaba en -n → -go."
+  },
+  {
+   "type": "gap",
+   "q": "Etxe berria ikusi___ dugu.",
+   "es": "Veremos la casa nueva.",
+   "a": [
+    "ko"
+   ],
+   "hint": "ikusi no acaba en -n → -ko."
+  },
+  {
+   "type": "gap",
+   "q": "Ane etzi etorri___ da.",
+   "es": "Ane vendrá pasado mañana.",
+   "a": [
+    "ko"
+   ],
+   "hint": "etorri → etorriko."
+  },
+  {
+   "type": "gap",
+   "q": "Zer egingo ___?",
+   "es": "¿Qué harás?",
+   "a": [
+    "duzu"
+   ],
+   "hint": "Hacer tiene objeto; tú → duzu."
+  },
+  {
+   "type": "gap",
+   "q": "Bihar ez ___ lan egingo.",
+   "es": "Mañana no trabajaré.",
+   "a": [
+    "dut"
+   ],
+   "hint": "lan egin usa ukan; yo → dut, detrás de ez."
+  },
+  {
+   "type": "gap",
+   "q": "Larunbatean mendira joango ___.",
+   "es": "El sábado iremos al monte.",
+   "a": [
+    "gara"
+   ],
+   "hint": "Ir → izan; nosotros → gara."
+  },
+  {
+   "type": "choice",
+   "q": "Futuro de egin (hacer):",
+   "options": [
+    "egingo",
+    "eginko",
+    "egintzeko"
+   ],
+   "a": 0,
+   "why": "Acaba en -n → -go."
+  },
+  {
+   "type": "choice",
+   "q": "Futuro de ikusi (ver):",
+   "options": [
+    "ikusiko",
+    "ikusigo",
+    "ikustenko"
+   ],
+   "a": 0,
+   "why": "No acaba en -n → -ko."
+  },
+  {
+   "type": "choice",
+   "q": "«Iré mañana»",
+   "options": [
+    "Bihar joango naiz.",
+    "Bihar joango dut.",
+    "Bihar joan naiz."
+   ],
+   "a": 0,
+   "why": "Ir → naiz. Joan naiz es «he ido»."
+  },
+  {
+   "type": "choice",
+   "q": "«No compraré nada»",
+   "options": [
+    "Ez dut ezer erosiko.",
+    "Ez erosiko dut ezer.",
+    "Ez naiz ezer erosiko."
+   ],
+   "a": 0,
+   "why": "Comprar → dut; ez + auxiliar delante."
+  },
+  {
+   "type": "choice",
+   "q": "«¿Qué harás?»",
+   "options": [
+    "Zer egingo duzu?",
+    "Zer egin duzu?",
+    "Zer egiten duzu?"
+   ],
+   "a": 0,
+   "why": "egingo = futuro. egin duzu = has hecho; egiten duzu = haces."
+  },
+  {
+   "type": "order",
+   "words": [
+    "naiz",
+    "Bihar",
+    "joango",
+    "Bilbora"
+   ],
+   "a": [
+    "Bihar Bilbora joango naiz"
+   ],
+   "es": "Mañana iré a Bilbao.",
+   "hint": "Tiempo + lugar + verbo + auxiliar."
+  },
+  {
+   "type": "order",
+   "words": [
+    "dut",
+    "Ez",
+    "erosiko",
+    "ezer"
+   ],
+   "a": [
+    "Ez dut ezer erosiko"
+   ],
+   "es": "No compraré nada.",
+   "hint": "ez + auxiliar delante, el verbo al final."
+  },
+  {
+   "type": "order",
+   "words": [
+    "duzu",
+    "Zer",
+    "egingo"
+   ],
+   "a": [
+    "Zer egingo duzu"
+   ],
+   "es": "¿Qué harás?",
+   "hint": "Interrogativa + verbo + auxiliar."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "joango naiz",
+     "iré"
+    ],
+    [
+     "etorriko naiz",
+     "vendré"
+    ],
+    [
+     "ikusiko dut",
+     "veré"
+    ],
+    [
+     "egingo dut",
+     "haré"
+    ],
+    [
+     "jango dut",
+     "comeré"
+    ],
+    [
+     "egongo naiz",
+     "estaré"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Escribe tus planes para el próximo fin de semana en 5 frases: adónde irás, con quién, qué harás y algo que no harás.",
+  "focus": "futuro: participio + -ko/-go + naiz o dut"
+ },
+ "links": {
+  "verbs": [
+   "nor-pres",
+   "nn-pres-3"
+  ],
+  "cases": [],
+  "themes": [
+   "denbora",
+   "aisialdia"
+  ]
+ }
+}

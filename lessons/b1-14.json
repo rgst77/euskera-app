@@ -1,0 +1,356 @@
+{
+ "id": "b1-14",
+ "lvl": "B1",
+ "n": 14,
+ "title": "Hitz berriak sortzen",
+ "es": "Formación de palabras",
+ "goal": "Entender y crear palabras nuevas con los sufijos más productivos del euskera.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "El euskera construye su vocabulario como un juego de piezas: a partir de una raíz se crean nombres, adjetivos y profesiones con sufijos fijos. Si conoces los diez sufijos más frecuentes, podrás adivinar el significado de cientos de palabras que nunca has visto. Es una de las inversiones más rentables del B1."
+  },
+  {
+   "h": "Nombres",
+   "table": {
+    "head": [
+     "Sufijo",
+     "Significado",
+     "Ejemplos"
+    ],
+    "rows": [
+     [
+      "-tasun",
+      "cualidad (-dad, -eza)",
+      "aske → **askatasun** (libertad), eder → **edertasun** (belleza), berdin → **berdintasun** (igualdad)"
+     ],
+     [
+      "-keta",
+      "acción (-ción, -eo)",
+      "garbitu → **garbiketa** (limpieza), aldatu → **aldaketa** (cambio), erosi → **erosketa** (compra)"
+     ],
+     [
+      "-tegi / -degi",
+      "lugar",
+      "liburu → **liburutegi** (biblioteca), okin → **okindegi** (panadería), haragi → **harategi** (carnicería)"
+     ],
+     [
+      "-le / -tzaile",
+      "quien hace (-dor)",
+      "idatzi → **idazle** (escritor), ikasi → **ikasle**, saldu → **saltzaile** (vendedor)"
+     ],
+     [
+      "-lari",
+      "profesión, afición",
+      "kirol → **kirolari** (deportista), abestu → **abeslari** (cantante), dantza → **dantzari**"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Adjetivos",
+   "table": {
+    "head": [
+     "Sufijo",
+     "Significado",
+     "Ejemplos"
+    ],
+    "rows": [
+     [
+      "-garri",
+      "que produce (-ble, -nte)",
+      "harritu → **harrigarri** (sorprendente), beldur → **beldurgarri** (que da miedo), jan → **jangarri** (comestible)"
+     ],
+     [
+      "-tsu",
+      "que abunda en (-oso)",
+      "zorion → **zoriontsu** (feliz), mendi → **menditsu** (montañoso), osasun → **osasuntsu**"
+     ],
+     [
+      "-dun",
+      "que tiene",
+      "bizar → **bizardun** (barbudo), diru → **dirudun** (adinerado), euskara → **euskaldun**"
+     ],
+     [
+      "-gabe",
+      "sin",
+      "lotsa → **lotsagabe** (sinvergüenza), etxe → **etxegabe** (sin techo), lan → **langabe**"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Una palabra especial: euskaldun",
+   "p": "**euskaldun** significa literalmente «quien tiene euskera»: es decir, vascohablante. Por eso **Euskal Herria** es «el país del euskera». Y cuando termines este curso, podrás decir: **euskalduna naiz**."
+  },
+  {
+   "h": "Paso a paso: «La belleza de este paisaje es sorprendente»",
+   "p": "1) «belleza» = eder + **-tasun** → **edertasuna**. 2) «sorprendente» = harritu + **-garri** → **harrigarria**. 3) «de este paisaje» = **paisaia honen**. → **Paisaia honen edertasuna harrigarria da**."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*ederkeria* para «belleza» → **edertasun** (-keria es despectivo). *abestaile* → **abeslari**. *aldatasun* → **aldaketa**. *beldurtsu* para «que da miedo» → **beldurgarri** (beldurti es «miedoso»)."
+  },
+  {
+   "h": "Resumen",
+   "p": "**-tasun** (cualidad), **-keta** (acción), **-tegi** (lugar), **-le / -tzaile / -lari** (quien hace), **-garri** (que produce), **-tsu** (que abunda), **-dun** (que tiene), **-gabe** (sin)."
+  }
+ ],
+ "examples": [
+  [
+   "Askatasuna garrantzitsua da.",
+   "La libertad es importante."
+  ],
+  [
+   "Pelikula harrigarria izan zen.",
+   "La película fue sorprendente."
+  ],
+  [
+   "Idazle ezaguna da.",
+   "Es un escritor conocido."
+  ],
+  [
+   "Etxeko garbiketa egin dut.",
+   "He hecho la limpieza de la casa."
+  ],
+  [
+   "Okindegira noa ogia erostera.",
+   "Voy a la panadería a comprar pan."
+  ],
+  [
+   "Euskalduna naiz!",
+   "¡Soy vascohablante!"
+  ],
+  [
+   "Oso pertsona zoriontsua da.",
+   "Es una persona muy feliz."
+  ]
+ ],
+ "dialog": {
+  "title": "Una escritora",
+  "lines": [
+   [
+    "Ane",
+    "Ezagutzen duzu Miren Agirre? Idazlea da.",
+    "¿Conoces a Miren Agirre? Es escritora."
+   ],
+   [
+    "Iker",
+    "Bai! Bere azken liburua harrigarria da.",
+    "¡Sí! Su último libro es sorprendente."
+   ],
+   [
+    "Ane",
+    "Eta euskalduna da, Bilbokoa.",
+    "Y es vascohablante, de Bilbao."
+   ],
+   [
+    "Iker",
+    "Badakit. Askatasunari buruzko liburuak idazten ditu.",
+    "Lo sé. Escribe libros sobre la libertad."
+   ],
+   [
+    "Ane",
+    "Bihar liburutegian egongo da, irakurleekin hitz egiten.",
+    "Mañana estará en la biblioteca, hablando con los lectores."
+   ],
+   [
+    "Iker",
+    "Joango naiz! Oso interesgarria izango da.",
+    "¡Iré! Será muy interesante."
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Aske___ garrantzitsua da.",
+   "es": "La libertad es importante.",
+   "a": [
+    "tasuna"
+   ],
+   "hint": "cualidad: -tasun (+ artículo)."
+  },
+  {
+   "type": "gap",
+   "q": "Pelikula harri___ izan zen.",
+   "es": "La película fue sorprendente.",
+   "a": [
+    "garria"
+   ],
+   "hint": "que produce: -garri (+ artículo)."
+  },
+  {
+   "type": "gap",
+   "q": "Idaz___ ezaguna da.",
+   "es": "Es un escritor conocido.",
+   "a": [
+    "lea"
+   ],
+   "hint": "quien escribe: idazle (+ artículo)."
+  },
+  {
+   "type": "gap",
+   "q": "Etxeko garbi___ egin dut.",
+   "es": "He hecho la limpieza de la casa.",
+   "a": [
+    "keta"
+   ],
+   "hint": "acción: -keta."
+  },
+  {
+   "type": "gap",
+   "q": "Liburu___ra noa.",
+   "es": "Voy a la biblioteca.",
+   "a": [
+    "tegi"
+   ],
+   "hint": "lugar: -tegi."
+  },
+  {
+   "type": "gap",
+   "q": "Euskal___ naiz!",
+   "es": "¡Soy vascohablante!",
+   "a": [
+    "duna"
+   ],
+   "hint": "que tiene: -dun (+ artículo)."
+  },
+  {
+   "type": "choice",
+   "q": "«Belleza» (de eder)",
+   "options": [
+    "edertasun",
+    "ederkeria",
+    "edergarri"
+   ],
+   "a": 0,
+   "why": "Cualidad: -tasun."
+  },
+  {
+   "type": "choice",
+   "q": "«Cantante»",
+   "options": [
+    "abeslari",
+    "abestaile",
+    "abestasun"
+   ],
+   "a": 0,
+   "why": "Profesión: -lari."
+  },
+  {
+   "type": "choice",
+   "q": "«Cambio» (de aldatu)",
+   "options": [
+    "aldaketa",
+    "aldatasun",
+    "aldagarri"
+   ],
+   "a": 0,
+   "why": "Acción: -keta."
+  },
+  {
+   "type": "choice",
+   "q": "«Que da miedo»",
+   "options": [
+    "beldurgarria",
+    "beldurtasuna",
+    "beldurduna"
+   ],
+   "a": 0,
+   "why": "Que produce: -garri."
+  },
+  {
+   "type": "choice",
+   "q": "«Vascohablante»",
+   "options": [
+    "euskalduna",
+    "euskaltegia",
+    "euskaraketa"
+   ],
+   "a": 0,
+   "why": "-dun = que tiene (euskera). Euskaltegia es la escuela."
+  },
+  {
+   "type": "order",
+   "words": [
+    "garrantzitsua",
+    "Askatasuna",
+    "da"
+   ],
+   "a": [
+    "Askatasuna garrantzitsua da"
+   ],
+   "es": "La libertad es importante.",
+   "hint": "Sujeto + adjetivo + da."
+  },
+  {
+   "type": "order",
+   "words": [
+    "zen",
+    "harrigarria",
+    "izan",
+    "Pelikula"
+   ],
+   "a": [
+    "Pelikula harrigarria izan zen"
+   ],
+   "es": "La película fue sorprendente.",
+   "hint": "Sujeto + adjetivo + izan zen."
+  },
+  {
+   "type": "order",
+   "words": [
+    "ezaguna",
+    "da",
+    "Idazle"
+   ],
+   "a": [
+    "Idazle ezaguna da"
+   ],
+   "es": "Es un escritor conocido.",
+   "hint": "Nombre + adjetivo + da."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "-tasun",
+     "cualidad (edertasun)"
+    ],
+    [
+     "-garri",
+     "que produce (harrigarri)"
+    ],
+    [
+     "-le / -tzaile",
+     "quien hace (idazle, saltzaile)"
+    ],
+    [
+     "-keta",
+     "acción (garbiketa)"
+    ],
+    [
+     "-tegi",
+     "lugar (liburutegi)"
+    ],
+    [
+     "-dun",
+     "que tiene (euskaldun)"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Escribe 5 frases usando al menos 6 palabras derivadas: describe a una persona que admiras (su profesión, sus cualidades) y un lugar de tu ciudad.",
+  "focus": "sufijos -tasun, -keta, -tegi, -le/-tzaile/-lari, -garri, -tsu, -dun, -gabe"
+ },
+ "links": {
+  "verbs": [],
+  "cases": [],
+  "themes": [
+   "lana",
+   "adjektiboak"
+  ]
+ }
+}

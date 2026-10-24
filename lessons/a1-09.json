@@ -1,0 +1,320 @@
+{
+ "id": "a1-09",
+ "lvl": "A1",
+ "n": 9,
+ "title": "Nire familia",
+ "es": "Posesivos y genitivo -en",
+ "goal": "Hablar de tu familia y decir de quién es algo.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "Hoy aprendes a decir «mi, tu, nuestro…» y «de Mikel, del chico…». Con eso ya puedes presentar a tu familia. Hay una sorpresa: en euskera, la palabra para «hermano» depende de si lo dice un hombre o una mujer."
+  },
+  {
+   "h": "Los posesivos",
+   "p": "Van **delante** del nombre, y el nombre **mantiene el artículo**: **nire etxea** (mi casa), literalmente «de mí la casa». En plural: **nire lagunak** (mis amigos).",
+   "table": {
+    "head": [
+     "Euskera",
+     "Español"
+    ],
+    "rows": [
+     [
+      "nire",
+      "mi, mis"
+     ],
+     [
+      "zure",
+      "tu, tus"
+     ],
+     [
+      "bere",
+      "su (de él / ella)"
+     ],
+     [
+      "gure",
+      "nuestro, nuestra"
+     ],
+     [
+      "zuen",
+      "vuestro, vuestra"
+     ],
+     [
+      "haien",
+      "su (de ellos)"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "«De Mikel»: el genitivo -en",
+   "p": "Para decir de quién es algo, el poseedor va **delante** y lleva **-en**: **Mikelen etxea** (la casa de Mikel). Si el nombre acaba en vocal, **-ren**: **Aneren ama** (la madre de Ane). Con nombres comunes y artículo: **-aren** en singular (**mutilaren liburua**, el libro del chico) y **-en** en plural (**lagunen etxea**, la casa de los amigos)."
+  },
+  {
+   "h": "-ko o -en",
+   "p": "Las dos se traducen por «de», pero no son iguales: **-ko** es de un **lugar** (**etxeko giltza**, la llave de casa) y **-en** es de una **persona** o poseedor (**Mikelen giltza**, la llave de Mikel)."
+  },
+  {
+   "h": "Los hermanos",
+   "p": "El euskera distingue quién habla. Un hombre dice **anaia** (hermano) y **arreba** (hermana). Una mujer dice **neba** (hermano) y **ahizpa** (hermana). Para «hermanos» en general: **anai-arrebak** (de un hombre) o **neba-ahizpak** (de una mujer). Y otro bloque útil: **Bi anaia ditut** (tengo dos hermanos)."
+  },
+  {
+   "h": "Paso a paso: «la madre de mi amigo»",
+   "p": "1) El poseedor: **nire laguna** (mi amigo). 2) Añade -en: lagun**aren** → **nire lagunaren**. 3) Lo poseído detrás: **ama**. 4) **Nire lagunaren ama**. El orden es el contrario al español: primero el dueño, luego la cosa."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*nire etxe* → **nire etxea** (el nombre conserva el artículo). *ama Mikelen* → **Mikelen ama** (el poseedor va delante). *Mikelko ama* → **Mikelen ama** (-ko es para lugares). Una mujer que dice *nire anaia* → lo normal es **nire neba**."
+  },
+  {
+   "h": "Resumen",
+   "p": "**nire, zure, bere, gure, zuen, haien** + nombre con artículo. Poseedor + **-en / -ren / -aren**, delante de lo poseído. **-ko** lugar, **-en** persona. **anaia/arreba** (dicho por un hombre), **neba/ahizpa** (dicho por una mujer)."
+  }
+ ],
+ "examples": [
+  [
+   "Nire ama Ane da.",
+   "Mi madre es Ane."
+  ],
+  [
+   "Zure aita irakaslea da?",
+   "¿Tu padre es profesor?"
+  ],
+  [
+   "Gure etxea txikia da.",
+   "Nuestra casa es pequeña."
+  ],
+  [
+   "Mikelen arreba Bilbon bizi da.",
+   "La hermana de Mikel vive en Bilbao."
+  ],
+  [
+   "Mutilaren liburua.",
+   "El libro del chico."
+  ],
+  [
+   "Haien seme-alabak ikasleak dira.",
+   "Sus hijos son estudiantes."
+  ]
+ ],
+ "dialog": {
+  "title": "Mirando una foto",
+  "lines": [
+   [
+    "Iker",
+    "Hau zure familia da?",
+    "¿Esta es tu familia?"
+   ],
+   [
+    "Ane",
+    "Bai! Hau nire ama da, eta hau nire aita.",
+    "¡Sí! Esta es mi madre, y este mi padre."
+   ],
+   [
+    "Iker",
+    "Eta mutil hau?",
+    "¿Y este chico?"
+   ],
+   [
+    "Ane",
+    "Hori nire neba da, Jon. Hamabost urte ditu.",
+    "Ese es mi hermano, Jon. Tiene quince años."
+   ],
+   [
+    "Iker",
+    "Eta neska hau zure ahizpa da?",
+    "¿Y esta chica es tu hermana?"
+   ],
+   [
+    "Ane",
+    "Ez, hori Jonen laguna da.",
+    "No, esa es la amiga de Jon."
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "___ ama Ane da.",
+   "es": "Mi madre es Ane.",
+   "a": [
+    "nire"
+   ],
+   "hint": "nire mi · zure tu · gure nuestro."
+  },
+  {
+   "type": "gap",
+   "q": "Hau ___ etxea da?",
+   "es": "¿Esta es tu casa?",
+   "a": [
+    "zure"
+   ],
+   "hint": "nire mi · zure tu · gure nuestro."
+  },
+  {
+   "type": "gap",
+   "q": "___ etxea txikia da.",
+   "es": "Nuestra casa es pequeña.",
+   "a": [
+    "gure"
+   ],
+   "hint": "nire mi · zure tu · gure nuestro."
+  },
+  {
+   "type": "gap",
+   "q": "Mikel___ arreba Bilbon bizi da.",
+   "es": "La hermana de Mikel vive en Bilbao.",
+   "a": [
+    "en"
+   ],
+   "hint": "Nombre acabado en consonante: -en. En vocal: -ren."
+  },
+  {
+   "type": "gap",
+   "q": "Ane___ aita irakaslea da.",
+   "es": "El padre de Ane es profesor.",
+   "a": [
+    "ren"
+   ],
+   "hint": "Nombre acabado en vocal: -ren."
+  },
+  {
+   "type": "gap",
+   "q": "Mutil___ liburua.",
+   "es": "El libro del chico.",
+   "a": [
+    "aren"
+   ],
+   "hint": "Nombre común con artículo, singular: -aren."
+  },
+  {
+   "type": "choice",
+   "q": "«Mi casa»",
+   "options": [
+    "nire etxea",
+    "nire etxe",
+    "etxea nire"
+   ],
+   "a": 0,
+   "why": "El posesivo va delante y el nombre conserva el artículo."
+  },
+  {
+   "type": "choice",
+   "q": "«La madre de Mikel»",
+   "options": [
+    "Mikelen ama",
+    "ama Mikelen",
+    "Mikelko ama"
+   ],
+   "a": 0,
+   "why": "Poseedor + -en delante. -ko es para lugares."
+  },
+  {
+   "type": "choice",
+   "q": "Una mujer habla de su hermano:",
+   "options": [
+    "neba",
+    "anaia",
+    "arreba"
+   ],
+   "a": 0,
+   "why": "Una mujer dice neba (hermano) y ahizpa (hermana)."
+  },
+  {
+   "type": "choice",
+   "q": "Un hombre habla de su hermana:",
+   "options": [
+    "arreba",
+    "ahizpa",
+    "neba"
+   ],
+   "a": 0,
+   "why": "Un hombre dice anaia (hermano) y arreba (hermana)."
+  },
+  {
+   "type": "choice",
+   "q": "«Vuestro»",
+   "options": [
+    "zuen",
+    "zure",
+    "gure"
+   ],
+   "a": 0,
+   "why": "zuen = vuestro; zure = tu; gure = nuestro."
+  },
+  {
+   "type": "order",
+   "words": [
+    "ama",
+    "da",
+    "Nire",
+    "Ane"
+   ],
+   "a": [
+    "Nire ama Ane da"
+   ],
+   "es": "Mi madre es Ane.",
+   "hint": "Posesivo + nombre, luego lo que dices y el verbo al final."
+  },
+  {
+   "type": "order",
+   "words": [
+    "Bilbon",
+    "Mikelen",
+    "bizi",
+    "arreba",
+    "da"
+   ],
+   "a": [
+    "Mikelen arreba Bilbon bizi da"
+   ],
+   "es": "La hermana de Mikel vive en Bilbao.",
+   "hint": "Poseedor delante (Mikelen arreba), lugar y bizi da al final."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "nire",
+     "mi"
+    ],
+    [
+     "zure",
+     "tu"
+    ],
+    [
+     "gure",
+     "nuestro"
+    ],
+    [
+     "zuen",
+     "vuestro"
+    ],
+    [
+     "haien",
+     "su (de ellos)"
+    ],
+    [
+     "bere",
+     "su (de él / ella)"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Presenta a tu familia en 4 o 5 frases: quién es quién, cómo se llaman, dónde viven o cuántos años tienen («Nire ama Maite da. Bilbon bizi da.»).",
+  "focus": "posesivos con artículo, genitivo -en/-ren/-aren, vocabulario de la familia"
+ },
+ "links": {
+  "verbs": [
+   "nor-pres"
+  ],
+  "cases": [
+   "gen"
+  ],
+  "themes": [
+   "familia",
+   "pertsonak"
+  ]
+ }
+}

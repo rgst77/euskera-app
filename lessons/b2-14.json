@@ -1,0 +1,326 @@
+{
+ "id": "b2-14",
+ "lvl": "B2",
+ "n": 14,
+ "title": "Gutun formalak",
+ "es": "Cartas y correos formales",
+ "goal": "Escribir un correo o una carta formal completa: saludo, motivo, petición, adjuntos y despedida.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "Escribir a una institución, a una empresa o a un euskaltegi es una de las tareas más prácticas (y más evaluadas) del nivel B2. La buena noticia es que el género formal es muy previsible: con una docena de fórmulas fijas puedes escribir correos correctos y elegantes."
+  },
+  {
+   "h": "Saludo y despedida",
+   "table": {
+    "head": [
+     "Situación",
+     "Saludo",
+     "Despedida"
+    ],
+    "rows": [
+     [
+      "Formal, destinatario desconocido",
+      "**Jaun / Andre agurgarria:**",
+      "**Adeitasunez,**"
+     ],
+     [
+      "Formal, a un cargo",
+      "**Arduradun agurgarria:**",
+      "**Begirunez,**"
+     ],
+     [
+      "Neutro (correo de trabajo)",
+      "**Egun on, Ane:**",
+      "**Agur bero bat,**"
+     ],
+     [
+      "Informal",
+      "**Kaixo, Ane!**",
+      "**Laster arte! / Musu bat!**"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Fórmulas para el cuerpo",
+   "p": "Motivo: **Idazten dizut … -tzeko** (le escribo para…): **Idazten dizut informazioa eskatzeko**. Petición cortés: **… eskatu nahi nuke** (quisiera solicitar…), **Jakin nahi nuke …-n** (quisiera saber…). Comunicar: **Honen bidez jakinarazi nahi dizut … -la** (por la presente le comunico que…). Adjuntos: **Erantsita bidaltzen dizut …** (le envío adjunto…). Ofrecer contacto: **Zalantzarik izanez gero, jar zaitez nirekin harremanetan** (en caso de duda, póngase en contacto conmigo). Agradecer: **Aldez aurretik eskerrik asko** (gracias de antemano)."
+  },
+  {
+   "h": "Lugar y fecha",
+   "p": "Se escribe con el año en -ko y el mes en genitivo: **Donostian, 2026ko urriaren 23an** (en San Sebastián, a 23 de octubre de 2026)."
+  },
+  {
+   "h": "Paso a paso: estructura completa",
+   "p": "1) Saludo: **Andre agurgarria:**. 2) Motivo: **Idazten dizut … -tzeko**. 3) Petición concreta (con -n indirecto o nahi nuke). 4) Adjuntos o datos. 5) Ofrecimiento: **Zalantzarik izanez gero…**. 6) Agradecimiento y despedida: **Aldez aurretik eskerrik asko. Adeitasunez,** + nombre."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Kaixo andrea:* en una carta formal → **Andre agurgarria:**. *Ondo izan* como despedida formal → **Adeitasunez**. *Zalantzarik gabe* (sin duda) en lugar de **zalantzarik izanez gero** (en caso de duda). *23 urria 2026* → **2026ko urriaren 23an**."
+  },
+  {
+   "h": "Resumen",
+   "p": "**Jaun / Andre agurgarria:** · **Idazten dizut … -tzeko** · **… eskatu / jakin nahi nuke** · **Erantsita bidaltzen dizut** · **Zalantzarik izanez gero, jar zaitez harremanetan** · **Aldez aurretik eskerrik asko** · **Adeitasunez,**."
+  }
+ ],
+ "examples": [
+  [
+   "Jaun agurgarria:",
+   "Estimado señor:"
+  ],
+  [
+   "Idazten dizut informazioa eskatzeko.",
+   "Le escribo para solicitar información."
+  ],
+  [
+   "Erantsita bidaltzen dizut curriculuma.",
+   "Le envío adjunto el currículum."
+  ],
+  [
+   "Zalantzarik izanez gero, jar zaitez nirekin harremanetan.",
+   "En caso de duda, póngase en contacto conmigo."
+  ],
+  [
+   "Aldez aurretik eskerrik asko.",
+   "Gracias de antemano."
+  ],
+  [
+   "Adeitasunez,",
+   "Atentamente,"
+  ],
+  [
+   "Donostian, 2026ko urriaren 23an.",
+   "En San Sebastián, a 23 de octubre de 2026."
+  ]
+ ],
+ "dialog": {
+  "title": "Un correo al euskaltegi",
+  "lines": [
+   [
+    "",
+    "Andre agurgarria:",
+    "Estimada señora:"
+   ],
+   [
+    "",
+    "Idazten dizut euskara ikastaroari buruzko informazioa eskatzeko.",
+    "Le escribo para solicitar información sobre el curso de euskera."
+   ],
+   [
+    "",
+    "Jakin nahi nuke noiz hasten den ikastaroa eta zenbat balio duen.",
+    "Quisiera saber cuándo empieza el curso y cuánto cuesta."
+   ],
+   [
+    "",
+    "Erantsita bidaltzen dizut izen-emate orria.",
+    "Le envío adjunta la hoja de inscripción."
+   ],
+   [
+    "",
+    "Aldez aurretik eskerrik asko.",
+    "Gracias de antemano."
+   ],
+   [
+    "",
+    "Adeitasunez, Iker Goñi",
+    "Atentamente, Iker Goñi"
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Jaun ___:",
+   "es": "Estimado señor:",
+   "a": [
+    "agurgarria"
+   ],
+   "hint": "Saludo formal: agurgarria."
+  },
+  {
+   "type": "gap",
+   "q": "Idazten dizut informazioa eskatze___.",
+   "es": "Le escribo para solicitar información.",
+   "a": [
+    "ko"
+   ],
+   "hint": "Motivo: -tzeko."
+  },
+  {
+   "type": "gap",
+   "q": "___ bidaltzen dizut curriculuma.",
+   "es": "Le envío adjunto el currículum.",
+   "a": [
+    "erantsita"
+   ],
+   "hint": "adjunto = erantsita."
+  },
+  {
+   "type": "gap",
+   "q": "Zalantzarik izanez ___, jar zaitez harremanetan.",
+   "es": "En caso de duda, póngase en contacto.",
+   "a": [
+    "gero"
+   ],
+   "hint": "en caso de = -z gero."
+  },
+  {
+   "type": "gap",
+   "q": "Aldez ___ eskerrik asko.",
+   "es": "Gracias de antemano.",
+   "a": [
+    "aurretik"
+   ],
+   "hint": "de antemano = aldez aurretik."
+  },
+  {
+   "type": "gap",
+   "q": "___, Iker Goñi",
+   "es": "Atentamente, Iker Goñi",
+   "a": [
+    "adeitasunez"
+   ],
+   "hint": "Despedida formal: adeitasunez."
+  },
+  {
+   "type": "choice",
+   "q": "«Estimada señora:»",
+   "options": [
+    "Andre agurgarria:",
+    "Kaixo andrea:",
+    "Agur andrea:"
+   ],
+   "a": 0,
+   "why": "Saludo formal fijo."
+  },
+  {
+   "type": "choice",
+   "q": "«Atentamente,»",
+   "options": [
+    "Adeitasunez,",
+    "Ondo izan,",
+    "Musu bat,"
+   ],
+   "a": 0,
+   "why": "Despedida formal."
+  },
+  {
+   "type": "choice",
+   "q": "«En caso de duda»",
+   "options": [
+    "zalantzarik izanez gero",
+    "zalantza baduzu ere",
+    "zalantzarik gabe"
+   ],
+   "a": 0,
+   "why": "Zalantzarik gabe significa «sin duda»."
+  },
+  {
+   "type": "choice",
+   "q": "«Le envío adjunto»",
+   "options": [
+    "erantsita bidaltzen dizut",
+    "bidali dizut erantsi",
+    "erantsitako bidaltzen dut"
+   ],
+   "a": 0,
+   "why": "Fórmula fija."
+  },
+  {
+   "type": "choice",
+   "q": "«a 23 de octubre de 2026»",
+   "options": [
+    "2026ko urriaren 23an",
+    "urriak 23 2026an",
+    "23 urria 2026"
+   ],
+   "a": 0,
+   "why": "Año en -ko + mes en genitivo + día en -an."
+  },
+  {
+   "type": "order",
+   "words": [
+    "eskerrik",
+    "aurretik",
+    "asko",
+    "Aldez"
+   ],
+   "a": [
+    "Aldez aurretik eskerrik asko"
+   ],
+   "es": "Gracias de antemano.",
+   "hint": "Fórmula fija."
+  },
+  {
+   "type": "order",
+   "words": [
+    "dizut",
+    "Idazten",
+    "eskatzeko",
+    "informazioa"
+   ],
+   "a": [
+    "Idazten dizut informazioa eskatzeko",
+    "Informazioa eskatzeko idazten dizut"
+   ],
+   "es": "Le escribo para solicitar información.",
+   "hint": "Idazten dizut + motivo con -tzeko."
+  },
+  {
+   "type": "order",
+   "words": [
+    "bidaltzen",
+    "dizut",
+    "Erantsita",
+    "curriculuma"
+   ],
+   "a": [
+    "Erantsita bidaltzen dizut curriculuma"
+   ],
+   "es": "Le envío adjunto el currículum.",
+   "hint": "Erantsita bidaltzen dizut + objeto."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "agurgarria",
+     "estimado/a"
+    ],
+    [
+     "adeitasunez",
+     "atentamente"
+    ],
+    [
+     "agur bero bat",
+     "un cordial saludo"
+    ],
+    [
+     "erantsita",
+     "adjunto"
+    ],
+    [
+     "izanez gero",
+     "en caso de"
+    ],
+    [
+     "aldez aurretik",
+     "de antemano"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Escribe un correo formal completo (8 a 10 líneas) a un ayuntamiento o una empresa: preséntate, explica el motivo, haz dos preguntas, menciona un adjunto y despídete correctamente.",
+  "focus": "fórmulas de carta formal: saludo, -tzeko, nahi nuke, erantsita, izanez gero, despedida, fecha"
+ },
+ "links": {
+  "verbs": [],
+  "cases": [],
+  "themes": [
+   "lana",
+   "teknologia"
+  ]
+ }
+}

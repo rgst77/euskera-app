@@ -1,0 +1,342 @@
+{
+ "id": "a2-16",
+ "lvl": "A2",
+ "n": 16,
+ "title": "Nekatuta nagoelako",
+ "es": "Oraciones causales con -lako",
+ "goal": "Explicar por qué: «porque estoy cansado», «porque me gusta».",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "Última lección del A2. Para explicar el porqué, el euskera parte de la forma con **-la** que aprendiste hace dos lecciones y le añade **-ko**. Si recuerdas **dagoela** (que está), ya tienes **dagoelako** (porque está)."
+  },
+  {
+   "h": "La forma: -(e)la + ko",
+   "p": "**dela → delako**, **dudala → dudalako**, **dagoela → dagoelako**, **zaidala → zaidalako**. **Ez naiz joango, nekatuta nagoelako** (no iré, porque estoy cansado). En pasado ocurre lo mismo: **zuen → zuela → zuelako** (porque tenía/había), **nengoen → nengoela → nengoelako** (porque estaba).",
+   "table": {
+    "head": [
+     "-(e)la",
+     "porque…",
+     "-(e)la",
+     "porque…"
+    ],
+    "rows": [
+     [
+      "naizela",
+      "naizelako",
+      "dudala",
+      "dudalako"
+     ],
+     [
+      "zarela",
+      "zarelako",
+      "duzula",
+      "duzulako"
+     ],
+     [
+      "dela",
+      "delako",
+      "duela",
+      "duelako"
+     ],
+     [
+      "garela",
+      "garelako",
+      "dutela",
+      "dutelako"
+     ],
+     [
+      "nagoela",
+      "nagoelako",
+      "zaidala",
+      "zaidalako"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Responder a «zergatik?»",
+   "p": "La oración con -lako puede ir sola como respuesta: **Zergatik zaude pozik? — Oporretan nagoelako** (¿por qué estás contento? — porque estoy de vacaciones). Puede ir delante o detrás de la principal: **Gaixorik dagoelako, Mikel ez da etorri** = **Mikel ez da etorri, gaixorik dagoelako**."
+  },
+  {
+   "h": "Otras formas de expresar la causa",
+   "p": "Para unir dos frases sin subordinar: **eta horregatik** (y por eso): **Nekatuta nago, eta horregatik ez naiz joango**. Verás más formas de causa (*-enez*, *bait-*) en B2."
+  },
+  {
+   "h": "Paso a paso: «Estudio euskera porque me gusta»",
+   "p": "1) Principal: **euskara ikasten dut**. 2) Causa: **gustatzen zait**. 3) zait → zaidala → **zaidalako**. 4) **Euskara ikasten dut, gustatzen zaidalako**."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*nekatuta nago lako* → **nagoelako** (va todo junto). *Gustatzen zait lako* → **zaidalako**. *berandu iritsi duelako* para alguien que llega → **delako** (iritsi va con izan). *nekatuta nagoela* para «porque» → **nagoelako**."
+  },
+  {
+   "h": "Resumen",
+   "p": "«porque» = forma con -(e)la + **-ko**: delako, naizelako, dudalako, duelako, nagoelako, zaidalako. Respuesta a **Zergatik?**: solo la oración con -lako. Alternativa: **eta horregatik**. Con esta lección has completado el A2. Zorionak!"
+  }
+ ],
+ "examples": [
+  [
+   "Ez naiz joango, nekatuta nagoelako.",
+   "No iré, porque estoy cansado."
+  ],
+  [
+   "Euskara ikasten dut, gustatzen zaidalako.",
+   "Estudio euskera porque me gusta."
+  ],
+  [
+   "Zergatik zaude pozik? Oporretan nagoelako.",
+   "¿Por qué estás contento? Porque estoy de vacaciones."
+  ],
+  [
+   "Berandu iritsi da, autobusa galdu duelako.",
+   "Ha llegado tarde porque ha perdido el autobús."
+  ],
+  [
+   "Etxean geratu ginen, euria ari zuelako.",
+   "Nos quedamos en casa porque llovía."
+  ],
+  [
+   "Mikel ez da etorri, gaixorik dagoelako.",
+   "Mikel no ha venido porque está enfermo."
+  ]
+ ],
+ "dialog": {
+  "title": "La fiesta de ayer",
+  "lines": [
+   [
+    "Nerea",
+    "Zergatik ez zinen atzo festara etorri?",
+    "¿Por qué no viniste ayer a la fiesta?"
+   ],
+   [
+    "Jon",
+    "Ez nintzen joan, oso nekatuta nengoelako.",
+    "No fui porque estaba muy cansado."
+   ],
+   [
+    "Nerea",
+    "Ene! Asko lan egin zenuen?",
+    "¡Vaya! ¿Trabajaste mucho?"
+   ],
+   [
+    "Jon",
+    "Bai, eta gainera gaixorik nengoen.",
+    "Sí, y además estaba enfermo."
+   ],
+   [
+    "Nerea",
+    "Eta orain ondo zaude?",
+    "¿Y ahora estás bien?"
+   ],
+   [
+    "Jon",
+    "Bai, ondo nago, gaur lo asko egin dudalako.",
+    "Sí, estoy bien, porque hoy he dormido mucho."
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Ez naiz joango, nekatuta ___.",
+   "es": "No iré, porque estoy cansado.",
+   "a": [
+    "nagoelako"
+   ],
+   "hint": "nago → nagoela → nagoelako."
+  },
+  {
+   "type": "gap",
+   "q": "Euskara ikasten dut, gustatzen ___.",
+   "es": "Estudio euskera porque me gusta.",
+   "a": [
+    "zaidalako"
+   ],
+   "hint": "zait → zaidala → zaidalako."
+  },
+  {
+   "type": "gap",
+   "q": "Berandu iritsi da, autobusa galdu ___.",
+   "es": "Ha llegado tarde porque ha perdido el autobús.",
+   "a": [
+    "duelako"
+   ],
+   "hint": "du → duela → duelako."
+  },
+  {
+   "type": "gap",
+   "q": "Mikel ez da etorri, gaixorik ___.",
+   "es": "Mikel no ha venido porque está enfermo.",
+   "a": [
+    "dagoelako"
+   ],
+   "hint": "dago → dagoela → dagoelako."
+  },
+  {
+   "type": "gap",
+   "q": "Pozik gaude, oporretan ___.",
+   "es": "Estamos contentos porque estamos de vacaciones.",
+   "a": [
+    "gaudelako"
+   ],
+   "hint": "gaude → gaudela → gaudelako."
+  },
+  {
+   "type": "gap",
+   "q": "Etxean geratu ginen, euria ari ___.",
+   "es": "Nos quedamos en casa porque llovía.",
+   "a": [
+    "zuelako"
+   ],
+   "hint": "Pasado: zuen → zuela → zuelako."
+  },
+  {
+   "type": "choice",
+   "q": "«Porque estoy cansado»",
+   "options": [
+    "nekatuta nagoelako",
+    "nekatuta nagoela",
+    "nekatuta nago lako"
+   ],
+   "a": 0,
+   "why": "-(e)la + ko, todo junto."
+  },
+  {
+   "type": "choice",
+   "q": "«Porque ha llegado tarde»",
+   "options": [
+    "berandu iritsi delako",
+    "berandu iritsi dela",
+    "berandu iritsi duelako"
+   ],
+   "a": 0,
+   "why": "iritsi va con izan: da → delako."
+  },
+  {
+   "type": "choice",
+   "q": "«¿Por qué? — Porque me gusta»",
+   "options": [
+    "Gustatzen zaidalako.",
+    "Gustatzen zait lako.",
+    "Gustatzen zaidala."
+   ],
+   "a": 0,
+   "why": "zait → zaidalako."
+  },
+  {
+   "type": "choice",
+   "q": "«Porque» con dute:",
+   "options": [
+    "dutelako",
+    "duteelako",
+    "dutenlako"
+   ],
+   "a": 0,
+   "why": "dute → dutela → dutelako."
+  },
+  {
+   "type": "choice",
+   "q": "«Y por eso»",
+   "options": [
+    "eta horregatik",
+    "eta zergatik",
+    "eta -lako"
+   ],
+   "a": 0,
+   "why": "horregatik = por eso; zergatik = por qué."
+  },
+  {
+   "type": "order",
+   "words": [
+    "joango",
+    "naiz",
+    "Ez",
+    "nekatuta",
+    "nagoelako"
+   ],
+   "a": [
+    "Ez naiz joango nekatuta nagoelako",
+    "Nekatuta nagoelako ez naiz joango"
+   ],
+   "es": "No iré porque estoy cansado.",
+   "hint": "Principal + causa con -lako (o al revés)."
+  },
+  {
+   "type": "order",
+   "words": [
+    "zaidalako",
+    "ikasten",
+    "Euskara",
+    "dut",
+    "gustatzen"
+   ],
+   "a": [
+    "Euskara ikasten dut gustatzen zaidalako",
+    "Gustatzen zaidalako euskara ikasten dut"
+   ],
+   "es": "Estudio euskera porque me gusta.",
+   "hint": "Principal + causa con -lako (o al revés)."
+  },
+  {
+   "type": "order",
+   "words": [
+    "etorri",
+    "Mikel",
+    "ez",
+    "da",
+    "gaixorik",
+    "dagoelako"
+   ],
+   "a": [
+    "Mikel ez da etorri gaixorik dagoelako",
+    "Gaixorik dagoelako Mikel ez da etorri"
+   ],
+   "es": "Mikel no ha venido porque está enfermo.",
+   "hint": "Principal negativa + causa (o al revés)."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "naizelako",
+     "porque soy"
+    ],
+    [
+     "nagoelako",
+     "porque estoy"
+    ],
+    [
+     "dudalako",
+     "porque (yo)… (ukan)"
+    ],
+    [
+     "duelako",
+     "porque (él)… (ukan)"
+    ],
+    [
+     "zaidalako",
+     "porque me (gusta…)"
+    ],
+    [
+     "delako",
+     "porque es / ha"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Explica en 5 frases por qué estudias euskera, por qué te gusta (o no) tu ciudad, y por qué hiciste o no hiciste algo la semana pasada. Usa -lako y una vez «eta horregatik».",
+  "focus": "causales -lako (delako, dudalako, nagoelako, zaidalako…), eta horregatik"
+ },
+ "links": {
+  "verbs": [
+   "nor-pres",
+   "nn-pres-3"
+  ],
+  "cases": [],
+  "themes": [
+   "lokailuak"
+  ]
+ }
+}

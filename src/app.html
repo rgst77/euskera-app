@@ -1,0 +1,1024 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Euskara Lantegia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Young+Serif&display=swap" rel="stylesheet">
+<style>
+:root{
+  --bg:#E9ECE6; --panel:#F6F7F3; --ink:#1A211F; --muted:#5B6661; --line:#C9CFC6;
+  --nor:#2E5E8C; --nork:#9A2F2F; --nori:#A86A12; --ok:#2C7349; --bad:#A23B2A; --focus:#2E5E8C;
+  --nor-bg:#DCE6F0; --nork-bg:#F1DCDA; --nori-bg:#F3E6CF; --ok-bg:#D9EBDF; --bad-bg:#F3DCD6;
+  color-scheme: light;
+  box-sizing:border-box; padding-top:env(safe-area-inset-top,0px); padding-bottom:env(safe-area-inset-bottom,0px);
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){
+    --bg:#141917; --panel:#1C2220; --ink:#E6EAE5; --muted:#9AA59F; --line:#33403B;
+    --nor:#8DB6E0; --nork:#E39A93; --nori:#E2B566; --ok:#79C597; --bad:#EE907E; --focus:#8DB6E0;
+    --nor-bg:#1E2C3A; --nork-bg:#3A2322; --nori-bg:#3A2E1B; --ok-bg:#1D3326; --bad-bg:#3B241F;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"]{
+  --bg:#141917; --panel:#1C2220; --ink:#E6EAE5; --muted:#9AA59F; --line:#33403B;
+  --nor:#8DB6E0; --nork:#E39A93; --nori:#E2B566; --ok:#79C597; --bad:#EE907E; --focus:#8DB6E0;
+  --nor-bg:#1E2C3A; --nork-bg:#3A2322; --nori-bg:#3A2E1B; --ok-bg:#1D3326; --bad-bg:#3B241F;
+  color-scheme: dark;
+}
+*,*::before,*::after{box-sizing:border-box}
+html{height:100%;scroll-padding-top:env(safe-area-inset-top,0px)}
+body{margin:0;min-height:100%;background:var(--bg);color:var(--ink);font:17px/1.55 "Atkinson Hyperlegible",system-ui,sans-serif}
+h1,h2,h3{font-family:"Young Serif",Georgia,serif;font-weight:400;line-height:1.2;margin:0}
+h1{font-size:2.1rem} h2{font-size:1.5rem} h3{font-size:1.15rem}
+button,input,select{font:inherit;color:inherit}
+:focus-visible{outline:3px solid var(--focus);outline-offset:2px}
+.app{display:grid;grid-template-columns:240px 1fr;min-height:100vh}
+.app>nav{border-right:1px solid var(--line);padding:28px 18px;display:flex;flex-direction:column;gap:4px;position:sticky;top:0;height:100vh;overflow:auto}
+.brand{font-family:"Young Serif",Georgia,serif;font-size:1.35rem;margin:0 10px 22px;line-height:1.15}
+.brand small{display:block;font-family:"Atkinson Hyperlegible",sans-serif;font-size:.8rem;color:var(--muted);margin-top:4px}
+.navbtn{background:none;border:0;text-align:left;padding:9px 12px;border-radius:8px;cursor:pointer;display:flex;flex-direction:column}
+.navbtn span{font-size:.8rem;color:var(--muted)}
+.navbtn:hover{background:var(--panel)}
+.navbtn[aria-current="true"]{background:var(--panel);box-shadow:inset 3px 0 0 var(--ink)}
+.navbtn:disabled{cursor:default;opacity:.55}
+.navbtn:disabled:hover{background:none}
+.navsep{margin:18px 12px 6px;font-size:.8rem;color:var(--muted)}
+.sync{margin-top:auto;font-size:.8rem;color:var(--muted);padding:12px}
+main{padding:40px clamp(20px,5vw,64px);max-width:980px;width:100%}
+.lede{color:var(--muted);max-width:62ch;margin:.5rem 0 1.8rem}
+.row{display:flex;gap:12px;flex-wrap:wrap;align-items:center}
+.btn{border:1.5px solid var(--ink);background:var(--ink);color:var(--bg);padding:10px 18px;border-radius:999px;cursor:pointer;font-weight:700}
+.btn.ghost{background:transparent;color:var(--ink)}
+.btn:disabled{opacity:.4;cursor:default}
+.seg{display:inline-flex;border:1.5px solid var(--line);border-radius:999px;overflow:hidden}
+.seg button{border:0;background:transparent;padding:8px 14px;cursor:pointer}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:22px}
+.grid2{display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:16px}
+.stat{font-size:2rem;font-family:"Young Serif",Georgia,serif;line-height:1}
+.muted{color:var(--muted)}
+.small{font-size:.88rem}
+/* chips de rol: el color codifica la función gramatical en toda la app */
+.chip{display:inline-flex;align-items:baseline;gap:6px;border-radius:6px;padding:3px 9px;font-size:.95rem}
+.chip b{font-size:.75rem;letter-spacing:.02em}
+.chip.nor{background:var(--nor-bg);color:var(--nor)}
+.chip.nork{background:var(--nork-bg);color:var(--nork)}
+.chip.nori{background:var(--nori-bg);color:var(--nori)}
+.chip.case{background:var(--bg);color:var(--ink);border:1px solid var(--line)}
+.legend{display:flex;gap:8px;flex-wrap:wrap;margin:6px 0 0}
+/* práctica */
+.drill{margin-top:8px}
+.prog{height:4px;background:var(--line);border-radius:4px;overflow:hidden;margin-bottom:26px}
+.prog i{display:block;height:100%;background:var(--ink);transition:width .3s}
+.prompt-roles{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:14px}
+.prompt-big{font-family:"Young Serif",Georgia,serif;font-size:clamp(1.8rem,4vw,2.6rem);line-height:1.15;margin:4px 0 8px}
+.prompt-hint{color:var(--muted);margin-bottom:22px;max-width:60ch}
+.answer{display:flex;gap:10px;flex-wrap:wrap}
+.answer input{flex:1;min-width:220px;font-size:1.6rem;padding:12px 16px;border:2px solid var(--line);border-radius:10px;background:var(--bg);font-family:"Young Serif",Georgia,serif}
+.answer input.ok{border-color:var(--ok);background:var(--ok-bg)}
+.answer input.bad{border-color:var(--bad);background:var(--bad-bg)}
+.fb{margin-top:18px;padding:14px 16px;border-radius:10px;display:none}
+.fb.show{display:block}
+.fb.ok{background:var(--ok-bg);color:var(--ok)}
+.fb.bad{background:var(--bad-bg);color:var(--bad)}
+.fb .form{font-family:"Young Serif",Georgia,serif;font-size:1.6rem;color:var(--ink)}
+.fb .why{color:var(--ink);margin-top:6px;font-size:.95rem}
+.kbd{font-size:.8rem;color:var(--muted);margin-top:14px}
+.groups{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:8px;margin:12px 0 20px}
+.gopt{display:flex;gap:10px;align-items:flex-start;padding:10px 12px;border:1px solid var(--line);border-radius:10px;cursor:pointer;background:var(--panel)}
+.gopt input{margin-top:5px}
+.lvl{display:inline-block;font-size:.75rem;border:1px solid var(--line);border-radius:4px;padding:0 5px;margin-left:6px;color:var(--muted)}
+.gopt .bar{height:3px;background:var(--line);border-radius:3px;margin-top:6px;overflow:hidden}
+.gopt .bar i{display:block;height:100%;background:var(--ok)}
+/* tablas */
+.tablewrap{overflow-x:auto;margin:14px 0 26px}
+table{border-collapse:collapse;min-width:100%}
+th,td{border:1px solid var(--line);padding:8px 12px;text-align:left;white-space:nowrap}
+th{font-weight:700;font-size:.9rem}
+th.nor{color:var(--nor);background:var(--nor-bg)} th.nork{color:var(--nork);background:var(--nork-bg)} th.nori{color:var(--nori);background:var(--nori-bg)}
+td.f{font-family:"Young Serif",Georgia,serif;font-size:1.1rem}
+td.empty{background:repeating-linear-gradient(45deg,transparent,transparent 5px,var(--line) 5px,var(--line) 6px);opacity:.5}
+td.hid{cursor:pointer;color:transparent;background:var(--bg)}
+td.hid::after{content:"ver";color:var(--muted);font-family:"Atkinson Hyperlegible",sans-serif;font-size:.8rem}
+.done-big{font-family:"Young Serif",Georgia,serif;font-size:3rem;line-height:1}
+.mistakes li{margin:4px 0}
+.mistakes .f{font-family:"Young Serif",Georgia,serif}
+.choices{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:10px;margin-top:6px}
+.choice{text-align:left;padding:14px 16px;border:2px solid var(--line);border-radius:10px;background:var(--bg);cursor:pointer;font-size:1.05rem}
+.choice:hover:not(:disabled){border-color:var(--ink)}
+.choice.ok{border-color:var(--ok);background:var(--ok-bg)}
+.choice.bad{border-color:var(--bad);background:var(--bad-bg)}
+.choice:disabled{cursor:default}
+.choice kbd{font-family:inherit;color:var(--muted);font-size:.8rem;margin-right:8px}
+.wlist{display:grid;grid-template-columns:repeat(auto-fill,minmax(270px,1fr));gap:2px 24px;margin:14px 0 24px}
+.wrow{display:flex;gap:10px;align-items:baseline;padding:7px 0;border-bottom:1px solid var(--line)}
+.wrow .eu{font-family:"Young Serif",Georgia,serif;font-size:1.08rem}
+.wrow .es{color:var(--muted);flex:1;text-align:right;font-size:.92rem}
+.dot{width:8px;height:8px;border-radius:50%;background:var(--line);flex:none;align-self:center}
+.dot.l1{background:var(--nori)} .dot.l2{background:var(--nor)} .dot.l3{background:var(--ok)}
+.search{padding:10px 14px;border-radius:10px;border:1.5px solid var(--line);background:var(--panel);min-width:260px}
+.r{border-radius:4px;padding:0 4px}
+.r.nor{background:var(--nor-bg);color:var(--nor)} .r.nork{background:var(--nork-bg);color:var(--nork)} .r.nori{background:var(--nori-bg);color:var(--nori)}
+.lvlhead{display:flex;align-items:baseline;gap:14px;margin:34px 0 10px}
+.lgrid{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:8px}
+.lcard{text-align:left;border:1px solid var(--line);background:var(--panel);border-radius:10px;padding:12px 14px;cursor:pointer;display:flex;flex-direction:column;gap:2px;min-height:86px}
+.lcard:hover:not(:disabled){border-color:var(--ink)}
+.lcard:disabled{cursor:default;background:transparent;border-style:dashed}
+.lcard .num{font-size:.8rem;color:var(--muted)}
+.lcard .t{font-family:"Young Serif",Georgia,serif;font-size:1.08rem}
+.lcard .s{font-size:.85rem;color:var(--muted)}
+.lcard.done{box-shadow:inset 0 -3px 0 var(--ok)}
+.steps{display:flex;gap:4px;flex-wrap:wrap;margin:18px 0 26px;border-bottom:1px solid var(--line)}
+.steps button{background:none;border:0;padding:10px 14px;cursor:pointer;border-bottom:3px solid transparent;margin-bottom:-1px}
+.steps button[aria-current="true"]{border-bottom-color:var(--ink);font-weight:700}
+.steps button .ck{color:var(--ok);margin-left:4px}
+.lx h3{margin:26px 0 8px}
+.lx p{max-width:68ch}
+.exrow{display:flex;gap:16px;align-items:baseline;padding:8px 0;border-bottom:1px solid var(--line)}
+.exrow .eu{font-family:"Young Serif",Georgia,serif;font-size:1.12rem;flex:1}
+.exrow .es{color:var(--muted);flex:1}
+.dline{display:grid;grid-template-columns:90px 1fr;gap:12px;padding:10px 0;border-bottom:1px solid var(--line)}
+.dline .who{font-weight:700}
+.dline .eu{font-family:"Young Serif",Georgia,serif;font-size:1.15rem}
+.dline .es{color:var(--muted);font-size:.92rem;display:none}
+.showes .dline .es{display:block}
+.gapq{font-family:"Young Serif",Georgia,serif;font-size:1.6rem;line-height:1.6}
+.gapq input{font:inherit;width:7.5em;padding:2px 10px;border:2px solid var(--line);border-radius:8px;background:var(--bg)}
+.gapq input.ok{border-color:var(--ok);background:var(--ok-bg)} .gapq input.bad{border-color:var(--bad);background:var(--bad-bg)}
+.tiles{display:flex;gap:8px;flex-wrap:wrap;min-height:52px;margin:10px 0}
+.tile{padding:8px 14px;border:1.5px solid var(--line);border-radius:8px;background:var(--panel);cursor:pointer;font-family:"Young Serif",Georgia,serif;font-size:1.15rem}
+.tile:disabled{opacity:.25;cursor:default}
+.built{min-height:58px;border-bottom:2px solid var(--ink);display:flex;gap:8px;flex-wrap:wrap;align-items:center;padding:6px 0;font-family:"Young Serif",Georgia,serif;font-size:1.4rem}
+.mcols{display:grid;grid-template-columns:1fr 1fr;gap:10px;max-width:640px}
+.mcols .choice.sel{border-color:var(--ink)}
+textarea{width:100%;min-height:140px;padding:14px;border-radius:10px;border:2px solid var(--line);background:var(--bg);font:1.15rem/1.5 "Young Serif",Georgia,serif;color:var(--ink)}
+.ai{font-size:.8rem;color:var(--muted);border:1px solid var(--line);border-radius:4px;padding:0 6px}
+.corr{font-family:"Young Serif",Georgia,serif;font-size:1.2rem;background:var(--ok-bg);padding:14px;border-radius:10px;margin:10px 0}
+.card-new{border:2px solid var(--ink);border-radius:14px;padding:22px;background:var(--panel)}
+.card-new .tag{font-size:.85rem;color:var(--muted);margin-bottom:8px}
+.card-new .form{font-family:"Young Serif",Georgia,serif;font-size:clamp(2rem,5vw,3rem);line-height:1.1;margin:6px 0 10px}
+.linkbtn{background:none;border:0;padding:0;color:var(--ink);text-decoration:underline;cursor:pointer;font:inherit}
+.today{display:grid;gap:10px;margin-top:12px}
+.tstep{display:grid;grid-template-columns:28px 1fr auto;gap:12px;align-items:center;padding:12px 14px;border:1px solid var(--line);border-radius:10px;background:var(--bg)}
+.tstep .n{width:28px;height:28px;border-radius:50%;border:1.5px solid var(--ink);display:grid;place-items:center;font-size:.85rem}
+.tstep.done .n{background:var(--ok);border-color:var(--ok);color:var(--bg)}
+.tstep.done{opacity:.75}
+.qa{margin-top:30px;border-top:1px solid var(--line);padding-top:8px}
+.qa textarea{min-height:70px;font-family:"Atkinson Hyperlegible",sans-serif;font-size:1rem}
+.qa .ans{white-space:pre-wrap;background:var(--bg);border:1px solid var(--line);border-radius:10px;padding:14px;margin-top:10px}
+select{padding:8px 10px;border-radius:8px;border:1.5px solid var(--line);background:var(--panel)}
+.note{border-left:3px solid var(--line);padding:4px 0 4px 14px;color:var(--muted);max-width:66ch}
+@media (max-width:760px){
+  .app{grid-template-columns:1fr}
+  .app>nav{position:static;height:auto;border-right:0;border-bottom:1px solid var(--line);flex-direction:row;flex-wrap:wrap;padding:12px}
+  .brand,.navsep,.sync{display:none}
+}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+</head>
+<body>
+<div class="app">
+  <nav aria-label="Secciones">
+    <div class="brand">Euskara Lantegia<small>Tu taller de euskera</small></div>
+    <button class="navbtn" data-view="home">Hasiera<span>Inicio y progreso</span></button>
+    <button class="navbtn" data-view="lessons">Ikasgaiak<span>Lecciones A1–C1</span></button>
+    <button class="navbtn" data-view="verbs">Aditzak<span>Verbos y auxiliares</span></button>
+    <button class="navbtn" data-view="decl">Deklinabidea<span>Casos y declinación</span></button>
+    <button class="navbtn" data-view="words">Hiztegia<span>Vocabulario por temas</span></button>
+    <button class="navbtn" data-view="tables">Taulak<span>Tablas de consulta</span></button>
+    <div class="navsep">En construcción</div>
+            <button class="navbtn" disabled>Tutorea<span>Tutor IA y conversación</span></button>
+    <div class="sync" id="sync">Cargando progreso…</div>
+  </nav>
+  <main id="main"></main>
+</div>
+<script>
+/* ============ DATOS: personas y glosas ============ */
+const PERS=['ni','zu','hura','gu','zuek','haiek'];
+const ERG={ni:'nik',zu:'zuk',hura:'hark',gu:'guk',zuek:'zuek',haiek:'haiek'};
+const DAT={ni:'niri',zu:'zuri',hura:'hari',gu:'guri',zuek:'zuei',haiek:'haiei'};
+const ES={ni:'yo',zu:'tú',hura:'él/ella',gu:'nosotros',zuek:'vosotros',haiek:'ellos'};
+const OBJ={ni:'me',zu:'te',hura:'lo',gu:'nos',zuek:'os',haiek:'los'};
+const ICL={ni:'me',zu:'te',hura:'se',gu:'nos',zuek:'os',haiek:'se'};
+const IA={ni:'me',zu:'te',hura:'le',gu:'nos',zuek:'os',haiek:'les'};
+const TO={hura:' (a él/ella)',haiek:' (a ellos)'};
+const C=(arr)=>Object.fromEntries(PERS.map((p,i)=>[p,arr[i]]));
+const SP={
+  haber:C(['he','has','ha','hemos','habéis','han']), ser:C(['soy','eres','es','somos','sois','son']),
+  era:C(['era','eras','era','éramos','erais','eran']), fui:C(['fui','fuiste','fue','fuimos','fuisteis','fueron']), vine:C(['vine','viniste','vino','vinimos','vinisteis','vinieron']),
+  vi:C(['vi','viste','vio','vimos','visteis','vieron']), di:C(['di','diste','dio','dimos','disteis','dieron']),
+  estar:C(['estoy','estás','está','estamos','estáis','están']), estaba:C(['estaba','estabas','estaba','estábamos','estabais','estaban']),
+  ir:C(['voy','vas','va','vamos','vais','van']), iba:C(['iba','ibas','iba','íbamos','ibais','iban']),
+  venir:C(['vengo','vienes','viene','venimos','venís','vienen']), venia:C(['venía','venías','venía','veníamos','veníais','venían']),
+  andar:C(['ando','andas','anda','andamos','andáis','andan']), tener:C(['tengo','tienes','tiene','tenemos','tenéis','tienen']),
+  saber:C(['sé','sabes','sabe','sabemos','sabéis','saben']), decir:C(['digo','dices','dice','decimos','decís','dicen'])
+};
+
+/* ============ DATOS: paradigmas verbales (batua) ============ */
+// NOR-NORK: tabla[NOR][NORK]
+const NN_PRES={
+  ni:{zu:'nauzu',hura:'nau',zuek:'nauzue',haiek:'naute'},
+  zu:{ni:'zaitut',hura:'zaitu',gu:'zaitugu',haiek:'zaituzte'},
+  hura:{ni:'dut',zu:'duzu',hura:'du',gu:'dugu',zuek:'duzue',haiek:'dute'},
+  gu:{zu:'gaituzu',hura:'gaitu',zuek:'gaituzue',haiek:'gaituzte'},
+  zuek:{ni:'zaituztet',hura:'zaituzte',gu:'zaituztegu',haiek:'zaituztete'},
+  haiek:{ni:'ditut',zu:'dituzu',hura:'ditu',gu:'ditugu',zuek:'dituzue',haiek:'dituzte'}
+};
+const NN_PAST={
+  ni:{zu:'ninduzun',hura:'ninduen',zuek:'ninduzuen',haiek:'ninduten'},
+  zu:{ni:'zintudan',hura:'zintuen',gu:'zintugun',haiek:'zintuzten'},
+  hura:{ni:'nuen',zu:'zenuen',hura:'zuen',gu:'genuen',zuek:'zenuten',haiek:'zuten'},
+  gu:{zu:'gintuzun',hura:'gintuen',zuek:'gintuzuen',haiek:'gintuzten'},
+  zuek:{ni:'zintuztedan',hura:'zintuzten',gu:'zintuztegun',haiek:'zintuzteten'},
+  haiek:{ni:'nituen',zu:'zenituen',hura:'zituen',gu:'genituen',zuek:'zenituzten',haiek:'zituzten'}
+};
+// NOR-NORI: tabla[NOR(hura|haiek)][NORI]
+const NNI_PRES={hura:C(['zait','zaizu','zaio','zaigu','zaizue','zaie']),haiek:C(['zaizkit','zaizkizu','zaizkio','zaizkigu','zaizkizue','zaizkie'])};
+const NNI_PAST={hura:C(['zitzaidan','zitzaizun','zitzaion','zitzaigun','zitzaizuen','zitzaien']),haiek:C(['zitzaizkidan','zitzaizkizun','zitzaizkion','zitzaizkigun','zitzaizkizuen','zitzaizkien'])};
+// NOR-NORI-NORK: tabla[NORK][NORI]
+const NNN_PRES={
+  ni:{zu:'dizut',hura:'diot',zuek:'dizuet',haiek:'diet'},
+  zu:{ni:'didazu',hura:'diozu',gu:'diguzu',haiek:'diezu'},
+  hura:{ni:'dit',zu:'dizu',hura:'dio',gu:'digu',zuek:'dizue',haiek:'die'},
+  gu:{zu:'dizugu',hura:'diogu',zuek:'dizuegu',haiek:'diegu'},
+  zuek:{ni:'didazue',hura:'diozue',gu:'diguzue',haiek:'diezue'},
+  haiek:{ni:'didate',zu:'dizute',hura:'diote',gu:'digute',zuek:'dizuete',haiek:'diete'}
+};
+const NNN_PRES_PL={
+  ni:{zu:'dizkizut',hura:'dizkiot',zuek:'dizkizuet',haiek:'dizkiet'},
+  zu:{ni:'dizkidazu',hura:'dizkiozu',gu:'dizkiguzu',haiek:'dizkiezu'},
+  hura:{ni:'dizkit',zu:'dizkizu',hura:'dizkio',gu:'dizkigu',zuek:'dizkizue',haiek:'dizkie'},
+  gu:{zu:'dizkizugu',hura:'dizkiogu',zuek:'dizkizuegu',haiek:'dizkiegu'},
+  zuek:{ni:'dizkidazue',hura:'dizkiozue',gu:'dizkiguzue',haiek:'dizkiezue'},
+  haiek:{ni:'dizkidate',zu:'dizkizute',hura:'dizkiote',gu:'dizkigute',zuek:'dizkizuete',haiek:'dizkiete'}
+};
+const NNN_PAST={
+  ni:{zu:'nizun',hura:'nion',zuek:'nizuen',haiek:'nien'},
+  zu:{ni:'zenidan',hura:'zenion',gu:'zenigun',haiek:'zenien'},
+  hura:{ni:'zidan',zu:'zizun',hura:'zion',gu:'zigun',zuek:'zizuen',haiek:'zien'},
+  gu:{zu:'genizun',hura:'genion',zuek:'genizuen',haiek:'genien'},
+  zuek:{ni:'zenidaten',hura:'zenioten',gu:'zeniguten',haiek:'zenieten'},
+  haiek:{ni:'zidaten',zu:'zizuten',hura:'zioten',gu:'ziguten',zuek:'zizueten',haiek:'zieten'}
+};
+const SYN={
+  izan:{pres:C(['naiz','zara','da','gara','zarete','dira']),past:C(['nintzen','zinen','zen','ginen','zineten','ziren'])},
+  egon:{pres:C(['nago','zaude','dago','gaude','zaudete','daude']),past:C(['nengoen','zeunden','zegoen','geunden','zeundeten','zeuden']),es:'estar',sp:'estar',spp:'estaba'},
+  joan:{pres:C(['noa','zoaz','doa','goaz','zoazte','doaz']),past:C(['nindoan','zindoazen','zihoan','gindoazen','zindoazten','zihoazen']),es:'ir',sp:'ir',spp:'iba'},
+  etorri:{pres:C(['nator','zatoz','dator','gatoz','zatozte','datoz']),past:C(['nentorren','zentozen','zetorren','gentozen','zentozten','zetozen']),es:'venir',sp:'venir',spp:'venia'},
+  ibili:{pres:C(['nabil','zabiltza','dabil','gabiltza','zabiltzate','dabiltza']),es:'andar',sp:'andar'},
+  eduki:{pres:C(['daukat','daukazu','dauka','daukagu','daukazue','daukate']),es:'tener',sp:'tener',erg:1},
+  jakin:{pres:C(['dakit','dakizu','daki','dakigu','dakizue','dakite']),es:'saber',sp:'saber',erg:1},
+  esan:{pres:C(['diot','diozu','dio','diogu','diozue','diote']),es:'decir',sp:'decir',erg:1}
+};
+
+const GROUPS=[
+ {id:'nor-pres',lvl:'A1',name:'NOR · presente',desc:'izan: naiz, zara, da…'},
+ {id:'nn-pres-3',lvl:'A1',name:'NOR-NORK · presente (lo / los)',desc:'ukan: dut, duzu… ditut, dituzu…'},
+ {id:'syn-pres-1',lvl:'A1',name:'Sintéticos · presente I',desc:'egon, joan, etorri, ibili'},
+ {id:'nor-past',lvl:'A2',name:'NOR · pasado',desc:'nintzen, zinen, zen…'},
+ {id:'nn-past-3',lvl:'A2',name:'NOR-NORK · pasado (lo / los)',desc:'nuen, zenuen… nituen…'},
+ {id:'syn-pres-2',lvl:'A2',name:'Sintéticos · presente II',desc:'eduki, jakin, esan'},
+ {id:'nni-pres',lvl:'A2',name:'NOR-NORI · presente',desc:'zait, zaizu… zaizkit…'},
+ {id:'syn-past',lvl:'B1',name:'Sintéticos · pasado',desc:'nengoen, nindoan, nentorren…'},
+ {id:'nn-pres-x',lvl:'B1',name:'NOR-NORK · presente (me, te, nos, os)',desc:'nau, zaitut, gaitu…'},
+ {id:'nn-past-x',lvl:'B1',name:'NOR-NORK · pasado (me, te, nos, os)',desc:'ninduen, zintudan…'},
+ {id:'nni-past',lvl:'B1',name:'NOR-NORI · pasado',desc:'zitzaidan, zitzaizkidan…'},
+ {id:'nnn-pres',lvl:'B1',name:'NOR-NORI-NORK · presente (lo)',desc:'diot, dizut, dit…'},
+ {id:'nnn-pres-pl',lvl:'B2',name:'NOR-NORI-NORK · presente (los)',desc:'dizkiot, dizkizut…'},
+ {id:'nnn-past',lvl:'B2',name:'NOR-NORI-NORK · pasado (lo)',desc:'nion, nizun, zidan…'}
+];
+const WHY={
+  'nor-pres':'NOR: el sujeto de un verbo sin objeto (ser, ir, venir…). La forma solo cambia según NOR.',
+  'nor-past':'Pasado de NOR: casi todas las formas terminan en -en (nintz-en, zin-en).',
+  'nn-pres-3':'NOR-NORK con objeto «lo»: la raíz d-u- y la terminación marca a NORK (-t yo, -zu tú, -gu nosotros). Con objeto plural se añade -it-: d-it-u-t.',
+  'nn-past-3':'En pasado el prefijo marca a NORK (n- yo, zen- tú, z- él, gen- nosotros) y se añade -en.',
+  'nn-pres-x':'Cuando NOR no es «lo/los», el prefijo marca a NOR (n- me, zait- te, gait- nos) y la terminación a NORK.',
+  'nn-past-x':'Pasado con NOR personal: el prefijo marca a NOR (nind-, zint-, gint-) y la terminación a NORK, más -n.',
+  'nni-pres':'NOR-NORI (estructura de «gustar»): zai- + marca de NORI (-t, -zu, -o…). Con NOR plural: zaizki-.',
+  'nni-past':'Pasado de NOR-NORI: zitzai- + NORI + -n. Con NOR plural: zitzaizki-.',
+  'nnn-pres':'NOR-NORI-NORK: di- + marca de NORI + marca de NORK (di-zu-t = yo te lo).',
+  'nnn-pres-pl':'Con objeto plural se añade -zki- tras di-: di-zki-o-t.',
+  'nnn-past':'Pasado: el prefijo marca a NORK (n-, zen-, z-, gen-) + i + NORI + -n (n-i-o-n).',
+  'syn-pres-1':'Verbos sintéticos: se conjugan sin auxiliar. El prefijo marca la persona (n- yo, z- tú, d- él, g- nosotros).',
+  'syn-pres-2':'Estos sintéticos son transitivos: la terminación marca a NORK como en dut (dakit, daukazu).',
+  'syn-past':'Pasado sintético: n-/z-/g- + raíz + -en. En 3.ª persona el prefijo es z- (zegoen, zihoan).'
+};
+
+function buildVerbItems(){
+  const it=[];
+  const add=(g,id,form,roles,hint)=>it.push({mod:'v',g,id:'v:'+id,form,roles,hint});
+  PERS.forEach(p=>{
+    add('nor-pres','izan-pres-'+p,SYN.izan.pres[p],{nor:p},`«(${ES[p]}) ${SP.ser[p]}» · etorri ___ = «${SP.haber[p]} venido»`);
+    add('nor-past','izan-past-'+p,SYN.izan.past[p],{nor:p},`«(${ES[p]}) ${SP.era[p]} / ${SP.fui[p]}» · etorri ___ = «${SP.vine[p]}»`);
+  });
+  for(const nor of PERS) for(const nork of PERS){
+    const f1=NN_PRES[nor][nork], f2=NN_PAST[nor][nork]; if(!f1) continue;
+    const third=(nor==='hura'||nor==='haiek');
+    add(third?'nn-pres-3':'nn-pres-x',`nn-pres-${nor}-${nork}`,f1,{nork,nor},`ikusi ___ → «(${ES[nork]}) ${OBJ[nor]} ${SP.haber[nork]} visto»`);
+    add(third?'nn-past-3':'nn-past-x',`nn-past-${nor}-${nork}`,f2,{nork,nor},`ikusi ___ → «(${ES[nork]}) ${OBJ[nor]} ${SP.vi[nork]}»`);
+  }
+  for(const nor of ['hura','haiek']) for(const nori of PERS){
+    const pl=nor==='haiek';
+    add('nni-pres',`nni-pres-${nor}-${nori}`,NNI_PRES[nor][nori],{nori,nor},`gustatu ___ → «(a ${ES[nori]==='yo'?'mí':ES[nori]==='tú'?'ti':ES[nori]}) ${IA[nori]} ${pl?'han':'ha'} gustado»`);
+    add('nni-past',`nni-past-${nor}-${nori}`,NNI_PAST[nor][nori],{nori,nor},`gustatu ___ → «${IA[nori]} ${pl?'gustaron':'gustó'}»`);
+  }
+  for(const nork of PERS) for(const nori of PERS){
+    const f=NNN_PRES[nork][nori]; if(!f) continue;
+    add('nnn-pres',`nnn-pres-${nork}-${nori}`,f,{nork,nori,nor:'hura'},`eman ___ → «(${ES[nork]}) ${ICL[nori]} lo ${SP.haber[nork]} dado${TO[nori]||''}»`);
+    add('nnn-pres-pl',`nnn-prespl-${nork}-${nori}`,NNN_PRES_PL[nork][nori],{nork,nori,nor:'haiek'},`eman ___ → «(${ES[nork]}) ${ICL[nori]} los ${SP.haber[nork]} dado${TO[nori]||''}»`);
+    add('nnn-past',`nnn-past-${nork}-${nori}`,NNN_PAST[nork][nori],{nork,nori,nor:'hura'},`eman ___ → «(${ES[nork]}) ${ICL[nori]} lo ${SP.di[nork]}${TO[nori]||''}»`);
+  }
+  for(const [v,d] of Object.entries(SYN)){ if(v==='izan') continue;
+    const g=['egon','joan','etorri','ibili'].includes(v)?'syn-pres-1':'syn-pres-2';
+    PERS.forEach(p=>{
+      const roles=d.erg?{nork:p,verb:v}:{nor:p,verb:v};
+      add(g,`syn-pres-${v}-${p}`,d.pres[p],roles,`${v} (${d.es}) → «(${ES[p]}) ${d.erg?'lo ':''}${SP[d.sp][p]}»`);
+      if(d.past) add('syn-past',`syn-past-${v}-${p}`,d.past[p],{nor:p,verb:v},`${v} (${d.es}) → «(${ES[p]}) ${SP[d.spp][p]}»`);
+    });
+  }
+  return it;
+}
+
+/* ============ DATOS: declinación ============ */
+const NOUNS=[
+ ['etxe','la casa','las casas'],['mendi','el monte','los montes'],['liburu','el libro','los libros'],
+ ['kale','la calle','las calles'],['eskola','la escuela','las escuelas'],['eliza','la iglesia','las iglesias'],
+ ['hondartza','la playa','las playas'],['hiri','la ciudad','las ciudades'],['herri','el pueblo','los pueblos'],
+ ['mahai','la mesa','las mesas'],['gela','la habitación','las habitaciones'],['zuhaitz','el árbol','los árboles'],
+ ['egun','el día','los días'],['ordenagailu','el ordenador','los ordenadores'],['lantegi','la fábrica','las fábricas'],
+ ['denda','la tienda','las tiendas'],['ospitale','el hospital','los hospitales'],['autobus','el autobús','los autobuses'],
+ ['leiho','la ventana','las ventanas'],['ate','la puerta','las puertas'],['ibai','el río','los ríos'],
+ ['plaza','la plaza','las plazas'],['baso','el bosque','los bosques'],['lur','la tierra','las tierras',{r:'lurr'}],
+ ['lagun','el amigo','los amigos',{an:1}],['mutil','el chico','los chicos',{an:1}],['neska','la chica','las chicas',{an:1}],
+ ['ume','el niño','los niños',{an:1}],['ama','la madre','las madres',{an:1}],['irakasle','el profesor','los profesores',{an:1}],
+ ['txakur','el perro','los perros',{an:1,r:'txakurr'}]
+].map(([w,es,esp,o={}])=>({w,es,esp,an:!!o.an,r:o.r||null}));
+const CASES=[
+ {k:'abs',eu:'Absolutiboa',q:'NOR',lvl:'A1',es:x=>x,rule:'Sujeto de verbos sin objeto y objeto directo. Singular -a, plural -ak. Si la palabra acaba en -a, la -a ya hace de artículo (neska, neskak).'},
+ {k:'ine',eu:'Inesiboa',q:'NON',lvl:'A1',loc:1,es:x=>'en '+x,rule:'«En». Singular -an (tras consonante -ean; tras -a solo -n: elizan). Plural -etan.'},
+ {k:'adl',eu:'Adlatiboa',q:'NORA',lvl:'A1',loc:1,es:x=>'a '+x,rule:'«A, hacia». Singular -ra (tras consonante -era). Plural -etara.'},
+ {k:'abl',eu:'Ablatiboa',q:'NONDIK',lvl:'A1',loc:1,es:x=>'desde '+x,rule:'«Desde, de (procedencia)». Singular -tik (tras consonante -etik). Plural -etatik.'},
+ {k:'ko',eu:'Leku-genitiboa',q:'NONGO',lvl:'A1',loc:1,es:x=>'de '+x+' (-ko: lugar)',rule:'«De» de lugar o pertenencia local: etxeko atea. Singular -ko (tras consonante -eko). Plural -etako.'},
+ {k:'gen',eu:'Genitiboa',q:'NOREN',lvl:'A1',es:x=>'de '+x+' (posesión)',rule:'«De» posesivo: mutilaren liburua. Singular -aren, plural -en.'},
+ {k:'soz',eu:'Soziatiboa',q:'NOREKIN',lvl:'A1',es:x=>'con '+x,rule:'«Con» (compañía). Singular -arekin, plural -ekin.'},
+ {k:'erg',eu:'Ergatiboa',q:'NORK',lvl:'A2',es:x=>x+' (sujeto con objeto)',rule:'Sujeto de un verbo con objeto: Mutilak liburua irakurri du. Singular -ak, plural -ek.'},
+ {k:'dat',eu:'Datiboa',q:'NORI',lvl:'A2',es:x=>'a '+x+' (dativo)',rule:'Objeto indirecto: amari eman diot. Singular -ari, plural -ei.'},
+ {k:'des',eu:'Destinatiboa',q:'NORENTZAT',lvl:'A2',es:x=>'para '+x,rule:'«Para» (destinatario). Singular -arentzat, plural -entzat.'},
+ {k:'ins',eu:'Instrumentala',q:'ZERTAZ',lvl:'B1',es:x=>x+' (instrumental: «de, con, por medio de»)',rule:'Medio o tema: autobusez (en autobús), liburuaz hitz egin (hablar del libro). Singular -az, plural -ez.'},
+ {k:'ter',eu:'Muga-adlatiboa',q:'NORAINO',lvl:'B1',loc:1,es:x=>'hasta '+x,rule:'«Hasta». Singular -raino (tras consonante -eraino). Plural -etaraino.'}
+];
+const isV=c=>'aeiou'.includes(c);
+function decline(n,kas,num){
+  const w=n.w,last=w.slice(-1),vow=isV(last),cs=n.r||w,base=vow?w:cs,def=last==='a'?w.slice(0,-1):base;
+  const S={abs:'a',erg:'ak',dat:'ari',gen:'aren',soz:'arekin',des:'arentzat',ins:'az'};
+  const P={abs:'ak',erg:'ek',dat:'ei',gen:'en',soz:'ekin',des:'entzat',ins:'ez',ine:'etan',abl:'etatik',adl:'etara',ter:'etaraino',ko:'etako'};
+  if(num==='pl') return def+P[kas];
+  if(num==='sg'){
+    if(S[kas]) return def+S[kas];
+    if(kas==='ine') return last==='a'?w+'n':base+(vow?'an':'ean');
+    return base+(vow?'':'e')+{abl:'tik',adl:'ra',ter:'raino',ko:'ko'}[kas];
+  }
+  const I={erg:'k',dat:'i',gen:'en',soz:'ekin',des:'entzat',ins:'z',ine:'tan',abl:'tatik',adl:'tara',ter:'taraino',ko:'tako'};
+  if(kas==='abs') return w;
+  if(['dat','gen','soz','des'].includes(kas)) return base+(vow?'r':'')+I[kas];
+  return base+(vow?'':'e')+I[kas];
+}
+const contract=s=>s.replace(/\bde el\b/g,'del').replace(/\ba el\b/g,'al');
+const bare=s=>s.replace(/^(el|la|los|las) /,'');
+function buildDeclItems(){
+  const it=[];
+  for(const n of NOUNS) for(const c of CASES){ if(c.loc&&n.an) continue;
+    for(const num of ['sg','pl','id']){
+      const es= num==='id' ? `${c.es(bare(n.es))} — sin artículo (indefinido)` : contract(c.es(num==='sg'?n.es:n.esp));
+      it.push({mod:'d',g:c.k,num,id:`d:${n.w}:${c.k}:${num}`,form:decline(n,c.k,num),noun:n,c,es});
+    }
+  }
+  return it;
+}
+
+const VOCAB=[
+{id:'agurrak',eu:'Agurrak',es:'Saludos y frases básicas',t:`A1:kaixo=hola;agur=adiós;egun on=buenos días;arratsalde on=buenas tardes;gabon=buenas noches;mesedez=por favor;eskerrik asko=muchas gracias;ez horregatik=de nada;barkatu=perdón / disculpa;bai=sí;ez=no;ongi etorri=bienvenido;zer moduz?=¿qué tal?;ondo=bien;gaizki=mal;gero arte=hasta luego;bihar arte=hasta mañana;zorionak=felicidades;on egin=que aproveche;ados=de acuerdo;ez dakit=no lo sé;ez dut ulertzen=no lo entiendo|A2:aupa=¡hola! (coloquial);noski=claro / por supuesto;agian=quizás;berriro=otra vez;poliki=despacio;ulertzen dut=lo entiendo;zorte on=buena suerte;ondo izan=que te vaya bien;ez dago arazorik=no hay problema|B1:beharbada=tal vez;zer moduz zaude?=¿cómo estás?;pozten naiz=me alegro`},
+{id:'galderak',eu:'Galdetzaileak',es:'Palabras para preguntar',t:`A1:nor=quién;zer=qué;non=dónde;nora=adónde;nondik=de dónde;noiz=cuándo;nola=cómo;zergatik=por qué;zenbat=cuánto / cuántos;zein=cuál|A2:zertarako=para qué;noren=de quién;norekin=con quién;norentzat=para quién;nongoa=de dónde (es)|B1:noraino=hasta dónde;zenbatgarren=en qué posición;nolako=de qué tipo / cómo es`},
+{id:'zenbakiak',eu:'Zenbakiak',es:'Los números',t:`A1:zero=cero;bat=uno;bi=dos;hiru=tres;lau=cuatro;bost=cinco;sei=seis;zazpi=siete;zortzi=ocho;bederatzi=nueve;hamar=diez;hamaika=once;hamabi=doce;hamahiru=trece;hamalau=catorce;hamabost=quince;hamasei=dieciséis;hamazazpi=diecisiete;hemezortzi=dieciocho;hemeretzi=diecinueve;hogei=veinte;hogeita bat=veintiuno;hogeita hamar=treinta;berrogei=cuarenta;berrogeita hamar=cincuenta;hirurogei=sesenta;laurogei=ochenta;ehun=cien;mila=mil|A2:lehenengo=primero;bigarren=segundo;hirugarren=tercero;laugarren=cuarto;azken=último;erdi=medio / mitad;bikoitz=doble;milioi=millón|B1:laurden=cuarto (fracción);herren=tercio;ehuneko=por ciento`},
+{id:'familia',eu:'Familia',es:'La familia',t:`A1:familia=familia;aita=padre;ama=madre;gurasoak=padres;seme=hijo;alaba=hija;anaia=hermano (de un hombre);arreba=hermana (de un hombre);neba=hermano (de una mujer);ahizpa=hermana (de una mujer);aitona=abuelo;amona=abuela;senar=marido;emazte=esposa;haur=niño / niña|A2:osaba=tío;izeba=tía;lehengusu=primo;iloba=sobrino / sobrina;biloba=nieto / nieta;bikote=pareja;senide=familiar / pariente;bikiak=gemelos / mellizos;jaio=nacer;hil=morir;ezkondu=casarse / casado|B1:alargun=viudo / viuda;koinatu=cuñado;aitaginarreba=suegro;amaginarreba=suegra;ezkongabe=soltero;dibortziatu=divorciarse / divorciado;haurtxo=bebé`},
+{id:'pertsonak',eu:'Pertsonak',es:'Describir personas',t:`A1:gizon=hombre;emakume=mujer;mutil=chico;neska=chica;lagun=amigo / amiga;jende=gente;altu=alto;baxu=bajo;gazte=joven;zahar=viejo / mayor;polit=bonito / guapo;itsusi=feo;ile=pelo;begi=ojo|A2:lodi=gordo;argal=delgado;ilehori=rubio;ilegorri=pelirrojo;beltzaran=moreno;jator=majo / simpático;lotsati=tímido;alai=alegre;azkar=listo / rápido;alfer=vago;langile=trabajador;bizar=barba|B1:adeitsu=amable;burugogor=testarudo;zintzo=honrado / formal;harro=orgulloso;berritsu=hablador;zuhur=prudente;axolagabe=despreocupado`},
+{id:'gorputza',eu:'Gorputza',es:'El cuerpo humano',t:`A1:buru=cabeza;esku=mano;hanka=pierna;aho=boca;sudur=nariz|A2:aurpegi=cara;belarri=oreja;hortz=diente;lepo=cuello;beso=brazo;hatz=dedo;oin=pie;belaun=rodilla;bizkar=espalda;sabel=vientre / tripa;bular=pecho;bihotz=corazón;odol=sangre;azal=piel;mihi=lengua (órgano)|B1:hezur=hueso;gibel=hígado;birika=pulmón;ukondo=codo;orkatila=tobillo;sorbalda=hombro;eztarri=garganta;giharra=músculo;burmuin=cerebro`},
+{id:'osasuna',eu:'Osasuna',es:'La salud',t:`A2:osasun=salud;mediku=médico;erizain=enfermero / enfermera;ospitale=hospital;botika=farmacia / medicamento;gaixo=enfermo;min=dolor;buruko min=dolor de cabeza;sukar=fiebre;eztul=tos;hotzeria=resfriado;zauri=herida;min hartu=hacerse daño;sendatu=curar(se);osasuntsu=sano;pilula=pastilla;anbulantzia=ambulancia|B1:larrialdi=urgencia;errezeta=receta;sendagai=medicamento;alergia=alergia;zorabio=mareo;odol-azterketa=análisis de sangre;hautsi=romper(se);txerto=vacuna;gaixotasun=enfermedad`},
+{id:'etxea',eu:'Etxea',es:'La casa',t:`A1:etxe=casa;gela=habitación;sukalde=cocina;komun=baño / aseo;ate=puerta;leiho=ventana;ohe=cama;mahai=mesa;aulki=silla;giltza=llave|A2:pisu=piso;logela=dormitorio;bainugela=cuarto de baño;egongela=salón;teilatu=tejado;horma=pared;eskailera=escalera;igogailu=ascensor;balkoi=balcón;lorategi=jardín;garaje=garaje;sofa=sofá;armairu=armario;apal=estante;ispilu=espejo;lanpara=lámpara;argi=luz;dutxa=ducha|B1:sabai=techo;zoru=suelo;atari=portal;ganbara=desván;berogailu=calefacción;alokairu=alquiler;bizilagun=vecino;altzari=mueble`},
+{id:'sukaldea',eu:'Sukaldea',es:'Cocina y menaje',t:`A2:hozkailu=frigorífico;labe=horno;edalontzi=vaso;plater=plato;koilara=cuchara;sardexka=tenedor;labana=cuchillo;kikara=taza;botila=botella;mahai-zapi=mantel|B1:garbigailu=lavadora;ontzi-garbigailu=lavavajillas;zartagin=sartén;lapiko=cazuela / olla;mikrouhin-labe=microondas;izozkailu=congelador;ontzi=recipiente / cacharro;egosi=cocer / hervir;frijitu=freír;erre=asar / quemar`},
+{id:'janaria',eu:'Janaria eta edaria',es:'Comida y bebida',t:`A1:jan=comer;edan=beber;ogi=pan;ur=agua;esne=leche;kafe=café;ardo=vino;garagardo=cerveza;haragi=carne;arrain=pescado;arrautza=huevo;gazta=queso;sagar=manzana;gosari=desayuno;bazkari=comida;afari=cena;gose=hambre;egarri=sed|A2:te=té;zuku=zumo;oilasko=pollo;urdaiazpiko=jamón;arroz=arroz;patata=patata;tomate=tomate;letxuga=lechuga;tipula=cebolla;baratxuri=ajo;babarrun=alubia;azukre=azúcar;gatz=sal;olio=aceite;laranja=naranja;mahats=uva;marrubi=fresa;madari=pera;limoi=limón;hamaiketako=almuerzo (media mañana);goxo=rico / sabroso;gazi=salado;fruta=fruta;barazki=verdura|B1:mingots=amargo;garratz=agrio;legatz=merluza;bakailao=bacalao;txipiroi=chipirón;txuleta=chuleta;intxaur=nuez;irin=harina;gurin=mantequilla;eztia=miel;piper=pimiento;ilar=guisante`},
+{id:'jatetxea',eu:'Jatetxean',es:'En el restaurante y el bar',t:`A2:jatetxe=restaurante;taberna=bar;zerbitzari=camarero / camarera;kontua=la cuenta;lehen plater=primer plato;bigarren plater=segundo plato;postre=postre;edari=bebida;eguneko menu=menú del día;pintxo=pintxo;kafe hutsa=café solo;kafesne=café con leche;ebaki=cortado;sagardo=sidra;zer hartuko duzu?=¿qué vas a tomar?;nahi nuke=quisiera|B1:mahai bat erreserbatu=reservar una mesa;begetarian=vegetariano;sagardotegi=sidrería;txakolin=txakoli;mokadu=bocado / aperitivo;eskupeko=propina`},
+{id:'koloreak',eu:'Koloreak',es:'Los colores',t:`A1:gorri=rojo;urdin=azul;berde=verde;hori=amarillo;zuri=blanco;beltz=negro|A2:gris=gris;marroi=marrón;arrosa=rosa;more=morado;argi=claro (color);ilun=oscuro;kolore=color|B1:urre-kolore=dorado;zilar-kolore=plateado;nabar=de varios colores`},
+{id:'denbora',eu:'Denbora',es:'El tiempo y el calendario',t:`A1:egun=día;aste=semana;hilabete=mes;urte=año;ordu=hora;minutu=minuto;gaur=hoy;bihar=mañana;atzo=ayer;goiz=mañana (parte del día) / temprano;arratsalde=tarde;gau=noche;orain=ahora;gero=después / luego;beti=siempre;astelehen=lunes;astearte=martes;asteazken=miércoles;ostegun=jueves;ostiral=viernes;larunbat=sábado;igande=domingo;asteburu=fin de semana|A2:eguerdi=mediodía;etzi=pasado mañana;herenegun=anteayer;lehen=antes;inoiz ez=nunca;batzuetan=a veces;askotan=a menudo;berandu=tarde (con retraso);laster=pronto;oraindik=todavía;jada=ya;urtarril=enero;otsail=febrero;martxo=marzo;apiril=abril;maiatz=mayo;ekain=junio;uztail=julio;abuztu=agosto;irail=septiembre;urri=octubre;azaro=noviembre;abendu=diciembre;udaberri=primavera;uda=verano;udazken=otoño;negu=invierno|B1:dagoeneko=ya;mende=siglo;hamarkada=década;egunsenti=amanecer;ilunabar=anochecer;garai=época / momento;epe=plazo`},
+{id:'eguraldia',eu:'Eguraldia',es:'El tiempo meteorológico',t:`A2:eguraldi=tiempo (meteorológico);euri=lluvia;elur=nieve;haize=viento;eguzki=sol;hodei=nube;laino=niebla;ekaitz=tormenta;bero=calor / caliente;hotz=frío;epel=templado / tibio;heze=húmedo;lehor=seco;euria ari du=está lloviendo;elurra ari du=está nevando|B1:tximista=rayo;trumoi=trueno;zaparrada=chaparrón;izotz=hielo / helada;ortzadar=arco iris;txingor=granizo;sargori=bochorno;iragarpen=previsión`},
+{id:'arropa',eu:'Arropa',es:'Ropa y complementos',t:`A2:arropa=ropa;kamiseta=camiseta;alkandora=camisa;prakak=pantalones;gona=falda;soineko=vestido;jertse=jersey;jaka=chaqueta;beroki=abrigo;zapata=zapato;galtzerdi=calcetín;txapela=boina;txano=gorro;eskularru=guante;poltsa=bolso / bolsa;motxila=mochila;erloju=reloj;betaurrekoak=gafas;jantzi=vestirse / ponerse;neurri=talla|B1:erantzi=desvestirse / quitarse;aterki=paraguas;gerriko=cinturón;eraztun=anillo;belarritako=pendiente;zapatila=zapatilla;oinetako=calzado`},
+{id:'hiria',eu:'Hirian',es:'En la ciudad',t:`A1:hiri=ciudad;herri=pueblo;kale=calle;plaza=plaza;denda=tienda;eliza=iglesia;parke=parque|A2:merkatu=mercado;banketxe=banco;liburutegi=biblioteca;museo=museo;udaletxe=ayuntamiento;aireportu=aeropuerto;zubi=puente;zinema=cine;antzoki=teatro;postetxe=oficina de correos;polizia=policía;auzo=barrio;semaforo=semáforo|B1:bidegurutze=cruce;espaloi=acera;biribilgune=rotonda;zebrabide=paso de cebra;kiosko=quiosco;eraikin=edificio;inguru=alrededores`},
+{id:'norabideak',eu:'Non?',es:'Lugar y direcciones',t:`A1:hemen=aquí;hor=ahí;han=allí;ezker=izquierda;eskuin=derecha;zuzen=recto|A2:hurbil=cerca;urrun=lejos;aurrean=delante;atzean=detrás;ondoan=al lado;artean=entre;gainean=encima;azpian=debajo;barruan=dentro;kanpoan=fuera;iparralde=norte;hegoalde=sur;ekialde=este;mendebalde=oeste|B1:aldamenean=al lado;parean=enfrente;erdian=en medio;inguruan=alrededor;zehar=a través de`},
+{id:'bidaiak',eu:'Bidaiak',es:'Viajes y transporte',t:`A1:tren=tren;autobus=autobús;auto/kotxe=coche;hegazkin=avión;bizikleta=bicicleta;hotel=hotel|A2:bidaia=viaje;bidaiatu=viajar;itsasontzi=barco;txartel=billete / tarjeta;joan-etorri=ida y vuelta;maleta=maleta;pasaporte=pasaporte;erreserba=reserva;mapa=mapa;oporrak=vacaciones;irteera=salida;sarrera=entrada;geltoki=parada / estación|B1:atzerri=extranjero (el);ostatu=alojamiento;nasa=andén;atzerapen=retraso;ekipaje=equipaje;bidaiari=pasajero / viajero;gidabaimen=carné de conducir`},
+{id:'natura',eu:'Natura',es:'La naturaleza',t:`A1:mendi=monte / montaña;itsaso=mar;hondartza=playa|A2:natura=naturaleza;baso=bosque;zuhaitz=árbol;lore=flor;belar=hierba;hosto=hoja;lur=tierra;harri=piedra;hondar=arena;ibai=río;su=fuego;aire=aire;zeru=cielo;ilargi=luna;izar=estrella;mundu=mundo;landare=planta;kosta=costa|B1:aintzira=lago;uharte=isla;haran=valle;ur-jauzi=cascada;haitz=roca / peña;labar=acantilado;ingurumen=medio ambiente;baserri=caserío`},
+{id:'animaliak',eu:'Animaliak',es:'Los animales',t:`A1:txakur=perro;katu=gato|A2:animalia=animal;behi=vaca;zaldi=caballo;ardi=oveja;txerri=cerdo;oilo=gallina;ahate=pato;asto=burro;ahuntz=cabra;untxi=conejo;sagu=ratón;txori=pájaro;otso=lobo;hartz=oso;azeri=zorro;suge=serpiente;tximino=mono;lehoi=león;euli=mosca;erle=abeja;tximeleta=mariposa|B1:arratoi=rata;hegazti=ave;arrano=águila;marrazo=tiburón;balea=ballena;inurri=hormiga;armiarma=araña;eltxo=mosquito;bele=cuervo;zikoina=cigüeña`},
+{id:'lana',eu:'Lana',es:'Trabajo y profesiones',t:`A1:lan=trabajo;lan egin=trabajar|A2:enpresa=empresa;bulego=oficina;soldata=sueldo;nagusi=jefe;lankide=compañero de trabajo;bilera=reunión;langabe=parado (sin trabajo);sukaldari=cocinero;abokatu=abogado;ingeniari=ingeniero;dendari=dependiente;gidari=conductor|B1:arotz=carpintero;idazkari=secretario;kazetari=periodista;nekazari=agricultor;arrantzale=pescador;suhiltzaile=bombero;lanaldi=jornada laboral;kontratu=contrato;erretiratu=jubilarse / jubilado;lanpostu=puesto de trabajo`},
+{id:'ikasketak',eu:'Ikasketak',es:'Estudios',t:`A1:ikasle=estudiante;irakasle=profesor;eskola=escuela;ikasi=estudiar / aprender;idatzi=escribir;irakurri=leer;liburu=libro|A2:ikastola=ikastola;unibertsitate=universidad;ikasgai=asignatura / lección;azterketa=examen;etxeko lanak=deberes;irakatsi=enseñar;koaderno=cuaderno;arkatz=lápiz;hiztegi=diccionario;hizkuntza=idioma / lengua;galdera=pregunta;erantzun=respuesta / responder|B1:ikastaro=curso;titulu=título;nota=nota;gainditu=aprobar / superar;huts egin=fallar / suspender;euskaltegi=euskaltegi (escuela de euskera);ariketa=ejercicio`},
+{id:'aisialdia',eu:'Aisialdia',es:'Ocio, deporte y cultura',t:`A1:jai=fiesta;musika=música;futbol=fútbol|A2:kirol=deporte;saskibaloi=baloncesto;pilota=pelota (vasca);igerileku=piscina;igeri egin=nadar;talde=equipo / grupo;jokalari=jugador;partidu=partido;abesti=canción;kontzertu=concierto;dantza=danza / baile;pelikula=película;telebista=televisión;irrati=radio;argazki=foto;marraztu=dibujar;mendira joan=ir al monte|B1:txirrindularitza=ciclismo;bertsolari=bertsolari (improvisador de versos);trikitixa=trikitixa (acordeón diatónico);herri kirolak=deportes rurales vascos;aisialdi=tiempo libre;ikuskizun=espectáculo;erakusketa=exposición;estropada=regata de traineras`},
+{id:'erosketak',eu:'Erosketak',es:'De compras',t:`A2:erosketak=compras;diru=dinero;prezio=precio;garesti=caro;merke=barato;ordaindu=pagar;kutxa=caja;saski=cesta;irekita=abierto;itxita=cerrado;zenbat balio du?=¿cuánto cuesta?;kilo=kilo;litro=litro|B1:deskontu=descuento;ordainagiri=recibo / tique;beherapenak=rebajas;itzuli=devolver / volver;txanpon=moneda;txartelez ordaindu=pagar con tarjeta;eskudirutan=en efectivo`},
+{id:'teknologia',eu:'Teknologia',es:'Teléfono e internet',t:`A2:telefono=teléfono;mugikor=móvil;ordenagailu=ordenador;pantaila=pantalla;mezu=mensaje;posta elektroniko=correo electrónico;helbide=dirección;aplikazio=aplicación;bateria=batería;kargatu=cargar;sare=red;deitu=llamar|B1:teklatu=teclado;pasahitz=contraseña;deskargatu=descargar;sare sozialak=redes sociales;webgune=página web;bilatzaile=buscador;gorde=guardar;ezabatu=borrar;eguneratu=actualizar;fitxategi=archivo`},
+{id:'aditzak',eu:'Aditz arruntak',es:'Verbos frecuentes',t:`A1:izan=ser / haber;egon=estar;joan=ir;etorri=venir;egin=hacer;ikusi=ver;entzun=oír / escuchar;esan=decir;hitz egin=hablar;lo egin=dormir;bizi izan=vivir;eduki=tener;jakin=saber;nahi izan=querer;erosi=comprar;eman=dar;hartu=coger / tomar;ireki=abrir;itxi=cerrar;gustatu=gustar|A2:esnatu=despertarse;jaiki=levantarse;ezagutu=conocer;behar izan=necesitar / tener que;ahal izan=poder;saldu=vender;utzi=dejar;ekarri=traer;eraman=llevar;hasi=empezar;bukatu=terminar;itxaron=esperar;bilatu=buscar;aurkitu=encontrar;galdu=perder;irabazi=ganar;ibili=andar;korrika egin=correr;jolastu=jugar;abestu=cantar;dantzatu=bailar;sartu=entrar;irten=salir;atera=sacar;iritsi=llegar;geratu=quedarse / quedar;pentsatu=pensar;uste izan=creer (opinar);gogoratu=recordar;ahaztu=olvidar;maite izan=amar / querer;lagundu=ayudar;galdetu=preguntar;garbitu=limpiar;prestatu=preparar;bidali=enviar;jaso=recibir / recoger;saiatu=intentar;erabili=usar;aldatu=cambiar;eskatu=pedir|B1:lortu=conseguir;konpondu=arreglar;ohartu=darse cuenta;kezkatu=preocuparse;haserretu=enfadarse;zaindu=cuidar;eskaini=ofrecer;erabaki=decidir;onartu=aceptar;ukatu=negar;sinetsi=creer (en algo);azaldu=explicar / aparecer;ekidin=evitar;merezi izan=merecer (la pena);gertatu=suceder / pasar;bihurtu=convertirse`},
+{id:'adjektiboak',eu:'Adjektiboak',es:'Adjetivos comunes',t:`A1:handi=grande;txiki=pequeño;on=bueno;txar=malo;berri=nuevo;luze=largo;labur=corto;erraz=fácil;zail=difícil;pozik=contento;triste=triste;nekatuta=cansado|A2:zabal=ancho;estu=estrecho;garbi=limpio;zikin=sucio;lasai=tranquilo;urduri=nervioso;aspertuta=aburrido;interesgarri=interesante;eder=hermoso;dibertigarri=divertido;arraro=raro;garrantzitsu=importante;arin=ligero;astun=pesado;bizkor=rápido / ágil;motel=lento / soso;isil=callado / silencioso;hutsik=vacío;beteta=lleno;aberats=rico (con dinero);pobre=pobre|B1:beharrezko=necesario;ezinezko=imposible;zaratatsu=ruidoso;arriskutsu=peligroso;erosoa=cómodo;nahasia=confuso;harrigarri=sorprendente;gogorra=duro;bigun=blando`},
+{id:'lokailuak',eu:'Hitz txikiak',es:'Conectores y palabras útiles',t:`A1:eta=y;edo=o;baina=pero;ere=también;oso=muy;asko=mucho;gutxi=poco;dena=todo;beste=otro;hau=este / esto;hori=ese / eso;bakarrik=solo / solamente|A2:ere ez=tampoco;ezer=nada (en negativas);inor=nadie;zerbait=algo;norbait=alguien;elkarrekin=juntos;orduan=entonces;beraz=así que / por tanto;gainera=además;adibidez=por ejemplo;horregatik=por eso;bezala=como;baino=que (comparativo);gehiago=más;gutxiago=menos;nahiko=bastante;gehiegi=demasiado;ia=casi;bakoitz=cada;guztiak=todos|B1:hala ere=sin embargo;behintzat=al menos;berez=en realidad / de por sí;bestela=si no / de lo contrario;nahiz eta=aunque;arren=a pesar de;hots=es decir;azken finean=al fin y al cabo;dena den=de todos modos;bereziki=especialmente`}
+];
+
+
+const LVLS=['A1','A2','B1'];
+const WORDS=[];
+(function(){const seen=new Set();for(const th of VOCAB)for(const seg of th.t.split('|')){const L=seg.slice(0,2);for(const e of seg.slice(3).split(';')){const i=e.indexOf('=');const eu=e.slice(0,i),es=e.slice(i+1);const k=eu+'='+es;if(seen.has(k))continue;seen.add(k);WORDS.push({th:th.id,lvl:L,eu,es,alts:eu.split('/').map(x=>x.trim())})}}})();
+function buildWordItems(){const it=[];for(const w of WORDS){
+  const base=`w:${w.th}:${w.eu}`;
+  it.push({mod:'w',kind:'r',g:w.th,lvl:w.lvl,id:base+':r',form:w.alts.join(' / '),es:w.es,word:w});
+  it.push({mod:'w',kind:'p',g:w.th,lvl:w.lvl,id:base+':p',form:w.alts.join(' / '),es:w.es,word:w});
+}return it}
+const WITEMS=buildWordItems();
+// la producción (es→eu) se desbloquea cuando ya reconoces la palabra (caja ≥ 2)
+function wordPool(themes,lvls){return WITEMS.filter(i=>themes.includes(i.g)&&lvls.includes(i.lvl)&&(i.kind==='r'||((S.stats[i.id.slice(0,-1)+'r']||{}).b>=2)))}
+function wordLevel(w){const r=S.stats[`w:${w.th}:${w.eu}:r`],p=S.stats[`w:${w.th}:${w.eu}:p`];if(p&&p.b>=2)return 3;if(r&&r.b>=2)return 2;if(r)return 1;return 0}
+const THEORY_V={
+'nor-pres':{t:'izan (ser) en presente',p:['**izan** tiene un solo protagonista: {nor:NOR}, el sujeto. Sirve para dos cosas: como verbo «ser» (**Ikaslea naiz**, soy estudiante) y como auxiliar de los verbos sin objeto, como ir, venir, llegar o nacer (**Etorri naiz**, he venido).','Fíjate en la primera letra, porque te dice la persona: **n-** yo (naiz), **z-** tú y vosotros (zara, zarete), **d-** él/ella y ellos (da, dira), **g-** nosotros (gara). Esta pista de las iniciales se repite en muchísimos verbos.'],ex:[['Ni Ane naiz.','Yo soy Ane.'],['Gu Bilbokoak gara.','Somos de Bilbao.'],['Haiek etorri dira.','Ellos han venido.']]},
+'nor-past':{t:'izan en pasado',p:['Las formas son **nintzen, zinen, zen, ginen, zineten, ziren**. Significan «era / fui» y, como auxiliar, forman el pasado de los verbos sin objeto: **Atzo etorri nintzen** (ayer vine).','Se mantienen las iniciales n-, z- y g-, y casi todo acaba en **-en**. Ojo: en pasado la 3.ª persona empieza por **z-** (zen, ziren) y no por d-.'],ex:[['Gaztea nintzen.','Era joven.'],['Atzo etorri ginen.','Ayer vinimos.'],['Hura irakaslea zen.','Él era profesor.']]},
+'nn-pres-3':{t:'ukan con objeto «lo / los»',p:['**ukan** es el auxiliar de los verbos con objeto: alguien ({nork:NORK}) hace algo a algo ({nor:NOR}). **Ikusi dut** = lo he visto. Es el auxiliar más usado del euskera.','Si el objeto es una cosa («lo»), la raíz es **du-** y la terminación dice quién lo hace: **-t** yo (dut), **-zu** tú (duzu), nada para él (du), **-gu** nosotros (dugu), **-zue** vosotros (duzue), **-te** ellos (dute).','Si el objeto es plural («los»), se mete **-it-** dentro: d-**it**-u-t → **ditut**. Y algo muy importante: el sujeto de estos verbos lleva **-k**: **nik, zuk, hark** (yo, tú, él).'],ex:[['Nik liburua irakurri dut.','He leído el libro.'],['Zuk kafea edan duzu.','Has bebido el café.'],['Guk etxeak ikusi ditugu.','Hemos visto las casas.']]},
+'nn-past-3':{t:'ukan en pasado («lo / los»)',p:['En pasado, la persona que hace la acción ({nork:NORK}) pasa al principio: **n-** yo, **zen-** tú, **z-** él, **gen-** nosotros, **zen-…-te** vosotros, **z-…-te** ellos. Todo acaba en **-en**.','Las formas son **nuen, zenuen, zuen, genuen, zenuten, zuten**. Con objeto plural se añade -it-: **nituen, zenituen, zituen**…'],ex:[['Atzo liburua erosi nuen.','Ayer compré el libro.'],['Zuk ikusi zenuen.','Tú lo viste.'],['Etxeak saldu zituzten.','Vendieron las casas.']]},
+'nn-pres-x':{t:'ukan con objeto personal (me, te, nos, os)',p:['Cuando el objeto es una persona, el principio del auxiliar indica a {nor:NOR} y la terminación a {nork:NORK}. **n-au** = «me» + él → **nau** (me ha…). **zait-u-t** = «te» + yo → **zaitut** (te he…).','Inicios de NOR: **n-** me, **zait-** te, **gait-** nos, **zaituzte-** os. Las combinaciones reflexivas (yo → me) no existen: se dicen de otra manera.'],ex:[['Ikusi nauzu.','Me has visto.'],['Ikusi zaitut.','Te he visto.'],['Deitu gaituzte.','Nos han llamado.']]},
+'nn-past-x':{t:'ukan en pasado con objeto personal',p:['El inicio marca a {nor:NOR}: **nind-** me, **zint-** te, **gint-** nos, **zintuzte-** os. La terminación marca a {nork:NORK} y todo acaba en **-n**.'],ex:[['Ikusi ninduzun.','Me viste.'],['Ikusi zintudan.','Te vi.'],['Deitu gintuen.','Nos llamó.']]},
+'nni-pres':{t:'NOR-NORI: la estructura de «gustar»',p:['Algo ({nor:NOR}) le pasa o le gusta a alguien ({nori:NORI}). Igual que en español «me gusta», la persona va como complemento: **niri, zuri, hari…** (a mí, a ti, a él).','Se forma con **zai-** + la marca de NORI: **-t** a mí, **-zu** a ti, **-o** a él, **-gu** a nosotros, **-zue** a vosotros, **-e** a ellos → zait, zaizu, zaio, zaigu, zaizue, zaie. Si lo que gusta es plural: **zaizki-** (zaizkit).'],ex:[['Euskara gustatu zait.','Me ha gustado el euskera.'],['Giltzak ahaztu zaizkit.','Se me han olvidado las llaves.'],['Zer gertatu zaizu?','¿Qué te ha pasado?']]},
+'nni-past':{t:'NOR-NORI en pasado',p:['Se forma con **zitzai-** + la marca de NORI + **-n**: zitzaidan, zitzaizun, zitzaion, zitzaigun, zitzaizuen, zitzaien. Con NOR plural: **zitzaizki-** (zitzaizkidan).'],ex:[['Filma gustatu zitzaidan.','Me gustó la película.'],['Zer gertatu zitzaion?','¿Qué le pasó?']]},
+'nnn-pres':{t:'NOR-NORI-NORK: dar, decir, enviar…',p:['Tres protagonistas: alguien ({nork:NORK}) da o dice algo ({nor:NOR}) a alguien ({nori:NORI}).','Se forma con **di-** + NORI + NORK: di-**zu**-**t** = (yo) te lo; di-**o**-**t** = (yo) se lo (a él); di-**t** = (él) me lo. Marcas de NORI: **-da-/-t** a mí, **-zu-** a ti, **-o-** a él, **-gu-** a nosotros, **-zue-** a vosotros, **-e-** a ellos.'],ex:[['Liburua eman diot.','Le he dado el libro.'],['Amari esan diogu.','Se lo hemos dicho a la madre.'],['Zer esan dizu?','¿Qué te ha dicho?']]},
+'nnn-pres-pl':{t:'NOR-NORI-NORK con objeto plural',p:['Igual que el anterior, pero si lo dado es plural se añade **-zki-** después de di-: **dizkiot** (se los he… a él), **dizkizut** (te los he…).'],ex:[['Loreak eman dizkiot.','Le he dado las flores.'],['Argazkiak bidali dizkigute.','Nos han enviado las fotos.']]},
+'nnn-past':{t:'NOR-NORI-NORK en pasado',p:['Inicio de NORK (**n-, zen-, z-, gen-**) + **i** + NORI + **-n**: n-i-o-n = **nion** (se lo di a él); z-i-da-n = **zidan** (él me lo dio).'],ex:[['Atzo opari bat eman nion.','Ayer le di un regalo.'],['Zer esan zizun?','¿Qué te dijo?']]},
+'syn-pres-1':{t:'Verbos sintéticos (I): egon, joan, etorri, ibili',p:['Algunos verbos muy frecuentes no necesitan auxiliar: se conjugan solos. Se usan para lo que pasa ahora mismo.','**egon** (estar): nago, zaude, dago… **joan** (ir): noa, zoaz, doa… **etorri** (venir): nator, zatoz, dator… **ibili** (andar): nabil, zabiltza, dabil… Se repite la pista de siempre: **n-** yo, **z-** tú, **d-** él, **g-** nosotros.'],ex:[['Etxera noa.','Voy a casa.'],['Non zaude?','¿Dónde estás?'],['Bilbotik nator.','Vengo de Bilbao.']]},
+'syn-pres-2':{t:'Verbos sintéticos (II): eduki, jakin, esan',p:['Son sintéticos con objeto y funcionan como **dut**: la terminación indica quién hace la acción (**-t** yo, **-zu** tú, nada él, **-gu** nosotros, **-zue** vosotros, **-te** ellos).','**eduki** (tener): daukat, daukazu… **jakin** (saber): dakit, dakizu… **esan** (decir): diot, diozu…'],ex:[['Kotxe bat daukat.','Tengo un coche.'],['Ez dakit.','No lo sé.'],['Zer diozu?','¿Qué dices?']]},
+'syn-past':{t:'Verbos sintéticos en pasado',p:['Inicio de persona (**n-, z-, g-**; la 3.ª persona también **z-**) + raíz + **-en**: **nengoen** (estaba), **nindoan** (iba), **nentorren** (venía).'],ex:[['Etxean nengoen.','Estaba en casa.'],['Lanera zihoan.','Iba al trabajo.']]}
+};
+const THEORY_C={
+abs:[['Etxea handia da.','La casa es grande.'],['Ogia erosi dut.','He comprado el pan.']],
+ine:[['Etxean nago.','Estoy en casa.'],['Mendietan elurra dago.','Hay nieve en los montes.']],
+adl:[['Hondartzara noa.','Voy a la playa.'],['Mendira joan gara.','Hemos ido al monte.']],
+abl:[['Lantegitik nator.','Vengo de la fábrica.'],['Zubitik ibaia ikusten da.','Desde el puente se ve el río.']],
+ko:[['Etxeko giltza.','La llave de casa.'],['Mendiko bidea.','El camino del monte.']],
+gen:[['Mutilaren liburua.','El libro del chico.'],['Lagunen etxea.','La casa de los amigos.']],
+soz:[['Lagunarekin nator.','Vengo con el amigo.'],['Amarekin bizi naiz.','Vivo con mi madre.']],
+erg:[['Mutilak ogia jan du.','El chico se ha comido el pan.'],['Irakasleek galdetu dute.','Los profesores han preguntado.']],
+dat:[['Amari esan diot.','Se lo he dicho a la madre.'],['Lagunei idatzi diegu.','Les hemos escrito a los amigos.']],
+des:[['Opari hau amarentzat da.','Este regalo es para la madre.'],['Liburua umeentzat da.','El libro es para los niños.']],
+ins:[['Autobusez noa.','Voy en autobús.'],['Euskaraz hitz egiten dut.','Hablo en euskera.']],
+ter:[['Hondartzaraino joan gara.','Hemos ido hasta la playa.'],['Etxeraino lagundu dut.','Lo he acompañado hasta casa.']]
+};
+
+const VITEMS=buildVerbItems(), DITEMS=buildDeclItems();
+
+/* ============ ESTADO Y PERSISTENCIA ============ */
+const DEFAULT_STATE={v:1,stats:{},log:[],lessons:{},settings:{vgroups:['nor-pres','nn-pres-3','syn-pres-1'],dcases:['abs','ine','adl','abl'],dnum:['sg','pl'],len:10,wthemes:['agurrak','galderak','zenbakiak','familia'],wlvls:['A1']}};
+let S=structuredClone(DEFAULT_STATE);
+let dbRef=null, saveTimer=null;
+const syncEl=document.getElementById('sync');
+function setSync(t){syncEl.textContent=t}
+function localLoad(){try{const r=localStorage.getItem('eus-lantegia');return r?JSON.parse(r):null}catch(e){return null}}
+function localSave(){try{localStorage.setItem('eus-lantegia',JSON.stringify(S))}catch(e){}}
+function merge(x){if(!x||typeof x!=='object')return;x=JSON.parse(JSON.stringify(x)); // los datos de la base llegan congelados: se copian antes de usarlos
+  S={...structuredClone(DEFAULT_STATE),...x,settings:{...DEFAULT_STATE.settings,...(x.settings||{})}}}
+function save(){
+  localSave();
+  clearTimeout(saveTimer);
+  saveTimer=setTimeout(async()=>{
+    if(!dbRef){setSync('Progreso guardado en este navegador');return}
+    try{S.log=S.log.slice(-400);await dbRef.set(JSON.parse(JSON.stringify(S)));setSync('Progreso guardado en tu cuenta')}
+    catch(e){setSync('No se pudo guardar en la nube; queda guardado en este navegador')}
+  },1200);
+}
+async function initStore(){
+  merge(localLoad());
+  render();
+  try{
+    if(!window.claude||!window.claude.use){setSync('Progreso guardado en este navegador');return}
+    const [db,user,smp]=await Promise.all([claude.use('db'),claude.use('user'),claude.use('sample')]);SAMPLE=smp;
+    render();
+    const id=user?await user.id():null;
+    if(!db||!id){setSync('Progreso guardado en este navegador');return}
+    dbRef=db.doc('data/users/'+id+'/progress');
+    const snap=await dbRef.get();
+    if(snap.exists){merge(snap.data());localSave();render()}
+    else await dbRef.set(JSON.parse(JSON.stringify(S)));
+    setSync('Progreso guardado en tu cuenta');
+  }catch(e){setSync('Progreso guardado en este navegador')}
+}
+
+/* ============ REPASO ESPACIADO (cajas tipo Leitner) ============ */
+const INTERVALS=[0,10*60e3,24*3600e3,3*24*3600e3,7*24*3600e3,21*24*3600e3,60*24*3600e3];
+function record(id,ok){
+  const s=S.stats[id]||{b:0,ok:0,ko:0,d:0};
+  if(ok){s.ok++;s.b=Math.min(s.b+1,INTERVALS.length-1)}else{s.ko++;s.b=0}
+  s.d=Date.now()+INTERVALS[s.b];s.t=Date.now();
+  S.stats[id]=s;
+  S.log.push([Date.now(),ok?1:0,id.slice(0,1)]);
+  save();
+}
+function pickQueue(pool,n){
+  const now=Date.now(), due=[],fresh=[],rest=[];
+  for(const it of pool){const s=S.stats[it.id]; if(!s)fresh.push(it); else if(s.d<=now)due.push(it); else rest.push(it)}
+  const sh=a=>a.sort(()=>Math.random()-.5);
+  due.sort((a,b)=>S.stats[a.id].b-S.stats[b.id].b);
+  const q=[...due.slice(0,n)];
+  const fr=sh(fresh);const cap=rest.length?Math.ceil(n*0.6):n;q.push(...fr.splice(0,Math.max(0,Math.min(cap,n-q.length))));
+  if(q.length<n) q.push(...sh(rest).sort((a,b)=>S.stats[a.id].b-S.stats[b.id].b).slice(0,n-q.length));
+  if(q.length<n) q.push(...fr.slice(0,n-q.length));
+  return sh(q);
+}
+function groupProgress(pool){if(!pool.length)return 0;let m=0;for(const it of pool){const s=S.stats[it.id];if(s&&s.b>=2)m++}return m/pool.length}
+function dueCount(pool){const now=Date.now();return pool.filter(it=>S.stats[it.id]&&S.stats[it.id].d<=now).length}
+
+/* ============ UI ============ */
+const $=s=>document.querySelector(s);
+const main=document.getElementById('main');
+let view='home';
+const esc=s=>String(s).replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
+function chip(role,p){const lab={nor:'NOR',nork:'NORK',nori:'NORI'}[role];const word=role==='nork'?ERG[p]:role==='nori'?DAT[p]:p;return `<span class="chip ${role}"><b>${lab}</b>${word}</span>`}
+document.querySelectorAll('.navbtn[data-view]').forEach(b=>b.onclick=()=>{view=b.dataset.view;render()});
+function render(){
+  document.onkeydown=null;
+  document.querySelectorAll('.navbtn[data-view]').forEach(b=>b.setAttribute('aria-current',b.dataset.view===view||(view==='theme'&&b.dataset.view==='words')||(view==='lesson'&&b.dataset.view==='lessons')));
+  ({home:renderHome,verbs:renderVerbs,decl:renderDecl,tables:renderTables,words:renderWords,theme:renderTheme,lessons:renderLessons,lesson:renderLesson})[view]();
+  main.focus?.();
+}
+function lenSeg(){
+  return `<div class="seg" role="group" aria-label="Duración">${[5,10,20,0].map(n=>`<button data-len="${n}" aria-pressed="${S.settings.len===n}">${n||'Sin límite'}</button>`).join('')}</div>`;
+}
+function bindLen(){document.querySelectorAll('[data-len]').forEach(b=>b.onclick=()=>{S.settings.len=+b.dataset.len;save();render()})}
+
+function renderHome(){
+  const all=[...VITEMS,...DITEMS];const known=WORDS.filter(w=>wordLevel(w)>=2).length;const dueW=dueCount(WITEMS);
+  const seen=Object.keys(S.stats).length;
+  const dueV=dueCount(VITEMS),dueD=dueCount(DITEMS);
+  const week=S.log.filter(l=>l[0]>Date.now()-7*864e5);
+  const acc=week.length?Math.round(100*week.filter(l=>l[1]).length/week.length):null;
+  const days=new Set(S.log.map(l=>new Date(l[0]).toDateString()));
+  let streak=0;for(let d=new Date();days.has(d.toDateString());d.setDate(d.getDate()-1))streak++;
+  const lvls=['A1','A2','B1','B2'].map(L=>{const ids=GROUPS.filter(g=>g.lvl===L).map(g=>g.id);const pool=VITEMS.filter(i=>ids.includes(i.g));return [L,groupProgress(pool)]});
+  main.innerHTML=`
+    <h1>${seen?'Ongi etorri berriro':'Ongi etorri'}</h1>
+    <p class="lede">${seen?`Llevas ${seen} elementos trabajados y reconoces ${known} de ${WORDS.length} palabras. ${dueV+dueD+dueW?`Tienes ${dueV+dueD+dueW} pendientes de repaso.`:'No tienes repasos pendientes ahora mismo.'}`:'Empieza por la primera lección del temario. Desde ahí, cada verbo, caso y palabra que trabajes se programa solo para repasarlo en el momento justo.'}</p>
+    ${todayHTML()}
+    <div class="panel" style="margin-bottom:22px">
+      <h2 style="margin-bottom:6px">Sesión rápida</h2>
+      <p class="muted small" style="margin:0 0 14px">Mezcla repasos pendientes y elementos nuevos de lo que tienes seleccionado en Verbos, Casos y Vocabulario.</p>
+      <div class="row">${lenSeg()}<button class="btn" id="mix">Empezar</button></div>
+    </div>
+    <div class="grid2">
+      <div class="panel"><div class="stat">${dueV}</div><div class="muted">verbos por repasar</div><div class="row" style="margin-top:12px"><button class="btn ghost" data-go="verbs">Ir a verbos</button></div></div>
+      <div class="panel"><div class="stat">${dueW}</div><div class="muted">palabras por repasar · ${known} conocidas</div><div class="row" style="margin-top:12px"><button class="btn ghost" data-go="words">Ir a vocabulario</button></div></div>
+      <div class="panel"><div class="stat">${dueD}</div><div class="muted">formas de casos por repasar</div><div class="row" style="margin-top:12px"><button class="btn ghost" data-go="decl">Ir a casos</button></div></div>
+      <div class="panel"><div class="stat">${acc===null?'—':acc+'%'}</div><div class="muted">aciertos en los últimos 7 días · ${streak} ${streak===1?'día seguido':'días seguidos'}</div></div>
+    </div>
+    <h3 style="margin:30px 0 10px">Dominio de verbos por nivel</h3>
+    <div class="panel">${lvls.map(([L,p])=>`<div style="margin:6px 0"><div class="row" style="justify-content:space-between"><span>${L}</span><span class="muted small">${Math.round(p*100)}%</span></div><div class="prog" style="margin:4px 0 0"><i style="width:${p*100}%"></i></div></div>`).join('')}
+    <p class="muted small" style="margin:12px 0 0">Una forma cuenta como dominada cuando la aciertas en dos repasos seguidos espaciados.</p></div>
+    <h3 style="margin:30px 0 10px">Cómo leer los colores</h3>
+    <p class="note">En toda la app cada función gramatical tiene su color: <span class="chip nor"><b>NOR</b>quién / qué</span> <span class="chip nork"><b>NORK</b>quién hace</span> <span class="chip nori"><b>NORI</b>a quién</span>. Si los asocias desde el principio, el auxiliar deja de ser una tabla para memorizar y pasa a ser una pieza que montas.</p>
+    <div class="row" style="margin-top:30px"><button class="btn ghost small" id="reset">Borrar todo mi progreso</button></div>`;
+  bindLen();
+  bindToday();
+  document.querySelectorAll('[data-go]').forEach(b=>b.onclick=()=>{view=b.dataset.go;render()});
+  $('#mix').onclick=()=>{const vp=VITEMS.filter(i=>S.settings.vgroups.includes(i.g));const dp=DITEMS.filter(i=>S.settings.dcases.includes(i.g)&&S.settings.dnum.includes(i.num));const wp=()=>wordPool(S.settings.wthemes,S.settings.wlvls);startDrill([...vp,...dp,...wp()],'home',()=>[...vp,...dp,...wp()])};
+  $('#reset').onclick=()=>{if(confirm('Se borrará todo tu progreso y tus ajustes. ¿Continuar?')){S=structuredClone(DEFAULT_STATE);save();render()}};
+}
+
+function renderVerbs(){
+  main.innerHTML=`
+    <h1>Aditzak</h1>
+    <p class="lede">Elige qué bloques quieres trabajar. Te pediré la forma del auxiliar o del verbo según las personas que aparezcan. La pista en español muestra cómo se usa en una frase.</p>
+    <div class="row" style="justify-content:space-between"><div class="row"><button class="btn ghost small" id="lvlA1">Solo A1</button><button class="btn ghost small" id="lvlAll">Todo</button><button class="btn ghost small" id="lvlNone">Ninguno</button></div></div>
+    <div class="groups">${GROUPS.map(g=>{const pool=VITEMS.filter(i=>i.g===g.id);const p=groupProgress(pool);const due=dueCount(pool);return `<label class="gopt"><input type="checkbox" value="${g.id}" ${S.settings.vgroups.includes(g.id)?'checked':''}><div style="flex:1"><div>${g.name}<span class="lvl">${g.lvl}</span></div><div class="muted small">${g.desc} · ${pool.length} formas${due?` · ${due} por repasar`:''} · <button class="linkbtn" data-thv="${g.id}">teoría</button></div><div class="bar"><i style="width:${p*100}%"></i></div></div></label>`}).join('')}</div>
+    <div class="row">${lenSeg()}<button class="btn" id="go">Practicar</button></div>`;
+  const sync=()=>{S.settings.vgroups=[...document.querySelectorAll('.groups input:checked')].map(i=>i.value);save();$('#go').disabled=!S.settings.vgroups.length};
+  document.querySelectorAll('.groups input').forEach(i=>i.onchange=sync);
+  const setG=ids=>{S.settings.vgroups=ids;save();render()};
+  $('#lvlA1').onclick=()=>setG(GROUPS.filter(g=>g.lvl==='A1').map(g=>g.id));
+  $('#lvlAll').onclick=()=>setG(GROUPS.map(g=>g.id));
+  $('#lvlNone').onclick=()=>setG([]);
+  document.querySelectorAll('[data-thv]').forEach(b=>b.onclick=e=>{e.preventDefault();showTheory('v',b.dataset.thv)});
+  bindLen();$('#go').disabled=!S.settings.vgroups.length;
+  $('#go').onclick=()=>startDrill(VITEMS.filter(i=>S.settings.vgroups.includes(i.g)),'verbs');
+}
+
+function renderDecl(){
+  main.innerHTML=`
+    <h1>Deklinabidea</h1>
+    <p class="lede">El euskera no usa preposiciones: pega terminaciones al final de la palabra. Elige los casos y el número, y escribe la palabra declinada.</p>
+    <div class="groups">${CASES.map(c=>{const pool=DITEMS.filter(i=>i.g===c.k&&S.settings.dnum.includes(i.num));const p=groupProgress(pool);return `<label class="gopt"><input type="checkbox" value="${c.k}" ${S.settings.dcases.includes(c.k)?'checked':''}><div style="flex:1"><div>${c.eu} <span class="muted">(${c.q}?)</span><span class="lvl">${c.lvl}</span></div><div class="muted small">${esc(c.rule.split('.')[0])} · <button class="linkbtn" data-thc="${c.k}">teoría</button></div><div class="bar"><i style="width:${p*100}%"></i></div></div></label>`}).join('')}</div>
+    <div class="row" style="margin-bottom:18px"><span class="muted">Número:</span>
+      <div class="seg" role="group" aria-label="Número">${[['sg','Singular'],['pl','Plural'],['id','Indefinido']].map(([k,l])=>`<button data-num="${k}" aria-pressed="${S.settings.dnum.includes(k)}">${l}</button>`).join('')}</div>
+      <span class="muted small">El indefinido (sin artículo: zenbat etxetan?) es de nivel B1.</span></div>
+    <div class="row">${lenSeg()}<button class="btn" id="go">Practicar</button></div>`;
+  document.querySelectorAll('.groups input').forEach(i=>i.onchange=()=>{S.settings.dcases=[...document.querySelectorAll('.groups input:checked')].map(x=>x.value);save();$('#go').disabled=!S.settings.dcases.length});
+  document.querySelectorAll('[data-num]').forEach(b=>b.onclick=()=>{const k=b.dataset.num;const set=new Set(S.settings.dnum);set.has(k)?set.delete(k):set.add(k);if(!set.size)return;S.settings.dnum=[...set];save();render()});
+  document.querySelectorAll('[data-thc]').forEach(b=>b.onclick=e=>{e.preventDefault();showTheory('c',b.dataset.thc)});
+  bindLen();$('#go').disabled=!S.settings.dcases.length;
+  $('#go').onclick=()=>startDrill(DITEMS.filter(i=>S.settings.dcases.includes(i.g)&&S.settings.dnum.includes(i.num)),'decl');
+}
+
+/* ============ SESIÓN DE PRÁCTICA ============ */
+let D=null;
+function startDrill(pool,back,poolFn){
+  if(!pool.length)return;
+  const n=S.settings.len||Infinity;
+  D={pool,poolFn,back,n,queue:pickQueue(pool,Math.min(n===Infinity?20:n,pool.length)),i:0,ok:0,done:0,wrong:[],state:'ask',retry:[]};
+  renderItem();
+}
+function norm(s){return s.trim().toLowerCase().replace(/\s+/g,' ')}
+function renderItem(){
+  if(D.i>=D.queue.length){
+    if(D.n===Infinity){if(D.poolFn)D.pool=D.poolFn();D.queue.push(...pickQueue(D.pool,20))}
+    else return renderDone();
+  }
+  const it=D.queue[D.i];
+  const total=D.n===Infinity?null:D.queue.length;
+  let head='',big='',hint='';
+  if(it.mod==='v'){
+    const r=it.roles;
+    head=['nork','nori','nor'].filter(k=>r[k]).map(k=>chip(k,r[k])).join('');
+    const g=GROUPS.find(x=>x.id===it.g);
+    big=r.verb?`${r.verb}`:(g.name.split(' · ')[0]);
+    big+=` <span class="muted" style="font-size:.5em">· ${g.name.split(' · ')[1].split(' (')[0]}</span>`;
+    hint=it.hint;
+  }else if(it.mod==='w'){
+    const th=VOCAB.find(t=>t.id===it.g);
+    head=`<span class="chip case">${th.eu}</span><span class="chip case">${it.lvl}</span>${S.stats[it.id]?'':'<span class="chip case">nueva</span>'}`;
+    if(it.kind==='r'){big=esc(it.form);hint='¿Qué significa?'}
+    else{big=esc(it.es);hint='Escríbelo en euskera.'}
+  }else{
+    head=`<span class="chip case"><b>${it.c.q}?</b>${it.c.eu}</span><span class="chip case">${{sg:'singular',pl:'plural',id:'indefinido'}[it.num]}</span>`;
+    big=`${it.noun.w} <span class="muted" style="font-size:.5em">· ${bare(it.noun.es)}</span>`;
+    hint=`«${esc(it.es)}»`;
+  }
+  D.cards=D.cards||new Set();
+  const isNew=!S.stats[it.id]&&!D.cards.has(it.id)&&!(it.mod==='w'&&it.kind==='p');
+  if(isNew) return renderCard(it,head,total);
+  main.innerHTML=`
+    <div class="drill">
+      <div class="row" style="justify-content:space-between;margin-bottom:10px"><button class="btn ghost small" id="quit">Terminar</button><span class="muted small">${total?`${D.i+1} de ${total}`:`${D.done} hechas · ${D.ok} bien`}</span></div>
+      <div class="prog"><i style="width:${total?100*D.i/total:0}%"></i></div>
+      <div class="prompt-roles">${head}</div>
+      <div class="prompt-big">${big}</div>
+      <div class="prompt-hint">${hint}</div>
+      ${it.mod==='w'&&it.kind==='r'?choiceHTML(it):`<form class="answer" id="af" autocomplete="off"><input id="ans" name="ans" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Tu respuesta" placeholder="Escribe la respuesta" enterkeyhint="go"><button class="btn" id="chk" type="submit">Comprobar</button></form>`}
+      <div class="fb" id="fb" role="status"></div>
+      <div class="kbd">Intro para comprobar y para pasar a la siguiente. Si no la sabes, pulsa Intro con la casilla vacía.${it.mod!=='w'?' · <button class="linkbtn" id="thy">Ver teoría</button>':''}</div>
+    </div>`;
+  D.state='ask';
+  document.onkeydown=null;
+  $('#quit').onclick=()=>renderDone();
+  if($('#thy'))$('#thy').onclick=()=>showTheory(it.mod==='v'?'v':'c',it.mod==='v'?it.g:it.g);
+  if(it.mod==='w'&&it.kind==='r'){bindChoices(it);return}
+  const inp=$('#ans');setTimeout(()=>inp.focus(),30);
+  const go=()=>{ if(D.state==='ask')check(); else next() };
+  $('#af').onsubmit=e=>{e.preventDefault();go()};
+  // respaldo: Intro en cualquier parte de la página
+  document.onkeydown=e=>{if((e.key==='Enter'||e.keyCode===13)&&!e.target.closest?.('#af')&&!e.target.closest?.('button')){e.preventDefault();go()}};
+}
+function renderCard(it,head,total){
+  let form='',sub='',rule='';
+  if(it.mod==='v'){form=it.form;sub=it.hint;const T=THEORY_V[it.g];rule=T?T.p.join('\n\n'):WHY[it.g]}
+  else if(it.mod==='d'){form=it.form;sub=`${it.noun.w} → «${esc(it.es)}»`;rule=it.c.rule}
+  else{form=esc(it.form);sub=esc(it.es);rule=''}
+  main.innerHTML=`<div class="drill">
+    <div class="row" style="justify-content:space-between;margin-bottom:10px"><button class="btn ghost small" id="quit">Terminar</button><span class="muted small">${total?`${D.i+1} de ${total}`:`${D.done} hechas`}</span></div>
+    <div class="prog"><i style="width:${total?100*D.i/total:0}%"></i></div>
+    <div class="card-new"><div class="tag">Nueva · apréndela antes de practicarla</div>
+      <div class="prompt-roles">${head}</div>
+      <div class="form">${form}</div>
+      <div class="prompt-hint" style="margin-bottom:12px">${sub}</div>
+      ${rule?rule.split('\n\n').map(x=>`<p class="small" style="max-width:62ch">${fmt(x)}</p>`).join(''):''}
+      <div class="row" style="margin-top:16px"><button class="btn" id="gotit">Entendido, pregúntamela</button>${it.mod!=='w'?'<button class="linkbtn" id="thy">Ver la teoría completa</button>':''}</div>
+    </div>
+    <div class="kbd">Intro para continuar.</div></div>`;
+  const go=()=>{D.cards.add(it.id);renderItem()};
+  $('#gotit').onclick=go;setTimeout(()=>$('#gotit').focus(),30);
+  $('#quit').onclick=()=>renderDone();
+  if($('#thy'))$('#thy').onclick=()=>showTheory(it.mod==='v'?'v':'c',it.g);
+  document.onkeydown=e=>{if((e.key==='Enter'||e.keyCode===13)&&e.target.id!=='gotit'){e.preventDefault();go()}};
+}
+/* --- fichas de teoría (panel superpuesto, no interrumpe la sesión) --- */
+function theoryHTML(kind,id){
+  if(kind==='v'){const T=THEORY_V[id],g=GROUPS.find(x=>x.id===id);if(!T)return '';return `<h2>${esc(T.t)}</h2><p class="muted small">${g.lvl} · ${esc(g.name)}</p>${T.p.map(x=>`<p>${fmt(x)}</p>`).join('')}<h3>Ejemplos</h3>${T.ex.map(([a,b])=>`<div class="exrow"><span class="eu">${esc(a)}</span><span class="es">${esc(b)}</span></div>`).join('')}<p class="small muted" style="margin-top:14px">La tabla completa está en Taulak.</p>`}
+  const c=CASES.find(x=>x.k===id);if(!c)return '';const ex=THEORY_C[id]||[];const n=NOUNS.find(x=>x.w==='etxe'),z=NOUNS.find(x=>x.w==='zuhaitz');
+  return `<h2>${esc(c.eu)} · ${c.q}?</h2><p class="muted small">${c.lvl}</p><p>En euskera no hay preposiciones: las relaciones como «en», «a», «desde» o «con» se expresan con una terminación pegada al final de la palabra.</p><p>${fmt(c.rule)}</p>
+  <div class="tablewrap"><table><thead><tr><th></th><th>Singular</th><th>Plural</th></tr></thead><tbody>${[n,z].map(x=>(c.loc&&x.an)?'':`<tr><th>${x.w}</th><td class="f">${decline(x,c.k,'sg')}</td><td class="f">${decline(x,c.k,'pl')}</td></tr>`).join('')}</tbody></table></div>
+  <h3>Ejemplos</h3>${ex.map(([a,b])=>`<div class="exrow"><span class="eu">${esc(a)}</span><span class="es">${esc(b)}</span></div>`).join('')}`;
+}
+function showTheory(kind,id){
+  let d=document.getElementById('thdlg');
+  if(!d){d=document.createElement('dialog');d.id='thdlg';d.style.cssText='max-width:720px;width:92vw;border:1px solid var(--line);border-radius:14px;background:var(--panel);color:var(--ink);padding:26px';document.body.appendChild(d)}
+  d.innerHTML=`<div>${theoryHTML(kind,id)}</div><div class="row" style="margin-top:20px"><button class="btn" id="thclose">Cerrar</button></div>`;
+  const prev=document.onkeydown;document.onkeydown=null;
+  d.querySelector('#thclose').onclick=()=>d.close();
+  d.onclose=()=>{document.onkeydown=prev;const a=$('#ans');if(a&&!a.readOnly)a.focus()};
+  d.showModal();
+}
+function check(){
+  const it=D.queue[D.i],inp=$('#ans'),fb=$('#fb');
+  const ok=it.mod==='w'?it.word.alts.some(a=>normW(a)===normW(inp.value)):norm(inp.value)===it.form;
+  record(it.id,ok);D.done++;if(ok)D.ok++;else D.wrong.push({it,given:inp.value.trim()});
+  if(!ok && D.n!==Infinity && !D.retry.includes(it.id)){D.retry.push(it.id);D.queue.splice(Math.min(D.queue.length,D.i+4),0,it)}
+  inp.classList.add(ok?'ok':'bad');inp.readOnly=true;
+  const why=it.mod==='v'?WHY[it.g]:it.mod==='w'?`${it.form} = ${it.es}`:it.c.rule;
+  fb.className='fb show '+(ok?'ok':'bad');
+  fb.innerHTML=ok?`<strong>Ondo!</strong> <span class="form">${it.form}</span>`
+    :`<strong>${inp.value.trim()?'No es así.':'La respuesta es:'}</strong> <span class="form">${it.form}</span><div class="why">${esc(why)}</div>`;
+  $('#chk').textContent='Siguiente';
+  D.state='shown';
+}
+function next(){D.i++;renderItem()}
+function normW(s){return s.toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g,'').replace(/[¿?¡!.,]/g,'').replace(/\(.*?\)/g,'').replace(/\s+/g,' ').trim()}
+function choiceHTML(it){
+  const same=WORDS.filter(w=>w.th===it.g&&w.es!==it.es),pool=same.length>=3?same:WORDS.filter(w=>w.es!==it.es);
+  const opts=[it.es];while(opts.length<4){const c=pool[Math.floor(Math.random()*pool.length)].es;if(!opts.includes(c))opts.push(c)}
+  opts.sort(()=>Math.random()-.5);D.opts=opts;
+  return `<div class="choices">${opts.map((o,i)=>`<button class="choice" data-i="${i}"><kbd>${i+1}</kbd>${esc(o)}</button>`).join('')}</div><div class="row" style="margin-top:14px"><button class="btn ghost" id="chk">No lo sé</button></div>`;
+}
+function bindChoices(it){
+  const pick=i=>{if(D.state!=='ask'){next();return}
+    const ok=i!==null&&D.opts[i]===it.es;record(it.id,ok);D.done++;if(ok)D.ok++;else D.wrong.push({it,given:i===null?'':D.opts[i]});
+    if(!ok&&D.n!==Infinity&&!D.retry.includes(it.id)){D.retry.push(it.id);D.queue.splice(Math.min(D.queue.length,D.i+4),0,it)}
+    document.querySelectorAll('.choice').forEach(b=>{b.disabled=true;const o=D.opts[+b.dataset.i];if(o===it.es)b.classList.add('ok');else if(+b.dataset.i===i)b.classList.add('bad')});
+    const fb=$('#fb');fb.className='fb show '+(ok?'ok':'bad');fb.innerHTML=`<strong>${ok?'Ondo!':'Era:'}</strong> <span class="form">${esc(it.form)}</span> = ${esc(it.es)}`;
+    $('#chk').textContent='Siguiente';$('#chk').className='btn';D.state='shown';};
+  document.querySelectorAll('.choice').forEach(b=>b.onclick=()=>pick(+b.dataset.i));
+  $('#chk').onclick=()=>pick(null);
+  document.onkeydown=e=>{if(view!=='drill-w'&&!document.querySelector('.choices'))return;if(e.key>='1'&&e.key<='4'&&D.state==='ask'){e.preventDefault();pick(+e.key-1)}else if(e.key==='Enter'){e.preventDefault();if(D.state==='ask')pick(null);else next()}};
+}
+/* ============ VOCABULARIO ============ */
+let WQ='';let THEME='agurrak';
+function themeStats(th,lvls){const ws=WORDS.filter(w=>w.th===th&&lvls.includes(w.lvl));const k=ws.filter(w=>wordLevel(w)>=2).length;return {n:ws.length,k}}
+function renderWords(){
+  const L=S.settings.wlvls;
+  const res=WQ?WORDS.filter(w=>normW(w.eu).includes(normW(WQ))||normW(w.es).includes(normW(WQ))).slice(0,60):[];
+  main.innerHTML=`
+    <h1>Hiztegia</h1>
+    <p class="lede">${WORDS.length} palabras en ${VOCAB.length} temas, clasificadas por nivel. Primero aprendes a reconocerlas (euskera → español, eligiendo entre cuatro opciones). Cuando ya las reconoces, aparecen también al revés y tienes que escribirlas.</p>
+    <div class="row" style="margin-bottom:16px"><span class="muted">Niveles:</span><div class="seg" role="group" aria-label="Niveles">${LVLS.map(l=>`<button data-wl="${l}" aria-pressed="${L.includes(l)}">${l}</button>`).join('')}</div>
+      <input class="search" id="wq" placeholder="Buscar palabra en euskera o español" value="${esc(WQ)}"></div>
+    ${WQ?`<div class="wlist">${res.length?res.map(w=>`<div class="wrow"><span class="dot l${wordLevel(w)}"></span><span class="eu">${esc(w.eu)}</span><span class="es">${esc(w.es)} <span class="lvl">${w.lvl}</span></span></div>`).join(''):'<p class="muted">No hay coincidencias. Prueba con otra forma de la palabra.</p>'}</div>`:''}
+    <div class="row" style="justify-content:space-between"><div class="row"><button class="btn ghost small" id="wall">Todos los temas</button><button class="btn ghost small" id="wnone">Ninguno</button></div></div>
+    <div class="groups">${VOCAB.map(t=>{const st=themeStats(t.id,L);if(!st.n)return '';return `<label class="gopt"><input type="checkbox" value="${t.id}" ${S.settings.wthemes.includes(t.id)?'checked':''}><div style="flex:1"><div>${t.eu} <span class="muted">· ${t.es}</span></div><div class="muted small">${st.k} de ${st.n} conocidas · <a href="#" data-th="${t.id}">ver palabras</a></div><div class="bar"><i style="width:${100*st.k/st.n}%"></i></div></div></label>`}).join('')}</div>
+    <div class="row">${lenSeg()}<button class="btn" id="go">Practicar</button></div>
+    <p class="muted small" style="margin-top:18px"><span class="dot l1" style="display:inline-block"></span> vista &nbsp; <span class="dot l2" style="display:inline-block"></span> la reconoces &nbsp; <span class="dot l3" style="display:inline-block"></span> sabes escribirla</p>`;
+  document.querySelectorAll('[data-wl]').forEach(b=>b.onclick=()=>{const k=b.dataset.wl,set=new Set(S.settings.wlvls);set.has(k)?set.delete(k):set.add(k);if(!set.size)return;S.settings.wlvls=LVLS.filter(l=>set.has(l));save();renderWords()});
+  const q=$('#wq');q.oninput=()=>{WQ=q.value;clearTimeout(q._t);q._t=setTimeout(()=>{renderWords();const n=$('#wq');n.focus();n.setSelectionRange(n.value.length,n.value.length)},250)};
+  document.querySelectorAll('.groups input').forEach(i=>i.onchange=()=>{S.settings.wthemes=[...document.querySelectorAll('.groups input:checked')].map(x=>x.value);save();$('#go').disabled=!S.settings.wthemes.length});
+  document.querySelectorAll('[data-th]').forEach(a=>a.onclick=e=>{e.preventDefault();THEME=a.dataset.th;view='theme';render()});
+  $('#wall').onclick=()=>{S.settings.wthemes=VOCAB.map(t=>t.id);save();renderWords()};
+  $('#wnone').onclick=()=>{S.settings.wthemes=[];save();renderWords()};
+  bindLen();$('#go').disabled=!S.settings.wthemes.length;
+  $('#go').onclick=()=>{const fn=()=>wordPool(S.settings.wthemes,S.settings.wlvls);const p=fn();if(p.length)startDrill(p,'words',fn)};
+}
+function renderTheme(){
+  const t=VOCAB.find(x=>x.id===THEME);
+  main.innerHTML=`<button class="btn ghost small" id="bk">Volver a temas</button>
+    <h1 style="margin-top:18px">${t.eu}</h1><p class="lede">${t.es}</p>
+    ${LVLS.map(L=>{const ws=WORDS.filter(w=>w.th===t.id&&w.lvl===L);if(!ws.length)return '';return `<h3>${L} <span class="muted small">· ${ws.length} palabras</span></h3><div class="wlist">${ws.map(w=>`<div class="wrow"><span class="dot l${wordLevel(w)}"></span><span class="eu">${esc(w.eu)}</span><span class="es">${esc(w.es)}</span></div>`).join('')}</div>`}).join('')}
+    <div class="row"><button class="btn" id="pt">Practicar este tema (${S.settings.wlvls.join(', ')})</button></div>`;
+  $('#bk').onclick=()=>{view='words';render()};
+  $('#pt').onclick=()=>{const fn=()=>wordPool([t.id],S.settings.wlvls);const p=fn();if(p.length)startDrill(p,'theme',fn)};
+}
+function renderDone(){
+  document.onkeydown=null;
+  const pct=D.done?Math.round(100*D.ok/D.done):0;
+  const uniq=[];const seen=new Set();for(const w of D.wrong){if(!seen.has(w.it.id)){seen.add(w.it.id);uniq.push(w)}}
+  main.innerHTML=`
+    <h1>${D.done?'Saio amaituta':'Sesión cancelada'}</h1>
+    ${D.done?`<p class="lede"><span class="done-big">${D.ok}/${D.done}</span><br>${pct}% de aciertos. Lo que has fallado volverá a salir pronto; lo acertado se espacia más.</p>`:'<p class="lede">No has respondido ninguna. Puedes volver a empezar cuando quieras.</p>'}
+    ${uniq.length?`<h3 style="margin-bottom:8px">Para repasar</h3><ul class="mistakes">${uniq.map(w=>`<li><span class="f">${esc(w.it.form)}</span> <span class="muted small">— ${w.it.mod==='v'?esc(w.it.hint):w.it.mod==='w'?esc(w.it.es):esc(w.it.es)}${w.given?` · escribiste «${esc(w.given)}»`:''}</span></li>`).join('')}</ul>`:''}
+    <div class="row" style="margin-top:24px"><button class="btn" id="again">Otra sesión</button><button class="btn ghost" id="back">Volver</button></div>`;
+  $('#again').onclick=()=>{const p=D.poolFn?D.poolFn():D.pool;startDrill(p,D.back,D.poolFn)};
+  $('#back').onclick=()=>{view=D.back;render()};
+}
+
+
+/* ============ LECCIONES ============ */
+// El temario sale de curriculum.json (lo inserta tools/build.py)
+const CURRICULUM=/*__CURRICULUM__*/[];
+const SYLLABUS={};CURRICULUM.forEach(c=>{(SYLLABUS[c.lvl]=SYLLABUS[c.lvl]||[]).push([c.title,c.es])});
+const CINFO=Object.fromEntries(CURRICULUM.map(c=>[c.id,c]));
+// Las lecciones van incluidas en la página (las inserta tools/build.py desde lessons/*.json)
+let LESSONS=/*__LESSONS__*/{};let SAMPLE=null;
+async function loadLessons(db){
+  try{const q=await db.collection('lessons').get();const m={};q.docs.forEach(d=>{if(d.exists)m[d.id]=JSON.parse(JSON.stringify(d.data()))});LESSONS=m;try{localStorage.setItem('eus-lessons',JSON.stringify(m))}catch(e){}}
+  catch(e){}
+}
+function fmt(t){return esc(t||'').replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>').replace(/\{(nor|nork|nori):(.+?)\}/g,'<span class="r $1">$2</span>')}
+function lid(L,i){return L.toLowerCase()+'-'+String(i+1).padStart(2,'0')}
+function LP(id){return (S.lessons=S.lessons||{})[id]||(S.lessons[id]={})}
+let LS={id:null,step:0};
+function renderLessons(){
+  const next=nextLesson();
+  main.innerHTML=`<h1>Ikasgaiak</h1>
+  <p class="lede">80 lecciones, 16 por nivel, del A1 al C1. Cada una tiene cinco pasos: entender, ver un diálogo, practicar, escribir tú y añadirlo al repaso. Las que aún no están escritas aparecen con borde discontinuo; se irán completando.</p>
+  ${next?`<div class="panel row" style="justify-content:space-between;margin-bottom:6px"><div><div class="muted small">Siguiente lección</div><div style="font-family:'Young Serif',Georgia,serif;font-size:1.3rem">${esc(LESSONS[next].lvl)} · ${LESSONS[next].n}. ${esc(LESSONS[next].title)}</div></div><button class="btn" data-l="${next}">Abrir</button></div>`:''}
+  ${Object.entries(SYLLABUS).map(([L,arr])=>{const done=arr.filter((_,i)=>LP(lid(L,i)).done).length;return `<div class="lvlhead"><h2>${L}</h2><span class="muted small">${done} de 16 completadas</span></div>
+  <div class="lgrid">${arr.map(([t,es],i)=>{const id=lid(L,i),has=!!LESSONS[id],p=LP(id);return `<button class="lcard ${p.done?'done':''}" data-l="${id}" ${has?'':'disabled'} title="${CINFO[id]?esc(CINFO[id].introduce.join(', ')):''}"><span class="num">${i+1}${has?'':' · en preparación'}${p.done?' · completada':''}</span><span class="t">${esc(t)}</span><span class="s">${esc(es)}</span></button>`}).join('')}</div>`}).join('')}`;
+  document.querySelectorAll('[data-l]').forEach(b=>b.onclick=()=>openLesson(b.dataset.l));
+}
+function nextLesson(){for(const [L,arr] of Object.entries(SYLLABUS))for(let i=0;i<arr.length;i++){const id=lid(L,i);if(LESSONS[id]&&!LP(id).done)return id}return null}
+function openLesson(id){LS={id,step:LP(id).step||0,ex:null};view='lesson';render()}
+const STEPS=['Ulertu','Ikusi','Landu','Sortu','Errepasatu'];
+const STEPS_ES=['Entender','Diálogo','Practicar','Escribir','Repasar'];
+function renderLesson(){
+  const l=LESSONS[LS.id];if(!l){view='lessons';return render()}
+  const p=LP(LS.id);
+  const body=[stepExplain,stepDialog,stepPractice,stepCreate,stepReview][LS.step](l,p);
+  main.innerHTML=`<button class="btn ghost small" id="bk">Todas las lecciones</button>
+  <div class="muted" style="margin-top:20px">${l.lvl} · Lección ${l.n}</div>
+  <h1>${esc(l.title)}</h1><p class="lede" style="margin-bottom:0">${esc(l.es)}. ${esc(l.goal)}</p>${CINFO[l.id]?`<p class="muted small" style="margin:8px 0 0">En esta lección: ${CINFO[l.id].introduce.map(esc).join(', ')}.</p>`:''}
+  <div class="steps" role="navigation" aria-label="Pasos">${STEPS.map((s,i)=>`<button data-s="${i}" aria-current="${i===LS.step}">${s} <span class="muted small">${STEPS_ES[i]}</span>${(p.seen||[]).includes(i)?'<span class="ck" aria-label="hecho">✓</span>':''}</button>`).join('')}</div>
+  <div class="lx" id="lx">${body}</div>
+  <div class="row" style="margin-top:30px;justify-content:space-between">${LS.step>0?'<button class="btn ghost" id="prev">Anterior</button>':'<span></span>'}${LS.step<4?'<button class="btn" id="nxt">Siguiente paso</button>':''}</div>`;
+  $('#bk').onclick=()=>{view='lessons';render()};
+  document.querySelectorAll('[data-s]').forEach(b=>b.onclick=()=>goStep(+b.dataset.s));
+  if($('#prev'))$('#prev').onclick=()=>goStep(LS.step-1);
+  if($('#nxt'))$('#nxt').onclick=()=>goStep(LS.step+1);
+  [bindExplain,bindDialog,bindPractice,bindCreate,bindReview][LS.step]?.(l,p);
+  window.scrollTo?.(0,0);
+}
+function goStep(i){const p=LP(LS.id);p.seen=[...new Set([...(p.seen||[]),LS.step])];if(LS.step===2&&!p.ex)p.seen=p.seen.filter(x=>x!==2);p.step=i;LS.step=i;save();renderLesson()}
+function stepExplain(l){
+  return l.explain.map(b=>`${b.h?`<h3>${esc(b.h)}</h3>`:''}${b.p?`<p>${fmt(b.p)}</p>`:''}${b.table?`<div class="tablewrap"><table><thead><tr>${b.table.head.map(h=>`<th>${esc(h)}</th>`).join('')}</tr></thead><tbody>${b.table.rows.map(r=>`<tr>${r.map((c,j)=>`<td ${j===1?'class="f"':''}>${fmt(c)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`:''}`).join('')
+   +`<h3>Ejemplos</h3>${l.examples.map(([eu,es])=>`<div class="exrow"><span class="eu">${esc(eu)}</span><span class="es">${esc(es)}</span></div>`).join('')}`
+   +(SAMPLE?`<div class="qa"><h3>¿Te ha quedado alguna duda?</h3><p class="muted small">Pregunta lo que quieras sobre esta lección, o pide que te lo expliquen de otra forma. <span class="ai">IA</span></p><textarea id="qq" placeholder="Por ejemplo: ¿por qué irakaslea lleva -a? / Explícamelo como si no supiera nada"></textarea><div class="row" style="margin-top:8px"><button class="btn" id="qgo">Preguntar</button><button class="btn ghost" id="qsimple">Explícamelo más fácil</button></div><div id="qout"></div></div>`:'');
+}
+function bindExplain(l){
+  if(!$('#qgo'))return;
+  const ask=async q=>{const out=$('#qout');out.innerHTML='<p class="muted">Pensando… (la primera vez se te pedirá permiso para usar Claude)</p>';$('#qgo').disabled=$('#qsimple').disabled=true;
+    const theory=l.explain.map(b=>[b.h,b.p,b.table?b.table.rows.map(r=>r.join(' | ')).join('; '):''].filter(Boolean).join(': ')).join('\n');
+    const prompt=`Eres un profesor de euskera batua para un hispanohablante que empieza de cero y aprende solo. Responde en español, claro y cercano, con ejemplos cortos en euskera traducidos. Máximo 220 palabras. No uses formato markdown ni listas con asteriscos; usa frases y saltos de línea. Sé preciso: no inventes reglas.
+Lección ${l.lvl}-${l.n} «${l.title}» (${l.es}). Teoría de la lección:
+${theory}
+Pregunta del alumno: ${q}`;
+    try{await SAMPLE(prompt,{cache:false,onText:({text})=>{out.innerHTML=`<div class="ans">${esc(text)}</div>`}})}
+    catch(e){out.innerHTML=`<p class="muted">${e.code==='not_granted'?'No se ha dado permiso para usar Claude en esta página.':e.code==='rate_limited'?'Demasiadas peticiones seguidas. Espera un minuto.':'No se pudo responder. Vuelve a intentarlo.'}</p>`}
+    finally{$('#qgo').disabled=$('#qsimple').disabled=false}};
+  $('#qgo').onclick=()=>{const q=$('#qq').value.trim();if(q)ask(q.slice(0,800))};
+  $('#qsimple').onclick=()=>ask('Explícame esta lección de forma más sencilla y paso a paso, como si no supiera nada de euskera, con 3 ejemplos nuevos muy simples.');
+}
+function stepDialog(l){return `<h3>${esc(l.dialog.title)}</h3><p class="muted small">Léelo en voz alta. Intenta entenderlo antes de mostrar la traducción.</p><label class="row small" style="gap:6px;margin:8px 0"><input type="checkbox" id="tr"> Mostrar traducción</label><div id="dl">${l.dialog.lines.map(([w,eu,es])=>`<div class="dline"><span class="who">${esc(w)}</span><div><div class="eu">${esc(eu)}</div><div class="es">${esc(es)}</div></div></div>`).join('')}</div>`}
+function bindDialog(){$('#tr').onchange=e=>$('#dl').classList.toggle('showes',e.target.checked)}
+/* --- práctica --- */
+function stepPractice(l,p){
+  if(!LS.ex){LS.ex={list:l.exercises.map(e=>({...e})),i:0,ok:0,ai:false};}
+  const E=LS.ex;
+  if(E.i>=E.list.length){
+    const pct=Math.round(100*E.ok/E.list.length);
+    return `<div class="done-big">${E.ok}/${E.list.length}</div><p class="lede">${pct>=80?'Muy bien. Puedes pasar al siguiente paso.':'Repasa la explicación y vuelve a intentarlo cuando quieras.'}</p>
+    <div class="row"><button class="btn ghost" id="redo">Repetir ejercicios</button>${SAMPLE?'<button class="btn ghost" id="more">Más ejercicios nuevos <span class="ai">IA</span></button>':''}</div><div id="morest" class="muted small" style="margin-top:10px"></div>`;
+  }
+  const e=E.list[E.i];
+  let h=`<div class="row" style="justify-content:space-between"><span class="muted small">Ejercicio ${E.i+1} de ${E.list.length}${E.ai?' <span class="ai">generado por IA</span>':''}</span><span class="muted small">${E.ok} bien</span></div><div class="prog" style="margin:8px 0 22px"><i style="width:${100*E.i/E.list.length}%"></i></div>`;
+  if(e.type==='choice'){const ord=e._ord||(e._ord=e.options.map((_,i)=>i).sort(()=>Math.random()-.5));h+=`<div class="prompt-big" style="font-size:1.6rem">${fmt(e.q)}</div><div class="choices">${ord.map((oi,k)=>`<button class="choice" data-o="${oi}"><kbd>${k+1}</kbd>${esc(e.options[oi])}</button>`).join('')}</div>`}
+  if(e.type==='gap'){const [a,b]=e.q.split('___');h+=`<form id="gf" autocomplete="off"><div class="gapq">${esc(a)}<input id="gi" autocomplete="off" autocapitalize="off" spellcheck="false" aria-label="Hueco" enterkeyhint="go">${esc(b||'')}</div><div class="prompt-hint" style="margin-top:8px">«${esc(e.es)}»</div><button class="btn" id="gchk" type="submit">Comprobar</button></form>`}
+  if(e.type==='order'){e._sh=e._sh||[...e.words].sort(()=>Math.random()-.5);e._b=e._b||[];h+=`<div class="prompt-hint">Ordena las palabras: «${esc(e.es)}»</div><div class="built" id="built">${e._b.map(i=>esc(e._sh[i])).join(' ')}</div><div class="tiles">${e._sh.map((w,i)=>`<button class="tile" data-t="${i}" ${e._b.includes(i)?'disabled':''}>${esc(w)}</button>`).join('')}</div><div class="row"><button class="btn ghost" id="oclr">Borrar</button><button class="btn" id="ochk">Comprobar</button></div>`}
+  if(e.type==='match'){e._r=e._r||e.pairs.map((_,i)=>i).sort(()=>Math.random()-.5);e._done=e._done||[];h+=`<div class="prompt-hint">Empareja cada elemento con su significado.</div><div class="mcols"><div style="display:grid;gap:8px">${e.pairs.map((pr,i)=>`<button class="choice ${e._done.includes(i)?'ok':''}" data-ml="${i}" ${e._done.includes(i)?'disabled':''}>${esc(pr[0])}</button>`).join('')}</div><div style="display:grid;gap:8px">${e._r.map(i=>`<button class="choice ${e._done.includes(i)?'ok':''}" data-mr="${i}" ${e._done.includes(i)?'disabled':''}>${esc(e.pairs[i][1])}</button>`).join('')}</div></div>`}
+  return h+`<div class="row" style="margin-top:12px"><button class="linkbtn small" id="hintb">Necesito una pista</button></div><div id="hintt" class="note small" style="display:none;margin-top:8px"></div><div class="fb" id="fb" role="status"></div><div class="row" style="margin-top:14px"><button class="btn" id="exn" style="display:none">Siguiente ejercicio</button></div>`;
+}
+function exResult(ok,msg){document.onkeydown=null;const E=LS.ex;if(ok)E.ok++;const fb=$('#fb');fb.className='fb show '+(ok?'ok':'bad');fb.innerHTML=msg;$('#exn').style.display='';$('#exn').focus();$('#exn').onclick=()=>{E.i++;if(E.i>=E.list.length)finishEx();renderLesson()}}
+function finishEx(){const p=LP(LS.id),E=LS.ex;if(!E.ai){p.ex={ok:E.ok,n:E.list.length,t:Date.now()};p.seen=[...new Set([...(p.seen||[]),2])]}save()}
+function bindPractice(l){
+  const E=LS.ex;
+  if(E.i>=E.list.length){$('#redo').onclick=()=>{LS.ex=null;renderLesson()};if($('#more'))$('#more').onclick=()=>moreExercises(l);return}
+  const e=E.list[E.i];
+  if(e.type==='choice'){const pick=o=>{document.querySelectorAll('.choice').forEach(b=>{b.disabled=true;if(+b.dataset.o===e.a)b.classList.add('ok');else if(+b.dataset.o===o)b.classList.add('bad')});exResult(o===e.a,`${o===e.a?'<strong>Ondo!</strong>':'<strong>No es así.</strong>'} ${fmt(e.why||'')}`)};
+    document.querySelectorAll('[data-o]').forEach(b=>b.onclick=()=>pick(+b.dataset.o))}
+  $('#hintb').onclick=()=>{const t=$('#hintt');t.style.display='block';t.innerHTML=e.hint?fmt(e.hint):'Vuelve al paso «Ulertu» y busca la tabla o la regla que trata esto. No pasa nada por mirar: así es como se aprende.'};
+  if(e.type==='gap'){const gi=$('#gi');setTimeout(()=>gi.focus(),30);const chk=()=>{if(gi.readOnly)return;const ok=e.a.some(a=>normW(a)===normW(gi.value));gi.readOnly=true;gi.classList.add(ok?'ok':'bad');$('#gchk').disabled=true;exResult(ok,ok?`<strong>Ondo!</strong> ${esc(e.q.replace('___',e.a[0]))}`:`<strong>La respuesta es:</strong> <span class="form">${esc(e.a[0])}</span> · ${esc(e.q.replace('___',e.a[0]))}${e.why?`<div class="why">${fmt(e.why)}</div>`:''}`)};
+    $('#gf').onsubmit=ev=>{ev.preventDefault();gi.readOnly?$('#exn').click():chk()};
+    document.onkeydown=ev=>{if((ev.key==='Enter'||ev.keyCode===13)&&!ev.target.closest?.('#gf')&&!ev.target.closest?.('button')){ev.preventDefault();gi.readOnly?$('#exn').click():chk()}}}
+  if(e.type==='order'){document.querySelectorAll('[data-t]').forEach(b=>b.onclick=()=>{e._b.push(+b.dataset.t);renderLesson()});$('#oclr').onclick=()=>{e._b=[];renderLesson()};
+    $('#ochk').onclick=()=>{const got=e._b.map(i=>e._sh[i]).join(' ');const ok=e.a.some(a=>normW(a)===normW(got));$('#ochk').disabled=true;$('#oclr').disabled=true;document.querySelectorAll('.tile').forEach(t=>t.disabled=true);exResult(ok,ok?`<strong>Ondo!</strong> ${esc(e.a[0])}.`:`<strong>Una respuesta correcta:</strong> <span class="form">${esc(e.a[0])}</span>${e.a.length>1?`<div class="why">También vale: ${e.a.slice(1).map(esc).join(' · ')}</div>`:''}`)}}
+  if(e.type==='match'){let sel=null;e._err=e._err||0;
+    document.querySelectorAll('[data-ml]').forEach(b=>b.onclick=()=>{document.querySelectorAll('[data-ml]').forEach(x=>x.classList.remove('sel'));b.classList.add('sel');sel=+b.dataset.ml});
+    document.querySelectorAll('[data-mr]').forEach(b=>b.onclick=()=>{if(sel===null)return;const r=+b.dataset.mr;if(r===sel){e._done.push(r);if(e._done.length===e.pairs.length){renderLesson();exResult(e._err===0,e._err===0?'<strong>Ondo!</strong> Todas a la primera.':`<strong>Completado</strong> con ${e._err} ${e._err===1?'fallo':'fallos'}. Repásalas en la tabla de la explicación.`)}else renderLesson()}else{e._err++;b.classList.add('bad');setTimeout(()=>b.classList.remove('bad'),500)}})}
+}
+async function moreExercises(l){
+  const st=$('#morest');$('#more').disabled=true;st.textContent='Pensando… (la primera vez se te pedirá permiso para usar Claude)';
+  const prompt=`Eres profesor de euskera batua para hispanohablantes. Crea 6 ejercicios NUEVOS de nivel ${l.lvl} para la lección «${l.title}» (${l.es}). Enfoque gramatical: ${l.create.focus}. Usa solo gramática de esta lección o anterior y vocabulario muy frecuente. Ejemplos de la lección: ${l.examples.map(x=>x[0]).join(' | ')}.
+Revisa cada frase con cuidado: deben ser 100 % correctas en euskera batua estándar.
+Responde SOLO con un array JSON, sin texto alrededor. Mezcla estos dos formatos:
+{"type":"gap","q":"frase en euskera con ___ en el hueco","es":"traducción al español","a":["respuesta","otra respuesta válida si la hay"]}
+{"type":"choice","q":"enunciado en español","options":["opción correcta","incorrecta","incorrecta"],"a":0,"why":"explicación breve en español"}`;
+  try{const r=await SAMPLE.json(prompt,{cache:false});
+    const list=(Array.isArray(r)?r:[]).filter(e=>(e.type==='gap'&&typeof e.q==='string'&&e.q.includes('___')&&Array.isArray(e.a)&&e.a.length)||(e.type==='choice'&&Array.isArray(e.options)&&e.options.length>=2&&Number.isInteger(e.a)&&e.options[e.a]!==undefined));
+    if(!list.length)throw {code:'empty'};
+    LS.ex={list,i:0,ok:0,ai:true};renderLesson();
+  }catch(e){st.textContent=e.code==='not_granted'?'No se ha dado permiso para usar Claude en esta página.':e.code==='rate_limited'?'Demasiadas peticiones seguidas. Espera un minuto y vuelve a probar.':'No se pudieron generar ejercicios. Vuelve a intentarlo.';$('#more').disabled=false}
+}
+/* --- escribir --- */
+function stepCreate(l,p){
+  return `<h3>Tu turno</h3><p>${fmt(l.create.prompt)}</p><textarea id="ta" placeholder="Idatzi hemen…">${esc(p.text||'')}</textarea>
+  <div class="row" style="margin-top:12px">${SAMPLE?'<button class="btn" id="fix">Corregir mi texto <span class="ai" style="color:inherit">IA</span></button>':'<span class="muted small">La corrección automática no está disponible en esta vista. Puedes pegar tu texto en el chat con Claude para que te lo corrija.</span>'}</div>
+  <div id="fixout" style="margin-top:16px">${p.fix?fixHTML(p.fix):''}</div>`;
+}
+function fixHTML(f){return `<div class="muted small">Versión corregida</div><div class="corr">${esc(f.correccion||'')}</div>${(f.notas||[]).length?`<h3>Observaciones</h3><ul>${f.notas.map(n=>`<li>${esc(n)}</li>`).join('')}</ul>`:''}${f.animo?`<p class="muted">${esc(f.animo)}</p>`:''}<p class="muted small">Corrección generada por IA: ante la duda, contrástala con la explicación de la lección.</p>`}
+function bindCreate(l,p){
+  const ta=$('#ta');ta.oninput=()=>{p.text=ta.value;save()};
+  if(!$('#fix'))return;
+  $('#fix').onclick=async()=>{
+    if(!ta.value.trim()){$('#fixout').innerHTML='<p class="muted">Escribe algo primero.</p>';return}
+    $('#fix').disabled=true;$('#fixout').innerHTML='<p class="muted">Pensando… (la primera vez se te pedirá permiso para usar Claude)</p>';
+    const prompt=`Eres un profesor de euskera batua, paciente y preciso, para un hispanohablante de nivel ${l.lvl}. Lección: «${l.title}» (${l.es}). Enfoque: ${l.create.focus}.
+Tarea del alumno: ${l.create.prompt}
+Texto del alumno:
+"""${ta.value.slice(0,1500)}"""
+Corrige el texto en euskera batua estándar, cambiando lo mínimo necesario. Explica en español cada error (sobre todo auxiliares, casos, artículo y orden de palabras), de forma breve y concreta. Si todo está bien, dilo. No inventes errores.
+Responde SOLO con JSON: {"correccion":"texto corregido completo","notas":["explicación breve de cada error"],"animo":"una frase breve de ánimo en español"}`;
+    try{const f=await SAMPLE.json(prompt,{cache:false,modelTier:'default'});p.fix={correccion:String(f.correccion||''),notas:Array.isArray(f.notas)?f.notas.map(String):[],animo:String(f.animo||'')};p.seen=[...new Set([...(p.seen||[]),3])];save();$('#fixout').innerHTML=fixHTML(p.fix)}
+    catch(e){$('#fixout').innerHTML=`<p class="muted">${e.code==='not_granted'?'No se ha dado permiso para usar Claude en esta página.':e.code==='rate_limited'?'Demasiadas peticiones seguidas. Espera un minuto.':'No se pudo corregir. Vuelve a intentarlo.'}</p>`}
+    finally{$('#fix').disabled=false}
+  };
+}
+/* --- repasar --- */
+function stepReview(l,p){
+  const k=l.links||{};const gv=(k.verbs||[]).map(id=>GROUPS.find(g=>g.id===id)?.name).filter(Boolean);const gc=(k.cases||[]).map(id=>CASES.find(c=>c.k===id)?.eu).filter(Boolean);const gt=(k.themes||[]).map(id=>VOCAB.find(t=>t.id===id)?.eu).filter(Boolean);
+  const nx=nextAfter(l.id);
+  return `<h3>Llévatelo al repaso</h3><p>Al terminar, estos bloques se añaden a tus selecciones de práctica para que el repaso espaciado los mantenga vivos.</p>
+  ${gv.length?`<p><strong>Verbos:</strong> ${gv.map(esc).join(', ')}</p>`:''}${gc.length?`<p><strong>Casos:</strong> ${gc.map(esc).join(', ')}</p>`:''}${gt.length?`<p><strong>Vocabulario:</strong> ${gt.map(esc).join(', ')}</p>`:''}
+  <p class="muted small">${p.ex?`Ejercicios: ${p.ex.ok}/${p.ex.n}.`:'Aún no has hecho los ejercicios.'} ${p.fix?'Texto corregido.':'Aún no has escrito tu texto.'}</p>
+  <div class="row"><button class="btn" id="fin">${nx&&LESSONS[nx]?(p.done?`Ir a la lección ${LESSONS[nx].n}: ${esc(LESSONS[nx].title)}`:`Completar y pasar a la lección ${LESSONS[nx].n}`):(p.done?'Lección completada':'Completar lección')}</button><button class="btn ghost" id="home2">Volver al inicio</button></div><div id="finmsg" class="muted small" style="margin-top:10px">${nx&&!LESSONS[nx]?'La siguiente lección aún está en preparación.':''}</div>`;
+}
+function nextAfter(id){const L=id.slice(0,2).toUpperCase(),n=+id.slice(3);if(n<16)return lid(L,n);const lv=Object.keys(SYLLABUS);const j=lv.indexOf(L);return j<lv.length-1?lid(lv[j+1],0):null}
+function bindReview(l,p){
+  $('#fin').onclick=()=>{const k=l.links||{};const u=(a,b)=>[...new Set([...(a||[]),...(b||[])])];
+    S.settings.vgroups=u(S.settings.vgroups,k.verbs);S.settings.dcases=u(S.settings.dcases,k.cases);S.settings.wthemes=u(S.settings.wthemes,k.themes);
+    p.done=true;p.seen=[...new Set([...(p.seen||[]),4])];save();
+    const nx=nextAfter(l.id);
+    if(nx&&LESSONS[nx])openLesson(nx);else{$('#finmsg').textContent='Lección completada. Sus bloques ya están en tu práctica.';$('#fin').textContent='Lección completada'}};
+  $('#home2').onclick=()=>{view='home';render()};
+}
+
+/* ============ SESIÓN GUIADA ============ */
+function todayKey(){return new Date().toDateString()}
+function T0(){if(!S.today||S.today.d!==todayKey())S.today={d:todayKey(),s:[]};return S.today}
+function allDue(){const now=Date.now();return [...VITEMS,...DITEMS,...WITEMS].filter(i=>S.stats[i.id]&&S.stats[i.id].d<=now)}
+function learnedPool(){const done=Object.keys(LESSONS).filter(id=>LP(id).done);const v=new Set(),c=new Set(),t=new Set();done.forEach(id=>{const k=LESSONS[id].links||{};(k.verbs||[]).forEach(x=>v.add(x));(k.cases||[]).forEach(x=>c.add(x));(k.themes||[]).forEach(x=>t.add(x))});
+  return [...VITEMS.filter(i=>v.has(i.g)),...DITEMS.filter(i=>c.has(i.g)&&['sg','pl'].includes(i.num)),...wordPool([...t],['A1','A2','B1'].slice(0,1+['A2','B1'].filter(L=>Object.keys(LESSONS).some(id=>id.startsWith(L.toLowerCase())&&LP(id).done)).length))]}
+function todayHTML(){
+  const t=T0(),due=allDue().length,nx=nextLesson(),lp=learnedPool().length;
+  const steps=[
+    ['rep','Repasa lo pendiente',due?`${due} elementos esperan repaso. Unos 5 minutos.`:'No tienes nada pendiente. Puedes saltar este paso.',due?'Repasar':null],
+    ['les','Avanza en el temario',nx?`${LESSONS[nx].lvl} · ${LESSONS[nx].n}. ${esc(LESSONS[nx].title)}: haz uno o dos pasos, o la lección entera si tienes tiempo.`:'Has completado todas las lecciones disponibles.',nx?'Abrir lección':null],
+    ['new','Practica lo aprendido',lp?'Ejercicios de los verbos, casos y vocabulario de las lecciones que ya has completado. Lo nuevo se te enseña antes de preguntarlo.':'Se activa cuando completes tu primera lección.',lp?'Practicar':null]];
+  return `<div class="panel" style="margin-bottom:22px"><h2 style="margin-bottom:4px">Gaurko saioa</h2><p class="muted small" style="margin:0">La sesión de hoy, en este orden. Si solo tienes 10 minutos, haz el paso 1 y un paso de la lección.</p>
+  <div class="today">${steps.map(([k,ti,d,b],i)=>`<div class="tstep ${t.s.includes(k)?'done':''}"><span class="n">${t.s.includes(k)?'✓':i+1}</span><div><strong>${ti}</strong><div class="muted small">${d}</div></div>${b?`<button class="btn ${t.s.includes(k)?'ghost':''} small" data-today="${k}">${b}</button>`:''}</div>`).join('')}</div></div>`;
+}
+function markToday(k){const t=T0();if(!t.s.includes(k))t.s.push(k);save()}
+function bindToday(){document.querySelectorAll('[data-today]').forEach(b=>b.onclick=()=>{const k=b.dataset.today;
+  if(k==='rep'){const d=allDue();markToday('rep');startDrill(d,'home')}
+  if(k==='les'){markToday('les');openLesson(nextLesson())}
+  if(k==='new'){markToday('new');const fn=learnedPool;startDrill(fn(),'home',fn)}})}
+
+/* ============ TABLAS ============ */
+let T={which:'nn-pres',hide:false,noun:'etxe'};
+function matrix(rows,cols,get,rowRole,colRole,rowLab,colLab){
+  return `<div class="tablewrap"><table><thead><tr><th>${rowRole.toUpperCase()} ↓ · ${colRole.toUpperCase()} →</th>${cols.map(c=>`<th class="${colRole}">${colLab(c)}</th>`).join('')}</tr></thead><tbody>${rows.map(r=>`<tr><th class="${rowRole}">${rowLab(r)}</th>${cols.map(c=>{const f=get(r,c);return f?`<td class="f ${T.hide?'hid':''}">${f}</td>`:'<td class="empty" aria-label="no existe"></td>'}).join('')}</tr>`).join('')}</tbody></table></div>`;
+}
+function simpleCol(title,obj,role){return `<div class="tablewrap"><table><thead><tr><th class="${role}">${role.toUpperCase()}</th><th>${title}</th></tr></thead><tbody>${PERS.map(p=>`<tr><th class="${role}">${role==='nork'?ERG[p]:p}</th><td class="f ${T.hide?'hid':''}">${obj[p]}</td></tr>`).join('')}</tbody></table></div>`}
+function renderTables(){
+  const opts=[['nor','NOR (izan)'],['nn-pres','NOR-NORK presente'],['nn-past','NOR-NORK pasado'],['nni','NOR-NORI'],['nnn-pres','NOR-NORI-NORK presente'],['nnn-past','NOR-NORI-NORK pasado'],['syn','Verbos sintéticos'],['decl','Declinación de un sustantivo']];
+  let body='';
+  const id=x=>x, er=p=>ERG[p], da=p=>DAT[p];
+  if(T.which==='nor') body=`<div class="grid2">${simpleCol('Presente',SYN.izan.pres,'nor')}${simpleCol('Pasado',SYN.izan.past,'nor')}</div>`;
+  if(T.which==='nn-pres') body=matrix(PERS,PERS,(nor,nork)=>NN_PRES[nor][nork],'nor','nork',id,er);
+  if(T.which==='nn-past') body=matrix(PERS,PERS,(nor,nork)=>NN_PAST[nor][nork],'nor','nork',id,er);
+  if(T.which==='nni') body=`<h3>Presente</h3>${matrix(['hura','haiek'],PERS,(nor,nori)=>NNI_PRES[nor][nori],'nor','nori',id,da)}<h3>Pasado</h3>${matrix(['hura','haiek'],PERS,(nor,nori)=>NNI_PAST[nor][nori],'nor','nori',id,da)}`;
+  if(T.which==='nnn-pres') body=`<h3>NOR hura (lo)</h3>${matrix(PERS,PERS,(nork,nori)=>NNN_PRES[nork][nori],'nork','nori',er,da)}<h3>NOR haiek (los)</h3>${matrix(PERS,PERS,(nork,nori)=>NNN_PRES_PL[nork][nori],'nork','nori',er,da)}`;
+  if(T.which==='nnn-past') body=`<h3>NOR hura (lo)</h3>${matrix(PERS,PERS,(nork,nori)=>NNN_PAST[nork][nori],'nork','nori',er,da)}`;
+  if(T.which==='syn') body=`<div class="tablewrap"><table><thead><tr><th>Persona</th>${Object.keys(SYN).filter(v=>v!=='izan').map(v=>`<th>${v}<br><span class="muted small">${SYN[v].es}</span></th>`).join('')}</tr></thead><tbody>${PERS.map(p=>`<tr><th>${p} / ${ERG[p]}</th>${Object.keys(SYN).filter(v=>v!=='izan').map(v=>`<td class="f ${T.hide?'hid':''}">${SYN[v].pres[p]}</td>`).join('')}</tr>`).join('')}</tbody></table></div>
+    <h3>Pasado</h3><div class="tablewrap"><table><thead><tr><th>Persona</th>${['egon','joan','etorri'].map(v=>`<th>${v}</th>`).join('')}</tr></thead><tbody>${PERS.map(p=>`<tr><th>${p}</th>${['egon','joan','etorri'].map(v=>`<td class="f ${T.hide?'hid':''}">${SYN[v].past[p]}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;
+  if(T.which==='decl'){const n=NOUNS.find(x=>x.w===T.noun);
+    body=`<div class="row" style="margin:6px 0"><label>Sustantivo <select id="noun">${NOUNS.map(x=>`<option value="${x.w}" ${x.w===T.noun?'selected':''}>${x.w} — ${bare(x.es)}</option>`).join('')}</select></label></div>
+    ${n.an?'<p class="note small">Es un ser vivo: los casos de lugar (NON, NORA, NONDIK…) usan otras formas (-rengan, -rengana…) que veremos más adelante.</p>':''}
+    <div class="tablewrap"><table><thead><tr><th>Caso</th><th>Singular</th><th>Plural</th><th>Indefinido</th></tr></thead><tbody>${CASES.filter(c=>!(c.loc&&n.an)).map(c=>`<tr><th>${c.eu} <span class="muted small">${c.q}?</span></th>${['sg','pl','id'].map(num=>`<td class="f ${T.hide?'hid':''}">${decline(n,c.k,num)}</td>`).join('')}</tr>`).join('')}</tbody></table></div>`;}
+  main.innerHTML=`
+    <h1>Taulak</h1>
+    <p class="lede">Tablas de consulta generadas por el mismo motor que usa la práctica. Activa «Ocultar formas» para repasar: pulsa una casilla para verla.</p>
+    <div class="row" style="margin-bottom:8px"><select id="which" aria-label="Tabla">${opts.map(([k,l])=>`<option value="${k}" ${k===T.which?'selected':''}>${l}</option>`).join('')}</select>
+    <label class="row small" style="gap:6px"><input type="checkbox" id="hide" ${T.hide?'checked':''}> Ocultar formas</label></div>
+    <div class="legend"><span class="chip nor"><b>NOR</b></span><span class="chip nork"><b>NORK</b></span><span class="chip nori"><b>NORI</b></span><span class="muted small">Las casillas rayadas no existen (serían reflexivas: se expresan de otra manera).</span></div>
+    ${body}`;
+  $('#which').onchange=e=>{T.which=e.target.value;renderTables()};
+  $('#hide').onchange=e=>{T.hide=e.target.checked;renderTables()};
+  if($('#noun'))$('#noun').onchange=e=>{T.noun=e.target.value;renderTables()};
+  document.querySelectorAll('td.hid').forEach(td=>td.onclick=()=>td.classList.remove('hid'));
+}
+
+initStore();
+</script>
+</body>
+</html>

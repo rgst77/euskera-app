@@ -1,0 +1,343 @@
+{
+ "id": "a2-08",
+ "lvl": "A2",
+ "n": 8,
+ "title": "Nahi, behar, ahal",
+ "es": "Querer, deber, poder y saber",
+ "goal": "Decir lo que quieres, lo que tienes que hacer, lo que puedes o no puedes hacer y lo que sabes hacer.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "Con cuatro palabras muy pequeñas (**nahi, behar, ahal, ezin**) multiplicas lo que puedes decir: «quiero ir», «tengo que trabajar», «no puedo venir». Funcionan todas igual, así que aprenderlas juntas es fácil. Además verás el verbo **jakin** (saber) completo."
+  },
+  {
+   "h": "La forma",
+   "p": "Participio + **nahi / behar / ahal** + auxiliar **ukan** (dut, duzu…): **Etxera joan nahi dut** (quiero ir a casa), **Lan egin behar dut** (tengo que trabajar), **Leihoa ireki ahal dut?** (¿puedo abrir la ventana?). Lo más habitual en batua es usar **dut** incluso con verbos sin objeto como joan o etorri."
+  },
+  {
+   "h": "No poder: ezin",
+   "p": "**ezin** sustituye a «no + poder» y va delante del auxiliar: **Gaur ezin dut etorri** (hoy no puedo venir), **Ezin dut lo egin** (no puedo dormir). No se dice *ez ahal*."
+  },
+  {
+   "h": "Con nombres y en otros tiempos",
+   "p": "También con nombres: **Laguntza behar dut** (necesito ayuda), **Kafe bat nahi dut** (quiero un café). Y en otros tiempos cambia solo el auxiliar: **joan nahi nuen** (quería ir), **joan beharko dut** (tendré que ir)."
+  },
+  {
+   "h": "jakin (saber) en presente",
+   "p": "Es sintético y funciona como dut. Para «saber hacer algo», va con el verbo en -tzen: **Igeri egiten dakit** (sé nadar). En respuestas cortas afirmativas, con ba-: **Badakit** (lo sé).",
+   "table": {
+    "head": [
+     "NORK",
+     "jakin",
+     "Español"
+    ],
+    "rows": [
+     [
+      "nik",
+      "{nork:dakit}",
+      "sé"
+     ],
+     [
+      "zuk",
+      "{nork:dakizu}",
+      "sabes"
+     ],
+     [
+      "hark",
+      "{nork:daki}",
+      "sabe"
+     ],
+     [
+      "guk",
+      "{nork:dakigu}",
+      "sabemos"
+     ],
+     [
+      "zuek",
+      "{nork:dakizue}",
+      "sabéis"
+     ],
+     [
+      "haiek",
+      "{nork:dakite}",
+      "saben"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Paso a paso: «Mañana tendremos que ir a Bilbao»",
+   "p": "1) Verbo: **joan**. 2) «tener que» = **behar**, en futuro **beharko**. 3) Auxiliar ukan, nosotros → **dugu**. 4) **Bihar Bilbora joan beharko dugu**."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Lan egiten behar dut* → **Lan egin behar dut** (participio, no -tzen). *Ez ahal dut etorri* → **Ezin dut etorri**. *Igeri egin dakit* → **Igeri egiten dakit**. *Hark badakit* → **Hark badaki**."
+  },
+  {
+   "h": "Resumen",
+   "p": "Participio + **nahi / behar / ahal** + **dut**. No poder: **ezin dut + participio**. Futuro: **beharko dut**; pasado: **nahi nuen**. **jakin**: dakit, dakizu, daki, dakigu, dakizue, dakite; saber hacer = **-tzen dakit**."
+  }
+ ],
+ "examples": [
+  [
+   "Etxera joan nahi dut.",
+   "Quiero ir a casa."
+  ],
+  [
+   "Bihar lan egin behar dut.",
+   "Mañana tengo que trabajar."
+  ],
+  [
+   "Leihoa ireki ahal dut?",
+   "¿Puedo abrir la ventana?"
+  ],
+  [
+   "Gaur ezin dut etorri.",
+   "Hoy no puedo venir."
+  ],
+  [
+   "Laguntza behar dut.",
+   "Necesito ayuda."
+  ],
+  [
+   "Igeri egiten badakit.",
+   "Sé nadar."
+  ],
+  [
+   "Euskaraz hitz egiten dakizu?",
+   "¿Sabes hablar euskera?"
+  ]
+ ],
+ "dialog": {
+  "title": "¿Vamos al cine?",
+  "lines": [
+   [
+    "Ane",
+    "Gaur zinemara joan nahi duzu?",
+    "¿Quieres ir al cine hoy?"
+   ],
+   [
+    "Iker",
+    "Ezin dut. Lan asko egin behar dut.",
+    "No puedo. Tengo que trabajar mucho."
+   ],
+   [
+    "Ane",
+    "Eta bihar?",
+    "¿Y mañana?"
+   ],
+   [
+    "Iker",
+    "Bihar bai, joan ahal dut. Zer pelikula ikusi nahi duzu?",
+    "Mañana sí, puedo ir. ¿Qué película quieres ver?"
+   ],
+   [
+    "Ane",
+    "Ez dakit. Euskarazko pelikula bat?",
+    "No sé. ¿Una película en euskera?"
+   ],
+   [
+    "Iker",
+    "Ados! Horrela euskara ikasiko dugu.",
+    "¡De acuerdo! Así aprenderemos euskera."
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Etxera joan nahi ___.",
+   "es": "Quiero ir a casa.",
+   "a": [
+    "dut"
+   ],
+   "hint": "nahi va con ukan: dut."
+  },
+  {
+   "type": "gap",
+   "q": "Bihar lan egin ___ dut.",
+   "es": "Mañana tengo que trabajar.",
+   "a": [
+    "behar"
+   ],
+   "hint": "tener que = behar."
+  },
+  {
+   "type": "gap",
+   "q": "Gaur ___ dut etorri.",
+   "es": "Hoy no puedo venir.",
+   "a": [
+    "ezin"
+   ],
+   "hint": "no poder = ezin."
+  },
+  {
+   "type": "gap",
+   "q": "Leihoa ireki ___ dut?",
+   "es": "¿Puedo abrir la ventana?",
+   "a": [
+    "ahal"
+   ],
+   "hint": "poder = ahal."
+  },
+  {
+   "type": "gap",
+   "q": "Igeri egiten ba___.",
+   "es": "Sé nadar.",
+   "a": [
+    "dakit"
+   ],
+   "hint": "jakin, yo: dakit (con ba- en afirmativa)."
+  },
+  {
+   "type": "gap",
+   "q": "Euskaraz hitz egiten ___?",
+   "es": "¿Sabes hablar euskera?",
+   "a": [
+    "dakizu"
+   ],
+   "hint": "jakin, tú: dakizu."
+  },
+  {
+   "type": "choice",
+   "q": "«Quiero ir a casa»",
+   "options": [
+    "Etxera joan nahi dut.",
+    "Etxera joan nahi da.",
+    "Etxera joatea nahi naiz."
+   ],
+   "a": 0,
+   "why": "Participio + nahi + dut."
+  },
+  {
+   "type": "choice",
+   "q": "«Tengo que trabajar»",
+   "options": [
+    "Lan egin behar dut.",
+    "Lan egin behar naiz.",
+    "Lan egiten behar dut."
+   ],
+   "a": 0,
+   "why": "Participio (egin) + behar + dut."
+  },
+  {
+   "type": "choice",
+   "q": "«No puedo venir»",
+   "options": [
+    "Ezin dut etorri.",
+    "Ez ahal dut etorri.",
+    "Ezin etorri dut."
+   ],
+   "a": 0,
+   "why": "ezin + auxiliar + participio."
+  },
+  {
+   "type": "choice",
+   "q": "«¿Sabes nadar?»",
+   "options": [
+    "Igeri egiten dakizu?",
+    "Igeri egin dakizu?",
+    "Igeri egiten daukazu?"
+   ],
+   "a": 0,
+   "why": "Saber hacer: -tzen + dakizu."
+  },
+  {
+   "type": "choice",
+   "q": "«Él lo sabe»",
+   "options": [
+    "Hark badaki.",
+    "Hark badakit.",
+    "Hura badaki."
+   ],
+   "a": 0,
+   "why": "Sujeto con -k (hark) y forma daki."
+  },
+  {
+   "type": "order",
+   "words": [
+    "nahi",
+    "joan",
+    "Etxera",
+    "dut"
+   ],
+   "a": [
+    "Etxera joan nahi dut"
+   ],
+   "es": "Quiero ir a casa.",
+   "hint": "Lugar + participio + nahi + dut."
+  },
+  {
+   "type": "order",
+   "words": [
+    "dut",
+    "Gaur",
+    "etorri",
+    "ezin"
+   ],
+   "a": [
+    "Gaur ezin dut etorri"
+   ],
+   "es": "Hoy no puedo venir.",
+   "hint": "Tiempo + ezin + dut + participio."
+  },
+  {
+   "type": "order",
+   "words": [
+    "behar",
+    "egin",
+    "dut",
+    "lan",
+    "Bihar"
+   ],
+   "a": [
+    "Bihar lan egin behar dut"
+   ],
+   "es": "Mañana tengo que trabajar.",
+   "hint": "Tiempo + lan egin + behar + dut."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "nahi dut",
+     "quiero"
+    ],
+    [
+     "behar dut",
+     "necesito / tengo que"
+    ],
+    [
+     "ahal dut",
+     "puedo"
+    ],
+    [
+     "ezin dut",
+     "no puedo"
+    ],
+    [
+     "badakit",
+     "lo sé"
+    ],
+    [
+     "ez dakit",
+     "no lo sé"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Escribe 6 frases sobre esta semana: dos cosas que quieres hacer, dos que tienes que hacer, una que no puedes hacer y una que sabes hacer bien.",
+  "focus": "participio + nahi/behar/ahal + dut, ezin dut + participio, jakin (dakit… / -tzen dakit)"
+ },
+ "links": {
+  "verbs": [
+   "syn-pres-2",
+   "nn-pres-3"
+  ],
+  "cases": [],
+  "themes": [
+   "aditzak"
+  ]
+ }
+}

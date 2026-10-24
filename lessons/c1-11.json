@@ -1,0 +1,292 @@
+{
+ "id": "c1-11",
+ "lvl": "C1",
+ "n": 11,
+ "title": "Hitz-ordena estilistikoa",
+ "es": "Orden de palabras y estilo",
+ "goal": "Usar el orden de palabras para dar ritmo, énfasis y claridad a lo que dices y escribes.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "En B2 aprendiste la regla del foco: lo destacado va justo antes del verbo. Más allá de esa regla, el euskera permite mover los elementos con bastante libertad, y los buenos hablantes y escritores lo aprovechan para el ritmo, el énfasis y la claridad. Esta lección te enseña los recursos más habituales."
+  },
+  {
+   "h": "El orden neutro y sus variaciones",
+   "p": "Orden neutro: **sujeto – objeto – verbo** (**Mikelek liburua erosi du**). A partir de ahí: 1) **Tema al principio**: **Liburua, Mikelek erosi du** (el libro, lo compró Mikel). 2) **Foco antes del verbo** (B2-10). 3) **Elementos detrás del verbo**: información secundaria o añadida al final: **Erosi du liburua, azkenean** (ha comprado el libro, por fin)."
+  },
+  {
+   "h": "Verbo al principio",
+   "p": "En la narración y en el habla, empezar por el verbo da dinamismo y pone el acento en la acción: **Joan zen etxera, atea itxi zuen eta ez zuen ezer esan** (se fue a casa, cerró la puerta y no dijo nada). Es un recurso frecuente en la literatura y en los relatos orales."
+  },
+  {
+   "h": "Aligerar lo que va delante del verbo",
+   "p": "Cuando hay mucha información antes del verbo, la frase pesa. Una solución estilística es pasar los complementos largos **detrás del verbo**: en lugar de *Bileraren amaieran, denok nekatuta geundenean, zuzendariak gauza harrigarri bat esan zuen*, mejor **Zuzendariak gauza harrigarri bat esan zuen bileraren amaieran, denok nekatuta geundenean**."
+  },
+  {
+   "h": "Paso a paso: tres versiones de la misma frase",
+   "p": "Neutra: **Anek Bilbon lana aurkitu du.** Foco en el lugar: **Anek lana Bilbon aurkitu du** (ha sido en Bilbao). Narrativa, con verbo delante: **Aurkitu du lana Anek, Bilbon, azkenean!** (¡por fin ha encontrado trabajo Ane, en Bilbao!)."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "Poner siempre el verbo al final, aunque la frase sea larguísima. Separar la interrogativa del verbo (*Nork liburua erosi du?*). Abusar del verbo inicial en textos formales, donde suena demasiado narrativo."
+  },
+  {
+   "h": "Resumen",
+   "p": "Neutro: **S – O – V**. Tema al principio, foco antes del verbo, añadidos detrás del verbo. Verbo inicial para dinamismo narrativo. Para aligerar, pasa los complementos largos detrás del verbo."
+  }
+ ],
+ "examples": [
+  [
+   "Liburua, Mikelek erosi du.",
+   "El libro, lo ha comprado Mikel."
+  ],
+  [
+   "Erosi du liburua, azkenean.",
+   "Ha comprado el libro, por fin."
+  ],
+  [
+   "Joan zen etxera, atea itxi zuen eta ez zuen ezer esan.",
+   "Se fue a casa, cerró la puerta y no dijo nada."
+  ],
+  [
+   "Anek lana Bilbon aurkitu du.",
+   "Ane ha encontrado trabajo en Bilbao (allí precisamente)."
+  ],
+  [
+   "Zuzendariak gauza harrigarri bat esan zuen bileraren amaieran.",
+   "El director dijo algo sorprendente al final de la reunión."
+  ],
+  [
+   "Ikusi dut, bai, zure mezua.",
+   "Lo he visto, sí, tu mensaje."
+  ]
+ ],
+ "dialog": {
+  "title": "Contando una historia",
+  "lines": [
+   [
+    "Iker",
+    "Zer gertatu zen atzo bileran?",
+    "¿Qué pasó ayer en la reunión?"
+   ],
+   [
+    "Ane",
+    "Hasi zen bilera, eta zuzendariak ez zuen ezer esan.",
+    "Empezó la reunión, y el director no dijo nada."
+   ],
+   [
+    "Iker",
+    "Eta gero?",
+    "¿Y luego?"
+   ],
+   [
+    "Ane",
+    "Altxatu zen, leihora joan zen eta, azkenean, berri harrigarri bat eman zigun.",
+    "Se levantó, fue a la ventana y, al final, nos dio una noticia sorprendente."
+   ],
+   [
+    "Iker",
+    "Zer berri?",
+    "¿Qué noticia?"
+   ],
+   [
+    "Ane",
+    "Erretiratu egingo dela, datorren urtean.",
+    "Que se jubilará, el año que viene."
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Erosi du liburua, ___.",
+   "es": "Ha comprado el libro, por fin.",
+   "a": [
+    "azkenean"
+   ],
+   "hint": "Añadido detrás del verbo: azkenean."
+  },
+  {
+   "type": "gap",
+   "q": "___ zen etxera eta ez zuen ezer esan.",
+   "es": "Se fue a casa y no dijo nada.",
+   "a": [
+    "joan"
+   ],
+   "hint": "Narración con verbo inicial."
+  },
+  {
+   "type": "gap",
+   "q": "Anek lana ___ aurkitu du.",
+   "es": "Ane ha encontrado trabajo en Bilbao (allí precisamente).",
+   "a": [
+    "bilbon"
+   ],
+   "hint": "Foco: el lugar, justo antes del verbo."
+  },
+  {
+   "type": "gap",
+   "q": "Zuzendariak gauza harrigarri bat esan ___ bileraren amaieran.",
+   "es": "El director dijo algo sorprendente al final de la reunión.",
+   "a": [
+    "zuen"
+   ],
+   "hint": "Verbo antes del complemento largo."
+  },
+  {
+   "type": "gap",
+   "q": "Ikusi dut, ___, zure mezua.",
+   "es": "Lo he visto, sí, tu mensaje.",
+   "a": [
+    "bai"
+   ],
+   "hint": "Inciso detrás del verbo."
+  },
+  {
+   "type": "gap",
+   "q": "Hasi ___ bilera, eta zuzendariak ez zuen ezer esan.",
+   "es": "Empezó la reunión, y el director no dijo nada.",
+   "a": [
+    "zen"
+   ],
+   "hint": "Verbo inicial narrativo."
+  },
+  {
+   "type": "choice",
+   "q": "Orden neutro en euskera:",
+   "options": [
+    "sujeto – objeto – verbo",
+    "verbo – sujeto – objeto",
+    "objeto – verbo – sujeto"
+   ],
+   "a": 0,
+   "why": "S – O – V."
+  },
+  {
+   "type": "choice",
+   "q": "Para dar dinamismo a una narración se puede…",
+   "options": [
+    "empezar por el verbo",
+    "separar la interrogativa del verbo",
+    "poner todo antes del verbo"
+   ],
+   "a": 0,
+   "why": "Verbo inicial: recurso narrativo."
+  },
+  {
+   "type": "choice",
+   "q": "Una frase con muchos complementos delante del verbo resulta…",
+   "options": [
+    "pesada: conviene pasar algunos detrás",
+    "más clara",
+    "obligatoria en euskera"
+   ],
+   "a": 0,
+   "why": "Aligerar = complementos largos detrás."
+  },
+  {
+   "type": "choice",
+   "q": "«Anek lana Bilbon aurkitu du» destaca…",
+   "options": [
+    "el lugar (Bilbao)",
+    "el sujeto (Ane)",
+    "el trabajo"
+   ],
+   "a": 0,
+   "why": "Lo que va justo antes del verbo es el foco."
+  },
+  {
+   "type": "choice",
+   "q": "En un texto formal, el verbo inicial…",
+   "options": [
+    "se usa con moderación",
+    "es obligatorio",
+    "está prohibido"
+   ],
+   "a": 0,
+   "why": "Es un recurso más narrativo que formal."
+  },
+  {
+   "type": "order",
+   "words": [
+    "du",
+    "azkenean",
+    "liburua",
+    "Erosi"
+   ],
+   "a": [
+    "Erosi du liburua azkenean"
+   ],
+   "es": "Ha comprado el libro, por fin.",
+   "hint": "Verbo + objeto + añadido."
+  },
+  {
+   "type": "order",
+   "words": [
+    "etxera",
+    "zen",
+    "Joan"
+   ],
+   "a": [
+    "Joan zen etxera"
+   ],
+   "es": "Se fue a casa.",
+   "hint": "Verbo inicial + lugar."
+  },
+  {
+   "type": "order",
+   "words": [
+    "aurkitu",
+    "du",
+    "Bilbon",
+    "lana",
+    "Anek"
+   ],
+   "a": [
+    "Anek lana Bilbon aurkitu du"
+   ],
+   "es": "Ane ha encontrado trabajo en Bilbao.",
+   "hint": "Sujeto + objeto + foco + verbo."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "mintzagaia",
+     "tema (al principio)"
+    ],
+    [
+     "galdegaia",
+     "foco (antes del verbo)"
+    ],
+    [
+     "aditza hasieran",
+     "verbo al principio (narración)"
+    ],
+    [
+     "aditzaren ondoren",
+     "información añadida"
+    ],
+    [
+     "ordena neutroa",
+     "S – O – V"
+    ],
+    [
+     "erritmoa",
+     "ritmo"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Escribe un relato breve (6 a 8 frases) de algo que te pasó, combinando frases con verbo inicial, frases con foco marcado y algún añadido detrás del verbo.",
+  "focus": "orden neutro, tema, foco, verbo inicial narrativo, complementos detrás del verbo"
+ },
+ "links": {
+  "verbs": [],
+  "cases": [],
+  "themes": [
+   "lokailuak"
+  ]
+ }
+}

@@ -1,0 +1,1676 @@
+[
+ {
+  "id": "a1-01",
+  "lvl": "A1",
+  "n": 1,
+  "title": "Soinuak",
+  "es": "Cómo suena el euskera",
+  "introduce": [
+   "alfabeto y pronunciación",
+   "diptongos",
+   "acento"
+  ],
+  "forms": [],
+  "chunks": [
+   "zer moduz"
+  ]
+ },
+ {
+  "id": "a1-02",
+  "lvl": "A1",
+  "n": 2,
+  "title": "Kaixo!",
+  "es": "Presentarse",
+  "introduce": [
+   "izan presente (NOR)",
+   "verbo al final",
+   "profesiones con artículo",
+   "origen con -koa"
+  ],
+  "forms": [
+   "naiz",
+   "zara",
+   "da",
+   "gara",
+   "zarete",
+   "dira"
+  ],
+  "chunks": []
+ },
+ {
+  "id": "a1-03",
+  "lvl": "A1",
+  "n": 3,
+  "title": "Hau zer da?",
+  "es": "El artículo y los demostrativos",
+  "introduce": [
+   "artículo -a/-ak",
+   "bat",
+   "demostrativos hau/hori/hura",
+   "adjetivo tras el nombre"
+  ],
+  "forms": [],
+  "chunks": []
+ },
+ {
+  "id": "a1-04",
+  "lvl": "A1",
+  "n": 4,
+  "title": "Galderak",
+  "es": "Hacer preguntas",
+  "introduce": [
+   "interrogativos",
+   "interrogativa + verbo juntos",
+   "preguntas sí/no"
+  ],
+  "forms": [],
+  "chunks": [
+   "nago",
+   "zaude",
+   "zure",
+   "zurea"
+  ]
+ },
+ {
+  "id": "a1-05",
+  "lvl": "A1",
+  "n": 5,
+  "title": "Ez!",
+  "es": "La negación",
+  "introduce": [
+   "ez + verbo delante",
+   "negación con verbos de dos piezas",
+   "ni ere bai/ez",
+   "ezta?"
+  ],
+  "forms": [],
+  "chunks": [
+   "dakit"
+  ]
+ },
+ {
+  "id": "a1-06",
+  "lvl": "A1",
+  "n": 6,
+  "title": "Zenbakiak",
+  "es": "Números, edad y hora",
+  "introduce": [
+   "números base 20",
+   "posición del número",
+   "edad",
+   "la hora"
+  ],
+  "forms": [],
+  "chunks": [
+   "ditut",
+   "dituzu",
+   "ditu"
+  ]
+ },
+ {
+  "id": "a1-07",
+  "lvl": "A1",
+  "n": 7,
+  "title": "Non zaude?",
+  "es": "egon y el caso NON",
+  "introduce": [
+   "egon presente",
+   "NON -an/-n/-ean/-etan",
+   "«hay» = dago/daude",
+   "estados",
+   "-ko de lugar"
+  ],
+  "forms": [
+   "nago",
+   "zaude",
+   "dago",
+   "gaude",
+   "zaudete",
+   "daude"
+  ],
+  "chunks": [
+   "ari",
+   "du"
+  ]
+ },
+ {
+  "id": "a1-08",
+  "lvl": "A1",
+  "n": 8,
+  "title": "Nora zoaz?",
+  "es": "joan, etorri, NORA y NONDIK",
+  "introduce": [
+   "joan y etorri presente",
+   "NORA -ra/-era",
+   "NONDIK -tik/-etik"
+  ],
+  "forms": [
+   "noa",
+   "zoaz",
+   "doa",
+   "goaz",
+   "zoazte",
+   "doaz",
+   "nator",
+   "zatoz",
+   "dator",
+   "gatoz",
+   "zatozte",
+   "datoz"
+  ],
+  "chunks": []
+ },
+ {
+  "id": "a1-09",
+  "lvl": "A1",
+  "n": 9,
+  "title": "Nire familia",
+  "es": "Posesivos y genitivo -en",
+  "introduce": [
+   "posesivos",
+   "genitivo -en/-ren/-aren",
+   "-ko frente a -en",
+   "hermanos según quien habla"
+  ],
+  "forms": [],
+  "chunks": [
+   "zuen",
+   "ditut"
+  ]
+ },
+ {
+  "id": "a1-10",
+  "lvl": "A1",
+  "n": 10,
+  "title": "Zer daukazu?",
+  "es": "El verbo tener y describir cosas",
+  "introduce": [
+   "eduki presente (sg/pl)",
+   "ergativo -k (NORK)",
+   "nombre + adjetivo + bat"
+  ],
+  "forms": [
+   "daukat",
+   "daukazu",
+   "dauka",
+   "daukagu",
+   "daukazue",
+   "daukate",
+   "dauzkat",
+   "dauzkazu",
+   "dauzka",
+   "dauzkagu",
+   "dauzkazue",
+   "dauzkate"
+  ],
+  "chunks": [
+   "dut"
+  ]
+ },
+ {
+  "id": "a1-11",
+  "lvl": "A1",
+  "n": 11,
+  "title": "Egunerokoa",
+  "es": "Presente habitual",
+  "introduce": [
+   "verbo + auxiliar",
+   "-tzen/-ten",
+   "izan o ukan según objeto",
+   "expresiones de tiempo"
+  ],
+  "forms": [
+   "dut",
+   "duzu",
+   "du",
+   "dugu",
+   "duzue",
+   "dute"
+  ],
+  "chunks": []
+ },
+ {
+  "id": "a1-12",
+  "lvl": "A1",
+  "n": 12,
+  "title": "Gustuak",
+  "es": "gustatu zait / zaizkit",
+  "introduce": [
+   "NOR-NORI presente",
+   "dativo (niri, Mikeli)",
+   "-tzea para actividades"
+  ],
+  "forms": [
+   "zait",
+   "zaizu",
+   "zaio",
+   "zaigu",
+   "zaizue",
+   "zaie",
+   "zaizkit",
+   "zaizkizu",
+   "zaizkio",
+   "zaizkigu",
+   "zaizkizue",
+   "zaizkie"
+  ],
+  "chunks": []
+ },
+ {
+  "id": "a1-13",
+  "lvl": "A1",
+  "n": 13,
+  "title": "Zer egin duzu?",
+  "es": "El pretérito perfecto",
+  "introduce": [
+   "participio + presente",
+   "ukan con objeto plural (ditut)"
+  ],
+  "forms": [
+   "ditut",
+   "dituzu",
+   "ditu",
+   "ditugu",
+   "dituzue",
+   "dituzte"
+  ],
+  "chunks": []
+ },
+ {
+  "id": "a1-14",
+  "lvl": "A1",
+  "n": 14,
+  "title": "Biharko planak",
+  "es": "El futuro con -ko / -go",
+  "introduce": [
+   "futuro -ko/-go",
+   "expresiones de futuro"
+  ],
+  "forms": [],
+  "chunks": []
+ },
+ {
+  "id": "a1-15",
+  "lvl": "A1",
+  "n": 15,
+  "title": "Erosketak",
+  "es": "De compras",
+  "introduce": [
+   "nahi dut",
+   "precios",
+   "soziatiboa -rekin",
+   "destinatiboa -rentzat"
+  ],
+  "forms": [],
+  "chunks": [
+   "nuke",
+   "tori"
+  ]
+ },
+ {
+  "id": "a1-16",
+  "lvl": "A1",
+  "n": 16,
+  "title": "Atzo",
+  "es": "El pasado: nintzen, nuen",
+  "introduce": [
+   "izan pasado",
+   "ukan pasado (sg/pl)",
+   "gaur frente a atzo"
+  ],
+  "forms": [
+   "nintzen",
+   "zinen",
+   "zen",
+   "ginen",
+   "zineten",
+   "ziren",
+   "nuen",
+   "zenuen",
+   "zuen",
+   "genuen",
+   "zenuten",
+   "zuten",
+   "nituen",
+   "zenituen",
+   "zituen",
+   "genituen",
+   "zenituzten",
+   "zituzten"
+  ],
+  "chunks": [
+   "den"
+  ]
+ },
+ {
+  "id": "a2-01",
+  "lvl": "A2",
+  "n": 1,
+  "title": "Ordutegiak",
+  "es": "Horas y rutina",
+  "introduce": [
+   "«a las…» -etan",
+   "de… a… (-etatik -etara)",
+   "días: -ean / -etan",
+   "frecuencia"
+  ],
+  "forms": [],
+  "chunks": []
+ },
+ {
+  "id": "a2-02",
+  "lvl": "A2",
+  "n": 2,
+  "title": "Ba al duzu?",
+  "es": "El partitivo -rik",
+  "introduce": [
+   "partitivo -rik/-ik",
+   "partícula al",
+   "respuestas con ba-"
+  ],
+  "forms": [],
+  "chunks": [
+   "dakit",
+   "badakit"
+  ]
+ },
+ {
+  "id": "a2-03",
+  "lvl": "A2",
+  "n": 3,
+  "title": "Nirekin, zuretzat",
+  "es": "Los pronombres declinados",
+  "introduce": [
+   "tabla de pronombres por caso"
+  ],
+  "forms": [],
+  "chunks": []
+ },
+ {
+  "id": "a2-04",
+  "lvl": "A2",
+  "n": 4,
+  "title": "Iritziak",
+  "es": "Más verbos NOR-NORI",
+  "introduce": [
+   "iruditu, ahaztu, gertatu, interesatu, falta izan, axola izan"
+  ],
+  "forms": [],
+  "chunks": [
+   "ezin"
+  ]
+ },
+ {
+  "id": "a2-05",
+  "lvl": "A2",
+  "n": 5,
+  "title": "Lehen eta orain",
+  "es": "El pasado habitual",
+  "introduce": [
+   "pasado habitual -tzen nintzen/nuen",
+   "egon, joan, etorri, eduki en pasado",
+   "NOR-NORI pasado (gustatzen zitzaidan)"
+  ],
+  "forms": [
+   "nengoen",
+   "zeunden",
+   "zegoen",
+   "geunden",
+   "zeundeten",
+   "zeuden",
+   "nindoan",
+   "zindoazen",
+   "zihoan",
+   "gindoazen",
+   "zindoazten",
+   "zihoazen",
+   "nentorren",
+   "zentozen",
+   "zetorren",
+   "gentozen",
+   "zentozten",
+   "zetozen",
+   "neukan",
+   "zeneukan",
+   "zeukan",
+   "geneukan",
+   "zeneukaten",
+   "zeukaten",
+   "neuzkan",
+   "zeneuzkan",
+   "zeuzkan",
+   "geneuzkan",
+   "zeneuzkaten",
+   "zeuzkaten",
+   "zitzaidan",
+   "zitzaizun",
+   "zitzaion",
+   "zitzaigun",
+   "zitzaizuen",
+   "zitzaien",
+   "zitzaizkidan",
+   "zitzaizkizun",
+   "zitzaizkion",
+   "zitzaizkigun",
+   "zitzaizkizuen",
+   "zitzaizkien"
+  ],
+  "chunks": []
+ },
+ {
+  "id": "a2-06",
+  "lvl": "A2",
+  "n": 6,
+  "title": "Ari naiz",
+  "es": "La acción en curso",
+  "introduce": [
+   "ari izan (progresivo)",
+   "ari du (tiempo meteorológico)",
+   "-tzen ari naiz frente a -tzen dut"
+  ],
+  "forms": [],
+  "chunks": []
+ },
+ {
+  "id": "a2-07",
+  "lvl": "A2",
+  "n": 7,
+  "title": "Konparazioak",
+  "es": "Comparar",
+  "introduce": [
+   "-ago",
+   "-en(a) superlativo",
+   "baino",
+   "bezain",
+   "bezala",
+   "gehiago/gutxiago",
+   "gehiegi"
+  ],
+  "forms": [],
+  "chunks": []
+ },
+ {
+  "id": "a2-08",
+  "lvl": "A2",
+  "n": 8,
+  "title": "Nahi, behar, ahal",
+  "es": "Querer, deber, poder, saber",
+  "introduce": [
+   "nahi/behar/ahal izan + participio (siempre con dut)",
+   "ezin",
+   "jakin presente"
+  ],
+  "forms": [
+   "dakit",
+   "dakizu",
+   "daki",
+   "dakigu",
+   "dakizue",
+   "dakite"
+  ],
+  "chunks": []
+ },
+ {
+  "id": "a2-09",
+  "lvl": "A2",
+  "n": 9,
+  "title": "Aginduak",
+  "es": "Órdenes y direcciones",
+  "introduce": [
+   "imperativo con participio",
+   "zatoz/zoaz/zaude como imperativo",
+   "instrumental -z (autobusez)",
+   "-raino, -rantz"
+  ],
+  "forms": [],
+  "chunks": []
+ },
+ {
+  "id": "a2-10",
+  "lvl": "A2",
+  "n": 10,
+  "title": "Ikusten zaitut",
+  "es": "NOR-NORK con personas",
+  "introduce": [
+   "NOR-NORK presente con NOR personal (nau, zaitut, gaitu…)"
+  ],
+  "forms": [
+   "nau",
+   "nauzu",
+   "nauzue",
+   "naute",
+   "zaitut",
+   "zaitu",
+   "zaitugu",
+   "zaituzte",
+   "gaitu",
+   "gaituzu",
+   "gaituzue",
+   "gaituzte",
+   "zaituztet",
+   "zaituztegu",
+   "zaituztete"
+  ],
+  "chunks": []
+ },
+ {
+  "id": "a2-11",
+  "lvl": "A2",
+  "n": 11,
+  "title": "Zer eman diozu?",
+  "es": "NOR-NORI-NORK en presente",
+  "introduce": [
+   "NOR-NORI-NORK presente (sg y pl)",
+   "eman, esan, bidali, erakutsi"
+  ],
+  "forms": [
+   "dizut",
+   "diot",
+   "dizuet",
+   "diet",
+   "didazu",
+   "diozu",
+   "diguzu",
+   "diezu",
+   "dit",
+   "dizu",
+   "dio",
+   "digu",
+   "dizue",
+   "die",
+   "dizugu",
+   "diogu",
+   "dizuegu",
+   "diegu",
+   "didazue",
+   "diozue",
+   "diguzue",
+   "diezue",
+   "didate",
+   "dizute",
+   "diote",
+   "digute",
+   "dizuete",
+   "diete",
+   "dizkizut",
+   "dizkiot",
+   "dizkizuet",
+   "dizkiet",
+   "dizkidazu",
+   "dizkiozu",
+   "dizkiguzu",
+   "dizkiezu",
+   "dizkit",
+   "dizkizu",
+   "dizkio",
+   "dizkigu",
+   "dizkizue",
+   "dizkie",
+   "dizkizugu",
+   "dizkiogu",
+   "dizkizuegu",
+   "dizkiegu",
+   "dizkidazue",
+   "dizkiozue",
+   "dizkiguzue",
+   "dizkiezue",
+   "dizkidate",
+   "dizkizute",
+   "dizkiote",
+   "dizkigute",
+   "dizkizuete",
+   "dizkiete"
+  ],
+  "chunks": []
+ },
+ {
+  "id": "a2-12",
+  "lvl": "A2",
+  "n": 12,
+  "title": "Osasuna",
+  "es": "La salud",
+  "introduce": [
+   "síntomas: … mina daukat",
+   "min ematen dit",
+   "botika, mediku",
+   "repaso NOR-NORI-NORK"
+  ],
+  "forms": [],
+  "chunks": []
+ },
+ {
+  "id": "a2-13",
+  "lvl": "A2",
+  "n": 13,
+  "title": "Erosi dudan liburua",
+  "es": "Oraciones de relativo I",
+  "introduce": [
+   "relativo -(e)n en presente",
+   "orden: oración + nombre"
+  ],
+  "forms": [
+   "dagoen",
+   "dauden",
+   "daukadan",
+   "daukagun",
+   "daukan",
+   "daukaten",
+   "daukazuen",
+   "daukazun",
+   "den",
+   "diren",
+   "ditudan",
+   "dituen",
+   "ditugun",
+   "dituzten",
+   "dituzuen",
+   "dituzun",
+   "dudan",
+   "duen",
+   "dugun",
+   "duten",
+   "duzuen",
+   "duzun",
+   "garen",
+   "gauden",
+   "nagoen",
+   "naizen",
+   "zaidan",
+   "zaien",
+   "zaigun",
+   "zaion",
+   "zaizuen",
+   "zaizun",
+   "zaren",
+   "zareten",
+   "zauden",
+   "zaudeten"
+  ],
+  "chunks": []
+ },
+ {
+  "id": "a2-14",
+  "lvl": "A2",
+  "n": 14,
+  "title": "Etorriko dela esan du",
+  "es": "Oraciones con -(e)la",
+  "introduce": [
+   "completivas -(e)la",
+   "esan sintético (dio, diot)",
+   "uste dut … -(e)la"
+  ],
+  "forms": [
+   "dagoela",
+   "daudela",
+   "dela",
+   "direla",
+   "ditudala",
+   "dituela",
+   "dituztela",
+   "dudala",
+   "duela",
+   "dugula",
+   "dutela",
+   "duzuela",
+   "duzula",
+   "garela",
+   "gaudela",
+   "nagoela",
+   "naizela",
+   "zaidala",
+   "zaiola",
+   "zarela",
+   "zaretela",
+   "zaudela",
+   "zaudetela"
+  ],
+  "chunks": []
+ },
+ {
+  "id": "a2-15",
+  "lvl": "A2",
+  "n": 15,
+  "title": "Etortzen naizenean",
+  "es": "Oraciones con -nean",
+  "introduce": [
+   "temporales -nean"
+  ],
+  "forms": [
+   "dagoenean",
+   "daudenean",
+   "daukadanean",
+   "daukagunean",
+   "daukanean",
+   "daukatenean",
+   "daukazuenean",
+   "daukazunean",
+   "denean",
+   "direnean",
+   "ditudanean",
+   "dituenean",
+   "ditugunean",
+   "dituztenean",
+   "dituzuenean",
+   "dituzunean",
+   "dudanean",
+   "duenean",
+   "dugunean",
+   "dutenean",
+   "duzuenean",
+   "duzunean",
+   "garenean",
+   "gaudenean",
+   "nagoenean",
+   "naizenean",
+   "zaidanean",
+   "zaienean",
+   "zaigunean",
+   "zaionean",
+   "zaizuenean",
+   "zaizunean",
+   "zarenean",
+   "zaretenean",
+   "zaudenean",
+   "zaudetenean"
+  ],
+  "chunks": []
+ },
+ {
+  "id": "a2-16",
+  "lvl": "A2",
+  "n": 16,
+  "title": "Nekatuta nagoelako",
+  "es": "Causales con -lako",
+  "introduce": [
+   "causales -lako",
+   "zergatik? … -lako"
+  ],
+  "forms": [
+   "dagoelako",
+   "daudelako",
+   "delako",
+   "direlako",
+   "ditudalako",
+   "dituelako",
+   "dituztelako",
+   "dudalako",
+   "duelako",
+   "dugulako",
+   "dutelako",
+   "duzuelako",
+   "duzulako",
+   "garelako",
+   "gaudelako",
+   "nagoelako",
+   "naizelako",
+   "zaidalako",
+   "zaiolako",
+   "zarelako",
+   "zaretelako",
+   "zaudelako",
+   "zaudetelako"
+  ],
+  "chunks": []
+ },
+ {
+  "id": "b1-01",
+  "lvl": "B1",
+  "n": 1,
+  "title": "Iragana osoa",
+  "es": "NOR-NORK en pasado con personas",
+  "introduce": [
+   "NOR-NORK pasado con NOR personal"
+  ],
+  "forms": [
+   "ninduzun",
+   "ninduen",
+   "ninduzuen",
+   "ninduten",
+   "zintudan",
+   "zintuen",
+   "zintugun",
+   "zintuzten",
+   "gintuzun",
+   "gintuen",
+   "gintuzuen",
+   "gintuzten",
+   "zintuztedan",
+   "zintuztegun",
+   "zintuzteten"
+  ],
+  "chunks": []
+ },
+ {
+  "id": "b1-02",
+  "lvl": "B1",
+  "n": 2,
+  "title": "Baldintzak I",
+  "es": "El condicional real",
+  "introduce": [
+   "ba- + presente",
+   "-tzen badu, -ko du"
+  ],
+  "forms": [],
+  "chunks": []
+ },
+ {
+  "id": "b1-03",
+  "lvl": "B1",
+  "n": 3,
+  "title": "Baldintzak II",
+  "es": "Hipótesis",
+  "introduce": [
+   "condicional -ke",
+   "hipótesis ba- … -ko nuke",
+   "gustatuko litzaidake (me gustaría)"
+  ],
+  "forms": [
+   "nuke",
+   "zenuke",
+   "luke",
+   "genuke",
+   "zenukete",
+   "lukete",
+   "nintzateke",
+   "zinateke",
+   "litzateke",
+   "ginateke",
+   "zinatekete",
+   "lirateke",
+   "banintz",
+   "bazina",
+   "balitz",
+   "bagina",
+   "bazinete",
+   "balira",
+   "banu",
+   "bazenu",
+   "balu",
+   "bagenu",
+   "bazenute",
+   "balute",
+   "litzaidake",
+   "litzaizuke",
+   "litzaioke",
+   "litzaiguke",
+   "litzaieke"
+  ],
+  "chunks": []
+ },
+ {
+  "id": "b1-04",
+  "lvl": "B1",
+  "n": 4,
+  "title": "Ahal izatea",
+  "es": "El potencial",
+  "introduce": [
+   "potencial NOR y NOR-NORK presente"
+  ],
+  "forms": [
+   "dezaket",
+   "dezakezu",
+   "dezake",
+   "dezakegu",
+   "dezakezue",
+   "dezakete",
+   "ditzaket",
+   "ditzakezu",
+   "ditzake",
+   "ditzakegu",
+   "ditzakezue",
+   "ditzakete",
+   "naiteke",
+   "zaitezke",
+   "daiteke",
+   "gaitezke",
+   "zaitezkete",
+   "daitezke"
+  ],
+  "chunks": []
+ },
+ {
+  "id": "b1-05",
+  "lvl": "B1",
+  "n": 5,
+  "title": "Zertarako?",
+  "es": "La finalidad",
+  "introduce": [
+   "-tzeko",
+   "subjuntivo dadin / dezan"
+  ],
+  "forms": [
+   "nadin",
+   "zaitezen",
+   "dadin",
+   "gaitezen",
+   "zaitezten",
+   "daitezen",
+   "dezadan",
+   "dezazun",
+   "dezan",
+   "dezagun",
+   "dezazuen",
+   "dezaten"
+  ],
+  "chunks": []
+ },
+ {
+  "id": "b1-06",
+  "lvl": "B1",
+  "n": 6,
+  "title": "Erlatiboak II",
+  "es": "Relativos en pasado y con casos",
+  "introduce": [
+   "relativo pasado (-n)",
+   "relativo con casos"
+  ],
+  "forms": [],
+  "chunks": []
+ },
+ {
+  "id": "b1-07",
+  "lvl": "B1",
+  "n": 7,
+  "title": "Ez dakit non dagoen",
+  "es": "Interrogativas indirectas",
+  "introduce": [
+   "interrogativa indirecta -(e)n",
+   "ea … -(e)n",
+   "-nik tras negación (ez dut uste … -nik)"
+  ],
+  "forms": [
+   "denik",
+   "dudanik",
+   "duenik",
+   "dagoenik"
+  ],
+  "chunks": []
+ },
+ {
+  "id": "b1-08",
+  "lvl": "B1",
+  "n": 8,
+  "title": "Eman nion",
+  "es": "NOR-NORI-NORK en pasado",
+  "introduce": [
+   "NOR-NORI-NORK pasado",
+   "objeto plural: nizkion, zizkidan"
+  ],
+  "forms": [
+   "nizun",
+   "nion",
+   "nizuen",
+   "nien",
+   "zenidan",
+   "zenion",
+   "zenigun",
+   "zenien",
+   "zidan",
+   "zizun",
+   "zion",
+   "zigun",
+   "zizuen",
+   "zien",
+   "genizun",
+   "genion",
+   "genizuen",
+   "genien",
+   "zenidaten",
+   "zenioten",
+   "zeniguten",
+   "zenieten",
+   "zidaten",
+   "zizuten",
+   "zioten",
+   "ziguten",
+   "zizueten",
+   "zieten",
+   "nizkion",
+   "nizkizun",
+   "zizkidan",
+   "zizkion",
+   "zizkizun",
+   "genizkion",
+   "zizkiguten",
+   "zizkioten"
+  ],
+  "chunks": []
+ },
+ {
+  "id": "b1-09",
+  "lvl": "B1",
+  "n": 9,
+  "title": "Ikastea gustatzen zait",
+  "es": "Nominalización",
+  "introduce": [
+   "-tzea, -tzen, -tzeko"
+  ],
+  "forms": [],
+  "chunks": []
+ },
+ {
+  "id": "b1-10",
+  "lvl": "B1",
+  "n": 10,
+  "title": "Denbora-perpausak",
+  "es": "Más oraciones temporales",
+  "introduce": [
+   "-n arte",
+   "-n bitartean",
+   "-takoan",
+   "-n baino lehen",
+   "-ta gero"
+  ],
+  "forms": [],
+  "chunks": []
+ },
+ {
+  "id": "b1-11",
+  "lvl": "B1",
+  "n": 11,
+  "title": "Nahiz eta",
+  "es": "Concesivas",
+  "introduce": [
+   "-n arren",
+   "nahiz eta",
+   "-agatik"
+  ],
+  "forms": [],
+  "chunks": []
+ },
+ {
+  "id": "b1-12",
+  "lvl": "B1",
+  "n": 12,
+  "title": "Esaten da",
+  "es": "La forma impersonal",
+  "introduce": [
+   "impersonal con izan",
+   "-tzen da"
+  ],
+  "forms": [],
+  "chunks": []
+ },
+ {
+  "id": "b1-13",
+  "lvl": "B1",
+  "n": 13,
+  "title": "Lagunarengana",
+  "es": "Casos locales de seres vivos",
+  "introduce": [
+   "-rengan, -rengana, -rengandik"
+  ],
+  "forms": [],
+  "chunks": []
+ },
+ {
+  "id": "b1-14",
+  "lvl": "B1",
+  "n": 14,
+  "title": "Hitz berriak sortzen",
+  "es": "Formación de palabras",
+  "introduce": [
+   "-tasun",
+   "-garri",
+   "-tzaile",
+   "-keta",
+   "-tegi",
+   "-dun"
+  ],
+  "forms": [],
+  "chunks": []
+ },
+ {
+  "id": "b1-15",
+  "lvl": "B1",
+  "n": 15,
+  "title": "Nire ustez",
+  "es": "Dar y defender una opinión",
+  "introduce": [
+   "nire ustez",
+   "uste dut -(e)la",
+   "ados nago",
+   "alde/kontra"
+  ],
+  "forms": [],
+  "chunks": []
+ },
+ {
+  "id": "b1-16",
+  "lvl": "B1",
+  "n": 16,
+  "title": "Kontakizunak",
+  "es": "Narrar en pasado",
+  "introduce": [
+   "conectores narrativos",
+   "combinar pasados"
+  ],
+  "forms": [],
+  "chunks": []
+ },
+ {
+  "id": "b2-01",
+  "lvl": "B2",
+  "n": 1,
+  "title": "Trinko gehiago",
+  "es": "Más verbos sintéticos",
+  "introduce": [
+   "ekarri, eraman, jarraitu, ibili, iruditu sintéticos",
+   "ibili en pasado (nenbilen…)",
+   "jakin en pasado (nekien…)",
+   "dirudi (parece)"
+  ],
+  "forms": [
+   "dakart",
+   "dakarzu",
+   "dakar",
+   "dakargu",
+   "dakarzue",
+   "dakarte",
+   "daramat",
+   "daramazu",
+   "darama",
+   "daramagu",
+   "daramazue",
+   "daramate",
+   "nenbilen",
+   "zenbiltzan",
+   "zebilen",
+   "genbiltzan",
+   "zenbiltzaten",
+   "zebiltzan",
+   "nekien",
+   "zenekien",
+   "zekien",
+   "genekien",
+   "zenekiten",
+   "zekiten",
+   "dirudi",
+   "dirudite",
+   "zirudien",
+   "ziruditen"
+  ],
+  "chunks": []
+ },
+ {
+  "id": "b2-02",
+  "lvl": "B2",
+  "n": 2,
+  "title": "Aginte osoa",
+  "es": "El imperativo completo",
+  "introduce": [
+   "imperativo NOR, NOR-NORK, NOR-NORI-NORK",
+   "lagun nazazu, esadazu"
+  ],
+  "forms": [
+   "zaitez",
+   "zaitezte",
+   "ezazu",
+   "ezazue",
+   "itzazu",
+   "itzazue",
+   "iezadazu",
+   "iezaiozu",
+   "iezaguzu",
+   "emaidazu",
+   "nazazu",
+   "gaitzazu",
+   "esadazu",
+   "iezaiezu",
+   "nazazue"
+  ],
+  "chunks": []
+ },
+ {
+  "id": "b2-03",
+  "lvl": "B2",
+  "n": 3,
+  "title": "Ahalera iraganean",
+  "es": "Potencial hipotético y pasado",
+  "introduce": [
+   "nezake",
+   "nezakeen",
+   "potencial NOR hipotético y pasado (ninteke, nintekeen)"
+  ],
+  "forms": [
+   "nezake",
+   "zenezake",
+   "lezake",
+   "genezake",
+   "zenezakete",
+   "lezakete",
+   "nezakeen",
+   "zenezakeen",
+   "zezakeen",
+   "genezakeen",
+   "zenezaketen",
+   "zezaketen",
+   "ninteke",
+   "zintezke",
+   "liteke",
+   "gintezke",
+   "zintezkete",
+   "litezke",
+   "nintekeen",
+   "zintezkeen",
+   "zitekeen",
+   "gintezkeen",
+   "zintezketen",
+   "zitezkeen"
+  ],
+  "chunks": []
+ },
+ {
+  "id": "b2-04",
+  "lvl": "B2",
+  "n": 4,
+  "title": "Baldintza iraganean",
+  "es": "Condicional pasado",
+  "introduce": [
+   "-ko nukeen",
+   "izan balitz"
+  ],
+  "forms": [
+   "nukeen",
+   "zenukeen",
+   "zukeen",
+   "genukeen",
+   "zenuketen",
+   "zuketen",
+   "nintzatekeen",
+   "zinatekeen",
+   "zatekeen",
+   "ginatekeen",
+   "zinateketen",
+   "ziratekeen"
+  ],
+  "chunks": []
+ },
+ {
+  "id": "b2-05",
+  "lvl": "B2",
+  "n": 5,
+  "title": "Zehar-estiloa",
+  "es": "El estilo indirecto",
+  "introduce": [
+   "transformar preguntas, órdenes y afirmaciones"
+  ],
+  "forms": [],
+  "chunks": []
+ },
+ {
+  "id": "b2-06",
+  "lvl": "B2",
+  "n": 6,
+  "title": "Moduak",
+  "es": "Oraciones de modo",
+  "introduce": [
+   "-n bezala",
+   "-la",
+   "-ka"
+  ],
+  "forms": [],
+  "chunks": []
+ },
+ {
+  "id": "b2-07",
+  "lvl": "B2",
+  "n": 7,
+  "title": "Aspektua",
+  "es": "Matices de aspecto",
+  "introduce": [
+   "izan izan",
+   "joan izan naiz",
+   "aspecto puntual / habitual"
+  ],
+  "forms": [],
+  "chunks": []
+ },
+ {
+  "id": "b2-08",
+  "lvl": "B2",
+  "n": 8,
+  "title": "Partizipioa",
+  "es": "Usos del participio",
+  "introduce": [
+   "-ta",
+   "-rik",
+   "-tako",
+   "-(r)iko"
+  ],
+  "forms": [],
+  "chunks": []
+ },
+ {
+  "id": "b2-09",
+  "lvl": "B2",
+  "n": 9,
+  "title": "Perpaus luzeak",
+  "es": "Relativos largos y aposición",
+  "introduce": [
+   "relativos encadenados",
+   "aposición"
+  ],
+  "forms": [],
+  "chunks": []
+ },
+ {
+  "id": "b2-10",
+  "lvl": "B2",
+  "n": 10,
+  "title": "Galdegaia",
+  "es": "Foco y orden de palabras",
+  "introduce": [
+   "galdegaia",
+   "mintzagaia",
+   "orden neutro y marcado"
+  ],
+  "forms": [],
+  "chunks": []
+ },
+ {
+  "id": "b2-11",
+  "lvl": "B2",
+  "n": 11,
+  "title": "Kausa eta ondorioa",
+  "es": "Causa y consecuencia",
+  "introduce": [
+   "-enez",
+   "eta … beraz",
+   "hain … -n"
+  ],
+  "forms": [],
+  "chunks": []
+ },
+ {
+  "id": "b2-12",
+  "lvl": "B2",
+  "n": 12,
+  "title": "Testu-antolatzaileak",
+  "es": "Conectores para escribir",
+  "introduce": [
+   "conectores de texto"
+  ],
+  "forms": [],
+  "chunks": []
+ },
+ {
+  "id": "b2-13",
+  "lvl": "B2",
+  "n": 13,
+  "title": "Erregistroak",
+  "es": "Formal, neutro y coloquial",
+  "introduce": [
+   "registro"
+  ],
+  "forms": [],
+  "chunks": []
+ },
+ {
+  "id": "b2-14",
+  "lvl": "B2",
+  "n": 14,
+  "title": "Gutun formalak",
+  "es": "Cartas y correos formales",
+  "introduce": [
+   "fórmulas formales"
+  ],
+  "forms": [],
+  "chunks": []
+ },
+ {
+  "id": "b2-15",
+  "lvl": "B2",
+  "n": 15,
+  "title": "Esamoldeak",
+  "es": "Expresiones idiomáticas",
+  "introduce": [
+   "locuciones frecuentes"
+  ],
+  "forms": [],
+  "chunks": []
+ },
+ {
+  "id": "b2-16",
+  "lvl": "B2",
+  "n": 16,
+  "title": "Eztabaidan",
+  "es": "Argumentar y debatir",
+  "introduce": [
+   "argumentación oral"
+  ],
+  "forms": [],
+  "chunks": []
+ },
+ {
+  "id": "c1-01",
+  "lvl": "C1",
+  "n": 1,
+  "title": "Paradigmen errepasoa",
+  "es": "Repaso completo de paradigmas",
+  "introduce": [
+   "repaso sistemático"
+  ],
+  "forms": [],
+  "chunks": []
+ },
+ {
+  "id": "c1-02",
+  "lvl": "C1",
+  "n": 2,
+  "title": "Subjuntibo osoa",
+  "es": "El subjuntivo completo",
+  "introduce": [
+   "subjuntivo NOR-NORI-NORK",
+   "subjuntivo en pasado (zedin, zezan)",
+   "nahi dut … etor zaitezen"
+  ],
+  "forms": [
+   "diezadan",
+   "diezadazun",
+   "diezagun",
+   "diezaien",
+   "diezaiodan",
+   "diezaion",
+   "diezaioten",
+   "diezaiozun",
+   "diezazudan",
+   "diezazun",
+   "genezan",
+   "gintezen",
+   "nendin",
+   "nezan",
+   "zedin",
+   "zenezan",
+   "zenezaten",
+   "zezan",
+   "zezaten",
+   "ziezadan",
+   "ziezaion",
+   "zitezen"
+  ],
+  "chunks": []
+ },
+ {
+  "id": "c1-03",
+  "lvl": "C1",
+  "n": 3,
+  "title": "Ahalera osoa",
+  "es": "Potencial NOR-NORI-NORK",
+  "introduce": [
+   "potencial NOR-NORI-NORK",
+   "potencial NOR-NORK con personas (zaitzaket)",
+   "esan zeniezadake…? (cortesía)"
+  ],
+  "forms": [
+   "diezadakezu",
+   "diezaioke",
+   "diezaioket",
+   "diezaiokezu",
+   "diezazuket",
+   "gaitzakezu",
+   "nazakezu",
+   "niezaioke",
+   "zaitzaket",
+   "zeniezadake",
+   "ziezadake"
+  ],
+  "chunks": []
+ },
+ {
+  "id": "c1-04",
+  "lvl": "C1",
+  "n": 4,
+  "title": "Perpaus konplexuak",
+  "es": "Subordinación encadenada",
+  "introduce": [
+   "subordinación múltiple"
+  ],
+  "forms": [],
+  "chunks": []
+ },
+ {
+  "id": "c1-05",
+  "lvl": "C1",
+  "n": 5,
+  "title": "Nominalizazio aurreratua",
+  "es": "Estilo nominal",
+  "introduce": [
+   "estilo nominal"
+  ],
+  "forms": [],
+  "chunks": []
+ },
+ {
+  "id": "c1-06",
+  "lvl": "C1",
+  "n": 6,
+  "title": "Idazkera akademikoa",
+  "es": "Escribir textos académicos",
+  "introduce": [
+   "texto académico"
+  ],
+  "forms": [],
+  "chunks": []
+ },
+ {
+  "id": "c1-07",
+  "lvl": "C1",
+  "n": 7,
+  "title": "Lexiko abstraktua",
+  "es": "Vocabulario abstracto",
+  "introduce": [
+   "léxico abstracto"
+  ],
+  "forms": [],
+  "chunks": []
+ },
+ {
+  "id": "c1-08",
+  "lvl": "C1",
+  "n": 8,
+  "title": "Prentsa",
+  "es": "Leer y comentar prensa",
+  "introduce": [
+   "lectura de prensa"
+  ],
+  "forms": [],
+  "chunks": []
+ },
+ {
+  "id": "c1-09",
+  "lvl": "C1",
+  "n": 9,
+  "title": "Literatura",
+  "es": "Leer literatura vasca",
+  "introduce": [
+   "lectura literaria"
+  ],
+  "forms": [],
+  "chunks": []
+ },
+ {
+  "id": "c1-10",
+  "lvl": "C1",
+  "n": 10,
+  "title": "Ahozkoa eta idatzia",
+  "es": "Oralidad frente a escritura",
+  "introduce": [
+   "rasgos orales"
+  ],
+  "forms": [],
+  "chunks": []
+ },
+ {
+  "id": "c1-11",
+  "lvl": "C1",
+  "n": 11,
+  "title": "Hitz-ordena estilistikoa",
+  "es": "Orden de palabras y estilo",
+  "introduce": [
+   "orden estilístico"
+  ],
+  "forms": [],
+  "chunks": []
+ },
+ {
+  "id": "c1-12",
+  "lvl": "C1",
+  "n": 12,
+  "title": "Puntuazioa eta estiloa",
+  "es": "Puntuación y estilo",
+  "introduce": [
+   "puntuación"
+  ],
+  "forms": [],
+  "chunks": []
+ },
+ {
+  "id": "c1-13",
+  "lvl": "C1",
+  "n": 13,
+  "title": "Atsotitzak",
+  "es": "Refranes y expresiones",
+  "introduce": [
+   "refranes"
+  ],
+  "forms": [],
+  "chunks": []
+ },
+ {
+  "id": "c1-14",
+  "lvl": "C1",
+  "n": 14,
+  "title": "Laburpenak",
+  "es": "Resumir y sintetizar",
+  "introduce": [
+   "resumen"
+  ],
+  "forms": [],
+  "chunks": []
+ },
+ {
+  "id": "c1-15",
+  "lvl": "C1",
+  "n": 15,
+  "title": "Argudio-testuak",
+  "es": "Textos argumentativos",
+  "introduce": [
+   "argumentación escrita"
+  ],
+  "forms": [],
+  "chunks": []
+ },
+ {
+  "id": "c1-16",
+  "lvl": "C1",
+  "n": 16,
+  "title": "C1 prestatzen",
+  "es": "Preparación del examen C1",
+  "introduce": [
+   "tipología de examen"
+  ],
+  "forms": [],
+  "chunks": []
+ }
+]

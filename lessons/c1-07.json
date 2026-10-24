@@ -1,0 +1,371 @@
+{
+ "id": "c1-07",
+ "lvl": "C1",
+ "n": 7,
+ "title": "Lexiko abstraktua",
+ "es": "El vocabulario abstracto",
+ "goal": "Manejar el vocabulario de la sociedad, los cambios y el análisis, con sus combinaciones habituales.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "En C1 se habla y se escribe sobre temas abstractos: la sociedad, la tecnología, el medio ambiente, la igualdad. El vocabulario de estos temas es limitado y se repite mucho, pero hay que aprenderlo **con sus combinaciones**: no basta saber que *erronka* es «reto», hay que saber que se dice **erronkari aurre egin** (hacer frente a un reto)."
+  },
+  {
+   "h": "Sociedad",
+   "table": {
+    "head": [
+     "Euskera",
+     "Español"
+    ],
+    "rows": [
+     [
+      "gizartea",
+      "la sociedad"
+     ],
+     [
+      "herritarrak",
+      "la ciudadanía"
+     ],
+     [
+      "berdintasuna",
+      "la igualdad"
+     ],
+     [
+      "aniztasuna",
+      "la diversidad"
+     ],
+     [
+      "nortasuna",
+      "la identidad, la personalidad"
+     ],
+     [
+      "bizikidetza",
+      "la convivencia"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Cambio y análisis",
+   "table": {
+    "head": [
+     "Euskera",
+     "Español"
+    ],
+    "rows": [
+     [
+      "garapena",
+      "el desarrollo"
+     ],
+     [
+      "joera",
+      "la tendencia"
+     ],
+     [
+      "erronka",
+      "el reto"
+     ],
+     [
+      "aukera",
+      "la oportunidad"
+     ],
+     [
+      "eragina",
+      "la influencia, el impacto"
+     ],
+     [
+      "ikuspegia",
+      "la perspectiva"
+     ],
+     [
+      "irizpidea",
+      "el criterio"
+     ],
+     [
+      "baliabideak",
+      "los recursos"
+     ],
+     [
+      "ingurumena",
+      "el medio ambiente"
+     ],
+     [
+      "jasangarritasuna",
+      "la sostenibilidad"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Combinaciones clave",
+   "p": "**eragina izan (-n)**: tener influencia (en): **Teknologiak eragin handia du gizartean**. **erronkari aurre egin**: hacer frente a un reto: **Erronka horri aurre egin behar diogu**. **joera izan (-tzeko)**: tener tendencia (a): **Gazteek sare sozialak erabiltzeko joera dute**. **kontuan hartu**: tener en cuenta. **garrantzia eman**: dar importancia. **ondorioak izan**: tener consecuencias. **ikuspegi horretatik**: desde esa perspectiva."
+  },
+  {
+   "h": "Paso a paso: «El cambio climático es un gran reto que debemos afrontar»",
+   "p": "1) **Klima-aldaketa erronka handia da**. 2) «que debemos afrontar»: relativo con aurre egin + NORI → **aurre egin behar diogun erronka**. → **Klima-aldaketa aurre egin behar diogun erronka handia da**."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Erronka aurrean egin* → **erronkari aurre egin** (con dativo). *Kontuz hartu* → **kontuan hartu** (kontuz es «cuidado»). *Eragina eman* → **eragina izan**. Confundir **jasangarria** (sostenible) con **jasangarritasuna** (sostenibilidad)."
+  },
+  {
+   "h": "Resumen",
+   "p": "Aprende el léxico abstracto en combinaciones: **eragina izan, erronkari aurre egin, joera izan, kontuan hartu, garrantzia eman, ondorioak izan, ikuspegi horretatik**."
+  }
+ ],
+ "examples": [
+  [
+   "Teknologiak eragin handia du gizartean.",
+   "La tecnología tiene una gran influencia en la sociedad."
+  ],
+  [
+   "Erronka horri aurre egin behar diogu.",
+   "Tenemos que hacer frente a ese reto."
+  ],
+  [
+   "Gazteek sare sozialak erabiltzeko joera dute.",
+   "Los jóvenes tienen tendencia a usar las redes sociales."
+  ],
+  [
+   "Kontuan hartu behar da ingurumena.",
+   "Hay que tener en cuenta el medio ambiente."
+  ],
+  [
+   "Aniztasuna aberastasuna da.",
+   "La diversidad es una riqueza."
+  ],
+  [
+   "Garapen jasangarria lortu behar dugu.",
+   "Tenemos que conseguir un desarrollo sostenible."
+  ],
+  [
+   "Ikuspegi horretatik, arazoa ezberdina da.",
+   "Desde esa perspectiva, el problema es diferente."
+  ]
+ ],
+ "dialog": {
+  "title": "Tecnología y sociedad",
+  "lines": [
+   [
+    "Ane",
+    "Zure ustez, teknologiak zer eragin du gizartean?",
+    "En tu opinión, ¿qué influencia tiene la tecnología en la sociedad?"
+   ],
+   [
+    "Iker",
+    "Eragin handia, baina bi ikuspegi daude. Alde batetik, aukera berriak ematen ditu.",
+    "Una gran influencia, pero hay dos perspectivas. Por un lado, ofrece nuevas oportunidades."
+   ],
+   [
+    "Ane",
+    "Eta bestetik?",
+    "¿Y por otro?"
+   ],
+   [
+    "Iker",
+    "Erronka berriak sortzen ditu: bizikidetza, berdintasuna… Horiei aurre egin behar diegu.",
+    "Crea nuevos retos: la convivencia, la igualdad… Tenemos que hacerles frente."
+   ],
+   [
+    "Ane",
+    "Ados. Ingurumena ere kontuan hartu behar dugu.",
+    "De acuerdo. También tenemos que tener en cuenta el medio ambiente."
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Teknologiak ___ handia du gizartean.",
+   "es": "La tecnología tiene una gran influencia en la sociedad.",
+   "a": [
+    "eragin"
+   ],
+   "hint": "influencia = eragin(a)."
+  },
+  {
+   "type": "gap",
+   "q": "Erronka horri aurre ___ behar diogu.",
+   "es": "Tenemos que hacer frente a ese reto.",
+   "a": [
+    "egin"
+   ],
+   "hint": "hacer frente = aurre egin."
+  },
+  {
+   "type": "gap",
+   "q": "Gazteek sare sozialak erabiltzeko ___ dute.",
+   "es": "Los jóvenes tienen tendencia a usar las redes sociales.",
+   "a": [
+    "joera"
+   ],
+   "hint": "tendencia = joera."
+  },
+  {
+   "type": "gap",
+   "q": "___ hartu behar da ingurumena.",
+   "es": "Hay que tener en cuenta el medio ambiente.",
+   "a": [
+    "kontuan"
+   ],
+   "hint": "tener en cuenta = kontuan hartu."
+  },
+  {
+   "type": "gap",
+   "q": "Aniztasuna ___ da.",
+   "es": "La diversidad es una riqueza.",
+   "a": [
+    "aberastasuna"
+   ],
+   "hint": "riqueza = aberastasuna."
+  },
+  {
+   "type": "gap",
+   "q": "Ikuspegi ___, arazoa ezberdina da.",
+   "es": "Desde esa perspectiva, el problema es diferente.",
+   "a": [
+    "horretatik"
+   ],
+   "hint": "desde esa perspectiva = ikuspegi horretatik."
+  },
+  {
+   "type": "choice",
+   "q": "«Hacer frente a un reto»",
+   "options": [
+    "erronkari aurre egin",
+    "erronka aurrean egin",
+    "erronkarekin egin"
+   ],
+   "a": 0,
+   "why": "aurre egin pide dativo: erronkari."
+  },
+  {
+   "type": "choice",
+   "q": "«Tener en cuenta»",
+   "options": [
+    "kontuan hartu",
+    "kontuz hartu",
+    "kontua eman"
+   ],
+   "a": 0,
+   "why": "kontuz = cuidado."
+  },
+  {
+   "type": "choice",
+   "q": "«Sostenibilidad»",
+   "options": [
+    "jasangarritasuna",
+    "jasangarria",
+    "jasanezina"
+   ],
+   "a": 0,
+   "why": "jasangarria = sostenible."
+  },
+  {
+   "type": "choice",
+   "q": "«Convivencia»",
+   "options": [
+    "bizikidetza",
+    "bizitza",
+    "bizilaguna"
+   ],
+   "a": 0,
+   "why": "bizitza = vida; bizilaguna = vecino."
+  },
+  {
+   "type": "choice",
+   "q": "«Influencia, impacto»",
+   "options": [
+    "eragina",
+    "erronka",
+    "irizpidea"
+   ],
+   "a": 0,
+   "why": "erronka = reto; irizpidea = criterio."
+  },
+  {
+   "type": "order",
+   "words": [
+    "du",
+    "handia",
+    "eragin",
+    "Teknologiak"
+   ],
+   "a": [
+    "Teknologiak eragin handia du"
+   ],
+   "es": "La tecnología tiene una gran influencia.",
+   "hint": "Sujeto + eragin handia + du."
+  },
+  {
+   "type": "order",
+   "words": [
+    "diogu",
+    "behar",
+    "egin",
+    "aurre",
+    "horri",
+    "Erronka"
+   ],
+   "a": [
+    "Erronka horri aurre egin behar diogu"
+   ],
+   "es": "Tenemos que hacer frente a ese reto.",
+   "hint": "Dativo + aurre egin + behar diogu."
+  },
+  {
+   "type": "order",
+   "words": [
+    "da",
+    "aberastasuna",
+    "Aniztasuna"
+   ],
+   "a": [
+    "Aniztasuna aberastasuna da"
+   ],
+   "es": "La diversidad es una riqueza.",
+   "hint": "Sujeto + predicado + da."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "gizartea",
+     "la sociedad"
+    ],
+    [
+     "berdintasuna",
+     "la igualdad"
+    ],
+    [
+     "aniztasuna",
+     "la diversidad"
+    ],
+    [
+     "erronka",
+     "el reto"
+    ],
+    [
+     "joera",
+     "la tendencia"
+    ],
+    [
+     "ingurumena",
+     "el medio ambiente"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Escribe un párrafo de 6 a 8 frases sobre un reto social actual (la vivienda, el cambio climático, la soledad…) usando al menos seis palabras y tres combinaciones de la lección.",
+  "focus": "léxico abstracto y colocaciones: eragina izan, erronkari aurre egin, joera izan, kontuan hartu"
+ },
+ "links": {
+  "verbs": [],
+  "cases": [],
+  "themes": [
+   "lokailuak",
+   "natura"
+  ]
+ }
+}

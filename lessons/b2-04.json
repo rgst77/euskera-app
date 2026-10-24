@@ -1,0 +1,319 @@
+{
+ "id": "b2-04",
+ "lvl": "B2",
+ "n": 4,
+ "title": "Baldintza iraganean",
+ "es": "El condicional en pasado",
+ "goal": "Hablar de lo que habría pasado: «si hubiera sabido, habría venido».",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "En B1 aprendiste las hipótesis sobre el presente (**diru asko banu, bidaiatuko nuke**). Ahora das el último paso: las hipótesis sobre el pasado, que ya no pueden cambiar. «Si hubiera salido antes, no habría llegado tarde.» Es una estructura avanzada, pero muy regular."
+  },
+  {
+   "h": "La condición: «si hubiera…»",
+   "p": "Participio + **izan** + las formas de hipótesis que ya conoces (**banu, bazenu, balu…** o **banintz, bazina, balitz…**): **Jakin izan banu** (si lo hubiera sabido), **Garaiz irten izan bagina** (si hubiéramos salido a tiempo). En el habla también se oye sin izan (**jakin banu**); la forma con izan deja más claro que es pasado."
+  },
+  {
+   "h": "La consecuencia: «habría…»",
+   "table": {
+    "head": [
+     "Persona",
+     "Sin objeto (izan)",
+     "Con objeto (ukan)"
+    ],
+    "rows": [
+     [
+      "ni / nik",
+      "{nor:nintzatekeen}",
+      "{nork:nukeen}"
+     ],
+     [
+      "zu / zuk",
+      "{nor:zinatekeen}",
+      "{nork:zenukeen}"
+     ],
+     [
+      "hura / hark",
+      "{nor:zatekeen}",
+      "{nork:zukeen}"
+     ],
+     [
+      "gu / guk",
+      "{nor:ginatekeen}",
+      "{nork:genukeen}"
+     ],
+     [
+      "zuek",
+      "{nor:zinateketen}",
+      "{nork:zenuketen}"
+     ],
+     [
+      "haiek",
+      "{nor:ziratekeen}",
+      "{nork:zuketen}"
+     ]
+    ]
+   },
+   "p": "Con el verbo en futuro (-ko), como en el condicional de presente: **etorriko nintzatekeen** (habría venido), **erosiko nukeen** (lo habría comprado). Fíjate: son las formas del condicional (**nuke, nintzateke**) + **-en**, y la 3.ª persona cambia a **z-** (zukeen, zatekeen)."
+  },
+  {
+   "h": "La frase completa",
+   "p": "**Jakin izan banu, etorriko nintzatekeen** (si lo hubiera sabido, habría venido). **Diru gehiago izan banu, etxe hori erosiko nukeen** (si hubiera tenido más dinero, habría comprado esa casa). **Garaiz irten izan bagina, ez ginatekeen berandu iritsiko** (si hubiéramos salido a tiempo, no habríamos llegado tarde)."
+  },
+  {
+   "h": "Paso a paso: «Si hubieras estudiado más, habrías aprobado»",
+   "p": "1) Condición: ikasi + izan + hipótesis de ukan, tú → **Gehiago ikasi izan bazenu**. 2) Consecuencia: gainditu → **gaindituko** + habría, tú, con objeto → **zenukeen**. 3) **Gehiago ikasi izan bazenu, gaindituko zenukeen**."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Jakin banu, etorriko nintzateke* para el pasado → **nintzatekeen**. *Erosiko nuen* para «lo habría comprado» → **erosiko nukeen**. *Berandu iritsiko ginatekeen ez* → **ez ginatekeen berandu iritsiko** (negación delante)."
+  },
+  {
+   "h": "Resumen",
+   "p": "Si hubiera…: participio + **izan** + **banu / banintz / balitz…**. Habría…: **-ko + nukeen / nintzatekeen** (zukeen, zatekeen…). **Jakin izan banu, etorriko nintzatekeen**."
+  }
+ ],
+ "examples": [
+  [
+   "Jakin izan banu, etorriko nintzatekeen.",
+   "Si lo hubiera sabido, habría venido."
+  ],
+  [
+   "Diru gehiago izan banu, etxe hori erosiko nukeen.",
+   "Si hubiera tenido más dinero, habría comprado esa casa."
+  ],
+  [
+   "Garaiz irten izan bagina, ez ginatekeen berandu iritsiko.",
+   "Si hubiéramos salido a tiempo, no habríamos llegado tarde."
+  ],
+  [
+   "Zu etorri izan bazina, pozik egongo nintzatekeen.",
+   "Si hubieras venido, habría estado contento."
+  ],
+  [
+   "Mikelek ikasi izan balu, azterketa gaindituko zukeen.",
+   "Si Mikel hubiera estudiado, habría aprobado el examen."
+  ]
+ ],
+ "dialog": {
+  "title": "Lamentos",
+  "lines": [
+   [
+    "Ane",
+    "Atzo kontzertu bikaina izan zen. Zergatik ez zinen etorri?",
+    "Ayer hubo un concierto estupendo. ¿Por qué no viniste?"
+   ],
+   [
+    "Iker",
+    "Ez nekien! Jakin izan banu, etorriko nintzatekeen.",
+    "¡No lo sabía! Si lo hubiera sabido, habría venido."
+   ],
+   [
+    "Ane",
+    "Mezu bat bidali nizun…",
+    "Te envié un mensaje…"
+   ],
+   [
+    "Iker",
+    "Mugikorra etxean ahaztu nuen. Begiratu izan banu, ikusiko nukeen.",
+    "Me olvidé el móvil en casa. Si lo hubiera mirado, lo habría visto."
+   ],
+   [
+    "Ane",
+    "Hurrengoan deituko dizut!",
+    "¡La próxima vez te llamaré!"
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Jakin izan ___, etorriko nintzatekeen.",
+   "es": "Si lo hubiera sabido, habría venido.",
+   "a": [
+    "banu"
+   ],
+   "hint": "si yo hubiera (ukan) = izan banu."
+  },
+  {
+   "type": "gap",
+   "q": "Jakin izan banu, etorriko ___.",
+   "es": "…habría venido.",
+   "a": [
+    "nintzatekeen"
+   ],
+   "hint": "Venir → izan; habría, yo: nintzatekeen."
+  },
+  {
+   "type": "gap",
+   "q": "Diru gehiago izan banu, etxe hori erosiko ___.",
+   "es": "…habría comprado esa casa.",
+   "a": [
+    "nukeen"
+   ],
+   "hint": "Comprar → ukan; habría, yo: nukeen."
+  },
+  {
+   "type": "gap",
+   "q": "Garaiz irten izan ___, ez ginatekeen berandu iritsiko.",
+   "es": "Si hubiéramos salido a tiempo…",
+   "a": [
+    "bagina"
+   ],
+   "hint": "si nosotros (izan) = bagina."
+  },
+  {
+   "type": "gap",
+   "q": "Mikelek ikasi izan balu, azterketa gaindituko ___.",
+   "es": "…habría aprobado el examen.",
+   "a": [
+    "zukeen"
+   ],
+   "hint": "él, con objeto: zukeen."
+  },
+  {
+   "type": "gap",
+   "q": "Zu etorri izan ___, pozik egongo nintzatekeen.",
+   "es": "Si hubieras venido, habría estado contento.",
+   "a": [
+    "bazina"
+   ],
+   "hint": "si tú (izan) = bazina."
+  },
+  {
+   "type": "choice",
+   "q": "«Si lo hubiera sabido»",
+   "options": [
+    "jakin izan banu",
+    "jakin badut",
+    "jakin nuen ba"
+   ],
+   "a": 0,
+   "why": "Participio + izan + banu."
+  },
+  {
+   "type": "choice",
+   "q": "«Habría venido»",
+   "options": [
+    "etorriko nintzatekeen",
+    "etorriko nintzateke",
+    "etorriko nintzen"
+   ],
+   "a": 0,
+   "why": "Pasado del condicional: -en."
+  },
+  {
+   "type": "choice",
+   "q": "«Lo habría comprado»",
+   "options": [
+    "erosiko nukeen",
+    "erosiko nuke",
+    "erosi nuen"
+   ],
+   "a": 0,
+   "why": "nuke + -en = nukeen."
+  },
+  {
+   "type": "choice",
+   "q": "«No habríamos llegado tarde»",
+   "options": [
+    "ez ginatekeen berandu iritsiko",
+    "berandu iritsiko ez ginatekeen",
+    "ez berandu iritsiko ginatekeen"
+   ],
+   "a": 0,
+   "why": "Negación: ez + auxiliar delante."
+  },
+  {
+   "type": "choice",
+   "q": "«Habría aprobado (él)»",
+   "options": [
+    "gaindituko zukeen",
+    "gaindituko luke",
+    "gainditu zuen"
+   ],
+   "a": 0,
+   "why": "3.ª persona en pasado: z- (zukeen)."
+  },
+  {
+   "type": "order",
+   "words": [
+    "banu",
+    "izan",
+    "Jakin"
+   ],
+   "a": [
+    "Jakin izan banu"
+   ],
+   "es": "Si lo hubiera sabido.",
+   "hint": "Participio + izan + banu."
+  },
+  {
+   "type": "order",
+   "words": [
+    "nintzatekeen",
+    "etorriko"
+   ],
+   "a": [
+    "Etorriko nintzatekeen"
+   ],
+   "es": "Habría venido.",
+   "hint": "Futuro + nintzatekeen."
+  },
+  {
+   "type": "order",
+   "words": [
+    "nukeen",
+    "erosiko",
+    "Etxea"
+   ],
+   "a": [
+    "Etxea erosiko nukeen"
+   ],
+   "es": "Habría comprado la casa.",
+   "hint": "Objeto + -ko + nukeen."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "izan banu",
+     "si hubiera (ukan)"
+    ],
+    [
+     "izan banintz",
+     "si hubiera (izan)"
+    ],
+    [
+     "nukeen",
+     "habría (con objeto)"
+    ],
+    [
+     "nintzatekeen",
+     "habría (sin objeto)"
+    ],
+    [
+     "zukeen",
+     "él habría (con objeto)"
+    ],
+    [
+     "zatekeen",
+     "él habría (sin objeto)"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Escribe 5 frases sobre decisiones del pasado: qué habría pasado si hubieras elegido otro camino (otros estudios, otra ciudad, otro trabajo).",
+  "focus": "condicional pasado: participio + izan + banu/banintz…, -ko + nukeen/nintzatekeen"
+ },
+ "links": {
+  "verbs": [],
+  "cases": [],
+  "themes": [
+   "aditzak",
+   "lana"
+  ]
+ }
+}

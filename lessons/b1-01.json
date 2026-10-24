@@ -1,0 +1,342 @@
+{
+ "id": "b1-01",
+ "lvl": "B1",
+ "n": 1,
+ "title": "Iragana osoa",
+ "es": "NOR-NORK en pasado con personas",
+ "goal": "Contar en pasado acciones entre personas: «te vi», «me ayudó», «nos invitaron».",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "Bienvenido al B1. En el A2 aprendiste el NOR-NORK con personas en presente (**ikusi zaitut**, te he visto). Ahora completas ese paradigma con el pasado (**ikusi zintudan**, te vi). Con esto tendrás el sistema de ukan completo en indicativo."
+  },
+  {
+   "h": "La lógica",
+   "p": "Igual que en presente, **el principio indica a quién** ({nor:NOR}) y **el final indica quién lo hace** ({nork:NORK}), y todo termina en **-n**, como los demás pasados. Inicios de NOR: **nind-** (me), **zint-** (te), **gint-** (nos), **zintuzte-** (os). Finales de NORK: **-da-n** (yo, porque la -t pasa a -d-), **-zu-n** (tú), **-en** (él), **-gu-n** (nosotros), **-zue-n** (vosotros), **-te-n** (ellos)."
+  },
+  {
+   "h": "La tabla",
+   "table": {
+    "head": [
+     "A quién ↓ / quién →",
+     "nik (yo)",
+     "zuk (tú)",
+     "hark (él)",
+     "guk",
+     "zuek",
+     "haiek"
+    ],
+    "rows": [
+     [
+      "ni (me)",
+      "—",
+      "{nor:ninduzun}",
+      "{nor:ninduen}",
+      "—",
+      "{nor:ninduzuen}",
+      "{nor:ninduten}"
+     ],
+     [
+      "zu (te)",
+      "{nor:zintudan}",
+      "—",
+      "{nor:zintuen}",
+      "{nor:zintugun}",
+      "—",
+      "{nor:zintuzten}"
+     ],
+     [
+      "gu (nos)",
+      "—",
+      "{nor:gintuzun}",
+      "{nor:gintuen}",
+      "—",
+      "{nor:gintuzuen}",
+      "{nor:gintuzten}"
+     ],
+     [
+      "zuek (os)",
+      "{nor:zintuztedan}",
+      "—",
+      "{nor:zintuzten}",
+      "{nor:zintuztegun}",
+      "—",
+      "{nor:zintuzteten}"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Una coincidencia",
+   "p": "**zintuzten** significa tanto «ellos te…» como «él os…». El contexto, o el sujeto con -k (**haiek** o **hark**), deja claro cuál es."
+  },
+  {
+   "h": "Paso a paso: «Tus amigos te invitaron»",
+   "p": "1) Sujeto con -k: **zure lagunek**. 2) Verbo: **gonbidatu**. 3) Auxiliar: a quién = te (**zint-**), quién = ellos (**-te-n**) → **zintuzten**. 4) **Zure lagunek gonbidatu zintuzten**."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Atzo ikusi zaitut* → **ikusi zintudan** (atzo pide pasado). *Lagundu ninduzu* → **ninduzun** (falta la -n final del pasado). *zintutan* → **zintudan**. *Mikel lagundu ninduen* → **Mikelek**."
+  },
+  {
+   "h": "Resumen",
+   "p": "Pasado con persona: inicio de NOR (**nind-, zint-, gint-, zintuzte-**) + final de NORK + **-n**: ninduen, zintudan, gintuzten, zintuztedan… Ya tienes todo el indicativo de ukan."
+  }
+ ],
+ "examples": [
+  [
+   "Atzo kalean ikusi zintudan.",
+   "Ayer te vi en la calle."
+  ],
+  [
+   "Mikelek lagundu ninduen.",
+   "Mikel me ayudó."
+  ],
+  [
+   "Gure gurasoek bisitatu gintuzten.",
+   "Nuestros padres nos visitaron."
+  ],
+  [
+   "Ez ninduzun ezagutu?",
+   "¿No me reconociste?"
+  ],
+  [
+   "Zure lagunek gonbidatu zintuzten?",
+   "¿Tus amigos te invitaron?"
+  ],
+  [
+   "Irakasleak zuzendu gintuen.",
+   "El profesor nos corrigió."
+  ]
+ ],
+ "dialog": {
+  "title": "Un encuentro que no fue",
+  "lines": [
+   [
+    "Ane",
+    "Atzo kalean ikusi zintudan, baina zuk ez ninduzun ikusi.",
+    "Ayer te vi en la calle, pero tú no me viste."
+   ],
+   [
+    "Iker",
+    "Benetan? Barkatu! Lagun batzuekin nengoen.",
+    "¿De verdad? ¡Perdona! Estaba con unos amigos."
+   ],
+   [
+    "Ane",
+    "Bai, zure lagunek ikusi ninduten. Agurtu ninduten!",
+    "Sí, tus amigos me vieron. ¡Me saludaron!"
+   ],
+   [
+    "Iker",
+    "Eta zergatik ez zinen gurekin etorri?",
+    "¿Y por qué no viniste con nosotros?"
+   ],
+   [
+    "Ane",
+    "Lanera nindoan, presaka.",
+    "Iba al trabajo, con prisa."
+   ],
+   [
+    "Iker",
+    "Hurrengoan gonbidatuko zaitugu!",
+    "¡La próxima vez te invitaremos!"
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Atzo kalean ikusi ___.",
+   "es": "Ayer te vi en la calle.",
+   "a": [
+    "zintudan"
+   ],
+   "hint": "a quién = te (zint-), quién = yo (-da-n)."
+  },
+  {
+   "type": "gap",
+   "q": "Mikelek lagundu ___.",
+   "es": "Mikel me ayudó.",
+   "a": [
+    "ninduen"
+   ],
+   "hint": "a quién = me (nind-), quién = él (-en)."
+  },
+  {
+   "type": "gap",
+   "q": "Gure gurasoek bisitatu ___.",
+   "es": "Nuestros padres nos visitaron.",
+   "a": [
+    "gintuzten"
+   ],
+   "hint": "a quién = nos (gint-), quién = ellos (-zte-n)."
+  },
+  {
+   "type": "gap",
+   "q": "Ez ___ ezagutu?",
+   "es": "¿No me reconociste?",
+   "a": [
+    "ninduzun"
+   ],
+   "hint": "a quién = me, quién = tú → nind-u-zu-n."
+  },
+  {
+   "type": "gap",
+   "q": "Zure lagunek gonbidatu ___?",
+   "es": "¿Tus amigos te invitaron?",
+   "a": [
+    "zintuzten"
+   ],
+   "hint": "a quién = te, quién = ellos → zintuzten."
+  },
+  {
+   "type": "gap",
+   "q": "Irakasleak zuzendu ___.",
+   "es": "El profesor nos corrigió.",
+   "a": [
+    "gintuen"
+   ],
+   "hint": "a quién = nos, quién = él → gintuen."
+  },
+  {
+   "type": "choice",
+   "q": "«Te vi»",
+   "options": [
+    "Ikusi zintudan.",
+    "Ikusi zaitut.",
+    "Ikusi ninduzun."
+   ],
+   "a": 0,
+   "why": "Pasado: zintudan. Ikusi zaitut = te he visto; ikusi ninduzun = me viste."
+  },
+  {
+   "type": "choice",
+   "q": "«Él me ayudó»",
+   "options": [
+    "Lagundu ninduen.",
+    "Lagundu nau.",
+    "Lagundu zuen."
+   ],
+   "a": 0,
+   "why": "a quién = me, quién = él, pasado → ninduen."
+  },
+  {
+   "type": "choice",
+   "q": "«Nos invitaron»",
+   "options": [
+    "Gonbidatu gintuzten.",
+    "Gonbidatu gaituzte.",
+    "Gonbidatu genituen."
+   ],
+   "a": 0,
+   "why": "Pasado, nos + ellos → gintuzten. Gaituzte es presente."
+  },
+  {
+   "type": "choice",
+   "q": "«¿No me reconociste?»",
+   "options": [
+    "Ez ninduzun ezagutu?",
+    "Ez zintudan ezagutu?",
+    "Ez ninduten ezagutu?"
+   ],
+   "a": 0,
+   "why": "a quién = me, quién = tú → ninduzun."
+  },
+  {
+   "type": "choice",
+   "q": "«Os vi» (yo)",
+   "options": [
+    "Ikusi zintuztedan.",
+    "Ikusi zintuzten.",
+    "Ikusi zaituztet."
+   ],
+   "a": 0,
+   "why": "a quién = os, quién = yo, pasado → zintuztedan."
+  },
+  {
+   "type": "order",
+   "words": [
+    "zintudan",
+    "Atzo",
+    "ikusi"
+   ],
+   "a": [
+    "Atzo ikusi zintudan"
+   ],
+   "es": "Ayer te vi.",
+   "hint": "Tiempo + verbo + auxiliar."
+  },
+  {
+   "type": "order",
+   "words": [
+    "ninduen",
+    "Mikelek",
+    "lagundu"
+   ],
+   "a": [
+    "Mikelek lagundu ninduen"
+   ],
+   "es": "Mikel me ayudó.",
+   "hint": "Sujeto con -k + verbo + auxiliar."
+  },
+  {
+   "type": "order",
+   "words": [
+    "gintuzten",
+    "gurasoek",
+    "Gure",
+    "bisitatu"
+   ],
+   "a": [
+    "Gure gurasoek bisitatu gintuzten"
+   ],
+   "es": "Nuestros padres nos visitaron.",
+   "hint": "Gure gurasoek + verbo + auxiliar."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "ninduzun",
+     "(tú) me…"
+    ],
+    [
+     "ninduen",
+     "(él) me…"
+    ],
+    [
+     "zintudan",
+     "(yo) te…"
+    ],
+    [
+     "zintuen",
+     "(él) te…"
+    ],
+    [
+     "gintuen",
+     "(él) nos…"
+    ],
+    [
+     "gintuzten",
+     "(ellos) nos…"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Cuenta en 5 frases un día del pasado en el que pasaron cosas entre personas: quién te vio, quién te ayudó, a quién viste tú, quién os invitó y quién te sorprendió.",
+  "focus": "NOR-NORK pasado con persona: ninduen, zintudan, gintuzten, zintuztedan…"
+ },
+ "links": {
+  "verbs": [
+   "nn-past-x"
+  ],
+  "cases": [
+   "erg"
+  ],
+  "themes": [
+   "aditzak"
+  ]
+ }
+}

@@ -1,0 +1,323 @@
+{
+ "id": "c1-16",
+ "lvl": "C1",
+ "n": 16,
+ "title": "C1 prestatzen",
+ "es": "Preparación del examen C1 y próximos pasos",
+ "goal": "Prepararte para una prueba oficial de C1 y planificar cómo seguir mejorando después del curso.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "Última lección del curso. Si has llegado hasta aquí, has recorrido todo el sistema del euskera, de **kaixo** a **esan zeniezadake**. Esta lección te ayuda a dos cosas: preparar una prueba oficial de nivel C1, si quieres acreditar tu nivel, y seguir aprendiendo fuera del curso, que es donde el idioma se vuelve realmente tuyo."
+  },
+  {
+   "h": "Las destrezas del examen",
+   "table": {
+    "head": [
+     "Destreza",
+     "Euskera",
+     "Qué se evalúa"
+    ],
+    "rows": [
+     [
+      "Comprensión lectora",
+      "irakurmena",
+      "entender textos reales: prensa, ensayo, literatura"
+     ],
+     [
+      "Comprensión oral",
+      "entzumena",
+      "entender audios: entrevistas, noticias, debates"
+     ],
+     [
+      "Expresión escrita",
+      "idazmena",
+      "redactar textos argumentativos, cartas, resúmenes"
+     ],
+     [
+      "Expresión oral",
+      "mintzamena",
+      "exponer, debatir, interactuar"
+     ],
+     [
+      "Uso de la lengua",
+      "hizkuntza-erabilera",
+      "gramática y léxico en contexto"
+     ]
+    ]
+   },
+   "p": "El formato concreto depende de la entidad que convoque la prueba y puede cambiar: consulta siempre la convocatoria oficial vigente antes de prepararte."
+  },
+  {
+   "h": "Lista de revisión para tus textos",
+   "p": "Antes de entregar un texto, revisa en este orden: 1) **auxiliares**: ¿familia correcta (NOR, NORK, NORI)? 2) **-k del sujeto** en los verbos con objeto. 3) **subordinadas**: ¿-n, -la, -nean, -lako en su sitio? 4) **orden**: foco antes del verbo, nada entre interrogativa y verbo. 5) **conectores** variados. 6) **puntuación** vasca (sin ¿ ¡). 7) **registro** adecuado."
+  },
+  {
+   "h": "Estrategias para la prueba oral",
+   "p": "Gana tiempo con naturalidad: **Beno, ikus dezagun…** (bueno, veamos…), **Nola esango nuke…** (cómo lo diría…), **Galdera ona da hori** (es una buena pregunta). Si no recuerdas una palabra, **parafrasea**: **… egiteko erabiltzen den tresna** (la herramienta que se usa para…). Y escucha a tu interlocutor: reaccionar bien cuenta tanto como hablar."
+  },
+  {
+   "h": "Después del curso",
+   "p": "El nivel se mantiene y crece con uso real. 1) **Escucha** a diario: radio y televisión en euskera (EITB), podcasts, y archivos orales como Ahotsak. 2) **Lee** prensa (Berria, diarios locales) y literatura. 3) **Habla**: busca un programa de conversación con hablantes (mintzalagun o berbalagun) en tu zona o un grupo de un euskaltegi. 4) **Usa esta app**: el repaso espaciado sigue funcionando; dedica unos minutos a los verbos y al vocabulario cuando tengas tiempo."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "Prepararse solo con gramática y descuidar la comprensión oral. Memorizar textos enteros para la prueba escrita: se nota y no se adapta a la pregunta. Dejar de usar el euskera después de aprobar: el nivel baja rápido sin práctica."
+  },
+  {
+   "h": "Resumen",
+   "p": "Destrezas: **irakurmena, entzumena, idazmena, mintzamena, hizkuntza-erabilera**. Revisa auxiliares, -k, subordinadas, orden, conectores, puntuación y registro. Estrategias orales: **Beno, ikus dezagun…**, parafrasear. Después: escucha, lee, habla, repasa. Zorionak: has completado Euskara Lantegia!"
+  }
+ ],
+ "examples": [
+  [
+   "Beno, ikus dezagun…",
+   "Bueno, veamos…"
+  ],
+  [
+   "Nola esango nuke…",
+   "Cómo lo diría…"
+  ],
+  [
+   "Galdera ona da hori.",
+   "Esa es una buena pregunta."
+  ],
+  [
+   "Egunero euskaraz zerbait entzuten dut.",
+   "Cada día escucho algo en euskera."
+  ],
+  [
+   "Mintzalagun talde batean hasiko naiz.",
+   "Empezaré en un grupo de conversación."
+  ],
+  [
+   "Euskalduna naiz!",
+   "¡Soy vascohablante!"
+  ]
+ ],
+ "dialog": {
+  "title": "La última clase",
+  "lines": [
+   [
+    "Irakaslea",
+    "Zorionak! Ikastaro osoa amaitu duzu.",
+    "¡Felicidades! Has terminado todo el curso."
+   ],
+   [
+    "Ikaslea",
+    "Eskerrik asko! Ez nuen uste hona iritsiko nintzenik.",
+    "¡Gracias! No creía que fuera a llegar hasta aquí."
+   ],
+   [
+    "Irakaslea",
+    "Eta orain? Zer egingo duzu?",
+    "¿Y ahora? ¿Qué vas a hacer?"
+   ],
+   [
+    "Ikaslea",
+    "C1 azterketa egitekoa naiz, eta mintzalagun talde batean hasiko naiz.",
+    "Tengo previsto hacer el examen C1, y empezaré en un grupo de conversación."
+   ],
+   [
+    "Irakaslea",
+    "Primeran. Gogoratu: poliki-poliki, urrutira!",
+    "Estupendo. Recuerda: ¡poco a poco se llega lejos!"
+   ],
+   [
+    "Ikaslea",
+    "Bai! Eta orain esan dezaket: euskalduna naiz!",
+    "¡Sí! Y ahora puedo decir: ¡soy vascohablante!"
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "___ ariketan testu errealak irakurri eta ulertu behar dira.",
+   "es": "En la prueba de comprensión lectora hay que leer y entender textos reales.",
+   "a": [
+    "irakurmen",
+    "irakurmena"
+   ],
+   "hint": "comprensión lectora = irakurmena (aquí sin artículo, delante de ariketan)."
+  },
+  {
+   "type": "gap",
+   "q": "Beno, ikus ___…",
+   "es": "Bueno, veamos…",
+   "a": [
+    "dezagun"
+   ],
+   "hint": "Subjuntivo exhortativo, nosotros: dezagun."
+  },
+  {
+   "type": "gap",
+   "q": "Nola esango ___…",
+   "es": "Cómo lo diría…",
+   "a": [
+    "nuke"
+   ],
+   "hint": "Condicional, yo: nuke."
+  },
+  {
+   "type": "gap",
+   "q": "Egunero euskaraz zerbait ___ dut.",
+   "es": "Cada día escucho algo en euskera.",
+   "a": [
+    "entzuten"
+   ],
+   "hint": "Habitual: entzuten."
+  },
+  {
+   "type": "gap",
+   "q": "C1 azterketa egite___ naiz.",
+   "es": "Tengo previsto hacer el examen C1.",
+   "a": [
+    "koa"
+   ],
+   "hint": "Intención: -tzekoa izan."
+  },
+  {
+   "type": "gap",
+   "q": "Ez nuen uste hona iritsiko ___.",
+   "es": "No creía que fuera a llegar hasta aquí.",
+   "a": [
+    "nintzenik"
+   ],
+   "hint": "Tras negación: -nik (pasado)."
+  },
+  {
+   "type": "choice",
+   "q": "Destreza de expresión oral:",
+   "options": [
+    "mintzamena",
+    "entzumena",
+    "irakurmena"
+   ],
+   "a": 0,
+   "why": "entzumena = comprensión oral; irakurmena = comprensión lectora."
+  },
+  {
+   "type": "choice",
+   "q": "Primer punto de la lista de revisión:",
+   "options": [
+    "los auxiliares",
+    "la letra de la portada",
+    "el número de palabras exacto"
+   ],
+   "a": 0,
+   "why": "La familia del auxiliar es el error más grave."
+  },
+  {
+   "type": "choice",
+   "q": "Si no recuerdas una palabra en la prueba oral…",
+   "options": [
+    "parafrasea",
+    "quédate en silencio",
+    "cambia al castellano"
+   ],
+   "a": 0,
+   "why": "Parafrasear demuestra recursos."
+  },
+  {
+   "type": "choice",
+   "q": "Antes de prepararte para una prueba oficial…",
+   "options": [
+    "consulta la convocatoria oficial vigente",
+    "memoriza textos enteros",
+    "estudia solo gramática"
+   ],
+   "a": 0,
+   "why": "El formato puede cambiar."
+  },
+  {
+   "type": "choice",
+   "q": "La mejor forma de mantener el nivel después del curso:",
+   "options": [
+    "usar el euskera a diario: escuchar, leer y hablar",
+    "dejar de estudiar tras aprobar",
+    "repasar solo las tablas"
+   ],
+   "a": 0,
+   "why": "El uso real es la clave."
+  },
+  {
+   "type": "order",
+   "words": [
+    "dezagun",
+    "ikus",
+    "Beno"
+   ],
+   "a": [
+    "Beno ikus dezagun"
+   ],
+   "es": "Bueno, veamos.",
+   "hint": "Muletilla oral útil."
+  },
+  {
+   "type": "order",
+   "words": [
+    "naiz",
+    "Euskalduna"
+   ],
+   "a": [
+    "Euskalduna naiz"
+   ],
+   "es": "Soy vascohablante.",
+   "hint": "Predicado + naiz."
+  },
+  {
+   "type": "order",
+   "words": [
+    "urrutira",
+    "Poliki-poliki"
+   ],
+   "a": [
+    "Poliki-poliki urrutira"
+   ],
+   "es": "Poco a poco se llega lejos.",
+   "hint": "Refrán."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "irakurmena",
+     "comprensión lectora"
+    ],
+    [
+     "entzumena",
+     "comprensión oral"
+    ],
+    [
+     "idazmena",
+     "expresión escrita"
+    ],
+    [
+     "mintzamena",
+     "expresión oral"
+    ],
+    [
+     "hizkuntza-erabilera",
+     "uso de la lengua"
+    ],
+    [
+     "mintzalaguna",
+     "compañero de conversación"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Escribe tu plan personal para los próximos seis meses en euskera (8 a 10 frases): qué escucharás, leerás y hablarás, con qué frecuencia, si te presentarás a una prueba y por qué quieres seguir.",
+  "focus": "destrezas del examen, lista de revisión, estrategias orales, plan de aprendizaje autónomo"
+ },
+ "links": {
+  "verbs": [],
+  "cases": [],
+  "themes": [
+   "ikasketak",
+   "lokailuak"
+  ]
+ }
+}

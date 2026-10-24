@@ -1,0 +1,304 @@
+{
+ "id": "b1-06",
+ "lvl": "B1",
+ "n": 6,
+ "title": "Erlatiboak II",
+ "es": "Relativos en pasado y con casos",
+ "goal": "Construir relativos más ricos: «la película que vi», «en el pueblo donde vivo», «con lo que has dicho».",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "En la lección A2-13 aprendiste el relativo en presente (**erosi dudan liburua**). Hoy lo amplías en tres direcciones: el pasado, los casos (en, con, a…) y los auxiliares de tres protagonistas. La regla de fondo no cambia: la oración va delante del nombre."
+  },
+  {
+   "h": "Relativo en pasado",
+   "p": "Las formas de pasado ya terminan en **-n**, así que no se añade nada: **Atzo ikusi nuen pelikula** (la película que vi ayer), **Etorri zen gizona** (el hombre que vino). Lo que te indica que es un relativo es que la oración va justo delante de un nombre."
+  },
+  {
+   "h": "Relativo con caso",
+   "p": "El caso se pega al final del grupo entero (oración + nombre), como si fuera un nombre normal: **Bizi naizen herrian** (en el pueblo en el que vivo), **Lan egiten dudan enpresara** (a la empresa en la que trabajo), **Ezagutu nuen neskarekin** (con la chica que conocí). En español cambiamos «que» por «en el que», «con la que»…; en euskera, el caso va al final."
+  },
+  {
+   "h": "Con NOR-NORI-NORK",
+   "p": "Funciona igual: auxiliar + -(e)n. **dizut → dizudan**, **diot → diodan**, **didazu → didazun**: **Eman didazun liburua** (el libro que me has dado), **Bidali diodan mezua** (el mensaje que le he enviado)."
+  },
+  {
+   "h": "«Lo que» con caso",
+   "p": "El relativo sin nombre (-na) también admite casos: **Esan duzunarekin ados nago** (estoy de acuerdo con lo que has dicho), **Behar duzuna** (lo que necesites), **Ikusi dudanagatik**… (por lo que he visto, verás -gatik en la lección 11)."
+  },
+  {
+   "h": "Paso a paso: «Estoy de acuerdo con lo que dijo Mikel»",
+   "p": "1) Oración: **Mikelek esan zuen** (pasado, ya acaba en -n). 2) Sin nombre: + **-a** → **Mikelek esan zuena**. 3) Caso «con»: + **-rekin** → **Mikelek esan zuenarekin**. 4) **Mikelek esan zuenarekin ados nago**."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Herrian bizi naizen* → **Bizi naizen herrian** (oración delante, caso al final). *Ezagutu nuen neska rekin* → **neskarekin**, todo junto. *Eman duzun liburua* para «el libro que me has dado» → **didazun**. *Esan duzunekin* → **Esan duzunarekin**."
+  },
+  {
+   "h": "Resumen",
+   "p": "Pasado: la forma ya acaba en -n (**ikusi nuen pelikula**). Caso al final del grupo (**bizi naizen herrian**). NOR-NORI-NORK: **didazun, diodan**. Sin nombre y con caso: **esan duzunarekin**."
+  }
+ ],
+ "examples": [
+  [
+   "Atzo ikusi nuen pelikula oso ona zen.",
+   "La película que vi ayer era muy buena."
+  ],
+  [
+   "Etorri zen gizona nire osaba da.",
+   "El hombre que vino es mi tío."
+  ],
+  [
+   "Bizi naizen herrian ez dago zinemarik.",
+   "En el pueblo donde vivo no hay cine."
+  ],
+  [
+   "Ezagutu nuen neskarekin hitz egin dut.",
+   "He hablado con la chica que conocí."
+  ],
+  [
+   "Eman didazun liburua irakurri dut.",
+   "He leído el libro que me has dado."
+  ],
+  [
+   "Esan duzunarekin ados nago.",
+   "Estoy de acuerdo con lo que has dicho."
+  ],
+  [
+   "Lan egiten dudan enpresan jende asko dago.",
+   "En la empresa en la que trabajo hay mucha gente."
+  ]
+ ],
+ "dialog": {
+  "title": "Una casualidad",
+  "lines": [
+   [
+    "Ane",
+    "Atzo ikusi nuen pelikula oso ona zen.",
+    "La película que vi ayer era muy buena."
+   ],
+   [
+    "Jon",
+    "Zein? Liburutegian hartu zenuen hura?",
+    "¿Cuál? ¿Aquella que cogiste en la biblioteca?"
+   ],
+   [
+    "Ane",
+    "Bai! Eta pelikulan agertzen den aktorea ezagutzen dut.",
+    "¡Sí! Y conozco al actor que sale en la película."
+   ],
+   [
+    "Jon",
+    "Benetan? Nondik?",
+    "¿De verdad? ¿De qué?"
+   ],
+   [
+    "Ane",
+    "Bizi naizen herrian bizi da. Askotan ikusten dut kalean.",
+    "Vive en el pueblo donde vivo yo. Lo veo a menudo por la calle."
+   ],
+   [
+    "Jon",
+    "Zer kasualitatea!",
+    "¡Qué casualidad!"
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Atzo ikusi ___ pelikula oso ona zen.",
+   "es": "La película que vi ayer era muy buena.",
+   "a": [
+    "nuen"
+   ],
+   "hint": "Pasado: la forma ya acaba en -n."
+  },
+  {
+   "type": "gap",
+   "q": "Etorri ___ gizona nire osaba da.",
+   "es": "El hombre que vino es mi tío.",
+   "a": [
+    "zen"
+   ],
+   "hint": "Pasado de izan, él: zen."
+  },
+  {
+   "type": "gap",
+   "q": "Bizi naizen herri___ ez dago zinemarik.",
+   "es": "En el pueblo donde vivo no hay cine.",
+   "a": [
+    "an"
+   ],
+   "hint": "El caso NON va al final del grupo: herrian."
+  },
+  {
+   "type": "gap",
+   "q": "Ezagutu nuen neska___ hitz egin dut.",
+   "es": "He hablado con la chica que conocí.",
+   "a": [
+    "rekin"
+   ],
+   "hint": "«con», palabra acabada en -a: -rekin."
+  },
+  {
+   "type": "gap",
+   "q": "Eman ___ liburua irakurri dut.",
+   "es": "He leído el libro que me has dado.",
+   "a": [
+    "didazun"
+   ],
+   "hint": "didazu + -n."
+  },
+  {
+   "type": "gap",
+   "q": "Esan duzuna___ ados nago.",
+   "es": "Estoy de acuerdo con lo que has dicho.",
+   "a": [
+    "rekin"
+   ],
+   "hint": "Relativo sin nombre (-na) + «con»."
+  },
+  {
+   "type": "choice",
+   "q": "«La película que vi ayer»",
+   "options": [
+    "atzo ikusi nuen pelikula",
+    "pelikula atzo ikusi nuen",
+    "atzo ikusi nuena pelikula"
+   ],
+   "a": 0,
+   "why": "Oración en pasado delante del nombre."
+  },
+  {
+   "type": "choice",
+   "q": "«En el pueblo donde vivo»",
+   "options": [
+    "bizi naizen herrian",
+    "bizi naizen herria",
+    "herrian bizi naizen"
+   ],
+   "a": 0,
+   "why": "Oración + nombre + caso al final."
+  },
+  {
+   "type": "choice",
+   "q": "«El libro que me has dado»",
+   "options": [
+    "eman didazun liburua",
+    "eman duzun liburua",
+    "eman didazu liburua"
+   ],
+   "a": 0,
+   "why": "Hay «me»: didazun. Eman duzun = que has dado (sin «me»)."
+  },
+  {
+   "type": "choice",
+   "q": "«Con lo que has dicho»",
+   "options": [
+    "esan duzunarekin",
+    "esan duzun rekin",
+    "esan duzunekin"
+   ],
+   "a": 0,
+   "why": "-na + -rekin, todo junto."
+  },
+  {
+   "type": "choice",
+   "q": "«El hombre que vino»",
+   "options": [
+    "etorri zen gizona",
+    "etorri zuen gizona",
+    "gizona etorri zen"
+   ],
+   "a": 0,
+   "why": "Venir → izan (zen), delante del nombre."
+  },
+  {
+   "type": "order",
+   "words": [
+    "nuen",
+    "pelikula",
+    "ikusi",
+    "Atzo"
+   ],
+   "a": [
+    "Atzo ikusi nuen pelikula"
+   ],
+   "es": "La película que vi ayer.",
+   "hint": "Oración en pasado + nombre."
+  },
+  {
+   "type": "order",
+   "words": [
+    "herrian",
+    "naizen",
+    "Bizi"
+   ],
+   "a": [
+    "Bizi naizen herrian"
+   ],
+   "es": "En el pueblo donde vivo.",
+   "hint": "Oración + nombre con caso."
+  },
+  {
+   "type": "order",
+   "words": [
+    "liburua",
+    "didazun",
+    "Eman"
+   ],
+   "a": [
+    "Eman didazun liburua"
+   ],
+   "es": "El libro que me has dado.",
+   "hint": "Verbo + relativo + nombre."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "ikusi nuen pelikula",
+     "la película que vi"
+    ],
+    [
+     "etorri zen gizona",
+     "el hombre que vino"
+    ],
+    [
+     "bizi naizen herrian",
+     "en el pueblo donde vivo"
+    ],
+    [
+     "eman didazun liburua",
+     "el libro que me has dado"
+    ],
+    [
+     "esan duzunarekin",
+     "con lo que has dicho"
+    ],
+    [
+     "behar duzuna",
+     "lo que necesites"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Escribe 5 frases con relativos ricos: un lugar donde viviste o trabajas, una persona que conociste, un regalo que te dieron, una película que viste y algo con lo que estás de acuerdo.",
+  "focus": "relativo en pasado, relativo con caso (bizi naizen herrian), didazun, -narekin"
+ },
+ "links": {
+  "verbs": [
+   "nn-past-3",
+   "nnn-pres"
+  ],
+  "cases": [
+   "ine",
+   "soz"
+  ],
+  "themes": [
+   "lokailuak"
+  ]
+ }
+}

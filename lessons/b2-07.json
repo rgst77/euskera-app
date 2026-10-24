@@ -1,0 +1,324 @@
+{
+ "id": "b2-07",
+ "lvl": "B2",
+ "n": 7,
+ "title": "Aspektua",
+ "es": "Matices de aspecto",
+ "goal": "Expresar experiencia, costumbre, inminencia, intención y continuidad: «he ido muchas veces», «suelo», «está a punto de», «tengo previsto», «sigo…».",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "Con los tiempos verbales dices cuándo pasa algo. Con el **aspecto** dices cómo se ve esa acción: si es una experiencia repetida, una costumbre, algo a punto de ocurrir o algo que continúa. El euskera tiene recursos muy claros para cada matiz, y usarlos es una de las señales de un nivel avanzado."
+  },
+  {
+   "h": "Experiencia y repetición: izan izan",
+   "p": "Participio + **izan** + auxiliar: **Askotan joan izan naiz Donostiara** (he ido muchas veces a San Sebastián), **Hori entzun izan dut** (eso lo he oído alguna vez). Expresa algo que ha ocurrido en varias ocasiones o como experiencia vital."
+  },
+  {
+   "h": "Costumbre: ohi",
+   "p": "Participio + **ohi** + auxiliar = soler: **Goiz jaiki ohi naiz** (suelo levantarme temprano), **Udan herrira joan ohi ginen** (solíamos ir al pueblo en verano). Significa lo mismo que la forma habitual (jaikitzen naiz), con un tono algo más formal."
+  },
+  {
+   "h": "Inminencia, intención y continuidad",
+   "table": {
+    "head": [
+     "Forma",
+     "Significado",
+     "Ejemplo"
+    ],
+    "rows": [
+     [
+      "-tzear egon",
+      "estar a punto de",
+      "Trena **irtetear dago** (el tren está a punto de salir)"
+     ],
+     [
+      "-tzekoa izan",
+      "tener previsto, ir a",
+      "Bihar Bilbora **joatekoa naiz** (tengo previsto ir a Bilbao mañana)"
+     ],
+     [
+      "-tzen jarraitu",
+      "seguir haciendo",
+      "Euskara **ikasten jarraitzen dut** (sigo estudiando euskera)"
+     ],
+     [
+      "-tzen hasi",
+      "empezar a",
+      "Euria **egiten hasi da** (ha empezado a llover)"
+     ],
+     [
+      "-tzeari utzi",
+      "dejar de",
+      "**Erretzeari utzi** diot (he dejado de fumar)"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Paso a paso: «Estaba a punto de salir cuando llamaste»",
+   "p": "1) «a punto de salir»: irten → **irtetear**, y egon en pasado, yo → **irtetear nengoen**. 2) «cuando llamaste»: deitu + NOR-NORI-NORK pasado (tú → a mí) + -nean → **deitu zenidanean**. → **Irtetear nengoen deitu zenidanean**."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Goiz jaikitzen ohi naiz* → **Goiz jaiki ohi naiz** (participio). *Euria egiten ari da* para «a punto de llover» → **egitear dago**. *Ikasten jarraitzen naiz* → **jarraitzen dut**. *Askotan joan izan dut* → **naiz** (joan va con izan)."
+  },
+  {
+   "h": "Resumen",
+   "p": "**-tu izan naiz / dut** (experiencia), **-tu ohi naiz** (soler), **-tzear egon** (a punto de), **-tzekoa izan** (tener previsto), **-tzen jarraitu** (seguir), **-tzen hasi** (empezar), **-tzeari utzi** (dejar de)."
+  }
+ ],
+ "examples": [
+  [
+   "Askotan joan izan naiz Donostiara.",
+   "He ido muchas veces a San Sebastián."
+  ],
+  [
+   "Goiz jaiki ohi naiz.",
+   "Suelo levantarme temprano."
+  ],
+  [
+   "Udan herrira joan ohi ginen.",
+   "En verano solíamos ir al pueblo."
+  ],
+  [
+   "Trena irtetear dago.",
+   "El tren está a punto de salir."
+  ],
+  [
+   "Bihar Bilbora joatekoa naiz.",
+   "Mañana tengo previsto ir a Bilbao."
+  ],
+  [
+   "Euskara ikasten jarraitzen dut.",
+   "Sigo estudiando euskera."
+  ],
+  [
+   "Ez dut inoiz halakorik ikusi.",
+   "Nunca he visto nada parecido."
+  ]
+ ],
+ "dialog": {
+  "title": "Un viaje a Baiona",
+  "lines": [
+   [
+    "Nerea",
+    "Inoiz Baionan egon zara?",
+    "¿Has estado alguna vez en Baiona?"
+   ],
+   [
+    "Iker",
+    "Bai, askotan joan izan naiz. Txikitan, udan hara joan ohi ginen.",
+    "Sí, he ido muchas veces. De pequeño, en verano solíamos ir allí."
+   ],
+   [
+    "Nerea",
+    "Ni datorren hilean joatekoa naiz.",
+    "Yo tengo previsto ir el mes que viene."
+   ],
+   [
+    "Iker",
+    "Oso polita da! Gaur ere joan nahi nuen, baina trena irtetear dago eta ez naiz garaiz iritsiko.",
+    "¡Es muy bonita! Hoy también quería ir, pero el tren está a punto de salir y no llegaré a tiempo."
+   ],
+   [
+    "Nerea",
+    "Ez kezkatu, beste egun batean joango gara elkarrekin.",
+    "No te preocupes, iremos juntos otro día."
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Askotan joan ___ naiz Donostiara.",
+   "es": "He ido muchas veces a San Sebastián.",
+   "a": [
+    "izan"
+   ],
+   "hint": "Experiencia: participio + izan + auxiliar."
+  },
+  {
+   "type": "gap",
+   "q": "Goiz jaiki ___ naiz.",
+   "es": "Suelo levantarme temprano.",
+   "a": [
+    "ohi"
+   ],
+   "hint": "soler = participio + ohi."
+  },
+  {
+   "type": "gap",
+   "q": "Trena irte___ dago.",
+   "es": "El tren está a punto de salir.",
+   "a": [
+    "tear"
+   ],
+   "hint": "a punto de = -tzear egon."
+  },
+  {
+   "type": "gap",
+   "q": "Bihar Bilbora joate___ naiz.",
+   "es": "Mañana tengo previsto ir a Bilbao.",
+   "a": [
+    "koa"
+   ],
+   "hint": "tener previsto = -tzekoa izan."
+  },
+  {
+   "type": "gap",
+   "q": "Euskara ikasten ___ dut.",
+   "es": "Sigo estudiando euskera.",
+   "a": [
+    "jarraitzen"
+   ],
+   "hint": "seguir = -tzen jarraitu."
+  },
+  {
+   "type": "gap",
+   "q": "Udan herrira joan ohi ___.",
+   "es": "En verano solíamos ir al pueblo.",
+   "a": [
+    "ginen"
+   ],
+   "hint": "ohi + izan en pasado, nosotros."
+  },
+  {
+   "type": "choice",
+   "q": "«Suelo levantarme temprano»",
+   "options": [
+    "Goiz jaiki ohi naiz.",
+    "Goiz jaikitzen ohi naiz.",
+    "Goiz ohi jaiki naiz."
+   ],
+   "a": 0,
+   "why": "Participio + ohi + auxiliar."
+  },
+  {
+   "type": "choice",
+   "q": "«Está a punto de llover»",
+   "options": [
+    "Euria egitear dago.",
+    "Euria egiteko dago.",
+    "Euria egiten ari da."
+   ],
+   "a": 0,
+   "why": "-tzear egon. Ari da = está lloviendo."
+  },
+  {
+   "type": "choice",
+   "q": "«Tengo previsto ir»",
+   "options": [
+    "Joatekoa naiz.",
+    "Joateko naiz.",
+    "Joango naizekoa."
+   ],
+   "a": 0,
+   "why": "-tzekoa izan."
+  },
+  {
+   "type": "choice",
+   "q": "«Sigo estudiando»",
+   "options": [
+    "Ikasten jarraitzen dut.",
+    "Ikastea jarraitzen dut.",
+    "Ikasten jarraitzen naiz."
+   ],
+   "a": 0,
+   "why": "-tzen jarraitu, con dut."
+  },
+  {
+   "type": "choice",
+   "q": "«He ido muchas veces»",
+   "options": [
+    "Askotan joan izan naiz.",
+    "Askotan joan izan dut.",
+    "Askotan joaten izan naiz."
+   ],
+   "a": 0,
+   "why": "joan va con izan."
+  },
+  {
+   "type": "order",
+   "words": [
+    "naiz",
+    "ohi",
+    "jaiki",
+    "Goiz"
+   ],
+   "a": [
+    "Goiz jaiki ohi naiz"
+   ],
+   "es": "Suelo levantarme temprano.",
+   "hint": "Goiz + participio + ohi + naiz."
+  },
+  {
+   "type": "order",
+   "words": [
+    "dago",
+    "irtetear",
+    "Trena"
+   ],
+   "a": [
+    "Trena irtetear dago"
+   ],
+   "es": "El tren está a punto de salir.",
+   "hint": "Sujeto + -tzear + dago."
+  },
+  {
+   "type": "order",
+   "words": [
+    "dut",
+    "jarraitzen",
+    "ikasten",
+    "Euskara"
+   ],
+   "a": [
+    "Euskara ikasten jarraitzen dut"
+   ],
+   "es": "Sigo estudiando euskera.",
+   "hint": "Objeto + -tzen + jarraitzen dut."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "joan izan naiz",
+     "he ido (alguna vez)"
+    ],
+    [
+     "jaiki ohi naiz",
+     "suelo levantarme"
+    ],
+    [
+     "irtetear dago",
+     "está a punto de salir"
+    ],
+    [
+     "joatekoa naiz",
+     "tengo previsto ir"
+    ],
+    [
+     "ikasten jarraitu",
+     "seguir estudiando"
+    ],
+    [
+     "halakorik",
+     "nada parecido"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Escribe 6 frases sobre ti: algo que has hecho muchas veces, una costumbre (ohi), algo que solías hacer de pequeño, algo que tienes previsto hacer, algo que sigues haciendo y algo que has dejado de hacer.",
+  "focus": "izan izan, ohi, -tzear egon, -tzekoa izan, -tzen jarraitu, -tzen hasi, -tzeari utzi"
+ },
+ "links": {
+  "verbs": [],
+  "cases": [],
+  "themes": [
+   "aditzak",
+   "denbora"
+  ]
+ }
+}

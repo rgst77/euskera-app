@@ -1,0 +1,324 @@
+{
+ "id": "c1-08",
+ "lvl": "C1",
+ "n": 8,
+ "title": "Prentsa",
+ "es": "Leer y comentar prensa",
+ "goal": "Entender noticias en euskera: titulares, atribución de fuentes y estructura, y comentar lo leído.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "Leer prensa en euskera (Berria, EITB, los diarios locales) es una de las mejores formas de mantener y ampliar el nivel. El lenguaje periodístico tiene rasgos propios: titulares sin auxiliar, mucho estilo nominal y fórmulas fijas para indicar la fuente. En esta lección los aprendes con una noticia breve escrita para el curso."
+  },
+  {
+   "h": "Titulares",
+   "p": "Los titulares suelen **omitir el auxiliar**: **Gobernuak zerga berria onartu** (el Gobierno aprueba un nuevo impuesto), en lugar de *onartu du*. También usan el participio como nombre: **Hiru zauritu istripu batean** (tres heridos en un accidente). Y mucho estilo nominal (lección 5): **Langabeziaren jaitsiera**."
+  },
+  {
+   "h": "Atribuir la información",
+   "table": {
+    "head": [
+     "Fórmula",
+     "Significado"
+    ],
+    "rows": [
+     [
+      "… -ren arabera",
+      "según…"
+     ],
+     [
+      "… jakinarazi duenez",
+      "según ha informado…"
+     ],
+     [
+      "… adierazi du … -la",
+      "… ha declarado que…"
+     ],
+     [
+      "iturri ofizialek baieztatu dutenez",
+      "según han confirmado fuentes oficiales"
+     ],
+     [
+      "… nabarmendu du",
+      "… ha destacado"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Cómo leer una noticia",
+   "p": "1) **Titular**: el tema. 2) **Primer párrafo**: responde a **nor, zer, non, noiz, zergatik** (quién, qué, dónde, cuándo, por qué). 3) **Cuerpo**: busca las cifras y las fuentes. No intentes entender cada palabra: con el verbo principal de cada frase y las fórmulas de fuente captarás lo esencial. Cifras: **%15** se lee **ehuneko hamabost**."
+  },
+  {
+   "h": "Comentar una noticia",
+   "p": "Para dar tu opinión sobre lo leído, combina lo que ya sabes: **Albistearen arabera, … ; nire ustez, …**, **Datu hauek erakusten dute … -la**, **Harrigarria iruditzen zait … -la** (me parece sorprendente que…)."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "Leer los titulares como frases incompletas: el auxiliar omitido se sobreentiende. Confundir **jakinarazi duenez** (según ha informado) con **jakinarazi duela** (que ha informado). *Inguru 5.000 pertsona* → **5.000 pertsona inguru** (inguru va detrás)."
+  },
+  {
+   "h": "Resumen",
+   "p": "Titulares sin auxiliar (**onartu**) y con participio nominal (**zauritu**). Fuentes: **-ren arabera, jakinarazi duenez, adierazi du … -la, baieztatu dutenez**. Lectura: titular → primer párrafo (nor, zer, non, noiz, zergatik) → cifras y fuentes."
+  }
+ ],
+ "examples": [
+  [
+   "Hiru zauritu istripu batean.",
+   "Tres heridos en un accidente (titular)."
+  ],
+  [
+   "Gobernuak zerga berria onartu.",
+   "El Gobierno aprueba un nuevo impuesto (titular)."
+  ],
+  [
+   "Udalak jakinarazi duenez, ekitaldia arazorik gabe amaitu zen.",
+   "Según ha informado el ayuntamiento, el acto terminó sin problemas."
+  ],
+  [
+   "Antolatzaileen arabera, 5.000 pertsona inguru izan ziren.",
+   "Según los organizadores, asistieron unas 5.000 personas."
+  ],
+  [
+   "Ministroak adierazi du ez dagoela arazorik.",
+   "El ministro ha declarado que no hay problemas."
+  ],
+  [
+   "Langabezia %3 jaitsi da.",
+   "El paro ha bajado un 3 %."
+  ],
+  [
+   "Iturri ofizialek baieztatu dutenez, bilera bihar izango da.",
+   "Según han confirmado fuentes oficiales, la reunión será mañana."
+  ]
+ ],
+ "dialog": {
+  "title": "Una noticia breve",
+  "lines": [
+   [
+    "Izenburua",
+    "Milaka lagun euskararen alde Donostian",
+    "Miles de personas a favor del euskera en San Sebastián"
+   ],
+   [
+    "Albistea",
+    "Milaka lagun bildu ziren atzo Donostian, euskararen alde.",
+    "Miles de personas se reunieron ayer en San Sebastián a favor del euskera."
+   ],
+   [
+    "Albistea",
+    "Antolatzaileen arabera, 5.000 pertsona inguru izan ziren.",
+    "Según los organizadores, asistieron unas 5.000 personas."
+   ],
+   [
+    "Albistea",
+    "Udalak jakinarazi duenez, ekitaldia arazorik gabe amaitu zen.",
+    "Según ha informado el ayuntamiento, el acto terminó sin incidentes."
+   ],
+   [
+    "Albistea",
+    "Antolatzaileek adierazi dutenez, datorren urtean ere antolatuko dute.",
+    "Según han declarado los organizadores, lo organizarán también el año que viene."
+   ],
+   [
+    "Albistea",
+    "Euskaltegiek ikasle berrien igoera nabarmendu dute.",
+    "Los euskaltegis han destacado el aumento de nuevos alumnos."
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Antolatzaileen ___, 5.000 pertsona izan ziren.",
+   "es": "Según los organizadores, asistieron 5.000 personas.",
+   "a": [
+    "arabera"
+   ],
+   "hint": "según = -ren arabera."
+  },
+  {
+   "type": "gap",
+   "q": "Udalak jakinarazi ___, ekitaldia ondo amaitu zen.",
+   "es": "Según ha informado el ayuntamiento, el acto terminó bien.",
+   "a": [
+    "duenez"
+   ],
+   "hint": "según ha informado = jakinarazi duenez."
+  },
+  {
+   "type": "gap",
+   "q": "Ministroak ___ du ez dagoela arazorik.",
+   "es": "El ministro ha declarado que no hay problemas.",
+   "a": [
+    "adierazi"
+   ],
+   "hint": "declarar = adierazi."
+  },
+  {
+   "type": "gap",
+   "q": "Iturri ofizialek baieztatu ___, bilera bihar izango da.",
+   "es": "Según han confirmado fuentes oficiales…",
+   "a": [
+    "dutenez"
+   ],
+   "hint": "Sujeto plural: baieztatu dutenez."
+  },
+  {
+   "type": "gap",
+   "q": "Langabezia %3 ___ da.",
+   "es": "El paro ha bajado un 3 %.",
+   "a": [
+    "jaitsi"
+   ],
+   "hint": "bajar = jaitsi."
+  },
+  {
+   "type": "gap",
+   "q": "Euskaltegiek ikasleen igoera ___ dute.",
+   "es": "Los euskaltegis han destacado el aumento de alumnos.",
+   "a": [
+    "nabarmendu"
+   ],
+   "hint": "destacar = nabarmendu."
+  },
+  {
+   "type": "choice",
+   "q": "Titular típico:",
+   "options": [
+    "Gobernuak zerga berria onartu",
+    "Gobernuak zerga berria onartu du eta gainera…",
+    "Zerga berria onartzen ari da gobernua, uste dut"
+   ],
+   "a": 0,
+   "why": "Los titulares omiten el auxiliar y son breves."
+  },
+  {
+   "type": "choice",
+   "q": "«Según ha informado el ayuntamiento»",
+   "options": [
+    "udalak jakinarazi duenez",
+    "udalak jakinarazi duela",
+    "udalaren jakinarazi"
+   ],
+   "a": 0,
+   "why": "Atribución: -(e)nez."
+  },
+  {
+   "type": "choice",
+   "q": "«Unas 5.000 personas»",
+   "options": [
+    "5.000 pertsona inguru",
+    "inguru 5.000 pertsona",
+    "5.000 pertsonak inguruan"
+   ],
+   "a": 0,
+   "why": "inguru va detrás."
+  },
+  {
+   "type": "choice",
+   "q": "El primer párrafo de una noticia responde a…",
+   "options": [
+    "nor, zer, non, noiz, zergatik",
+    "la opinión del periodista",
+    "el final de la historia"
+   ],
+   "a": 0,
+   "why": "Quién, qué, dónde, cuándo, por qué."
+  },
+  {
+   "type": "choice",
+   "q": "«Ha declarado que no hay problemas»",
+   "options": [
+    "adierazi du ez dagoela arazorik",
+    "adierazi du ez dago arazorik",
+    "adierazi du ez dagoen arazorik"
+   ],
+   "a": 0,
+   "why": "Completiva con -la."
+  },
+  {
+   "type": "order",
+   "words": [
+    "ziren",
+    "izan",
+    "pertsona",
+    "5.000",
+    "arabera",
+    "Antolatzaileen"
+   ],
+   "a": [
+    "Antolatzaileen arabera 5.000 pertsona izan ziren"
+   ],
+   "es": "Según los organizadores, asistieron 5.000 personas.",
+   "hint": "Fuente + cifra + verbo."
+  },
+  {
+   "type": "order",
+   "words": [
+    "duenez",
+    "jakinarazi",
+    "Udalak"
+   ],
+   "a": [
+    "Udalak jakinarazi duenez"
+   ],
+   "es": "Según ha informado el ayuntamiento.",
+   "hint": "Sujeto + jakinarazi duenez."
+  },
+  {
+   "type": "order",
+   "words": [
+    "da",
+    "jaitsi",
+    "Langabezia"
+   ],
+   "a": [
+    "Langabezia jaitsi da"
+   ],
+   "es": "El paro ha bajado.",
+   "hint": "Sujeto + participio + da."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "albistea",
+     "la noticia"
+    ],
+    [
+     "izenburua",
+     "el titular"
+    ],
+    [
+     "iturria",
+     "la fuente"
+    ],
+    [
+     "-ren arabera",
+     "según"
+    ],
+    [
+     "jakinarazi",
+     "informar"
+    ],
+    [
+     "adierazi",
+     "declarar"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Escribe una noticia breve (6 a 8 frases) sobre un acontecimiento real o inventado de tu ciudad: un titular sin auxiliar, un primer párrafo con nor, zer, non, noiz y zergatik, y al menos dos fuentes atribuidas. Añade dos frases comentándola.",
+  "focus": "titulares, atribución de fuentes (-ren arabera, jakinarazi duenez, adierazi du … -la), estructura de la noticia"
+ },
+ "links": {
+  "verbs": [],
+  "cases": [],
+  "themes": [
+   "lokailuak",
+   "teknologia"
+  ]
+ }
+}

@@ -1,0 +1,336 @@
+{
+ "id": "a2-01",
+ "lvl": "A2",
+ "n": 1,
+ "title": "Ordutegiak",
+ "es": "Horas y rutina: zer ordutan?",
+ "goal": "Decir a qué hora haces las cosas, con qué frecuencia y de qué hora a qué hora.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "Bienvenido al A2. En el A1 aprendiste a decir qué hora es (**hirurak dira**). Ahora vas a decir **a qué hora** pasa algo (a las tres), con qué frecuencia y en qué horario. Todo se construye con los casos de lugar que ya conoces: el tiempo, en euskera, se trata como un lugar."
+  },
+  {
+   "h": "«A las…»: la hora con -etan",
+   "p": "Se toma la hora y se añade la terminación de «en» en plural, **-etan**: **zazpiak → zazpietan** (a las siete). La una es singular: **ordu bata → ordu batean** (a la una). La pregunta es **Zer ordutan?** (¿a qué hora?).",
+   "table": {
+    "head": [
+     "Qué hora es",
+     "A qué hora"
+    ],
+    "rows": [
+     [
+      "ordu bata",
+      "ordu bat**ean**"
+     ],
+     [
+      "biak",
+      "bi**etan**"
+     ],
+     [
+      "hirurak",
+      "hirur**etan**"
+     ],
+     [
+      "laurak",
+      "laur**etan**"
+     ],
+     [
+      "bostak",
+      "bost**etan**"
+     ],
+     [
+      "hamarrak",
+      "hamarr**etan**"
+     ],
+     [
+      "hamabiak",
+      "hamabi**etan**"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Y media, y cuarto, menos cuarto",
+   "p": "**zazpi eta erdietan** (a las siete y media), **zortzi eta laurdenetan** (a las ocho y cuarto), **bederatziak laurden gutxitan** (a las nueve menos cuarto). Para concretar la parte del día: **goizeko zazpietan** (a las siete de la mañana), **arratsaldeko bostetan** (a las cinco de la tarde), **gaueko hamarretan** (a las diez de la noche)."
+  },
+  {
+   "h": "De… a…",
+   "p": "Con los casos NONDIK y NORA: **zortzietatik hiruretara** (de ocho a tres), **astelehenetik ostiralera** (de lunes a viernes). **Zortzietatik hiruretara lan egiten dut** (trabajo de ocho a tres)."
+  },
+  {
+   "h": "Los días: una vez o siempre",
+   "p": "**astelehenean** (el lunes, una vez) frente a **astelehenetan** (los lunes, cada semana). Frecuencia: **egunero** (cada día), **astean behin** (una vez a la semana), **astean bitan** (dos veces a la semana), **hilean behin** (una vez al mes), **gutxitan** (pocas veces)."
+  },
+  {
+   "h": "Paso a paso: «Los martes voy a la piscina a las siete de la tarde»",
+   "p": "1) Cuándo: **asteartetan** (los martes). 2) A qué hora: **arratsaldeko zazpietan**. 3) Adónde: **igerilekura**. 4) Verbo habitual: **joaten naiz**. → **Asteartetan arratsaldeko zazpietan igerilekura joaten naiz**."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Zazpiak jaikitzen naiz* → **zazpietan** (para «a las» hace falta -etan). *Ordu bietan* para «a la una» → **ordu batean**. *Astelehenean* para «los lunes» (cada semana) → **astelehenetan**. *Zortzietatik hirura* → **hiruretara**."
+  },
+  {
+   "h": "Resumen",
+   "p": "**Zer ordutan?** → hora + **-etan** (ordu batean, zazpietan). **eta erdietan**, **eta laurdenetan**, **laurden gutxitan**. **-etatik … -etara** (de… a…). **astelehenean** (una vez) / **astelehenetan** (siempre). **astean behin / bitan**."
+  }
+ ],
+ "examples": [
+  [
+   "Zer ordutan jaikitzen zara?",
+   "¿A qué hora te levantas?"
+  ],
+  [
+   "Zazpietan jaikitzen naiz.",
+   "Me levanto a las siete."
+  ],
+  [
+   "Ordu batean bazkaltzen dut.",
+   "Como a la una."
+  ],
+  [
+   "Zortzietatik hiruretara lan egiten dut.",
+   "Trabajo de ocho a tres."
+  ],
+  [
+   "Astelehenetan igerilekura joaten naiz.",
+   "Los lunes voy a la piscina."
+  ],
+  [
+   "Astean bitan euskara ikasten dut.",
+   "Estudio euskera dos veces a la semana."
+  ],
+  [
+   "Gaueko hamarretan afaltzen dugu.",
+   "Cenamos a las diez de la noche."
+  ]
+ ],
+ "dialog": {
+  "title": "Horarios",
+  "lines": [
+   [
+    "Ane",
+    "Zer ordutan hasten zara lanean?",
+    "¿A qué hora empiezas a trabajar?"
+   ],
+   [
+    "Mikel",
+    "Zortzietan. Zortzietatik hiruretara lan egiten dut.",
+    "A las ocho. Trabajo de ocho a tres."
+   ],
+   [
+    "Ane",
+    "Eta arratsaldean?",
+    "¿Y por la tarde?"
+   ],
+   [
+    "Mikel",
+    "Asteartetan eta ostegunetan igerilekura joaten naiz, sei eta erdietan.",
+    "Los martes y los jueves voy a la piscina, a las seis y media."
+   ],
+   [
+    "Ane",
+    "Ni astean behin bakarrik joaten naiz, larunbatetan.",
+    "Yo solo voy una vez a la semana, los sábados."
+   ],
+   [
+    "Mikel",
+    "Larunbat honetan elkarrekin joango gara?",
+    "¿Iremos juntos este sábado?"
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Zazpi___ jaikitzen naiz.",
+   "es": "Me levanto a las siete.",
+   "a": [
+    "etan"
+   ],
+   "hint": "«A las…»: hora + -etan."
+  },
+  {
+   "type": "gap",
+   "q": "Ordu bat___ bazkaltzen dut.",
+   "es": "Como a la una.",
+   "a": [
+    "ean"
+   ],
+   "hint": "La una es singular: ordu batean."
+  },
+  {
+   "type": "gap",
+   "q": "Zer ___ jaikitzen zara?",
+   "es": "¿A qué hora te levantas?",
+   "a": [
+    "ordutan"
+   ],
+   "hint": "¿A qué hora? = Zer ordutan?"
+  },
+  {
+   "type": "gap",
+   "q": "Zortzietatik hirur___ lan egiten dut.",
+   "es": "Trabajo de ocho a tres.",
+   "a": [
+    "etara"
+   ],
+   "hint": "«hasta / a» con horas: -etara."
+  },
+  {
+   "type": "gap",
+   "q": "Astean ___ euskara ikasten dut.",
+   "es": "Estudio euskera dos veces a la semana.",
+   "a": [
+    "bitan"
+   ],
+   "hint": "una vez = behin · dos veces = bitan."
+  },
+  {
+   "type": "choice",
+   "q": "«A las tres y media»",
+   "options": [
+    "hiru eta erdietan",
+    "hirurak eta erdi",
+    "hiruretan eta erdi"
+   ],
+   "a": 0,
+   "why": "Hora + eta erdi + -etan. Hirurak eta erdi es «son las tres y media»."
+  },
+  {
+   "type": "choice",
+   "q": "«Los lunes» (cada semana)",
+   "options": [
+    "astelehenetan",
+    "astelehenean",
+    "astelehenera"
+   ],
+   "a": 0,
+   "why": "Plural -etan para lo que se repite; astelehenean es «el lunes»."
+  },
+  {
+   "type": "choice",
+   "q": "«A las diez de la noche»",
+   "options": [
+    "gaueko hamarretan",
+    "gauean hamarrak",
+    "hamarretan gaua"
+   ],
+   "a": 0,
+   "why": "Parte del día con -ko delante: gaueko hamarretan."
+  },
+  {
+   "type": "choice",
+   "q": "«De lunes a viernes»",
+   "options": [
+    "astelehenetik ostiralera",
+    "astelehenean ostiralean",
+    "astelehenera ostiraletik"
+   ],
+   "a": 0,
+   "why": "Desde = -tik; hasta = -ra."
+  },
+  {
+   "type": "choice",
+   "q": "«Una vez al mes»",
+   "options": [
+    "hilean behin",
+    "hilabete bat",
+    "hilean bitan"
+   ],
+   "a": 0,
+   "why": "behin = una vez; bitan = dos veces."
+  },
+  {
+   "type": "order",
+   "words": [
+    "jaikitzen",
+    "Zazpietan",
+    "naiz"
+   ],
+   "a": [
+    "Zazpietan jaikitzen naiz"
+   ],
+   "es": "Me levanto a las siete.",
+   "hint": "Hora + verbo + auxiliar."
+  },
+  {
+   "type": "order",
+   "words": [
+    "egiten",
+    "Zortzietatik",
+    "dut",
+    "lan",
+    "hiruretara"
+   ],
+   "a": [
+    "Zortzietatik hiruretara lan egiten dut"
+   ],
+   "es": "Trabajo de ocho a tres.",
+   "hint": "Desde + hasta + lan egiten dut."
+  },
+  {
+   "type": "order",
+   "words": [
+    "joaten",
+    "Astelehenetan",
+    "naiz",
+    "igerilekura"
+   ],
+   "a": [
+    "Astelehenetan igerilekura joaten naiz",
+    "Igerilekura astelehenetan joaten naiz"
+   ],
+   "es": "Los lunes voy a la piscina.",
+   "hint": "Cuándo y adónde delante, verbo + auxiliar al final."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "egunero",
+     "cada día"
+    ],
+    [
+     "astean behin",
+     "una vez a la semana"
+    ],
+    [
+     "astean bitan",
+     "dos veces a la semana"
+    ],
+    [
+     "hilean behin",
+     "una vez al mes"
+    ],
+    [
+     "gutxitan",
+     "pocas veces"
+    ],
+    [
+     "beti",
+     "siempre"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Describe tu semana tipo en 5 o 6 frases, con horas concretas y frecuencias: a qué hora te levantas, tu horario de trabajo o estudio, qué haces ciertos días y cada cuánto.",
+  "focus": "hora + -etan, -etatik … -etara, días con -etan, frecuencia (astean behin…)"
+ },
+ "links": {
+  "verbs": [
+   "nor-pres",
+   "nn-pres-3"
+  ],
+  "cases": [
+   "ine",
+   "abl",
+   "adl"
+  ],
+  "themes": [
+   "denbora",
+   "zenbakiak"
+  ]
+ }
+}

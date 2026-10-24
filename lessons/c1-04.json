@@ -1,0 +1,317 @@
+{
+ "id": "c1-04",
+ "lvl": "C1",
+ "n": 4,
+ "title": "Perpaus konplexuak",
+ "es": "Oraciones complejas",
+ "goal": "Leer y construir frases con varias subordinadas sin perderte, y usar conectores avanzados.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "En los textos reales de C1 es normal encontrar frases con tres o cuatro subordinadas encadenadas. Como en euskera las subordinadas suelen ir **antes** de lo que modifican, al principio pueden parecer un laberinto. Esta lección te da un método para desenredarlas y algunos conectores nuevos muy frecuentes en la escritura."
+  },
+  {
+   "h": "El método en tres pasos",
+   "p": "1) **Busca el verbo principal**: el auxiliar que **no** lleva terminación de subordinada (-n, -la, -nean, -lako, -nez…). 2) **Encuentra su sujeto y su objeto**: a menudo son grupos largos con relativos delante. 3) **Lee cada subordinada desde dentro**, empezando por la más cercana al verbo principal."
+  },
+  {
+   "h": "Un ejemplo desmontado",
+   "p": "**Atzo ezagutu nuen idazleak esan zidan liburua idazten ari zenean ez zekiela nola amaitu.** Verbo principal: **esan zidan** (me dijo). ¿Quién? **atzo ezagutu nuen idazleak** (el escritor que conocí ayer). ¿Qué? **ez zekiela nola amaitu** (que no sabía cómo terminarlo). ¿Cuándo? **liburua idazten ari zenean** (cuando estaba escribiendo el libro)."
+  },
+  {
+   "h": "Conectores avanzados",
+   "table": {
+    "head": [
+     "Estructura",
+     "Significado",
+     "Ejemplo"
+    ],
+    "rows": [
+     [
+      "-n heinean",
+      "a medida que",
+      "**Ikasten duzun heinean**, errazagoa da."
+     ],
+     [
+      "-n neurrian",
+      "en la medida en que",
+      "**Behar duzun neurrian** lagunduko zaitut."
+     ],
+     [
+      "-teko moduan",
+      "de modo que",
+      "**Ulertzeko moduan** azaldu zuen."
+     ],
+     [
+      "-(e)la eta",
+      "como, ya que (habla)",
+      "**Nekatuta nagoela eta**, ez naiz aterako."
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Construir sin perder claridad",
+   "p": "Al escribir, no amontones más de dos subordinadas delante del verbo principal. Si la frase crece, pasa parte de la información a otra frase o detrás del verbo con un relativo explicativo (lección B2-09). En euskera, la claridad se considera buen estilo."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "Traducir palabra por palabra desde el principio de la frase: en euskera casi siempre conviene empezar por el verbo principal. Confundir el verbo principal con un auxiliar subordinado: **ezagutu nuen** aquí es un relativo (sin -n visible porque el pasado ya acaba en -n). *Nekatuta nago eta* (coloquial «como estoy cansado») → **nagoela eta**."
+  },
+  {
+   "h": "Resumen",
+   "p": "Método: **verbo principal → sujeto y objeto → subordinadas desde dentro**. Conectores: **-n heinean** (a medida que), **-n neurrian** (en la medida en que), **-teko moduan** (de modo que), **-(e)la eta** (como, ya que)."
+  }
+ ],
+ "examples": [
+  [
+   "Ikasten duzun heinean, errazagoa iruditzen zaizu.",
+   "A medida que estudias, te parece más fácil."
+  ],
+  [
+   "Lan egiten dudan enpresak esan dit hurrengo urtean Bilbora joan beharko dudala.",
+   "La empresa en la que trabajo me ha dicho que el año que viene tendré que ir a Bilbao."
+  ],
+  [
+   "Etxera iritsi nintzenean, amak esan zidan Mikel etorri zela.",
+   "Cuando llegué a casa, mi madre me dijo que Mikel había venido."
+  ],
+  [
+   "Nekatuta nagoela eta, ez naiz aterako.",
+   "Como estoy cansado, no saldré."
+  ],
+  [
+   "Ulertzeko moduan azaldu zuen.",
+   "Lo explicó de modo que se entendiera."
+  ],
+  [
+   "Behar duzun neurrian lagunduko zaitut.",
+   "Te ayudaré en la medida en que lo necesites."
+  ]
+ ],
+ "dialog": {
+  "title": "Una frase difícil",
+  "lines": [
+   [
+    "Ane",
+    "Esaldi hau ez dut ulertzen: «Atzo ezagutu nuen idazleak esan zidan liburua idazten ari zenean ez zekiela nola amaitu».",
+    "No entiendo esta frase: «Atzo ezagutu nuen idazleak esan zidan liburua idazten ari zenean ez zekiela nola amaitu»."
+   ],
+   [
+    "Iker",
+    "Lehenik, bilatu aditz nagusia: «esan zidan». Nork esan zizun? Idazleak.",
+    "Primero, busca el verbo principal: «esan zidan». ¿Quién te lo dijo? El escritor."
+   ],
+   [
+    "Ane",
+    "Zein idazlek? Atzo ezagutu nuenak.",
+    "¿Qué escritor? El que conocí ayer."
+   ],
+   [
+    "Iker",
+    "Hori da. Eta zer esan zizun? «Ez zekiela nola amaitu». Noiz? «Liburua idazten ari zenean».",
+    "Eso es. ¿Y qué te dijo? «Que no sabía cómo terminarlo». ¿Cuándo? «Cuando estaba escribiendo el libro»."
+   ],
+   [
+    "Ane",
+    "Orain argi dago!",
+    "¡Ahora está claro!"
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Ikasten duzun ___, errazagoa da.",
+   "es": "A medida que estudias, es más fácil.",
+   "a": [
+    "heinean"
+   ],
+   "hint": "a medida que = -n heinean."
+  },
+  {
+   "type": "gap",
+   "q": "Nekatuta nagoela ___, ez naiz aterako.",
+   "es": "Como estoy cansado, no saldré.",
+   "a": [
+    "eta"
+   ],
+   "hint": "como (coloquial) = -la eta."
+  },
+  {
+   "type": "gap",
+   "q": "Ulertzeko ___ azaldu zuen.",
+   "es": "Lo explicó de modo que se entendiera.",
+   "a": [
+    "moduan"
+   ],
+   "hint": "de modo que = -teko moduan."
+  },
+  {
+   "type": "gap",
+   "q": "Behar duzun ___ lagunduko zaitut.",
+   "es": "Te ayudaré en la medida en que lo necesites.",
+   "a": [
+    "neurrian"
+   ],
+   "hint": "en la medida en que = -n neurrian."
+  },
+  {
+   "type": "gap",
+   "q": "Idazleak esan zidan ez ___ nola amaitu.",
+   "es": "El escritor me dijo que no sabía cómo terminarlo.",
+   "a": [
+    "zekiela"
+   ],
+   "hint": "jakin pasado (zekien) + -la."
+  },
+  {
+   "type": "gap",
+   "q": "Atzo ezagutu ___ idazleak esan zidan…",
+   "es": "El escritor que conocí ayer me dijo…",
+   "a": [
+    "nuen"
+   ],
+   "hint": "Relativo en pasado: nuen."
+  },
+  {
+   "type": "choice",
+   "q": "Verbo principal de «Atzo ezagutu nuen idazleak esan zidan ez zekiela nola amaitu»:",
+   "options": [
+    "esan zidan",
+    "ezagutu nuen",
+    "ez zekiela"
+   ],
+   "a": 0,
+   "why": "Es el único auxiliar sin función de subordinada."
+  },
+  {
+   "type": "choice",
+   "q": "«A medida que»",
+   "options": [
+    "-n heinean",
+    "-n arren",
+    "-n bezala"
+   ],
+   "a": 0,
+   "why": "-n arren = aunque; -n bezala = como."
+  },
+  {
+   "type": "choice",
+   "q": "«Como estoy cansado» (coloquial)",
+   "options": [
+    "nekatuta nagoela eta",
+    "nekatuta nago eta",
+    "nekatuta nagoen eta"
+   ],
+   "a": 0,
+   "why": "-la + eta."
+  },
+  {
+   "type": "choice",
+   "q": "«De modo que se entienda»",
+   "options": [
+    "ulertzeko moduan",
+    "ulertzen moduan",
+    "ulertu moduan"
+   ],
+   "a": 0,
+   "why": "-teko moduan."
+  },
+  {
+   "type": "choice",
+   "q": "Primer paso para leer una frase compleja:",
+   "options": [
+    "buscar el verbo principal",
+    "traducir palabra por palabra",
+    "empezar por el final siempre"
+   ],
+   "a": 0,
+   "why": "El verbo principal organiza toda la frase."
+  },
+  {
+   "type": "order",
+   "words": [
+    "heinean",
+    "duzun",
+    "Ikasten"
+   ],
+   "a": [
+    "Ikasten duzun heinean"
+   ],
+   "es": "A medida que estudias.",
+   "hint": "Verbo + relativo + heinean."
+  },
+  {
+   "type": "order",
+   "words": [
+    "moduan",
+    "Ulertzeko",
+    "zuen",
+    "azaldu"
+   ],
+   "a": [
+    "Ulertzeko moduan azaldu zuen"
+   ],
+   "es": "Lo explicó de modo que se entendiera.",
+   "hint": "-teko moduan + verbo."
+  },
+  {
+   "type": "order",
+   "words": [
+    "aterako",
+    "naiz",
+    "ez",
+    "eta",
+    "nagoela",
+    "Nekatuta"
+   ],
+   "a": [
+    "Nekatuta nagoela eta ez naiz aterako"
+   ],
+   "es": "Como estoy cansado, no saldré.",
+   "hint": "Causa con -la eta + principal."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "-n heinean",
+     "a medida que"
+    ],
+    [
+     "-n neurrian",
+     "en la medida en que"
+    ],
+    [
+     "-teko moduan",
+     "de modo que"
+    ],
+    [
+     "-(e)la eta",
+     "como, ya que (coloquial)"
+    ],
+    [
+     "aditz nagusia",
+     "verbo principal"
+    ],
+    [
+     "menpeko perpausa",
+     "oración subordinada"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Escribe 3 frases complejas (con al menos dos subordinadas cada una) sobre tu experiencia aprendiendo euskera, y después desmonta una de ellas siguiendo el método de la lección.",
+  "focus": "análisis de frases complejas, -n heinean, -n neurrian, -teko moduan, -(e)la eta"
+ },
+ "links": {
+  "verbs": [],
+  "cases": [],
+  "themes": [
+   "lokailuak",
+   "ikasketak"
+  ]
+ }
+}

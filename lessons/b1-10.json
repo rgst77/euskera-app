@@ -1,0 +1,327 @@
+{
+ "id": "b1-10",
+ "lvl": "B1",
+ "n": 10,
+ "title": "Denbora-perpausak",
+ "es": "Más oraciones temporales",
+ "goal": "Ordenar acciones en el tiempo: antes de, después de, hasta que, mientras, en cuanto.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "En el A2 aprendiste «cuando» (**-nean**). Para contar historias o dar instrucciones necesitas más precisión: antes de, después de, hasta que, mientras. La mayoría se construyen con el **participio** más una palabra, así que son más fáciles de lo que parecen."
+  },
+  {
+   "h": "Con el participio",
+   "table": {
+    "head": [
+     "Estructura",
+     "Significado",
+     "Ejemplo"
+    ],
+    "rows": [
+     [
+      "participio + **baino lehen**",
+      "antes de",
+      "**Afaldu baino lehen**, eskuak garbitu."
+     ],
+     [
+      "participio + **eta gero**",
+      "después de",
+      "**Lana bukatu eta gero**, mendira joango gara."
+     ],
+     [
+      "participio + **ondoren**",
+      "después de (más formal)",
+      "**Bazkaldu ondoren**, atseden hartzen dut."
+     ],
+     [
+      "participio + **arte**",
+      "hasta (que)",
+      "**Zu etorri arte** itxarongo dut."
+     ],
+     [
+      "participio + **-takoan**",
+      "en cuanto, al (terminar…)",
+      "**Etxera iritsitakoan**, deituko dizut."
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Mientras: -n bitartean",
+   "p": "Con el verbo conjugado en relativo + **bitartean**: **Zu lanean zauden bitartean, ni umeekin egongo naiz** (mientras tú estás trabajando, yo estaré con los niños). **Telebista ikusten dudan bitartean** (mientras veo la tele). Sin oración, como adverbio: **bitartean** (mientras tanto)."
+  },
+  {
+   "h": "El tiempo de la principal manda",
+   "p": "Las formas con participio no cambian según el tiempo: el tiempo lo indica la oración principal. **Lana bukatu eta gero, mendira joan nintzen** (después de terminar, fui) / **joango naiz** (iré). Un detalle de forma: si el participio acaba en **-n**, se usa **-dakoan**: **egin → egindakoan**, **irten → irtendakoan** (en cuanto salga)."
+  },
+  {
+   "h": "Paso a paso: «Esperaré hasta que llegues, pero no cenes antes de que llegue yo»",
+   "p": "1) «hasta que llegues»: **zu iritsi arte** → **Zu iritsi arte itxarongo dizut**. 2) «no cenes»: **ez afaldu**. 3) «antes de que llegue yo»: **ni iritsi baino lehen**. → **Ez afaldu ni iritsi baino lehen!**"
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Afaltzen baino lehen* → **Afaldu baino lehen** (participio). *Bukatu gero* → **bukatu eta gero**. *Lanean zaude bitartean* → **zauden bitartean** (relativo). *iristetakoan* → **iritsitakoan**."
+  },
+  {
+   "h": "Resumen",
+   "p": "Participio + **baino lehen** (antes), **eta gero / ondoren** (después), **arte** (hasta que), **-takoan** (en cuanto). Relativo + **bitartean** (mientras). El tiempo lo marca la principal."
+  }
+ ],
+ "examples": [
+  [
+   "Afaldu baino lehen, eskuak garbitu.",
+   "Antes de cenar, lávate las manos."
+  ],
+  [
+   "Lana bukatu eta gero, mendira joango gara.",
+   "Después de terminar el trabajo, iremos al monte."
+  ],
+  [
+   "Zu etorri arte itxarongo dut.",
+   "Esperaré hasta que vengas."
+  ],
+  [
+   "Zu lanean zauden bitartean, ni umeekin egongo naiz.",
+   "Mientras estás trabajando, yo estaré con los niños."
+  ],
+  [
+   "Etxera iritsitakoan, deituko dizut.",
+   "En cuanto llegue a casa, te llamaré."
+  ],
+  [
+   "Bazkaldu ondoren, atseden hartzen dut.",
+   "Después de comer, descanso."
+  ]
+ ],
+ "dialog": {
+  "title": "Organizar la tarde",
+  "lines": [
+   [
+    "Nerea",
+    "Noiz joango gara?",
+    "¿Cuándo iremos?"
+   ],
+   [
+    "Iker",
+    "Lana bukatu eta gero. Zortzietan bukatuko dut.",
+    "Después de terminar el trabajo. Terminaré a las ocho."
+   ],
+   [
+    "Nerea",
+    "Ondo. Zu lanean zauden bitartean, nik afaria prestatuko dut.",
+    "Bien. Mientras estás trabajando, yo prepararé la cena."
+   ],
+   [
+    "Iker",
+    "Primeran! Lantegitik irtendakoan, deituko dizut.",
+    "¡Estupendo! En cuanto salga de la fábrica, te llamaré."
+   ],
+   [
+    "Nerea",
+    "Zu iritsi arte itxarongo dizut.",
+    "Te esperaré hasta que llegues."
+   ],
+   [
+    "Iker",
+    "Baina ez afaldu ni iritsi baino lehen!",
+    "¡Pero no cenes antes de que llegue yo!"
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Afaldu baino ___, eskuak garbitu.",
+   "es": "Antes de cenar, lávate las manos.",
+   "a": [
+    "lehen"
+   ],
+   "hint": "antes de = baino lehen."
+  },
+  {
+   "type": "gap",
+   "q": "Lana bukatu eta ___, mendira joango gara.",
+   "es": "Después de terminar el trabajo, iremos al monte.",
+   "a": [
+    "gero"
+   ],
+   "hint": "después de = eta gero."
+  },
+  {
+   "type": "gap",
+   "q": "Zu etorri ___ itxarongo dut.",
+   "es": "Esperaré hasta que vengas.",
+   "a": [
+    "arte"
+   ],
+   "hint": "hasta (que) = arte."
+  },
+  {
+   "type": "gap",
+   "q": "Zu lanean zauden ___, ni umeekin egongo naiz.",
+   "es": "Mientras trabajas, yo estaré con los niños.",
+   "a": [
+    "bitartean"
+   ],
+   "hint": "mientras = relativo + bitartean."
+  },
+  {
+   "type": "gap",
+   "q": "Etxera iritsi___, deituko dizut.",
+   "es": "En cuanto llegue a casa, te llamaré.",
+   "a": [
+    "takoan"
+   ],
+   "hint": "en cuanto = participio + -takoan."
+  },
+  {
+   "type": "gap",
+   "q": "Bazkaldu ___, atseden hartzen dut.",
+   "es": "Después de comer, descanso.",
+   "a": [
+    "ondoren"
+   ],
+   "hint": "después de (formal) = ondoren."
+  },
+  {
+   "type": "choice",
+   "q": "«Antes de cenar»",
+   "options": [
+    "afaldu baino lehen",
+    "afaltzen baino lehen",
+    "afaldu lehen baino"
+   ],
+   "a": 0,
+   "why": "Participio + baino lehen."
+  },
+  {
+   "type": "choice",
+   "q": "«Después de terminar»",
+   "options": [
+    "bukatu eta gero",
+    "bukatzen eta gero",
+    "bukatu gero eta"
+   ],
+   "a": 0,
+   "why": "Participio + eta gero."
+  },
+  {
+   "type": "choice",
+   "q": "«Hasta que vengas»",
+   "options": [
+    "zu etorri arte",
+    "zu etortzen arte",
+    "zu etorri artean"
+   ],
+   "a": 0,
+   "why": "Participio + arte."
+  },
+  {
+   "type": "choice",
+   "q": "«Mientras trabajas»",
+   "options": [
+    "lanean zauden bitartean",
+    "lanean zaude bitartean",
+    "lanean zaudela bitartean"
+   ],
+   "a": 0,
+   "why": "Relativo (zauden) + bitartean."
+  },
+  {
+   "type": "choice",
+   "q": "«En cuanto llegue a casa»",
+   "options": [
+    "etxera iritsitakoan",
+    "etxera iristetakoan",
+    "etxera iritsitzean"
+   ],
+   "a": 0,
+   "why": "Participio (iritsi) + -takoan."
+  },
+  {
+   "type": "order",
+   "words": [
+    "lehen",
+    "baino",
+    "Afaldu"
+   ],
+   "a": [
+    "Afaldu baino lehen"
+   ],
+   "es": "Antes de cenar.",
+   "hint": "Participio + baino lehen."
+  },
+  {
+   "type": "order",
+   "words": [
+    "gero",
+    "eta",
+    "bukatu",
+    "Lana"
+   ],
+   "a": [
+    "Lana bukatu eta gero"
+   ],
+   "es": "Después de terminar el trabajo.",
+   "hint": "Objeto + participio + eta gero."
+  },
+  {
+   "type": "order",
+   "words": [
+    "dut",
+    "arte",
+    "etorri",
+    "itxarongo",
+    "Zu"
+   ],
+   "a": [
+    "Zu etorri arte itxarongo dut",
+    "Itxarongo dut zu etorri arte"
+   ],
+   "es": "Esperaré hasta que vengas.",
+   "hint": "Subordinada con arte + principal."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "baino lehen",
+     "antes de"
+    ],
+    [
+     "eta gero",
+     "después de"
+    ],
+    [
+     "ondoren",
+     "después de (formal)"
+    ],
+    [
+     "arte",
+     "hasta (que)"
+    ],
+    [
+     "bitartean",
+     "mientras"
+    ],
+    [
+     "-takoan",
+     "en cuanto, al…"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Describe tu rutina de un día laborable en 5 frases que encadenen acciones: antes de…, después de…, mientras…, hasta que…, en cuanto…",
+  "focus": "baino lehen, eta gero, ondoren, arte, -takoan (con participio); -n bitartean"
+ },
+ "links": {
+  "verbs": [],
+  "cases": [],
+  "themes": [
+   "denbora",
+   "aditzak"
+  ]
+ }
+}

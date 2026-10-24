@@ -1,0 +1,325 @@
+{
+ "id": "a2-04",
+ "lvl": "A2",
+ "n": 4,
+ "title": "Iritziak",
+ "es": "NOR-NORI: iruditu, ahaztu, gertatu…",
+ "goal": "Decir qué te parece algo, qué se te ha olvidado, qué te ha pasado o qué te falta.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "En la lección 12 del A1 aprendiste **gustatu** (gustar). Hay un grupo de verbos muy frecuentes que funcionan exactamente igual: la persona va como «a mí, a ti…» y lo que pasa es el sujeto. Con ellos puedes dar tu opinión, disculparte por un olvido o contar un problema."
+  },
+  {
+   "h": "Los verbos del grupo",
+   "table": {
+    "head": [
+     "Verbo",
+     "Ejemplo",
+     "Español"
+    ],
+    "rows": [
+     [
+      "iruditu (parecer)",
+      "Ondo iruditzen zait.",
+      "Me parece bien."
+     ],
+     [
+      "ahaztu (olvidarse)",
+      "Giltzak ahaztu zaizkit.",
+      "Se me han olvidado las llaves."
+     ],
+     [
+      "gertatu (pasar, ocurrir)",
+      "Zer gertatu zaizu?",
+      "¿Qué te ha pasado?"
+     ],
+     [
+      "interesatu (interesar)",
+      "Historia interesatzen zait.",
+      "Me interesa la historia."
+     ],
+     [
+      "falta izan (faltar)",
+      "Ogia falta zait.",
+      "Me falta pan."
+     ],
+     [
+      "axola izan (importar)",
+      "Ez zait axola.",
+      "No me importa."
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Los mismos auxiliares",
+   "p": "Recuerda: **zait, zaizu, zaio, zaigu, zaizue, zaie**, y si el sujeto es plural, **zaizkit, zaizkizu, zaizkio…** Y en todos los tiempos que ya conoces: **iruditzen zait** (me parece), **ahaztu zait** (se me ha olvidado), **gertatuko zaizu** (te pasará)."
+  },
+  {
+   "h": "Dar tu opinión",
+   "p": "**Ondo iruditzen zait** (me parece bien), **Gaizki iruditzen zait** (me parece mal), **Interesgarria iruditzen zait** (me parece interesante), **Zer iruditzen zaizu?** (¿qué te parece?). Otra forma muy común es **Nire ustez…** (en mi opinión…), que verás a fondo en B1."
+  },
+  {
+   "h": "Paso a paso: «Se le han olvidado los libros a Ane»",
+   "p": "1) A quién: **Aneri**. 2) Qué: **liburuak** (plural). 3) Verbo en perfecto: **ahaztu**. 4) Auxiliar: a ella, sujeto plural → **zaizkio**. → **Aneri liburuak ahaztu zaizkio**."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Giltzak ahaztu ditut* → aunque existe «ahaztu dut» (he olvidado algo, con objeto), lo más natural para un olvido es **Giltzak ahaztu zaizkit**. *Zer gertatu duzu?* → **Zer gertatu zaizu?** *Ni ondo iruditzen zait* → **Niri**. *Ez dit axola* → **Ez zait axola**."
+  },
+  {
+   "h": "Resumen",
+   "p": "iruditu, ahaztu, gertatu, interesatu, falta izan, axola izan: igual que gustatu. Persona en dativo (**niri, Aneri**) + **zait…** (plural **zaizkit…**). **Zer iruditzen zaizu?** · **Ez zait axola**."
+  }
+ ],
+ "examples": [
+  [
+   "Ondo iruditzen zait.",
+   "Me parece bien."
+  ],
+  [
+   "Zer iruditzen zaizu?",
+   "¿Qué te parece?"
+  ],
+  [
+   "Giltzak ahaztu zaizkit.",
+   "Se me han olvidado las llaves."
+  ],
+  [
+   "Zer gertatu zaizu?",
+   "¿Qué te ha pasado?"
+  ],
+  [
+   "Historia asko interesatzen zait.",
+   "Me interesa mucho la historia."
+  ],
+  [
+   "Diru pixka bat falta zait.",
+   "Me falta un poco de dinero."
+  ],
+  [
+   "Ez zait axola.",
+   "No me importa."
+  ]
+ ],
+ "dialog": {
+  "title": "Un mal día",
+  "lines": [
+   [
+    "Ane",
+    "Zer gertatu zaizu? Triste zaude.",
+    "¿Qué te ha pasado? Estás triste."
+   ],
+   [
+    "Iker",
+    "Giltzak ahaztu zaizkit, eta ezin naiz etxean sartu.",
+    "Se me han olvidado las llaves, y no puedo entrar en casa."
+   ],
+   [
+    "Ane",
+    "Ene! Zure gurasoek ez dauzkate giltzak?",
+    "¡Vaya! ¿Tus padres no tienen llaves?"
+   ],
+   [
+    "Iker",
+    "Bai, baina Gasteizen daude gaur.",
+    "Sí, pero hoy están en Vitoria-Gasteiz."
+   ],
+   [
+    "Ane",
+    "Gaur nire etxean geratuko zara. Zer iruditzen zaizu?",
+    "Hoy te quedarás en mi casa. ¿Qué te parece?"
+   ],
+   [
+    "Iker",
+    "Oso ondo iruditzen zait. Eskerrik asko!",
+    "Me parece muy bien. ¡Muchas gracias!"
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Ondo iruditzen ___.",
+   "es": "Me parece bien.",
+   "a": [
+    "zait"
+   ],
+   "hint": "A mí, una cosa: zait."
+  },
+  {
+   "type": "gap",
+   "q": "Giltzak ahaztu ___.",
+   "es": "Se me han olvidado las llaves.",
+   "a": [
+    "zaizkit"
+   ],
+   "hint": "A mí, sujeto plural: zaizkit."
+  },
+  {
+   "type": "gap",
+   "q": "Zer gertatu ___?",
+   "es": "¿Qué te ha pasado?",
+   "a": [
+    "zaizu"
+   ],
+   "hint": "A ti: zaizu."
+  },
+  {
+   "type": "gap",
+   "q": "Zer ___ zaizu?",
+   "es": "¿Qué te parece?",
+   "a": [
+    "iruditzen"
+   ],
+   "hint": "parecer = iruditu → iruditzen."
+  },
+  {
+   "type": "gap",
+   "q": "Ez zait ___.",
+   "es": "No me importa.",
+   "a": [
+    "axola"
+   ],
+   "hint": "importar = axola izan."
+  },
+  {
+   "type": "gap",
+   "q": "Aneri liburuak ahaztu ___.",
+   "es": "A Ane se le han olvidado los libros.",
+   "a": [
+    "zaizkio"
+   ],
+   "hint": "A ella, sujeto plural: zaizkio."
+  },
+  {
+   "type": "choice",
+   "q": "«¿Qué te ha pasado?»",
+   "options": [
+    "Zer gertatu zaizu?",
+    "Zer gertatu duzu?",
+    "Zer gertatzen zara?"
+   ],
+   "a": 0,
+   "why": "gertatu es NOR-NORI: zaizu."
+  },
+  {
+   "type": "choice",
+   "q": "«Me interesa la historia»",
+   "options": [
+    "Historia interesatzen zait.",
+    "Historia interesatzen dut.",
+    "Historiak interesatzen nau."
+   ],
+   "a": 0,
+   "why": "interesatu funciona como gustatu."
+  },
+  {
+   "type": "choice",
+   "q": "«Me falta pan»",
+   "options": [
+    "Ogia falta zait.",
+    "Ogia falta dut.",
+    "Ogirik falta naiz."
+   ],
+   "a": 0,
+   "why": "falta izan: NOR-NORI."
+  },
+  {
+   "type": "choice",
+   "q": "«A mí me parece mal»",
+   "options": [
+    "Niri gaizki iruditzen zait.",
+    "Nik gaizki iruditzen zait.",
+    "Ni gaizki iruditzen naiz."
+   ],
+   "a": 0,
+   "why": "La persona en dativo: niri."
+  },
+  {
+   "type": "order",
+   "words": [
+    "zaizkit",
+    "Giltzak",
+    "ahaztu"
+   ],
+   "a": [
+    "Giltzak ahaztu zaizkit"
+   ],
+   "es": "Se me han olvidado las llaves.",
+   "hint": "Sujeto + verbo + auxiliar."
+  },
+  {
+   "type": "order",
+   "words": [
+    "iruditzen",
+    "Zer",
+    "zaizu"
+   ],
+   "a": [
+    "Zer iruditzen zaizu"
+   ],
+   "es": "¿Qué te parece?",
+   "hint": "Interrogativa + verbo + auxiliar."
+  },
+  {
+   "type": "order",
+   "words": [
+    "axola",
+    "Ez",
+    "zait"
+   ],
+   "a": [
+    "Ez zait axola"
+   ],
+   "es": "No me importa.",
+   "hint": "ez + auxiliar + axola."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "iruditu",
+     "parecer"
+    ],
+    [
+     "ahaztu",
+     "olvidarse"
+    ],
+    [
+     "gertatu",
+     "pasar, ocurrir"
+    ],
+    [
+     "interesatu",
+     "interesar"
+    ],
+    [
+     "falta izan",
+     "faltar"
+    ],
+    [
+     "axola izan",
+     "importar"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Escribe 5 frases: tu opinión sobre dos cosas (… iruditzen zait), algo que se te olvidó alguna vez, algo que te interesa y algo que no te importa.",
+  "focus": "verbos NOR-NORI: iruditu, ahaztu, gertatu, interesatu, falta izan, axola izan"
+ },
+ "links": {
+  "verbs": [
+   "nni-pres"
+  ],
+  "cases": [
+   "dat"
+  ],
+  "themes": [
+   "adjektiboak",
+   "lokailuak"
+  ]
+ }
+}

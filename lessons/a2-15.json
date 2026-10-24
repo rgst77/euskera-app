@@ -1,0 +1,341 @@
+{
+ "id": "a2-15",
+ "lvl": "A2",
+ "n": 15,
+ "title": "Etortzen naizenean",
+ "es": "Oraciones con -nean",
+ "goal": "Decir cuándo pasa algo: «cuando llego a casa», «cuando era pequeño», «cuando vengas».",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "Tercera terminación de subordinada. Con el relativo aprendiste a añadir **-(e)n** al auxiliar; para decir «cuando», solo tienes que añadir encima **-ean**, la terminación de «en» que conoces desde el A1. Literalmente: «en el (momento) que llego»."
+  },
+  {
+   "h": "La forma: relativo + -ean",
+   "p": "**naizen → naizenean**, **dudan → dudanean**, **den → denean**, **dagoen → dagoenean**. **Etxera iristen naizenean, afaltzen dut** (cuando llego a casa, ceno). Lo normal es poner la oración con -nean delante, como en español «cuando…, …».",
+   "table": {
+    "head": [
+     "Relativo",
+     "Cuando…",
+     "Relativo",
+     "Cuando…"
+    ],
+    "rows": [
+     [
+      "naizen",
+      "naizenean",
+      "dudan",
+      "dudanean"
+     ],
+     [
+      "zaren",
+      "zarenean",
+      "duzun",
+      "duzunean"
+     ],
+     [
+      "den",
+      "denean",
+      "duen",
+      "duenean"
+     ],
+     [
+      "garen",
+      "garenean",
+      "dugun",
+      "dugunean"
+     ],
+     [
+      "diren",
+      "direnean",
+      "duten",
+      "dutenean"
+     ],
+     [
+      "nagoen",
+      "nagoenean",
+      "nintzen",
+      "nintzenean"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Para el futuro: forma habitual",
+   "p": "Atención, porque es distinto del español: para «cuando vengas» (futuro) el euskera usa la forma **habitual** en la subordinada: **Etortzen zarenean, afalduko dugu** (cuando vengas, cenaremos). **Bilbora joaten naizenean, deituko dizut** (cuando vaya a Bilbao, te llamaré)."
+  },
+  {
+   "h": "En pasado",
+   "p": "Las formas de pasado ya acaban en -n, así que solo se añade **-ean**: **nintzen → nintzenean**, **nuen → nuenean**. **Txikia nintzenean, Bilbon bizi nintzen** (cuando era pequeño, vivía en Bilbao)."
+  },
+  {
+   "h": "Paso a paso: «Cuando estoy cansado, escucho música»",
+   "p": "1) Subordinada: **nekatuta nago**. 2) Relativo: nago → **nagoen**; + -ean → **nagoenean**. 3) Principal: **musika entzuten dut**. → **Nekatuta nagoenean, musika entzuten dut**."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Etxera iristen naizen, afaltzen dut* → **naizenean**. *Etorriko zarenean* para «cuando vengas» → la forma más recomendada es **etortzen zarenean**. *Txikia naizenean* para «cuando era pequeño» → **nintzenean**. *dutean* → **dutenean**."
+  },
+  {
+   "h": "Resumen",
+   "p": "«cuando» = relativo + **-ean**: naizenean, dudanean, denean, nagoenean, nintzenean. Futuro: forma habitual en la subordinada (**etortzen zarenean, afalduko dugu**)."
+  }
+ ],
+ "examples": [
+  [
+   "Etxera iristen naizenean, afaltzen dut.",
+   "Cuando llego a casa, ceno."
+  ],
+  [
+   "Txikia nintzenean, Bilbon bizi nintzen.",
+   "Cuando era pequeño, vivía en Bilbao."
+  ],
+  [
+   "Euria ari duenean, etxean geratzen naiz.",
+   "Cuando llueve, me quedo en casa."
+  ],
+  [
+   "Bilbora joaten naizenean, deituko dizut.",
+   "Cuando vaya a Bilbao, te llamaré."
+  ],
+  [
+   "Nekatuta nagoenean, musika entzuten dut.",
+   "Cuando estoy cansado, escucho música."
+  ],
+  [
+   "Lana bukatzen dudanean, mendira joango naiz.",
+   "Cuando termine el trabajo, iré al monte."
+  ]
+ ],
+ "dialog": {
+  "title": "Costumbres",
+  "lines": [
+   [
+    "Ane",
+    "Zer egiten duzu lanetik ateratzen zarenean?",
+    "¿Qué haces cuando sales del trabajo?"
+   ],
+   [
+    "Iker",
+    "Etxera iristen naizenean, korrika egiten dut parkean.",
+    "Cuando llego a casa, corro en el parque."
+   ],
+   [
+    "Ane",
+    "Eta euria ari duenean?",
+    "¿Y cuando llueve?"
+   ],
+   [
+    "Iker",
+    "Euria ari duenean, liburu bat irakurtzen dut.",
+    "Cuando llueve, leo un libro."
+   ],
+   [
+    "Ane",
+    "Txikia nintzenean, euria asko gustatzen zitzaidan!",
+    "¡Cuando era pequeña, me gustaba mucho la lluvia!"
+   ],
+   [
+    "Iker",
+    "Niri ere bai!",
+    "¡A mí también!"
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Etxera iristen ___, afaltzen dut.",
+   "es": "Cuando llego a casa, ceno.",
+   "a": [
+    "naizenean"
+   ],
+   "hint": "naiz → naizen → naizenean."
+  },
+  {
+   "type": "gap",
+   "q": "Txikia ___, Bilbon bizi nintzen.",
+   "es": "Cuando era pequeño, vivía en Bilbao.",
+   "a": [
+    "nintzenean"
+   ],
+   "hint": "Pasado: nintzen + -ean."
+  },
+  {
+   "type": "gap",
+   "q": "Euria ari ___, etxean geratzen naiz.",
+   "es": "Cuando llueve, me quedo en casa.",
+   "a": [
+    "duenean"
+   ],
+   "hint": "du → duen → duenean."
+  },
+  {
+   "type": "gap",
+   "q": "Nekatuta ___, musika entzuten dut.",
+   "es": "Cuando estoy cansado, escucho música.",
+   "a": [
+    "nagoenean"
+   ],
+   "hint": "nago → nagoen → nagoenean."
+  },
+  {
+   "type": "gap",
+   "q": "Lana bukatzen ___, mendira joango naiz.",
+   "es": "Cuando termine el trabajo, iré al monte.",
+   "a": [
+    "dudanean"
+   ],
+   "hint": "dut → dudan → dudanean."
+  },
+  {
+   "type": "gap",
+   "q": "Zu etortzen ___, afalduko dugu.",
+   "es": "Cuando vengas, cenaremos.",
+   "a": [
+    "zarenean"
+   ],
+   "hint": "zara → zaren → zarenean."
+  },
+  {
+   "type": "choice",
+   "q": "«Cuando llego a casa»",
+   "options": [
+    "etxera iristen naizenean",
+    "etxera iristen naizen",
+    "etxera iristen naizela"
+   ],
+   "a": 0,
+   "why": "«cuando» = -nean."
+  },
+  {
+   "type": "choice",
+   "q": "«Cuando era pequeño»",
+   "options": [
+    "txikia nintzenean",
+    "txikia naizenean",
+    "txikia nintzen"
+   ],
+   "a": 0,
+   "why": "Pasado + -ean."
+  },
+  {
+   "type": "choice",
+   "q": "«Cuando vengas, cenaremos»",
+   "options": [
+    "Etortzen zarenean, afalduko dugu.",
+    "Etortzen zara, afalduko dugu.",
+    "Etortzen zarela, afalduko dugu."
+   ],
+   "a": 0,
+   "why": "Forma habitual + -nean en la subordinada."
+  },
+  {
+   "type": "choice",
+   "q": "«Cuando» con dute:",
+   "options": [
+    "dutenean",
+    "duteenean",
+    "dutean"
+   ],
+   "a": 0,
+   "why": "dute → duten → dutenean."
+  },
+  {
+   "type": "choice",
+   "q": "«Cuando llueve»",
+   "options": [
+    "euria ari duenean",
+    "euria ari denean",
+    "euria ari duela"
+   ],
+   "a": 0,
+   "why": "euria ari du → duenean."
+  },
+  {
+   "type": "order",
+   "words": [
+    "naizenean",
+    "Etxera",
+    "iristen"
+   ],
+   "a": [
+    "Etxera iristen naizenean"
+   ],
+   "es": "Cuando llego a casa.",
+   "hint": "Lugar + verbo + auxiliar con -nean."
+  },
+  {
+   "type": "order",
+   "words": [
+    "dut",
+    "musika",
+    "entzuten",
+    "nagoenean",
+    "Nekatuta"
+   ],
+   "a": [
+    "Nekatuta nagoenean musika entzuten dut",
+    "Musika entzuten dut nekatuta nagoenean"
+   ],
+   "es": "Cuando estoy cansado, escucho música.",
+   "hint": "Subordinada con -nean + principal."
+  },
+  {
+   "type": "order",
+   "words": [
+    "duenean",
+    "Euria",
+    "ari"
+   ],
+   "a": [
+    "Euria ari duenean"
+   ],
+   "es": "Cuando llueve.",
+   "hint": "Euria ari + duenean."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "naizenean",
+     "cuando (yo) soy / estoy (izan)"
+    ],
+    [
+     "dudanean",
+     "cuando (yo)… (ukan)"
+    ],
+    [
+     "denean",
+     "cuando es"
+    ],
+    [
+     "duenean",
+     "cuando (él)… (ukan)"
+    ],
+    [
+     "nintzenean",
+     "cuando (yo) era"
+    ],
+    [
+     "nagoenean",
+     "cuando estoy"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Escribe 5 frases con «cuando»: una costumbre actual, un recuerdo de cuando eras pequeño, qué haces cuando llueve, cómo te sientes cuando estás de vacaciones y un plan (cuando termine…, …).",
+  "focus": "-nean: relativo + -ean (naizenean, dudanean, nagoenean, nintzenean); forma habitual para el futuro"
+ },
+ "links": {
+  "verbs": [
+   "nor-pres",
+   "nn-pres-3"
+  ],
+  "cases": [],
+  "themes": [
+   "denbora"
+  ]
+ }
+}

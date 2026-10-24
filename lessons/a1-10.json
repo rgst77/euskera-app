@@ -1,0 +1,329 @@
+{
+ "id": "a1-10",
+ "lvl": "A1",
+ "n": 10,
+ "title": "Zer daukazu?",
+ "es": "El verbo tener y describir cosas",
+ "goal": "Decir qué tienes y describir cosas y personas.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "Hoy aprendes **eduki** (tener) y, con él, la pieza más característica del euskera: el sujeto que lleva **-k**. En español, «yo» es igual en «yo voy» y en «yo tengo». En euskera no: cuando el verbo tiene un objeto (algo que se tiene, se ve, se come…), el sujeto lleva una marca especial."
+  },
+  {
+   "h": "eduki en presente",
+   "p": "Es sintético, como egon. Si lo que tienes es una cosa, se usa la primera columna; si son varias, se añade **-zk-**:",
+   "table": {
+    "head": [
+     "NORK",
+     "Una cosa",
+     "Varias cosas"
+    ],
+    "rows": [
+     [
+      "{nork:nik}",
+      "{nork:daukat}",
+      "{nork:dauzkat}"
+     ],
+     [
+      "{nork:zuk}",
+      "{nork:daukazu}",
+      "{nork:dauzkazu}"
+     ],
+     [
+      "{nork:hark}",
+      "{nork:dauka}",
+      "{nork:dauzka}"
+     ],
+     [
+      "{nork:guk}",
+      "{nork:daukagu}",
+      "{nork:dauzkagu}"
+     ],
+     [
+      "{nork:zuek}",
+      "{nork:daukazue}",
+      "{nork:dauzkazue}"
+     ],
+     [
+      "{nork:haiek}",
+      "{nork:daukate}",
+      "{nork:dauzkate}"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "El sujeto con -k (NORK)",
+   "p": "Fíjate en los pronombres: **ni → nik**, **zu → zuk**, **hura → hark**, **gu → guk**. Con nombres pasa lo mismo: **Mikelek** (Mikel), **Anek** (Ane), **amak** (la madre). Es el caso {nork:NORK}, el sujeto de los verbos con objeto. Te acompañará siempre: con eduki, con ukan (dut) y con todos los verbos transitivos."
+  },
+  {
+   "h": "eduki o ukan",
+   "p": "Para «tener» también es correcto usar **ukan**: **Kotxe bat dut** = **Kotxe bat daukat** (tengo un coche). Las dos formas son batua. En esta lección practicas eduki, y ukan ya lo viste en la edad (**… urte ditut**)."
+  },
+  {
+   "h": "Describir",
+   "p": "El adjetivo va detrás del nombre y **bat** al final: **etxe handi bat** (una casa grande). Para describir personas: **Ile beltza dauka** (tiene el pelo negro), **Begi urdinak dauzka** (tiene los ojos azules; como begiak es plural, dauzka)."
+  },
+  {
+   "h": "Paso a paso: «Ane tiene un perro negro»",
+   "p": "1) El sujeto con -k: **Anek**. 2) Lo que tiene: nombre + adjetivo + bat → **txakur beltz bat**. 3) El verbo: una cosa, «ella» → **dauka**. 4) **Anek txakur beltz bat dauka**."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Ane txakur bat dauka* → **Anek** txakur bat dauka (falta la -k). *Begi urdinak dauka* → **dauzka** (son varios ojos). *Etxe bat handi* → **etxe handi bat**. *Ni kotxe bat daukat* → **Nik** kotxe bat daukat."
+  },
+  {
+   "h": "Resumen",
+   "p": "**daukat, daukazu, dauka, daukagu, daukazue, daukate**; con varias cosas, **dauzk-**. El sujeto lleva **-k**: nik, zuk, hark, guk, Mikelek. Descripción: nombre + adjetivo + bat."
+  }
+ ],
+ "examples": [
+  [
+   "Kotxe bat daukat.",
+   "Tengo un coche."
+  ],
+  [
+   "Zuk txakur bat daukazu?",
+   "¿Tienes un perro?"
+  ],
+  [
+   "Anek begi urdinak dauzka.",
+   "Ane tiene los ojos azules."
+  ],
+  [
+   "Guk etxe txiki bat daukagu.",
+   "Tenemos una casa pequeña."
+  ],
+  [
+   "Mikelek ile beltza dauka.",
+   "Mikel tiene el pelo negro."
+  ],
+  [
+   "Haiek bi seme dauzkate.",
+   "Ellos tienen dos hijos."
+  ]
+ ],
+ "dialog": {
+  "title": "El piso nuevo",
+  "lines": [
+   [
+    "Jon",
+    "Etxe berria daukazu?",
+    "¿Tienes casa nueva?"
+   ],
+   [
+    "Miren",
+    "Bai! Pisu txiki bat daukat, Donostian.",
+    "¡Sí! Tengo un piso pequeño, en San Sebastián."
+   ],
+   [
+    "Jon",
+    "Zenbat gela dauzka?",
+    "¿Cuántas habitaciones tiene?"
+   ],
+   [
+    "Miren",
+    "Bi logela dauzka eta sukalde handi bat.",
+    "Tiene dos dormitorios y una cocina grande."
+   ],
+   [
+    "Jon",
+    "Eta lorategia daukazu?",
+    "¿Y tienes jardín?"
+   ],
+   [
+    "Miren",
+    "Ez, baina balkoi polit bat daukat.",
+    "No, pero tengo un balcón bonito."
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Kotxe bat ___.",
+   "es": "Tengo un coche.",
+   "a": [
+    "daukat"
+   ],
+   "hint": "Una cosa: daukat, daukazu, dauka, daukagu, daukazue, daukate."
+  },
+  {
+   "type": "gap",
+   "q": "Zuk txakur bat ___?",
+   "es": "¿Tienes un perro?",
+   "a": [
+    "daukazu"
+   ],
+   "hint": "Una cosa: daukat, daukazu, dauka, daukagu, daukazue, daukate."
+  },
+  {
+   "type": "gap",
+   "q": "Anek begi urdinak ___.",
+   "es": "Ane tiene los ojos azules.",
+   "a": [
+    "dauzka"
+   ],
+   "hint": "Varias cosas (begiak): dauzk-."
+  },
+  {
+   "type": "gap",
+   "q": "Guk etxe txiki bat ___.",
+   "es": "Tenemos una casa pequeña.",
+   "a": [
+    "daukagu"
+   ],
+   "hint": "Nosotros, una cosa: daukagu."
+  },
+  {
+   "type": "gap",
+   "q": "Mikel___ ile beltza dauka.",
+   "es": "Mikel tiene el pelo negro.",
+   "a": [
+    "ek"
+   ],
+   "hint": "Sujeto de un verbo con objeto: -k (tras consonante, -ek)."
+  },
+  {
+   "type": "gap",
+   "q": "Haiek bi seme ___.",
+   "es": "Ellos tienen dos hijos.",
+   "a": [
+    "dauzkate"
+   ],
+   "hint": "Ellos, varias cosas: dauzkate."
+  },
+  {
+   "type": "choice",
+   "q": "«Tengo una casa grande»",
+   "options": [
+    "Etxe handi bat daukat.",
+    "Etxe bat handi daukat.",
+    "Handi etxe bat daukat."
+   ],
+   "a": 0,
+   "why": "Nombre + adjetivo + bat."
+  },
+  {
+   "type": "choice",
+   "q": "«Ane tiene los ojos azules»",
+   "options": [
+    "Anek begi urdinak dauzka.",
+    "Ane begi urdinak dauzka.",
+    "Anek begi urdinak dauka."
+   ],
+   "a": 0,
+   "why": "Sujeto con -k (Anek) y verbo en plural (dauzka) porque son varios ojos."
+  },
+  {
+   "type": "choice",
+   "q": "«¿Qué tienes?»",
+   "options": [
+    "Zer daukazu?",
+    "Zer zaude?",
+    "Zer da zu?"
+   ],
+   "a": 0,
+   "why": "tener = eduki; tú = daukazu."
+  },
+  {
+   "type": "choice",
+   "q": "«Tienen dos hijos»",
+   "options": [
+    "Bi seme dauzkate.",
+    "Bi seme daukate.",
+    "Bi semeak dauzkate."
+   ],
+   "a": 0,
+   "why": "Dos hijos = varias cosas (dauzk-), y el nombre tras número va sin artículo."
+  },
+  {
+   "type": "order",
+   "words": [
+    "bat",
+    "daukat",
+    "Kotxe"
+   ],
+   "a": [
+    "Kotxe bat daukat"
+   ],
+   "es": "Tengo un coche.",
+   "hint": "Nombre + bat + verbo."
+  },
+  {
+   "type": "order",
+   "words": [
+    "urdinak",
+    "Anek",
+    "dauzka",
+    "begi"
+   ],
+   "a": [
+    "Anek begi urdinak dauzka"
+   ],
+   "es": "Ane tiene los ojos azules.",
+   "hint": "Sujeto con -k, nombre + adjetivo, verbo al final."
+  },
+  {
+   "type": "order",
+   "words": [
+    "handi",
+    "Etxe",
+    "daukagu",
+    "bat"
+   ],
+   "a": [
+    "Etxe handi bat daukagu"
+   ],
+   "es": "Tenemos una casa grande.",
+   "hint": "Nombre + adjetivo + bat + verbo."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "daukat",
+     "tengo (una cosa)"
+    ],
+    [
+     "daukazu",
+     "tienes"
+    ],
+    [
+     "dauka",
+     "tiene"
+    ],
+    [
+     "daukagu",
+     "tenemos"
+    ],
+    [
+     "dauzkat",
+     "tengo (varias)"
+    ],
+    [
+     "dauzka",
+     "tiene (varias)"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Describe en 4 o 5 frases qué tienes (casa, mascota, objetos) y cómo es alguien de tu entorno (ile, begi…). Recuerda la -k del sujeto.",
+  "focus": "eduki (daukat / dauzkat), sujeto con -k, nombre + adjetivo + bat"
+ },
+ "links": {
+  "verbs": [
+   "syn-pres-2"
+  ],
+  "cases": [
+   "erg"
+  ],
+  "themes": [
+   "etxea",
+   "koloreak",
+   "adjektiboak"
+  ]
+ }
+}

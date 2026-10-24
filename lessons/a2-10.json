@@ -1,0 +1,323 @@
+{
+ "id": "a2-10",
+ "lvl": "A2",
+ "n": 10,
+ "title": "Ikusten zaitut",
+ "es": "NOR-NORK con personas",
+ "goal": "Decir «te quiero», «me ves», «nos conocen»: acciones entre personas.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "Hasta ahora, con **dut** el objeto siempre era una cosa: **liburua ikusi dut** (he visto el libro). ¿Y si lo que ves es una persona: me, te, nos, os? Entonces el auxiliar cambia de forma. La más famosa la conoces seguro: **Maite zaitut** (te quiero)."
+  },
+  {
+   "h": "La lógica",
+   "p": "En estas formas, **el principio indica a quién** ({nor:NOR}) y **el final indica quién lo hace** ({nork:NORK}). Las terminaciones de NORK son las de siempre: **-t** yo, **-zu** tú, nada para él/ella, **-gu** nosotros, **-zue** vosotros, **-te** ellos.",
+   "table": {
+    "head": [
+     "NOR (a quién)",
+     "Inicio",
+     "Ejemplos"
+    ],
+    "rows": [
+     [
+      "ni (me)",
+      "{nor:n-au-}",
+      "nau (él me), nauzu (tú me), naute (ellos me)"
+     ],
+     [
+      "zu (te)",
+      "{nor:zaitu-}",
+      "zaitut (yo te), zaitu (él te), zaitugu (nosotros te)"
+     ],
+     [
+      "gu (nos)",
+      "{nor:gaitu-}",
+      "gaitu (él nos), gaituzu (tú nos), gaituzte (ellos nos)"
+     ],
+     [
+      "zuek (os)",
+      "{nor:zaituzte-}",
+      "zaituztet (yo os), zaituzte (él os), zaituztegu (nosotros os)"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Las formas más útiles",
+   "p": "**Maite zaitut** (te quiero) · **Ulertzen nauzu?** (¿me entiendes?) · **Entzuten nauzu?** (¿me oyes?) · **Ezagutzen zaitut** (te conozco) · **Lagunduko zaitut** (te ayudaré) · **Gonbidatu gaituzte** (nos han invitado). Como siempre con este auxiliar, el sujeto lleva **-k**: **Mikelek ikusi nau** (Mikel me ha visto)."
+  },
+  {
+   "h": "Combinaciones que no existen",
+   "p": "No hay forma para «yo me» o «nosotros nos»: las acciones reflexivas se dicen de otra manera (lo verás más adelante). Por eso en las tablas de Taulak esas casillas aparecen rayadas."
+  },
+  {
+   "h": "Paso a paso: «Nuestros amigos nos han invitado»",
+   "p": "1) Sujeto con -k: **gure lagunek**. 2) Verbo: **gonbidatu**. 3) Auxiliar: a quién = nosotros (**gaitu-**), quién = ellos (**-zte**) → **gaituzte**. 4) **Gure lagunek gonbidatu gaituzte**."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Maite dut zu* → **Maite zaitut**. *Lagundu duzu ni* → **Lagundu nauzu**. *Mikel ikusten nau* → **Mikelek** (falta la -k). *Ulertzen zaitut?* para «¿me entiendes?» → **Ulertzen nauzu?** (zaitut es «te entiendo»)."
+  },
+  {
+   "h": "Resumen",
+   "p": "Inicio = a quién (**nau-** me, **zaitu-** te, **gaitu-** nos, **zaituzte-** os); final = quién (-t, -zu, -gu, -zue, -te). **Maite zaitut**, **Ulertzen nauzu?**, **Lagunduko zaitut**."
+  }
+ ],
+ "examples": [
+  [
+   "Maite zaitut.",
+   "Te quiero."
+  ],
+  [
+   "Ulertzen nauzu?",
+   "¿Me entiendes?"
+  ],
+  [
+   "Mikelek ikusi nau.",
+   "Mikel me ha visto."
+  ],
+  [
+   "Ezagutzen zaitut.",
+   "Te conozco."
+  ],
+  [
+   "Gure lagunek gonbidatu gaituzte.",
+   "Nuestros amigos nos han invitado."
+  ],
+  [
+   "Kalean ikusi zaituztet.",
+   "Os he visto en la calle."
+  ],
+  [
+   "Lagunduko zaitut.",
+   "Te ayudaré."
+  ]
+ ],
+ "dialog": {
+  "title": "Un reencuentro",
+  "lines": [
+   [
+    "Ane",
+    "Kaixo! Ezagutzen nauzu?",
+    "¡Hola! ¿Me conoces?"
+   ],
+   [
+    "Mikel",
+    "Bai! Ane zara, ezta? Eskolan askotan ikusten zaitut.",
+    "¡Sí! Eres Ane, ¿verdad? Te veo a menudo en la escuela."
+   ],
+   [
+    "Ane",
+    "Bai! Eta zu Mikel zara. Nire lagunek ezagutzen zaituzte.",
+    "¡Sí! Y tú eres Mikel. Mis amigos te conocen."
+   ],
+   [
+    "Mikel",
+    "Larunbatean festa bat egingo dugu. Gonbidatzen zaitut!",
+    "El sábado haremos una fiesta. ¡Te invito!"
+   ],
+   [
+    "Ane",
+    "Eskerrik asko! Festa prestatzen lagunduko zaitut.",
+    "¡Muchas gracias! Te ayudaré a preparar la fiesta."
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Maite ___.",
+   "es": "Te quiero.",
+   "a": [
+    "zaitut"
+   ],
+   "hint": "a quién = te (zaitu-), quién = yo (-t)."
+  },
+  {
+   "type": "gap",
+   "q": "Ulertzen ___?",
+   "es": "¿Me entiendes?",
+   "a": [
+    "nauzu"
+   ],
+   "hint": "a quién = me (nau-), quién = tú (-zu)."
+  },
+  {
+   "type": "gap",
+   "q": "Mikelek ikusi ___.",
+   "es": "Mikel me ha visto.",
+   "a": [
+    "nau"
+   ],
+   "hint": "a quién = me, quién = él → nau."
+  },
+  {
+   "type": "gap",
+   "q": "Gure lagunek gonbidatu ___.",
+   "es": "Nuestros amigos nos han invitado.",
+   "a": [
+    "gaituzte"
+   ],
+   "hint": "a quién = nos (gaitu-), quién = ellos (-zte)."
+  },
+  {
+   "type": "gap",
+   "q": "Lagunduko ___.",
+   "es": "Te ayudaré.",
+   "a": [
+    "zaitut"
+   ],
+   "hint": "a quién = te, quién = yo → zaitut."
+  },
+  {
+   "type": "gap",
+   "q": "Kalean ikusi ___.",
+   "es": "Os he visto en la calle.",
+   "a": [
+    "zaituztet"
+   ],
+   "hint": "a quién = os (zaituzte-), quién = yo (-t)."
+  },
+  {
+   "type": "choice",
+   "q": "«Te quiero»",
+   "options": [
+    "Maite zaitut.",
+    "Maite dut zu.",
+    "Maite nauzu."
+   ],
+   "a": 0,
+   "why": "Objeto «te»: zaitut. Maite nauzu es «me quieres»."
+  },
+  {
+   "type": "choice",
+   "q": "«Me has ayudado»",
+   "options": [
+    "Lagundu nauzu.",
+    "Lagundu zaitut.",
+    "Lagundu duzu."
+   ],
+   "a": 0,
+   "why": "a quién = me, quién = tú → nauzu."
+  },
+  {
+   "type": "choice",
+   "q": "«Nos conocen»",
+   "options": [
+    "Ezagutzen gaituzte.",
+    "Ezagutzen dituzte.",
+    "Ezagutzen gara."
+   ],
+   "a": 0,
+   "why": "a quién = nos, quién = ellos → gaituzte."
+  },
+  {
+   "type": "choice",
+   "q": "«Mikel me ve»",
+   "options": [
+    "Mikelek ikusten nau.",
+    "Mikel ikusten nau.",
+    "Mikelek ikusten naiz."
+   ],
+   "a": 0,
+   "why": "Sujeto con -k y auxiliar nau."
+  },
+  {
+   "type": "choice",
+   "q": "«¿Me oyes?»",
+   "options": [
+    "Entzuten nauzu?",
+    "Entzuten zaitut?",
+    "Entzuten duzu ni?"
+   ],
+   "a": 0,
+   "why": "Entzuten zaitut es «te oigo»."
+  },
+  {
+   "type": "order",
+   "words": [
+    "nau",
+    "Mikelek",
+    "ikusi"
+   ],
+   "a": [
+    "Mikelek ikusi nau"
+   ],
+   "es": "Mikel me ha visto.",
+   "hint": "Sujeto con -k + verbo + auxiliar."
+  },
+  {
+   "type": "order",
+   "words": [
+    "gaituzte",
+    "lagunek",
+    "Gure",
+    "gonbidatu"
+   ],
+   "a": [
+    "Gure lagunek gonbidatu gaituzte"
+   ],
+   "es": "Nuestros amigos nos han invitado.",
+   "hint": "Gure lagunek + verbo + auxiliar."
+  },
+  {
+   "type": "order",
+   "words": [
+    "zaitut",
+    "Bihar",
+    "lagunduko"
+   ],
+   "a": [
+    "Bihar lagunduko zaitut"
+   ],
+   "es": "Mañana te ayudaré.",
+   "hint": "Tiempo + verbo + auxiliar."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "nau",
+     "(él) me"
+    ],
+    [
+     "nauzu",
+     "(tú) me"
+    ],
+    [
+     "zaitut",
+     "(yo) te"
+    ],
+    [
+     "gaitu",
+     "(él) nos"
+    ],
+    [
+     "zaituztet",
+     "(yo) os"
+    ],
+    [
+     "naute",
+     "(ellos) me"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Escribe 5 frases sobre las personas de tu vida usando estas formas: quién te quiere, a quién conoces, quién te ayuda, a quién verás pronto y quién os ha invitado alguna vez.",
+  "focus": "NOR-NORK con objeto personal: nau, zaitut, gaitu, zaituztet…"
+ },
+ "links": {
+  "verbs": [
+   "nn-pres-x"
+  ],
+  "cases": [
+   "erg"
+  ],
+  "themes": [
+   "aditzak",
+   "pertsonak"
+  ]
+ }
+}

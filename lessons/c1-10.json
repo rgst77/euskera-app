@@ -1,0 +1,328 @@
+{
+ "id": "c1-10",
+ "lvl": "C1",
+ "n": 10,
+ "title": "Ahozkoa eta idatzia",
+ "es": "La lengua oral frente a la escrita",
+ "goal": "Entender el euskera hablado real, con sus partículas y simplificaciones, y saber cuándo usar el registro escrito.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "Has aprendido el euskera batua tal como se escribe. Al hablar con vascohablantes notarás diferencias: partículas, contracciones, frases incompletas y, según la zona, formas dialectales. No hace falta que hables así, pero sí que lo entiendas. Esta lección es un puente entre el euskera del curso y el de la calle."
+  },
+  {
+   "h": "Partículas del habla",
+   "table": {
+    "head": [
+     "Partícula",
+     "Uso",
+     "Ejemplo"
+    ],
+    "rows": [
+     [
+      "ba / bada",
+      "énfasis, «pues»",
+      "Ez dakit **ba**! / **Bada**, ni ez noa."
+     ],
+     [
+      "ea",
+      "«a ver», también pregunta",
+      "**Ea**, zer daukagu hemen?"
+     ],
+     [
+      "ezta?",
+      "«¿verdad?»",
+      "Bilbokoa zara, **ezta**?"
+     ],
+     [
+      "beno / tira",
+      "«bueno», resignación",
+      "**Beno**, ados. / **Tira**, goazen."
+     ],
+     [
+      "e?",
+      "confirmación al final",
+      "Bihar etorriko zara, **e**?"
+     ],
+     [
+      "ene! / jo!",
+      "sorpresa",
+      "**Ene**, zer ordu da!"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Rasgos del habla",
+   "p": "1) **Respuestas sin auxiliar**: — Etorriko zara? — **Etorriko!** 2) **Pronunciación encadenada**: *ez da* suena «ezta», *ez dut* suena «eztut». 3) **Orden más libre** y repeticiones. 4) **Frases cortas** unidas con **eta**. En el escrito, en cambio, se completan las frases y se usan conectores variados (B2-12)."
+  },
+  {
+   "h": "Formas dialectales que oirás",
+   "p": "Según la zona, algunos auxiliares suenan distinto. Por ejemplo, en Bizkaia es frecuente **dot** por *dut* y **naz** por *naiz*; en Gipuzkoa, **det** por *dut*. Son formas legítimas de los dialectos (euskalkiak). Basta con reconocerlas: el batua que has aprendido se entiende en todas partes."
+  },
+  {
+   "h": "Paso a paso: de oral a escrito",
+   "p": "Oral: «Beno, ba, ez dakit… etorriko naiz, e? Baina berandu, eh, lana daukat eta.» Escrito: **Etorriko naiz, baina berandu, lana daukadalako.** Se eliminan las partículas, se completa la estructura y se elige el conector adecuado."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "Escribir partículas orales (*ba, e?, beno*) en un texto formal. Pensar que las formas dialectales son errores. Intentar imitar un dialecto sin dominarlo: mejor un batua natural."
+  },
+  {
+   "h": "Resumen",
+   "p": "Oral: partículas (**ba, ea, ezta?, beno, tira, e?**), respuestas sin auxiliar, pronunciación encadenada, formas dialectales (**dot, naz, det**). Escrito: frases completas y conectores. Entiende el primero; usa el segundo cuando escribes."
+  }
+ ],
+ "examples": [
+  [
+   "Ez dakit ba!",
+   "¡Pues no lo sé!"
+  ],
+  [
+   "Ea, zer daukagu hemen?",
+   "A ver, ¿qué tenemos aquí?"
+  ],
+  [
+   "Bihar etorriko zara, e?",
+   "Mañana vendrás, ¿eh?"
+  ],
+  [
+   "Etorriko zara? Etorriko!",
+   "¿Vendrás? ¡Sí!"
+  ],
+  [
+   "Tira, goazen.",
+   "Bueno, vámonos."
+  ],
+  [
+   "Beno, ados.",
+   "Bueno, de acuerdo."
+  ]
+ ],
+ "dialog": {
+  "title": "En la cuadrilla",
+  "lines": [
+   [
+    "Jon",
+    "Aupa! Bihar mendira, e?",
+    "¡Hola! Mañana al monte, ¿eh?"
+   ],
+   [
+    "Miren",
+    "Beno… ez dakit ba. Lan pila daukat.",
+    "Bueno… pues no sé. Tengo un montón de trabajo."
+   ],
+   [
+    "Jon",
+    "Jo, Miren! Beti berdin. Etorriko zara?",
+    "¡Jo, Miren! Siempre igual. ¿Vendrás?"
+   ],
+   [
+    "Miren",
+    "Tira… etorriko!",
+    "Bueno… ¡vendré!"
+   ],
+   [
+    "Jon",
+    "Primeran! Zortzietan plazan, ezta?",
+    "¡Estupendo! A las ocho en la plaza, ¿verdad?"
+   ],
+   [
+    "Miren",
+    "Ados, ados.",
+    "Vale, vale."
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Ez dakit ___!",
+   "es": "¡Pues no lo sé!",
+   "a": [
+    "ba"
+   ],
+   "hint": "Partícula de énfasis: ba."
+  },
+  {
+   "type": "gap",
+   "q": "___, zer daukagu hemen?",
+   "es": "A ver, ¿qué tenemos aquí?",
+   "a": [
+    "ea"
+   ],
+   "hint": "«a ver» = ea."
+  },
+  {
+   "type": "gap",
+   "q": "Bilbokoa zara, ___?",
+   "es": "Eres de Bilbao, ¿verdad?",
+   "a": [
+    "ezta"
+   ],
+   "hint": "¿verdad? = ezta?"
+  },
+  {
+   "type": "gap",
+   "q": "___, goazen.",
+   "es": "Bueno, vámonos.",
+   "a": [
+    "tira"
+   ],
+   "hint": "Resignación: tira."
+  },
+  {
+   "type": "gap",
+   "q": "Etorriko zara? — ___!",
+   "es": "¿Vendrás? — ¡Sí!",
+   "a": [
+    "etorriko"
+   ],
+   "hint": "Respuesta oral sin auxiliar."
+  },
+  {
+   "type": "gap",
+   "q": "___, ados.",
+   "es": "Bueno, de acuerdo.",
+   "a": [
+    "beno"
+   ],
+   "hint": "«bueno» = beno."
+  },
+  {
+   "type": "choice",
+   "q": "En un correo formal, «Ez dakit ba» debería ser…",
+   "options": [
+    "Ez dakit.",
+    "Ba ez dakit.",
+    "Ez dakit ba, e?"
+   ],
+   "a": 0,
+   "why": "Se eliminan las partículas orales."
+  },
+  {
+   "type": "choice",
+   "q": "Si oyes «dot» en Bizkaia, equivale a…",
+   "options": [
+    "dut",
+    "dute",
+    "dago"
+   ],
+   "a": 0,
+   "why": "Forma dialectal de dut."
+  },
+  {
+   "type": "choice",
+   "q": "«Ez da» en la pronunciación rápida suena…",
+   "options": [
+    "«ezta»",
+    "«eda»",
+    "«ezda»"
+   ],
+   "a": 0,
+   "why": "Encadenamiento de z + d."
+  },
+  {
+   "type": "choice",
+   "q": "Respuesta oral típica a «Etorriko zara?»",
+   "options": [
+    "Etorriko!",
+    "Etorriko naizela.",
+    "Etorri naiz."
+   ],
+   "a": 0,
+   "why": "En la conversación se omite el auxiliar."
+  },
+  {
+   "type": "choice",
+   "q": "Versión escrita de «Berandu, lana daukat eta»",
+   "options": [
+    "Berandu, lana daukadalako.",
+    "Berandu lana daukat eta e.",
+    "Lana daukat eta berandu ba."
+   ],
+   "a": 0,
+   "why": "Conector de causa en lugar de la construcción oral."
+  },
+  {
+   "type": "order",
+   "words": [
+    "dakit",
+    "ba",
+    "Ez"
+   ],
+   "a": [
+    "Ez dakit ba"
+   ],
+   "es": "Pues no lo sé.",
+   "hint": "Ez dakit + ba."
+  },
+  {
+   "type": "order",
+   "words": [
+    "daukagu",
+    "zer",
+    "Ea",
+    "hemen"
+   ],
+   "a": [
+    "Ea zer daukagu hemen"
+   ],
+   "es": "A ver qué tenemos aquí.",
+   "hint": "Ea + pregunta."
+  },
+  {
+   "type": "order",
+   "words": [
+    "goazen",
+    "Tira"
+   ],
+   "a": [
+    "Tira goazen"
+   ],
+   "es": "Bueno, vámonos.",
+   "hint": "Partícula + verbo."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "ba",
+     "pues (énfasis)"
+    ],
+    [
+     "ea",
+     "a ver"
+    ],
+    [
+     "ezta?",
+     "¿verdad?"
+    ],
+    [
+     "tira",
+     "bueno (resignación)"
+    ],
+    [
+     "dot",
+     "dut (Bizkaia)"
+    ],
+    [
+     "det",
+     "dut (Gipuzkoa)"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Escribe un pequeño diálogo oral entre amigos (6 líneas) con partículas del habla, y después reescribe su contenido como un mensaje formal de 3 frases.",
+  "focus": "partículas orales (ba, ea, ezta?, beno, tira, e?), respuestas sin auxiliar, formas dialectales, paso a registro escrito"
+ },
+ "links": {
+  "verbs": [],
+  "cases": [],
+  "themes": [
+   "agurrak",
+   "lokailuak"
+  ]
+ }
+}

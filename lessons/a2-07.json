@@ -1,0 +1,335 @@
+{
+ "id": "a2-07",
+ "lvl": "A2",
+ "n": 7,
+ "title": "Konparazioak",
+ "es": "Comparar",
+ "goal": "Comparar personas, lugares y cosas: más que, el más, tan… como, demasiado.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "Comparar es muy útil para elegir, opinar y describir. En euskera, otra vez, todo se hace con terminaciones pegadas al adjetivo: **-ago** (más), **-en** (el más) y **-egi** (demasiado). Una vez las conoces, sirven para cualquier adjetivo."
+  },
+  {
+   "h": "Más… que: -ago y baino",
+   "p": "**handi → handiago** (más grande). El término de comparación va delante con **baino** («que»): **Bilbo Donostia baino handiagoa da** (Bilbao es más grande que San Sebastián). Fíjate en el orden: primero lo comparado, luego «Donostia baino», y el adjetivo con su artículo al final. Para «menos», **gutxiago**: **Hau hura baino gutxiago gustatzen zait**."
+  },
+  {
+   "h": "El más: -en",
+   "p": "**handi → handiena** (el más grande), **polit → politena** (el más bonito): **Hau da etxe handiena** (esta es la casa más grande). También se dice con partitivo: **etxerik handiena**."
+  },
+  {
+   "h": "Irregulares",
+   "table": {
+    "head": [
+     "Adjetivo",
+     "Más",
+     "El más"
+    ],
+    "rows": [
+     [
+      "on (bueno)",
+      "hobe (mejor)",
+      "onena (el mejor)"
+     ],
+     [
+      "asko (mucho)",
+      "gehiago (más)",
+      "gehien (lo que más)"
+     ],
+     [
+      "gutxi (poco)",
+      "gutxiago (menos)",
+      "gutxien (lo que menos)"
+     ],
+     [
+      "ondo (bien)",
+      "hobeto (mejor, adverbio)",
+      "ondoen (lo mejor)"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Tan… como y como",
+   "p": "**bezain** = tan… como: **Mikel Ane bezain altua da** (Mikel es tan alto como Ane). **bezala** = como (de la misma manera): **Zu bezala, ni ere Bilbokoa naiz** (como tú, yo también soy de Bilbao)."
+  },
+  {
+   "h": "Demasiado: -egi",
+   "p": "**garesti → garestiegia** (demasiado caro), **txiki → txikiegia** (demasiado pequeño). Con verbos y cantidades, **gehiegi**: **Gehiegi jaten duzu** (comes demasiado)."
+  },
+  {
+   "h": "Paso a paso: «Este piso es más caro que aquel»",
+   "p": "1) **Pisu hau** (este piso). 2) Término de comparación + baino: **hura baino**. 3) Adjetivo + -ago + artículo: **garestiagoa**. 4) **Pisu hau hura baino garestiagoa da**."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Bilbo handiagoa Donostia baino da* → **Bilbo Donostia baino handiagoa da**. *onagoa* → **hobea**. *hobeena* → **onena**. *oso garestiago* para «demasiado caro» → **garestiegia**."
+  },
+  {
+   "h": "Resumen",
+   "p": "**-ago** + **baino** (más… que) · **-en(a)** (el más) · **bezain** (tan… como) · **bezala** (como) · **-egi** (demasiado). Irregulares: **hobe / onena**, **gehiago / gehien**, **hobeto**."
+  }
+ ],
+ "examples": [
+  [
+   "Bilbo Donostia baino handiagoa da.",
+   "Bilbao es más grande que San Sebastián."
+  ],
+  [
+   "Ane Mikel baino altuagoa da.",
+   "Ane es más alta que Mikel."
+  ],
+  [
+   "Hau da etxe handiena.",
+   "Esta es la casa más grande."
+  ],
+  [
+   "Mikel Ane bezain altua da.",
+   "Mikel es tan alto como Ane."
+  ],
+  [
+   "Kafe hau hobea da.",
+   "Este café es mejor."
+  ],
+  [
+   "Pisu hau garestiegia da.",
+   "Este piso es demasiado caro."
+  ],
+  [
+   "Nik zuk baino gehiago irakurtzen dut.",
+   "Yo leo más que tú."
+  ]
+ ],
+ "dialog": {
+  "title": "Buscando piso",
+  "lines": [
+   [
+    "Nerea",
+    "Zer iruditzen zaizu pisu hau?",
+    "¿Qué te parece este piso?"
+   ],
+   [
+    "Jon",
+    "Polita da, baina beste hura baino txikiagoa da.",
+    "Es bonito, pero es más pequeño que aquel otro."
+   ],
+   [
+    "Nerea",
+    "Bai, baina merkeagoa da.",
+    "Sí, pero es más barato."
+   ],
+   [
+    "Jon",
+    "Egia. Hura garestiegia da.",
+    "Es verdad. Aquel es demasiado caro."
+   ],
+   [
+    "Nerea",
+    "Eta hau hondartzatik hurbilago dago.",
+    "Y este está más cerca de la playa."
+   ],
+   [
+    "Jon",
+    "Orduan, hau da onena!",
+    "¡Entonces este es el mejor!"
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Bilbo Donostia ___ handiagoa da.",
+   "es": "Bilbao es más grande que San Sebastián.",
+   "a": [
+    "baino"
+   ],
+   "hint": "«que» en la comparación = baino."
+  },
+  {
+   "type": "gap",
+   "q": "Ane Mikel baino altu___ da.",
+   "es": "Ane es más alta que Mikel.",
+   "a": [
+    "agoa"
+   ],
+   "hint": "-ago (más) + -a (artículo)."
+  },
+  {
+   "type": "gap",
+   "q": "Mikel Ane ___ altua da.",
+   "es": "Mikel es tan alto como Ane.",
+   "a": [
+    "bezain"
+   ],
+   "hint": "tan… como = bezain."
+  },
+  {
+   "type": "gap",
+   "q": "Hau da etxe handi___.",
+   "es": "Esta es la casa más grande.",
+   "a": [
+    "ena"
+   ],
+   "hint": "el más = -en + artículo."
+  },
+  {
+   "type": "gap",
+   "q": "Pisu hau garesti___ da.",
+   "es": "Este piso es demasiado caro.",
+   "a": [
+    "egia"
+   ],
+   "hint": "demasiado = -egi + artículo."
+  },
+  {
+   "type": "gap",
+   "q": "Kafe hau ___ da.",
+   "es": "Este café es mejor.",
+   "a": [
+    "hobea"
+   ],
+   "hint": "on → hobe (irregular) + artículo."
+  },
+  {
+   "type": "choice",
+   "q": "«Más grande que Bilbao»",
+   "options": [
+    "Bilbo baino handiagoa",
+    "Bilbo handiago baino",
+    "Bilboa baino handia"
+   ],
+   "a": 0,
+   "why": "Término + baino, y el adjetivo con -ago al final."
+  },
+  {
+   "type": "choice",
+   "q": "«Mejor»",
+   "options": [
+    "hobea",
+    "onagoa",
+    "onago"
+   ],
+   "a": 0,
+   "why": "on es irregular: hobe."
+  },
+  {
+   "type": "choice",
+   "q": "«El mejor»",
+   "options": [
+    "onena",
+    "hobeena",
+    "onagoena"
+   ],
+   "a": 0,
+   "why": "El superlativo de on es onena."
+  },
+  {
+   "type": "choice",
+   "q": "«Tan alto como Ane»",
+   "options": [
+    "Ane bezain altua",
+    "Ane baino altua",
+    "altua Ane bezala"
+   ],
+   "a": 0,
+   "why": "tan… como = bezain."
+  },
+  {
+   "type": "choice",
+   "q": "«Demasiado caro»",
+   "options": [
+    "garestiegia",
+    "oso garestiagoa",
+    "garestiena"
+   ],
+   "a": 0,
+   "why": "demasiado = -egi."
+  },
+  {
+   "type": "order",
+   "words": [
+    "baino",
+    "Bilbo",
+    "da",
+    "Donostia",
+    "handiagoa"
+   ],
+   "a": [
+    "Bilbo Donostia baino handiagoa da"
+   ],
+   "es": "Bilbao es más grande que San Sebastián.",
+   "hint": "Lo comparado + término + baino + adjetivo + da."
+  },
+  {
+   "type": "order",
+   "words": [
+    "bezain",
+    "Mikel",
+    "altua",
+    "da",
+    "Ane"
+   ],
+   "a": [
+    "Mikel Ane bezain altua da"
+   ],
+   "es": "Mikel es tan alto como Ane.",
+   "hint": "Lo comparado + término + bezain + adjetivo + da."
+  },
+  {
+   "type": "order",
+   "words": [
+    "garestiegia",
+    "Pisu",
+    "da",
+    "hau"
+   ],
+   "a": [
+    "Pisu hau garestiegia da"
+   ],
+   "es": "Este piso es demasiado caro.",
+   "hint": "Pisu hau + adjetivo con -egi + da."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "handiago",
+     "más grande"
+    ],
+    [
+     "handiena",
+     "el más grande"
+    ],
+    [
+     "hobe",
+     "mejor"
+    ],
+    [
+     "onena",
+     "el mejor"
+    ],
+    [
+     "gehiago",
+     "más"
+    ],
+    [
+     "gutxiago",
+     "menos"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Compara dos ciudades, dos personas o dos cosas que conozcas en 5 frases: usa más que, el más, tan… como y demasiado.",
+  "focus": "-ago + baino, -en(a), bezain, bezala, -egi, irregulares hobe/onena"
+ },
+ "links": {
+  "verbs": [],
+  "cases": [],
+  "themes": [
+   "adjektiboak",
+   "pertsonak"
+  ]
+ }
+}

@@ -1,0 +1,329 @@
+{
+ "id": "a1-12",
+ "lvl": "A1",
+ "n": 12,
+ "title": "Gustuak",
+ "es": "gustatu zait / zaizkit",
+ "goal": "Decir qué te gusta y qué no, y preguntar por los gustos de otros.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "Buenas noticias: «gustar» funciona en euskera casi igual que en español. Decimos «**me** gusta el café», no «yo gusto el café». En euskera también: la persona a quien le gusta va como «a mí, a ti…», y lo que gusta es el sujeto."
+  },
+  {
+   "h": "La estructura",
+   "p": "Lo que gusta ({nor:NOR}) + **gustatzen** + auxiliar que indica a quién ({nori:NORI}): **Kafea gustatzen zait** (me gusta el café). Si lo que gusta es plural, el auxiliar cambia: **Liburuak gustatzen zaizkit** (me gustan los libros).",
+   "table": {
+    "head": [
+     "NORI",
+     "Una cosa",
+     "Varias cosas"
+    ],
+    "rows": [
+     [
+      "(niri) a mí",
+      "{nori:zait}",
+      "{nori:zaizkit}"
+     ],
+     [
+      "(zuri) a ti",
+      "{nori:zaizu}",
+      "{nori:zaizkizu}"
+     ],
+     [
+      "(hari) a él / ella",
+      "{nori:zaio}",
+      "{nori:zaizkio}"
+     ],
+     [
+      "(guri) a nosotros",
+      "{nori:zaigu}",
+      "{nori:zaizkigu}"
+     ],
+     [
+      "(zuei) a vosotros",
+      "{nori:zaizue}",
+      "{nori:zaizkizue}"
+     ],
+     [
+      "(haiei) a ellos",
+      "{nori:zaie}",
+      "{nori:zaizkie}"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "«A Mikel le gusta»",
+   "p": "La persona lleva la terminación de «a» (dativo): **niri, zuri, hari, guri, zuei, haiei**. Con nombres: **-i** tras consonante (**Mikeli**) y **-ri** tras vocal (**Aneri**): **Mikeli kafea gustatzen zaio**. Ojo: aquí no se usa la -k de NORK."
+  },
+  {
+   "h": "Gustar hacer algo",
+   "p": "Para «me gusta leer», el verbo toma la forma **-tzea**: **Irakurtzea gustatzen zait** (me gusta leer), **Dantzatzea gustatzen zaigu** (nos gusta bailar). Se forma como -tzen, cambiando la n final por **-a**: irakurtzen → irakurtzea, ikasten → ikastea."
+  },
+  {
+   "h": "Negar, preguntar, matizar",
+   "p": "**Ez zait futbola gustatzen** (no me gusta el fútbol). **Zer gustatzen zaizu?** (¿qué te gusta?). **Asko** (mucho): **Musika asko gustatzen zait**. Para responder «a mí también / a mí no»: **Niri ere bai / Niri ez**."
+  },
+  {
+   "h": "Paso a paso: «A nosotros nos gustan los perros»",
+   "p": "1) A quién: **guri**. 2) Qué: **txakurrak** (plural). 3) gustatzen + auxiliar de «nosotros» en plural: **zaizkigu**. 4) **Guri txakurrak gustatzen zaizkigu**."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Kafea gustatzen dut* → **zait** (gustar usa NOR-NORI). *Txakurrak gustatzen zait* → **zaizkit** (lo que gusta es plural). *Mikelek kafea gustatzen zaio* → **Mikeli** (dativo, no -k). *Nik ere bai* tras gustatu → **Niri ere bai**."
+  },
+  {
+   "h": "Resumen",
+   "p": "Lo que gusta + **gustatzen** + **zait, zaizu, zaio, zaigu, zaizue, zaie**; en plural, **zaizki-**. Persona: **niri, zuri, hari…, Mikeli, Aneri**. Actividades: **-tzea gustatzen zait**."
+  }
+ ],
+ "examples": [
+  [
+   "Kafea gustatzen zait.",
+   "Me gusta el café."
+  ],
+  [
+   "Liburuak gustatzen zaizkit.",
+   "Me gustan los libros."
+  ],
+  [
+   "Zer gustatzen zaizu?",
+   "¿Qué te gusta?"
+  ],
+  [
+   "Ez zait futbola gustatzen.",
+   "No me gusta el fútbol."
+  ],
+  [
+   "Aneri musika asko gustatzen zaio.",
+   "A Ane le gusta mucho la música."
+  ],
+  [
+   "Irakurtzea gustatzen zait.",
+   "Me gusta leer."
+  ],
+  [
+   "Guri mendia gustatzen zaigu.",
+   "A nosotros nos gusta el monte."
+  ]
+ ],
+ "dialog": {
+  "title": "Conociéndose",
+  "lines": [
+   [
+    "Jon",
+    "Zer gustatzen zaizu?",
+    "¿Qué te gusta?"
+   ],
+   [
+    "Nerea",
+    "Musika asko gustatzen zait, eta irakurtzea ere bai.",
+    "Me gusta mucho la música, y leer también."
+   ],
+   [
+    "Jon",
+    "Futbola gustatzen zaizu?",
+    "¿Te gusta el fútbol?"
+   ],
+   [
+    "Nerea",
+    "Ez, ez zait futbola gustatzen. Eta zuri?",
+    "No, no me gusta el fútbol. ¿Y a ti?"
+   ],
+   [
+    "Jon",
+    "Niri bai! Baina mendia gehiago gustatzen zait.",
+    "¡A mí sí! Pero me gusta más el monte."
+   ],
+   [
+    "Nerea",
+    "Niri ere bai!",
+    "¡A mí también!"
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Kafea gustatzen ___.",
+   "es": "Me gusta el café.",
+   "a": [
+    "zait"
+   ],
+   "hint": "A mí, una cosa: zait."
+  },
+  {
+   "type": "gap",
+   "q": "Liburuak gustatzen ___.",
+   "es": "Me gustan los libros.",
+   "a": [
+    "zaizkit"
+   ],
+   "hint": "A mí, varias cosas: zaizkit."
+  },
+  {
+   "type": "gap",
+   "q": "Zer gustatzen ___?",
+   "es": "¿Qué te gusta?",
+   "a": [
+    "zaizu"
+   ],
+   "hint": "A ti, una cosa: zaizu."
+  },
+  {
+   "type": "gap",
+   "q": "Ez ___ futbola gustatzen.",
+   "es": "No me gusta el fútbol.",
+   "a": [
+    "zait"
+   ],
+   "hint": "En negativa el auxiliar va detrás de ez: ez zait…"
+  },
+  {
+   "type": "gap",
+   "q": "Aneri musika gustatzen ___.",
+   "es": "A Ane le gusta la música.",
+   "a": [
+    "zaio"
+   ],
+   "hint": "A él / ella, una cosa: zaio."
+  },
+  {
+   "type": "gap",
+   "q": "Guri mendia gustatzen ___.",
+   "es": "A nosotros nos gusta el monte.",
+   "a": [
+    "zaigu"
+   ],
+   "hint": "A nosotros, una cosa: zaigu."
+  },
+  {
+   "type": "choice",
+   "q": "«Me gustan los perros»",
+   "options": [
+    "Txakurrak gustatzen zaizkit.",
+    "Txakurrak gustatzen zait.",
+    "Txakurrak gustatzen dut."
+   ],
+   "a": 0,
+   "why": "Lo que gusta es plural → zaizkit."
+  },
+  {
+   "type": "choice",
+   "q": "«A Mikel le gusta el café»",
+   "options": [
+    "Mikeli kafea gustatzen zaio.",
+    "Mikelek kafea gustatzen zaio.",
+    "Mikel kafea gustatzen da."
+   ],
+   "a": 0,
+   "why": "La persona va en dativo (-i), no con -k."
+  },
+  {
+   "type": "choice",
+   "q": "«No me gusta»",
+   "options": [
+    "Ez zait gustatzen.",
+    "Ez gustatzen zait.",
+    "Gustatzen ez zait."
+   ],
+   "a": 0,
+   "why": "ez + auxiliar delante, gustatzen al final."
+  },
+  {
+   "type": "choice",
+   "q": "«A mí también» (respondiendo sobre gustos)",
+   "options": [
+    "Niri ere bai.",
+    "Ni ere bai.",
+    "Nik ere bai."
+   ],
+   "a": 0,
+   "why": "Con gustatu, la persona va en dativo: niri."
+  },
+  {
+   "type": "choice",
+   "q": "«Me gusta leer»",
+   "options": [
+    "Irakurtzea gustatzen zait.",
+    "Irakurri gustatzen zait.",
+    "Irakurtzen gustatzen zait."
+   ],
+   "a": 0,
+   "why": "Actividad que gusta: forma -tzea."
+  },
+  {
+   "type": "order",
+   "words": [
+    "zait",
+    "Kafea",
+    "gustatzen"
+   ],
+   "a": [
+    "Kafea gustatzen zait"
+   ],
+   "es": "Me gusta el café.",
+   "hint": "Lo que gusta + gustatzen + auxiliar."
+  },
+  {
+   "type": "order",
+   "words": [
+    "futbola",
+    "Ez",
+    "gustatzen",
+    "zait"
+   ],
+   "a": [
+    "Ez zait futbola gustatzen"
+   ],
+   "es": "No me gusta el fútbol.",
+   "hint": "ez + auxiliar, lo que gusta, gustatzen al final."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "zait",
+     "a mí"
+    ],
+    [
+     "zaizu",
+     "a ti"
+    ],
+    [
+     "zaio",
+     "a él / ella"
+    ],
+    [
+     "zaigu",
+     "a nosotros"
+    ],
+    [
+     "zaizue",
+     "a vosotros"
+    ],
+    [
+     "zaie",
+     "a ellos"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Escribe 5 frases sobre tus gustos: tres cosas que te gustan (una en plural), una que no te gusta, y qué le gusta a alguien de tu familia.",
+  "focus": "gustatzen + zait/zaizkit…, dativo (niri, Mikeli), -tzea para actividades"
+ },
+ "links": {
+  "verbs": [
+   "nni-pres"
+  ],
+  "cases": [
+   "dat"
+  ],
+  "themes": [
+   "aisialdia",
+   "janaria"
+  ]
+ }
+}

@@ -1,0 +1,288 @@
+{
+ "id": "b2-09",
+ "lvl": "B2",
+ "n": 9,
+ "title": "Perpaus luzeak",
+ "es": "Relativos largos y aposición",
+ "goal": "Describir personas y cosas con varias informaciones a la vez sin perder claridad.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "En el habla y en la escritura de nivel alto aparecen frases con mucha información sobre un mismo nombre: «el escritor que conocí ayer y que vive en Bilbao». El relativo vasco (oración delante del nombre) puede volverse pesado si se alarga demasiado. En esta lección aprendes a encadenarlo bien y conoces las alternativas que usan los buenos escritores."
+  },
+  {
+   "h": "Dos relativos para un nombre",
+   "p": "Se unen con **eta** delante del nombre: **Atzo ezagutu nuen eta Bilbon bizi den idazlea** (el escritor que conocí ayer y que vive en Bilbao). Cada oración lleva su -n."
+  },
+  {
+   "h": "El relativo explicativo: detrás y entre comas",
+   "p": "Cuando la información es un añadido (en español, entre comas), el euskera pone el relativo **detrás del nombre**, con artículo y entre comas: **Idazlea, Bilbon bizi dena, gaur etorriko da** (el escritor, que vive en Bilbao, vendrá hoy). Si el nombre lleva caso, el añadido también: **Idazleari, Bilbon bizi denari, deitu diot**."
+  },
+  {
+   "h": "La aposición",
+   "p": "Para explicar quién es alguien basta con poner otro nombre al lado, entre comas, con el mismo caso: **Mikel, nire laguna, medikua da** (Mikel, mi amigo, es médico). **Mikeli, nire lagunari, opari bat eman diot** (a Mikel, mi amigo, le he dado un regalo)."
+  },
+  {
+   "h": "Consejos de estilo",
+   "p": "1) Si el relativo es muy largo, **divide en dos frases**: es lo más natural en euskera. 2) A veces una palabra con **-ko** sustituye a todo un relativo: **Bilboko idazlea** en lugar de *Bilbon bizi den idazlea*. 3) Evita el calco del castellano con **zein** (*idazlea, zeinak Bilbon bizi den…*): aunque aparece en algunos textos, se considera poco natural."
+  },
+  {
+   "h": "Paso a paso: «Ane, mi prima, se casó con un chico que conocimos en Londres el año pasado»",
+   "p": "1) Aposición: **Ane, nire lehengusina,**. 2) Relativo en pasado delante del nombre: **iaz Londresen ezagutu genuen mutil batekin**. 3) Verbo: **ezkondu zen**. → **Ane, nire lehengusina, iaz Londresen ezagutu genuen mutil batekin ezkondu zen**."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Idazlea atzo ezagutu nuen eta Bilbon bizi da* → **Atzo ezagutu nuen eta Bilbon bizi den idazlea**. *Mikeli, nire laguna, …* → **nire lagunari** (mismo caso). *Mikel, Bilbon bizi den, …* → **bizi dena** (el explicativo lleva artículo)."
+  },
+  {
+   "h": "Resumen",
+   "p": "Varios relativos: **… -n eta … -n + nombre**. Explicativo: **nombre, … -na,** (con el mismo caso). Aposición: **Mikel, nire laguna,**. Estilo: frases más cortas, **-ko** en lugar de relativos, evitar **zein**."
+  }
+ ],
+ "examples": [
+  [
+   "Atzo ezagutu nuen eta Bilbon bizi den idazlea oso jatorra da.",
+   "El escritor que conocí ayer y que vive en Bilbao es muy majo."
+  ],
+  [
+   "Mikel, nire lagunik onena, medikua da.",
+   "Mikel, mi mejor amigo, es médico."
+  ],
+  [
+   "Mikeli, nire lagunari, opari bat eman diot.",
+   "A Mikel, mi amigo, le he dado un regalo."
+  ],
+  [
+   "Idazlea, Bilbon bizi dena, gaur etorriko da.",
+   "El escritor, que vive en Bilbao, vendrá hoy."
+  ],
+  [
+   "Gustatzen zaizkidan eta merkeak diren liburuak erosten ditut.",
+   "Compro los libros que me gustan y que son baratos."
+  ],
+  [
+   "Hau da Euskal Herriko herririk politena.",
+   "Este es el pueblo más bonito de Euskal Herria."
+  ]
+ ],
+ "dialog": {
+  "title": "Una foto de familia",
+  "lines": [
+   [
+    "Jon",
+    "Nor da argazkian dagoen neska hori?",
+    "¿Quién es esa chica que está en la foto?"
+   ],
+   [
+    "Ane",
+    "Miren da, nire lehengusina. Iaz Londresen ezagutu genuen mutil batekin ezkondu zen.",
+    "Es Miren, mi prima. Se casó con un chico que conocimos en Londres el año pasado."
+   ],
+   [
+    "Jon",
+    "Eta mutila, Londresen bizi zena, orain hemen bizi da?",
+    "¿Y el chico, que vivía en Londres, ahora vive aquí?"
+   ],
+   [
+    "Ane",
+    "Bai, Donostian bizi dira biak, hondartzatik hurbil dagoen etxe txiki batean.",
+    "Sí, viven los dos en San Sebastián, en una casa pequeña que está cerca de la playa."
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Atzo ezagutu nuen ___ Bilbon bizi den idazlea.",
+   "es": "El escritor que conocí ayer y que vive en Bilbao.",
+   "a": [
+    "eta"
+   ],
+   "hint": "Dos relativos se unen con eta."
+  },
+  {
+   "type": "gap",
+   "q": "Mikel, nire lagunik ___, medikua da.",
+   "es": "Mikel, mi mejor amigo, es médico.",
+   "a": [
+    "onena"
+   ],
+   "hint": "el mejor = onena."
+  },
+  {
+   "type": "gap",
+   "q": "Mikeli, nire laguna___, opari bat eman diot.",
+   "es": "A Mikel, mi amigo, le he dado un regalo.",
+   "a": [
+    "ri"
+   ],
+   "hint": "La aposición lleva el mismo caso: lagunari."
+  },
+  {
+   "type": "gap",
+   "q": "Idazlea, Bilbon bizi ___, gaur etorriko da.",
+   "es": "El escritor, que vive en Bilbao, vendrá hoy.",
+   "a": [
+    "dena"
+   ],
+   "hint": "Explicativo detrás del nombre: -n + -a."
+  },
+  {
+   "type": "gap",
+   "q": "Hondartzatik hurbil ___ etxe txiki bat.",
+   "es": "Una casa pequeña que está cerca de la playa.",
+   "a": [
+    "dagoen"
+   ],
+   "hint": "Relativo de dago."
+  },
+  {
+   "type": "gap",
+   "q": "Gustatzen zaizkidan eta merkeak ___ liburuak.",
+   "es": "Los libros que me gustan y que son baratos.",
+   "a": [
+    "diren"
+   ],
+   "hint": "Relativo de dira."
+  },
+  {
+   "type": "choice",
+   "q": "«El escritor que conocí ayer y que vive en Bilbao»",
+   "options": [
+    "atzo ezagutu nuen eta Bilbon bizi den idazlea",
+    "idazlea atzo ezagutu nuen eta Bilbon bizi da",
+    "atzo ezagutu nuen idazlea eta Bilbon bizi den"
+   ],
+   "a": 0,
+   "why": "Las dos oraciones van delante del nombre, unidas con eta."
+  },
+  {
+   "type": "choice",
+   "q": "«A Mikel, mi amigo, …»",
+   "options": [
+    "Mikeli, nire lagunari,",
+    "Mikeli, nire laguna,",
+    "Mikel, nire lagunari,"
+   ],
+   "a": 0,
+   "why": "La aposición repite el caso."
+  },
+  {
+   "type": "choice",
+   "q": "«Mikel, que vive en Bilbao, …» (explicativo)",
+   "options": [
+    "Mikel, Bilbon bizi dena,",
+    "Mikel, Bilbon bizi den,",
+    "Mikel, zeinak Bilbon bizi den,"
+   ],
+   "a": 0,
+   "why": "Explicativo: detrás, con artículo y entre comas."
+  },
+  {
+   "type": "choice",
+   "q": "Con un relativo muy largo, lo más natural es…",
+   "options": [
+    "dividir en dos frases",
+    "usar siempre «zein»",
+    "poner el relativo detrás sin artículo"
+   ],
+   "a": 0,
+   "why": "El euskera prefiere frases más cortas."
+  },
+  {
+   "type": "choice",
+   "q": "«El pueblo más bonito»",
+   "options": [
+    "herririk politena",
+    "politena herria",
+    "herri politenik"
+   ],
+   "a": 0,
+   "why": "Superlativo con partitivo: herririk politena."
+  },
+  {
+   "type": "order",
+   "words": [
+    "da",
+    "medikua",
+    "Mikel",
+    "laguna",
+    "nire"
+   ],
+   "a": [
+    "Mikel nire laguna medikua da"
+   ],
+   "es": "Mikel, mi amigo, es médico.",
+   "hint": "Nombre + aposición + resto."
+  },
+  {
+   "type": "order",
+   "words": [
+    "dagoen",
+    "hurbil",
+    "etxea",
+    "Hondartzatik"
+   ],
+   "a": [
+    "Hondartzatik hurbil dagoen etxea"
+   ],
+   "es": "La casa que está cerca de la playa.",
+   "hint": "Relativo + nombre."
+  },
+  {
+   "type": "order",
+   "words": [
+    "dena",
+    "bizi",
+    "Bilbon",
+    "Idazlea"
+   ],
+   "a": [
+    "Idazlea Bilbon bizi dena"
+   ],
+   "es": "El escritor, que vive en Bilbao.",
+   "hint": "Nombre + explicativo con -na."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "Bilbon bizi den idazlea",
+     "el escritor que vive en Bilbao"
+    ],
+    [
+     "Mikel, nire laguna",
+     "Mikel, mi amigo"
+    ],
+    [
+     "Mikeli, nire lagunari",
+     "a Mikel, mi amigo"
+    ],
+    [
+     "Bilbon bizi dena",
+     "que vive en Bilbao (explicativo)"
+    ],
+    [
+     "herririk politena",
+     "el pueblo más bonito"
+    ],
+    [
+     "bizi zena",
+     "que vivía"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Describe a tres personas importantes de tu vida en una o dos frases cada una, usando aposición, relativos encadenados con eta y algún relativo explicativo.",
+  "focus": "relativos coordinados, relativo explicativo -na entre comas, aposición con caso, estilo"
+ },
+ "links": {
+  "verbs": [],
+  "cases": [],
+  "themes": [
+   "familia",
+   "pertsonak"
+  ]
+ }
+}

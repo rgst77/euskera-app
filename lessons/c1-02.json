@@ -1,0 +1,330 @@
+{
+ "id": "c1-02",
+ "lvl": "C1",
+ "n": 2,
+ "title": "Subjuntibo osoa",
+ "es": "El subjuntivo completo",
+ "goal": "Expresar deseos, peticiones y finalidades con todas las personas: «quiero que me digas», «le llamé para que viniera».",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "En B1 aprendiste el subjuntivo para la finalidad (**uler dezazun**, para que lo entiendas). En C1 lo completas: lo usarás con **nahi** para expresar deseos sobre otros, en pasado y con tres protagonistas. Es el modo que más distingue un euskera avanzado."
+  },
+  {
+   "h": "Deseos sobre otra persona",
+   "p": "Cuando quieres que **otra persona** haga algo, se usa **nahi** + subjuntivo: **Nahi dut etor zaitezen** (quiero que vengas). Compara: **Etorri nahi dut** (quiero venir, yo mismo). **Nahi dut egia esan diezadazun** (quiero que me digas la verdad)."
+  },
+  {
+   "h": "Con tres protagonistas",
+   "table": {
+    "head": [
+     "Para que… (presente)",
+     "Forma",
+     "Ejemplo"
+    ],
+    "rows": [
+     [
+      "tú → a mí",
+      "{nori:diezadazun}",
+      "Nahi dut egia **esan diezadazun**."
+     ],
+     [
+      "tú → a él / ella",
+      "{nori:diezaiozun}",
+      "Aneri **eman diezaiozun** erosi dut."
+     ],
+     [
+      "él → a mí",
+      "{nori:diezadan}",
+      "Idatzi diot, egia **esan diezadan**."
+     ],
+     [
+      "él → a ti",
+      "{nori:diezazun}",
+      "Deituko diot, laguntza **eman diezazun**."
+     ],
+     [
+      "yo → a él",
+      "{nori:diezaiodan}",
+      "Bere helbidea behar dut, gutuna **bidal diezaiodan**."
+     ],
+     [
+      "él → a ellos",
+      "{nori:diezaien}",
+      "Idatziko diot, berri **eman diezaien**."
+     ]
+    ]
+   }
+  },
+  {
+   "h": "En pasado",
+   "p": "Si el verbo principal está en pasado, el subjuntivo también: **dadin → zedin**, **dezan → zezan**. **Deitu nion, etor zedin** (le llamé para que viniera). **Dirua utzi nion, liburua eros zezan** (le dejé dinero para que comprara el libro). **Nahi nuen egia esan ziezadan** (quería que me dijera la verdad). Serie completa sin objeto: **nendin, zintezen, zedin, gintezen, zintezten, zitezen**; con objeto: **nezan, zenezan, zezan, genezan, zenezaten, zezaten**."
+  },
+  {
+   "h": "Paso a paso: «Le escribí para que me enviara las fotos»",
+   "p": "1) Principal en pasado: **idatzi nion**. 2) Subordinada: raíz de bidali → **bidal**; él → a mí, objeto plural, pasado → en habla cuidada **ziezazkidan**, pero en un registro más sencillo basta con -tzeko: **Argazkiak bidaltzeko idatzi nion**. Cuando la forma es muy compleja, -tzeko es una alternativa natural y correcta."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Nahi dut zu etortzea* para «quiero que vengas» → **Nahi dut etor zaitezen**. *Deitu nion, etor dadin* → **zedin** (concordancia temporal). *Esan diezazun* para «que me diga» → **diezadan**. *Nahi dut egia esan didazula* → **diezadazun**."
+  },
+  {
+   "h": "Resumen",
+   "p": "Deseo sobre otro: **nahi dut + subjuntivo** (etor zaitezen). Tres protagonistas: **diezadazun, diezaiozun, diezadan, diezazun…**. Pasado: **zedin, zezan, ziezadan**. Alternativa sencilla cuando el sujeto lo permite: **-tzeko**."
+  }
+ ],
+ "examples": [
+  [
+   "Nahi dut etor zaitezen.",
+   "Quiero que vengas."
+  ],
+  [
+   "Nahi dut egia esan diezadazun.",
+   "Quiero que me digas la verdad."
+  ],
+  [
+   "Opari hau erosi dut, Aneri eman diezaiozun.",
+   "He comprado este regalo para que se lo des a Ane."
+  ],
+  [
+   "Idatzi diot, egia esan diezadan.",
+   "Le he escrito para que me diga la verdad."
+  ],
+  [
+   "Deitu nion, etor zedin.",
+   "Le llamé para que viniera."
+  ],
+  [
+   "Dirua utzi nion, liburua eros zezan.",
+   "Le dejé dinero para que comprara el libro."
+  ],
+  [
+   "Nahi nuen egia esan ziezadan.",
+   "Quería que me dijera la verdad."
+  ]
+ ],
+ "dialog": {
+  "title": "Preparando la reunión",
+  "lines": [
+   [
+    "Nerea",
+    "Zergatik deitu diozu Mikeli?",
+    "¿Por qué has llamado a Mikel?"
+   ],
+   [
+    "Jon",
+    "Bihar etor dadin. Nahi dut bileran egon dadin.",
+    "Para que venga mañana. Quiero que esté en la reunión."
+   ],
+   [
+    "Nerea",
+    "Eta txostena?",
+    "¿Y el informe?"
+   ],
+   [
+    "Jon",
+    "Bidali diot, irakur dezan eta iritzia eman diezadan.",
+    "Se lo he enviado, para que lo lea y me dé su opinión."
+   ],
+   [
+    "Nerea",
+    "Ondo. Atzo ere deitu nion, lehenago etor zedin, baina ez zuen erantzun.",
+    "Bien. Ayer también le llamé, para que viniera antes, pero no contestó."
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Nahi dut etor ___.",
+   "es": "Quiero que vengas.",
+   "a": [
+    "zaitezen"
+   ],
+   "hint": "Deseo sobre otro: subjuntivo, tú."
+  },
+  {
+   "type": "gap",
+   "q": "Nahi dut egia esan ___.",
+   "es": "Quiero que me digas la verdad.",
+   "a": [
+    "diezadazun"
+   ],
+   "hint": "tú → a mí: diezadazun."
+  },
+  {
+   "type": "gap",
+   "q": "Opari hau erosi dut, Aneri eman ___.",
+   "es": "…para que se lo des a Ane.",
+   "a": [
+    "diezaiozun"
+   ],
+   "hint": "tú → a él/ella: diezaiozun."
+  },
+  {
+   "type": "gap",
+   "q": "Idatzi diot, egia esan ___.",
+   "es": "Le he escrito para que me diga la verdad.",
+   "a": [
+    "diezadan"
+   ],
+   "hint": "él → a mí: diezadan."
+  },
+  {
+   "type": "gap",
+   "q": "Deitu nion, etor ___.",
+   "es": "Le llamé para que viniera.",
+   "a": [
+    "zedin"
+   ],
+   "hint": "Pasado, sin objeto: zedin."
+  },
+  {
+   "type": "gap",
+   "q": "Dirua utzi nion, liburua eros ___.",
+   "es": "Le dejé dinero para que comprara el libro.",
+   "a": [
+    "zezan"
+   ],
+   "hint": "Pasado, con objeto: zezan."
+  },
+  {
+   "type": "choice",
+   "q": "«Quiero que vengas»",
+   "options": [
+    "Nahi dut etor zaitezen.",
+    "Nahi dut etortzea zu.",
+    "Nahi dut etorriko zarela."
+   ],
+   "a": 0,
+   "why": "Deseo sobre otra persona: subjuntivo."
+  },
+  {
+   "type": "choice",
+   "q": "«Para que me lo diga (él)»",
+   "options": [
+    "esan diezadan",
+    "esan diezazun",
+    "esan dezan"
+   ],
+   "a": 0,
+   "why": "él → a mí: diezadan."
+  },
+  {
+   "type": "choice",
+   "q": "«Le llamé para que viniera»",
+   "options": [
+    "Deitu nion, etor zedin.",
+    "Deitu nion, etor dadin.",
+    "Deitu nion, etorriko zela."
+   ],
+   "a": 0,
+   "why": "Concordancia temporal: pasado → zedin."
+  },
+  {
+   "type": "choice",
+   "q": "«Para que se lo des (tú a él)»",
+   "options": [
+    "eman diezaiozun",
+    "eman diezadazun",
+    "eman dezazun"
+   ],
+   "a": 0,
+   "why": "tú → a él: diezaiozun."
+  },
+  {
+   "type": "choice",
+   "q": "«Quería que me dijera la verdad»",
+   "options": [
+    "Nahi nuen egia esan ziezadan.",
+    "Nahi nuen egia esan diezadan.",
+    "Nahi dut egia esan ziezadan."
+   ],
+   "a": 0,
+   "why": "Principal en pasado → subjuntivo en pasado."
+  },
+  {
+   "type": "order",
+   "words": [
+    "zaitezen",
+    "etor",
+    "dut",
+    "Nahi"
+   ],
+   "a": [
+    "Nahi dut etor zaitezen"
+   ],
+   "es": "Quiero que vengas.",
+   "hint": "Nahi dut + raíz + subjuntivo."
+  },
+  {
+   "type": "order",
+   "words": [
+    "diezadazun",
+    "esan",
+    "egia",
+    "dut",
+    "Nahi"
+   ],
+   "a": [
+    "Nahi dut egia esan diezadazun"
+   ],
+   "es": "Quiero que me digas la verdad.",
+   "hint": "Nahi dut + objeto + raíz + subjuntivo."
+  },
+  {
+   "type": "order",
+   "words": [
+    "zedin",
+    "etor",
+    "nion",
+    "Deitu"
+   ],
+   "a": [
+    "Deitu nion etor zedin"
+   ],
+   "es": "Le llamé para que viniera.",
+   "hint": "Principal en pasado + subjuntivo en pasado."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "dadin",
+     "para que (él) … (presente, sin objeto)"
+    ],
+    [
+     "zedin",
+     "para que (él) … (pasado, sin objeto)"
+    ],
+    [
+     "dezan",
+     "para que (él) … (presente, con objeto)"
+    ],
+    [
+     "zezan",
+     "para que (él) … (pasado, con objeto)"
+    ],
+    [
+     "diezadan",
+     "para que (él) me lo…"
+    ],
+    [
+     "diezaiozun",
+     "para que (tú) se lo…"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Escribe 5 frases sobre lo que quieres que hagan otras personas (Nahi dut … zaitezen / diezadazun…) y 2 frases en pasado sobre algo que hiciste para que otro hiciera algo.",
+  "focus": "nahi + subjuntivo, subjuntivo NOR-NORI-NORK, subjuntivo en pasado (zedin, zezan)"
+ },
+ "links": {
+  "verbs": [],
+  "cases": [],
+  "themes": [
+   "aditzak"
+  ]
+ }
+}

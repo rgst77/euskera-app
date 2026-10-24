@@ -1,0 +1,350 @@
+{
+ "id": "a1-16",
+ "lvl": "A1",
+ "n": 16,
+ "title": "Atzo",
+ "es": "El pasado: nintzen, nuen",
+ "goal": "Contar lo que hiciste ayer, el fin de semana pasado o el año pasado.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "Última lección del A1. Ya sabes decir «he ido» (joan naiz) para hoy. Para ayer o antes, el euskera usa otro tiempo: el verbo principal no cambia, pero el auxiliar pasa a pasado. Lo bueno es que los auxiliares en pasado siguen las mismas pistas de siempre."
+  },
+  {
+   "h": "La forma",
+   "p": "Participio + auxiliar en **pasado**. Sin objeto, **izan** en pasado. Con objeto, **ukan** en pasado (y el sujeto con -k).",
+   "table": {
+    "head": [
+     "Persona",
+     "Sin objeto (izan)",
+     "Con objeto (ukan)",
+     "Objeto plural"
+    ],
+    "rows": [
+     [
+      "ni / nik",
+      "{nor:nintzen}",
+      "{nork:nuen}",
+      "{nork:nituen}"
+     ],
+     [
+      "zu / zuk",
+      "{nor:zinen}",
+      "{nork:zenuen}",
+      "{nork:zenituen}"
+     ],
+     [
+      "hura / hark",
+      "{nor:zen}",
+      "{nork:zuen}",
+      "{nork:zituen}"
+     ],
+     [
+      "gu / guk",
+      "{nor:ginen}",
+      "{nork:genuen}",
+      "{nork:genituen}"
+     ],
+     [
+      "zuek",
+      "{nor:zineten}",
+      "{nork:zenuten}",
+      "{nork:zenituzten}"
+     ],
+     [
+      "haiek",
+      "{nor:ziren}",
+      "{nork:zuten}",
+      "{nork:zituzten}"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Las pistas",
+   "p": "Se mantienen las iniciales: **n-** yo, **z-** tú, **g-** nosotros. En pasado la 3.ª persona también empieza por **z-** (zen, zuen). Y casi todo termina en **-n**. **Atzo Bilbora joan nintzen** (ayer fui a Bilbao). **Atzo film bat ikusi nuen** (ayer vi una película)."
+  },
+  {
+   "h": "Hoy o ayer",
+   "p": "**gaur** (hoy) → presente: **Gaur joan naiz** (hoy he ido). **atzo** (ayer) → pasado: **Atzo joan nintzen** (ayer fui). Otras expresiones del pasado: **joan den astean** (la semana pasada), **iaz** (el año pasado), **duela bi egun** (hace dos días)."
+  },
+  {
+   "h": "Negar y preguntar",
+   "p": "Igual que siempre: **Ez nintzen joan** (no fui), **Ez nuen ikusi** (no lo vi). **Zer egin zenuen atzo?** (¿qué hiciste ayer?), **Nora joan zinen?** (¿adónde fuiste?)."
+  },
+  {
+   "h": "Paso a paso: «La semana pasada vimos a nuestros amigos»",
+   "p": "1) Verbo: **ikusi**. 2) ¿Objeto? Sí, y plural (gure lagunak) → ukan pasado, «nosotros», plural → **genituen**. 3) **Joan den astean gure lagunak ikusi genituen**."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Atzo joan naiz* → **joan nintzen** (atzo pide pasado). *Atzo arraina jan nintzen* → **jan nuen** (comer tiene objeto). *Gurasoak ikusi nuen* → **nituen** (objeto plural). *Ez ikusi nuen* → **Ez nuen ikusi**."
+  },
+  {
+   "h": "Resumen",
+   "p": "Pasado = participio + **nintzen, zinen, zen, ginen, zineten, ziren** (sin objeto) o **nuen, zenuen, zuen, genuen, zenuten, zuten** (con objeto; plural nituen…). Gaur → naiz/dut; atzo → nintzen/nuen. Con esto has completado el A1. Zorionak!"
+  }
+ ],
+ "examples": [
+  [
+   "Atzo Bilbora joan nintzen.",
+   "Ayer fui a Bilbao."
+  ],
+  [
+   "Atzo film bat ikusi nuen.",
+   "Ayer vi una película."
+  ],
+  [
+   "Joan den astean Gasteizera joan ginen.",
+   "La semana pasada fuimos a Vitoria-Gasteiz."
+  ],
+  [
+   "Anek liburu bat erosi zuen.",
+   "Ane compró un libro."
+  ],
+  [
+   "Ez nuen ezer jan.",
+   "No comí nada."
+  ],
+  [
+   "Zer egin zenuen atzo?",
+   "¿Qué hiciste ayer?"
+  ],
+  [
+   "Haiek berandu iritsi ziren.",
+   "Ellos llegaron tarde."
+  ]
+ ],
+ "dialog": {
+  "title": "El lunes, en el trabajo",
+  "lines": [
+   [
+    "Jon",
+    "Zer egin zenuen asteburuan?",
+    "¿Qué hiciste el fin de semana?"
+   ],
+   [
+    "Ane",
+    "Larunbatean mendira joan nintzen lagunekin.",
+    "El sábado fui al monte con los amigos."
+   ],
+   [
+    "Jon",
+    "Eta igandean?",
+    "¿Y el domingo?"
+   ],
+   [
+    "Ane",
+    "Igandean etxean geratu nintzen eta film bat ikusi nuen. Eta zuk?",
+    "El domingo me quedé en casa y vi una película. ¿Y tú?"
+   ],
+   [
+    "Jon",
+    "Ni Bilbora joan nintzen. Gurasoak ikusi nituen.",
+    "Yo fui a Bilbao. Vi a mis padres."
+   ],
+   [
+    "Ane",
+    "Oso ondo!",
+    "¡Muy bien!"
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Atzo Bilbora joan ___.",
+   "es": "Ayer fui a Bilbao.",
+   "a": [
+    "nintzen"
+   ],
+   "hint": "Ir → izan; pasado, yo → nintzen."
+  },
+  {
+   "type": "gap",
+   "q": "Atzo film bat ikusi ___.",
+   "es": "Ayer vi una película.",
+   "a": [
+    "nuen"
+   ],
+   "hint": "Ver → ukan; pasado, yo → nuen."
+  },
+  {
+   "type": "gap",
+   "q": "Zer egin ___ atzo?",
+   "es": "¿Qué hiciste ayer?",
+   "a": [
+    "zenuen"
+   ],
+   "hint": "Hacer → ukan; pasado, tú → zenuen."
+  },
+  {
+   "type": "gap",
+   "q": "Haiek berandu iritsi ___.",
+   "es": "Ellos llegaron tarde.",
+   "a": [
+    "ziren"
+   ],
+   "hint": "Llegar → izan; pasado, ellos → ziren."
+  },
+  {
+   "type": "gap",
+   "q": "Gurasoak ikusi ___.",
+   "es": "Vi a mis padres.",
+   "a": [
+    "nituen"
+   ],
+   "hint": "Objeto plural, yo → nituen."
+  },
+  {
+   "type": "gap",
+   "q": "Anek liburu bat erosi ___.",
+   "es": "Ane compró un libro.",
+   "a": [
+    "zuen"
+   ],
+   "hint": "Comprar → ukan; pasado, ella → zuen."
+  },
+  {
+   "type": "choice",
+   "q": "«Ayer comí pescado»",
+   "options": [
+    "Atzo arraina jan nuen.",
+    "Atzo arraina jan dut.",
+    "Atzo arraina jan nintzen."
+   ],
+   "a": 0,
+   "why": "atzo pide pasado; comer tiene objeto → nuen."
+  },
+  {
+   "type": "choice",
+   "q": "«Hoy he ido»",
+   "options": [
+    "Gaur joan naiz.",
+    "Gaur joan nintzen.",
+    "Gaur joan nuen."
+   ],
+   "a": 0,
+   "why": "gaur pide el perfecto con presente."
+  },
+  {
+   "type": "choice",
+   "q": "«Vinimos tarde»",
+   "options": [
+    "Berandu etorri ginen.",
+    "Berandu etorri genuen.",
+    "Berandu etorri gara."
+   ],
+   "a": 0,
+   "why": "Venir → izan; nosotros, pasado → ginen. Etorri gara es «hemos venido»."
+  },
+  {
+   "type": "choice",
+   "q": "«No lo vi»",
+   "options": [
+    "Ez nuen ikusi.",
+    "Ez nintzen ikusi.",
+    "Ez ikusi nuen."
+   ],
+   "a": 0,
+   "why": "Ver → ukan (nuen); ez + auxiliar delante."
+  },
+  {
+   "type": "choice",
+   "q": "«La semana pasada»",
+   "options": [
+    "joan den astean",
+    "datorren astean",
+    "aste honetan"
+   ],
+   "a": 0,
+   "why": "datorren astean = la semana que viene; aste honetan = esta semana."
+  },
+  {
+   "type": "order",
+   "words": [
+    "nintzen",
+    "Atzo",
+    "joan",
+    "Bilbora"
+   ],
+   "a": [
+    "Atzo Bilbora joan nintzen"
+   ],
+   "es": "Ayer fui a Bilbao.",
+   "hint": "Tiempo + lugar + verbo + auxiliar."
+  },
+  {
+   "type": "order",
+   "words": [
+    "nuen",
+    "Ez",
+    "ikusi"
+   ],
+   "a": [
+    "Ez nuen ikusi"
+   ],
+   "es": "No lo vi.",
+   "hint": "ez + auxiliar + verbo."
+  },
+  {
+   "type": "order",
+   "words": [
+    "zenuen",
+    "Zer",
+    "atzo",
+    "egin"
+   ],
+   "a": [
+    "Zer egin zenuen atzo",
+    "Atzo zer egin zenuen"
+   ],
+   "es": "¿Qué hiciste ayer?",
+   "hint": "La interrogativa va justo antes del verbo."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "nintzen",
+     "yo (sin objeto)"
+    ],
+    [
+     "nuen",
+     "yo (con objeto)"
+    ],
+    [
+     "zen",
+     "él/ella (sin objeto)"
+    ],
+    [
+     "zuen",
+     "él/ella (con objeto)"
+    ],
+    [
+     "ginen",
+     "nosotros (sin objeto)"
+    ],
+    [
+     "genuen",
+     "nosotros (con objeto)"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Cuenta en 5 o 6 frases qué hiciste el fin de semana pasado: adónde fuiste, con quién, qué comiste, qué viste y algo que no hiciste.",
+  "focus": "pasado: participio + nintzen/zinen/zen… o nuen/zenuen/zuen… (plural nituen…)"
+ },
+ "links": {
+  "verbs": [
+   "nor-past",
+   "nn-past-3"
+  ],
+  "cases": [],
+  "themes": [
+   "denbora",
+   "aditzak"
+  ]
+ }
+}

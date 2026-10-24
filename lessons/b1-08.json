@@ -1,0 +1,354 @@
+{
+ "id": "b1-08",
+ "lvl": "B1",
+ "n": 8,
+ "title": "Eman nion",
+ "es": "NOR-NORI-NORK en pasado",
+ "goal": "Contar en pasado lo que diste, dijiste o enviaste a alguien: «se lo di», «me lo dijo».",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "Con esta lección completas el último gran paradigma del indicativo. En el A2 aprendiste **diot** (se lo he…); ahora aprendes **nion** (se lo…, en pasado). La lógica es la del resto de pasados: la persona que hace la acción pasa al principio y todo termina en **-n**."
+  },
+  {
+   "h": "La estructura",
+   "p": "Inicio de {nork:NORK} (**n-** yo, **zen-** tú, **z-** él, **gen-** nosotros, **zen-…-te** vosotros, **z-…-te** ellos) + **i** + marca de {nori:NORI} (**-da-** a mí, **-zu-** a ti, **-o-** a él, **-gu-** a nosotros, **-zue-** a vosotros, **-e-** a ellos) + **-n**: n-i-o-n = **nion** (se lo… yo a él), z-i-da-n = **zidan** (me lo… él)."
+  },
+  {
+   "h": "La tabla",
+   "table": {
+    "head": [
+     "NORK ↓ / NORI →",
+     "a mí",
+     "a ti",
+     "a él / ella",
+     "a nosotros",
+     "a ellos"
+    ],
+    "rows": [
+     [
+      "nik",
+      "—",
+      "{nori:nizun}",
+      "{nori:nion}",
+      "—",
+      "{nori:nien}"
+     ],
+     [
+      "zuk",
+      "{nori:zenidan}",
+      "—",
+      "{nori:zenion}",
+      "{nori:zenigun}",
+      "{nori:zenien}"
+     ],
+     [
+      "hark",
+      "{nori:zidan}",
+      "{nori:zizun}",
+      "{nori:zion}",
+      "{nori:zigun}",
+      "{nori:zien}"
+     ],
+     [
+      "guk",
+      "—",
+      "{nori:genizun}",
+      "{nori:genion}",
+      "—",
+      "{nori:genien}"
+     ],
+     [
+      "haiek",
+      "{nori:zidaten}",
+      "{nori:zizuten}",
+      "{nori:zioten}",
+      "{nori:ziguten}",
+      "{nori:zieten}"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Objeto plural: -zki-",
+   "p": "Igual que en presente, se añade **-zki-** después de la i: **nion → nizkion** (se los di), **zidan → zizkidan** (me los dio). **Argazkiak erakutsi zizkidan** (me enseñó las fotos). **Zorionak eman nizkion** (lo felicité, literalmente «le di las felicitaciones»)."
+  },
+  {
+   "h": "Paso a paso: «Ellos no nos dijeron nada»",
+   "p": "1) Quién: ellos → **z-…-te**. 2) A quién: nosotros → **-gu-**. 3) z + i + gu + te + n → **ziguten**. 4) Negativa: **Haiek ez ziguten ezer esan**."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Atzo eman diot* → **eman nion** (atzo pide pasado). *Esan nion* para «me lo dijo» → **Esan zidan**. *Argazkiak erakutsi zidan* → **zizkidan** (plural). *Zuk esan zidan* → **Zuk esan zenidan**."
+  },
+  {
+   "h": "Resumen",
+   "p": "NOR-NORI-NORK pasado: inicio de NORK + **i** + NORI + **-n**: nion, nizun, zidan, zenidan, genion, zioten… Plural: **nizkion, zizkidan**. Con esto tienes todo el indicativo de los cuatro auxiliares."
+  }
+ ],
+ "examples": [
+  [
+   "Atzo opari bat eman nion.",
+   "Ayer le di un regalo."
+  ],
+  [
+   "Zer esan zizun?",
+   "¿Qué te dijo?"
+  ],
+  [
+   "Amak gutun bat bidali zidan.",
+   "Mi madre me envió una carta."
+  ],
+  [
+   "Argazkiak erakutsi zizkidan.",
+   "Me enseñó las fotos."
+  ],
+  [
+   "Zuk esan zenidan!",
+   "¡Tú me lo dijiste!"
+  ],
+  [
+   "Guk egia esan genion.",
+   "Nosotros le dijimos la verdad."
+  ],
+  [
+   "Haiek ez ziguten ezer esan.",
+   "Ellos no nos dijeron nada."
+  ]
+ ],
+ "dialog": {
+  "title": "Noticias de Mikel",
+  "lines": [
+   [
+    "Ane",
+    "Zer esan zizun Mikelek atzo?",
+    "¿Qué te dijo Mikel ayer?"
+   ],
+   [
+    "Jon",
+    "Berri ona eman zidan: Bilbon lan berri bat aurkitu duela.",
+    "Me dio una buena noticia: que ha encontrado un trabajo nuevo en Bilbao."
+   ],
+   [
+    "Ane",
+    "Benetan? Eta zuk zer esan zenion?",
+    "¿De verdad? ¿Y tú qué le dijiste?"
+   ],
+   [
+    "Jon",
+    "Zorionak eman nizkion, noski!",
+    "¡Lo felicité, claro!"
+   ],
+   [
+    "Ane",
+    "Niri ez zidan ezer esan…",
+    "A mí no me dijo nada…"
+   ],
+   [
+    "Jon",
+    "Agian ez zuen denborarik izan.",
+    "Quizás no tuvo tiempo."
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Atzo opari bat eman ___.",
+   "es": "Ayer le di un regalo.",
+   "a": [
+    "nion"
+   ],
+   "hint": "yo → a él, pasado: n-i-o-n."
+  },
+  {
+   "type": "gap",
+   "q": "Zer esan ___?",
+   "es": "¿Qué te dijo (él)?",
+   "a": [
+    "zizun"
+   ],
+   "hint": "él → a ti, pasado: z-i-zu-n."
+  },
+  {
+   "type": "gap",
+   "q": "Amak gutun bat bidali ___.",
+   "es": "Mi madre me envió una carta.",
+   "a": [
+    "zidan"
+   ],
+   "hint": "ella → a mí, pasado: z-i-da-n."
+  },
+  {
+   "type": "gap",
+   "q": "Argazkiak erakutsi ___.",
+   "es": "Me enseñó las fotos.",
+   "a": [
+    "zizkidan"
+   ],
+   "hint": "él → a mí, objeto plural: z-i-zki-da-n."
+  },
+  {
+   "type": "gap",
+   "q": "Zuk esan ___!",
+   "es": "¡Tú me lo dijiste!",
+   "a": [
+    "zenidan"
+   ],
+   "hint": "tú → a mí: zen-i-da-n."
+  },
+  {
+   "type": "gap",
+   "q": "Haiek ez ___ ezer esan.",
+   "es": "Ellos no nos dijeron nada.",
+   "a": [
+    "ziguten"
+   ],
+   "hint": "ellos → a nosotros: z-i-gu-te-n."
+  },
+  {
+   "type": "choice",
+   "q": "«Se lo di (a él)»",
+   "options": [
+    "Eman nion.",
+    "Eman diot.",
+    "Eman zidan."
+   ],
+   "a": 0,
+   "why": "Pasado, yo → a él: nion. Eman diot = se lo he dado."
+  },
+  {
+   "type": "choice",
+   "q": "«Me lo dijo (él)»",
+   "options": [
+    "Esan zidan.",
+    "Esan dit.",
+    "Esan nion."
+   ],
+   "a": 0,
+   "why": "Pasado, él → a mí: zidan."
+  },
+  {
+   "type": "choice",
+   "q": "«Me enseñó las fotos»",
+   "options": [
+    "Argazkiak erakutsi zizkidan.",
+    "Argazkiak erakutsi zidan.",
+    "Argazkiak erakutsi dizkit."
+   ],
+   "a": 0,
+   "why": "Pasado y objeto plural: zizkidan."
+  },
+  {
+   "type": "choice",
+   "q": "«Le dijimos la verdad»",
+   "options": [
+    "Egia esan genion.",
+    "Egia esan diogu.",
+    "Egia esan zigun."
+   ],
+   "a": 0,
+   "why": "Pasado, nosotros → a él: genion."
+  },
+  {
+   "type": "choice",
+   "q": "«Tú me lo dijiste»",
+   "options": [
+    "Zuk esan zenidan.",
+    "Zuk esan didazu.",
+    "Zuk esan zenion."
+   ],
+   "a": 0,
+   "why": "Pasado, tú → a mí: zenidan."
+  },
+  {
+   "type": "order",
+   "words": [
+    "nion",
+    "Atzo",
+    "bat",
+    "eman",
+    "opari"
+   ],
+   "a": [
+    "Atzo opari bat eman nion"
+   ],
+   "es": "Ayer le di un regalo.",
+   "hint": "Tiempo + objeto + verbo + auxiliar."
+  },
+  {
+   "type": "order",
+   "words": [
+    "zidan",
+    "Amak",
+    "bidali",
+    "gutun",
+    "bat"
+   ],
+   "a": [
+    "Amak gutun bat bidali zidan"
+   ],
+   "es": "Mi madre me envió una carta.",
+   "hint": "Sujeto con -k + objeto + verbo + auxiliar."
+  },
+  {
+   "type": "order",
+   "words": [
+    "ziguten",
+    "ezer",
+    "ez",
+    "Haiek",
+    "esan"
+   ],
+   "a": [
+    "Haiek ez ziguten ezer esan"
+   ],
+   "es": "Ellos no nos dijeron nada.",
+   "hint": "Haiek + ez + auxiliar + ezer + verbo."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "nion",
+     "yo → a él"
+    ],
+    [
+     "nizun",
+     "yo → a ti"
+    ],
+    [
+     "zidan",
+     "él → a mí"
+    ],
+    [
+     "zenidan",
+     "tú → a mí"
+    ],
+    [
+     "genion",
+     "nosotros → a él"
+    ],
+    [
+     "zioten",
+     "ellos → a él"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Cuenta en 5 frases una celebración pasada (un cumpleaños, una boda, una cena): qué regalaste y a quién, qué te regalaron, qué te dijeron y qué les dijiste tú.",
+  "focus": "NOR-NORI-NORK pasado (nion, zidan, zenidan, genion…), plural nizkion/zizkidan"
+ },
+ "links": {
+  "verbs": [
+   "nnn-past"
+  ],
+  "cases": [
+   "dat"
+  ],
+  "themes": [
+   "aditzak"
+  ]
+ }
+}

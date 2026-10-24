@@ -1,0 +1,330 @@
+{
+ "id": "b1-09",
+ "lvl": "B1",
+ "n": 9,
+ "title": "Ikastea gustatzen zait",
+ "es": "La nominalización: -tzea, -tzen, -tzeko",
+ "goal": "Usar verbos como si fueran nombres: «me gusta leer», «al llegar», «voy a nadar», «he aprendido a conducir».",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "En español usamos mucho el infinitivo: «leer es bueno», «al llegar», «voy a nadar». El euskera lo hace convirtiendo el verbo en un nombre con **-tzea**, y como es un nombre, puede llevar cualquier caso. Ya conoces dos piezas sueltas (**irakurtzea gustatzen zait** y **-tzeko**); hoy las ordenas en un sistema."
+  },
+  {
+   "h": "-tzea: el verbo como nombre",
+   "p": "Se forma igual que -tzen, cambiando la **n** por **a**: **irakurtzen → irakurtzea**, **ikasten → ikastea**, **egiten → egitea**. Funciona como sujeto u objeto: **Euskara ikastea ez da erraza** (aprender euskera no es fácil), **Erretzea debekatuta dago** (está prohibido fumar), **Irakurtzea gustatzen zait** (me gusta leer)."
+  },
+  {
+   "h": "-tzea con casos",
+   "table": {
+    "head": [
+     "Forma",
+     "Significado",
+     "Ejemplo"
+    ],
+    "rows": [
+     [
+      "-tzean (NON)",
+      "al + infinitivo",
+      "**Etxera iristean**, afaria prestatu nuen (al llegar a casa…)"
+     ],
+     [
+      "-tzera (NORA)",
+      "a + infinitivo (con movimiento)",
+      "Hondartzara noa **igeri egitera** (voy a la playa a nadar)"
+     ],
+     [
+      "-tzeko",
+      "para / de",
+      "**Ulertzeko erraza** da (es fácil de entender)"
+     ],
+     [
+      "-tzeak (NORK)",
+      "sujeto de verbo con objeto",
+      "**Kirola egiteak** osasuna hobetzen du"
+     ],
+     [
+      "-tzeari (NORI)",
+      "con utzi: dejar de",
+      "**Erretzeari utzi diot** (he dejado de fumar)"
+     ],
+     [
+      "-tzeaz",
+      "sobre, de",
+      "**Bidaiatzeaz** hitz egin dugu"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "-tzen con ciertos verbos",
+   "p": "Algunos verbos piden el verbo en **-tzen**: **hasi** (empezar a): **Euskara ikasten hasi naiz**; **ikasi** (aprender a): **Gidatzen ikasi dut**; **jakin** (saber): **Igeri egiten dakit**; **ari** (estar…-ndo). Y con **-tzeko**: **prest egon** (estar listo para): **Prest nago joateko**; **gogoa izan** (tener ganas de): **Gogoa daukat zu ikusteko**."
+  },
+  {
+   "h": "Paso a paso: «Al terminar el trabajo, iré a correr»",
+   "p": "1) «al terminar»: bukatu → bukatzen → **bukatzean**: **lana bukatzean**. 2) «a correr» (con movimiento): korrika egin → **korrika egitera**. 3) **Lana bukatzean, korrika egitera joango naiz**."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Irakurtzen gustatzen zait* → **Irakurtzea**. *Etxera iristen, afaldu nuen* → **iristean**. *Euskara ikastea hasi naiz* → **ikasten hasi naiz**. *Erretzea utzi dut* → **Erretzeari utzi diot**."
+  },
+  {
+   "h": "Resumen",
+   "p": "**-tzea** = el verbo como nombre (irakurtzea, ikastea). Con casos: **-tzean** (al…), **-tzera** (a… con movimiento), **-tzeko** (para / de), **-tzeari utzi** (dejar de). **-tzen** con hasi, ikasi, jakin, ari."
+  }
+ ],
+ "examples": [
+  [
+   "Irakurtzea gustatzen zait.",
+   "Me gusta leer."
+  ],
+  [
+   "Euskara ikastea ez da erraza.",
+   "Aprender euskera no es fácil."
+  ],
+  [
+   "Etxera iristean, afaria prestatu nuen.",
+   "Al llegar a casa, preparé la cena."
+  ],
+  [
+   "Hondartzara noa igeri egitera.",
+   "Voy a la playa a nadar."
+  ],
+  [
+   "Gidatzen ikasi dut.",
+   "He aprendido a conducir."
+  ],
+  [
+   "Liburu hau ulertzeko erraza da.",
+   "Este libro es fácil de entender."
+  ],
+  [
+   "Erretzeari utzi diot.",
+   "He dejado de fumar."
+  ]
+ ],
+ "dialog": {
+  "title": "Aficiones",
+  "lines": [
+   [
+    "Ane",
+    "Zer egitea gustatzen zaizu asteburuetan?",
+    "¿Qué te gusta hacer los fines de semana?"
+   ],
+   [
+    "Jon",
+    "Mendira joatea gustatzen zait, eta lagunekin afaltzea.",
+    "Me gusta ir al monte, y cenar con los amigos."
+   ],
+   [
+    "Ane",
+    "Nik sukaldatzen ikasi nahi dut.",
+    "Yo quiero aprender a cocinar."
+   ],
+   [
+    "Jon",
+    "Erraza da hasteko! Etxera iristean, errezeta bat bidaliko dizut.",
+    "¡Es fácil para empezar! Al llegar a casa, te enviaré una receta."
+   ],
+   [
+    "Ane",
+    "Primeran! Gogo handia daukat ikasteko.",
+    "¡Estupendo! Tengo muchas ganas de aprender."
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Irakur___ gustatzen zait.",
+   "es": "Me gusta leer.",
+   "a": [
+    "tzea"
+   ],
+   "hint": "El verbo como nombre: -tzea."
+  },
+  {
+   "type": "gap",
+   "q": "Euskara ikas___ ez da erraza.",
+   "es": "Aprender euskera no es fácil.",
+   "a": [
+    "tea"
+   ],
+   "hint": "ikasten → ikastea."
+  },
+  {
+   "type": "gap",
+   "q": "Etxera iris___, afaria prestatu nuen.",
+   "es": "Al llegar a casa, preparé la cena.",
+   "a": [
+    "tean"
+   ],
+   "hint": "«al + infinitivo» = -tzean."
+  },
+  {
+   "type": "gap",
+   "q": "Hondartzara noa igeri egi___.",
+   "es": "Voy a la playa a nadar.",
+   "a": [
+    "tera"
+   ],
+   "hint": "Con movimiento: -tzera."
+  },
+  {
+   "type": "gap",
+   "q": "Gidatzen ___ dut.",
+   "es": "He aprendido a conducir.",
+   "a": [
+    "ikasi"
+   ],
+   "hint": "aprender a = -tzen + ikasi."
+  },
+  {
+   "type": "gap",
+   "q": "Erretzea___ utzi diot.",
+   "es": "He dejado de fumar.",
+   "a": [
+    "ri"
+   ],
+   "hint": "dejar de = -tzeari utzi."
+  },
+  {
+   "type": "choice",
+   "q": "«Me gusta leer»",
+   "options": [
+    "Irakurtzea gustatzen zait.",
+    "Irakurtzen gustatzen zait.",
+    "Irakurri gustatzen zait."
+   ],
+   "a": 0,
+   "why": "El verbo como nombre: -tzea."
+  },
+  {
+   "type": "choice",
+   "q": "«Al llegar a casa»",
+   "options": [
+    "Etxera iristean",
+    "Etxera iristen",
+    "Etxera iristeko"
+   ],
+   "a": 0,
+   "why": "-tzean = al + infinitivo."
+  },
+  {
+   "type": "choice",
+   "q": "«He empezado a aprender euskera»",
+   "options": [
+    "Euskara ikasten hasi naiz.",
+    "Euskara ikastea hasi naiz.",
+    "Euskara ikasteko hasi dut."
+   ],
+   "a": 0,
+   "why": "hasi pide -tzen."
+  },
+  {
+   "type": "choice",
+   "q": "«Fácil de entender»",
+   "options": [
+    "ulertzeko erraza",
+    "ulertzen erraza",
+    "ulertu erraza"
+   ],
+   "a": 0,
+   "why": "«de» tras adjetivo: -tzeko."
+  },
+  {
+   "type": "choice",
+   "q": "«Voy a la playa a nadar»",
+   "options": [
+    "Hondartzara noa igeri egitera.",
+    "Hondartzara noa igeri egitea.",
+    "Hondartzara noa igeri egiten."
+   ],
+   "a": 0,
+   "why": "Con movimiento: -tzera."
+  },
+  {
+   "type": "order",
+   "words": [
+    "gustatzen",
+    "zait",
+    "Irakurtzea"
+   ],
+   "a": [
+    "Irakurtzea gustatzen zait"
+   ],
+   "es": "Me gusta leer.",
+   "hint": "Actividad + gustatzen zait."
+  },
+  {
+   "type": "order",
+   "words": [
+    "da",
+    "erraza",
+    "ez",
+    "ikastea",
+    "Euskara"
+   ],
+   "a": [
+    "Euskara ikastea ez da erraza"
+   ],
+   "es": "Aprender euskera no es fácil.",
+   "hint": "Euskara ikastea + ez da + erraza."
+  },
+  {
+   "type": "order",
+   "words": [
+    "hasi",
+    "naiz",
+    "ikasten",
+    "Euskara"
+   ],
+   "a": [
+    "Euskara ikasten hasi naiz"
+   ],
+   "es": "He empezado a aprender euskera.",
+   "hint": "Objeto + -tzen + hasi naiz."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "irakurtzea",
+     "leer (el hecho de)"
+    ],
+    [
+     "iristean",
+     "al llegar"
+    ],
+    [
+     "igeri egitera",
+     "a nadar (con movimiento)"
+    ],
+    [
+     "ulertzeko",
+     "para / de entender"
+    ],
+    [
+     "ikasten hasi",
+     "empezar a aprender"
+    ],
+    [
+     "erretzeari utzi",
+     "dejar de fumar"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Escribe 5 frases: qué te gusta hacer, algo que es difícil para ti, qué haces al llegar a casa, algo que has aprendido a hacer y algo que has dejado (o quieres dejar) de hacer.",
+  "focus": "-tzea y sus casos (-tzean, -tzera, -tzeko, -tzeari utzi), -tzen con hasi/ikasi"
+ },
+ "links": {
+  "verbs": [],
+  "cases": [],
+  "themes": [
+   "aditzak",
+   "aisialdia"
+  ]
+ }
+}

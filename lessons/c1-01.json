@@ -1,0 +1,357 @@
+{
+ "id": "c1-01",
+ "lvl": "C1",
+ "n": 1,
+ "title": "Paradigmen errepasoa",
+ "es": "Repaso completo de paradigmas",
+ "goal": "Tener una visión de conjunto de todo el sistema verbal y elegir la forma correcta con rapidez.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "Bienvenido al C1. Has aprendido el sistema verbal pieza a pieza durante cuatro niveles. Antes de completarlo con las últimas formas, conviene verlo entero de una vez, como un mapa. Esta lección no introduce nada nuevo: te da un método para elegir cualquier forma en tres preguntas."
+  },
+  {
+   "h": "Las tres preguntas",
+   "p": "1) **¿Quién participa?** Solo un sujeto sin objeto → {nor:NOR} (izan). Sujeto + objeto → {nork:NOR-NORK} (ukan). Algo le pasa a alguien → {nori:NOR-NORI}. Alguien da algo a alguien → NOR-NORI-NORK. 2) **¿Qué tiempo o modo?** Presente, pasado, condicional, potencial, subjuntivo o imperativo. 3) **¿Qué personas?** Las marcas de siempre: n- / -t (yo), z- / -zu (tú), g- / -gu (nosotros)…"
+  },
+  {
+   "h": "El mapa (forma de «yo» como ejemplo)",
+   "table": {
+    "head": [
+     "",
+     "NOR",
+     "NOR-NORK (lo)",
+     "NOR-NORI (a mí)",
+     "NOR-NORI-NORK (yo → a él)"
+    ],
+    "rows": [
+     [
+      "Presente",
+      "naiz",
+      "dut",
+      "zait",
+      "diot"
+     ],
+     [
+      "Pasado",
+      "nintzen",
+      "nuen",
+      "zitzaidan",
+      "nion"
+     ],
+     [
+      "Condicional",
+      "nintzateke",
+      "nuke",
+      "litzaidake",
+      "(nioke)"
+     ],
+     [
+      "Potencial",
+      "naiteke",
+      "dezaket",
+      "—",
+      "(diezaioket, lección 3)"
+     ],
+     [
+      "Subjuntivo",
+      "nadin",
+      "dezadan",
+      "—",
+      "(diezaiodan, lección 2)"
+     ],
+     [
+      "Imperativo (tú)",
+      "zaitez",
+      "ezazu",
+      "—",
+      "iezaiozu"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "La otra mitad: el verbo principal",
+   "p": "El auxiliar va siempre con una forma del verbo principal que marca el aspecto: **participio** (ikusi: acción acabada), **-tzen** (ikusten: habitual o en curso), **-ko** (ikusiko: futuro o hipotético) y **raíz** (ikus: subjuntivo, imperativo y potencial cuidado). **Ikusi dut / ikusten dut / ikusiko dut / ikus dezadan**."
+  },
+  {
+   "h": "Paso a paso: «Si me lo hubieras dicho, habría venido»",
+   "p": "1) Condición: decir, tú → a mí; hipotético pasado: **esan izan bazenit**. 2) Consecuencia: venir, sin objeto (NOR), condicional pasado, yo: **etorriko nintzatekeen**. → **Esan izan bazenit, etorriko nintzatekeen**. Con las tres preguntas, incluso esta frase se construye sola."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "Elegir el auxiliar por la traducción española en lugar de por los participantes: «me gusta» no es *gustatzen dut* sino **zait**; «te ayudo» no es *laguntzen dizut* sino **zaitut**. Confundir aspecto: *ikusten dut* (veo) frente a **ikusi dut** (he visto)."
+  },
+  {
+   "h": "Resumen",
+   "p": "Tres preguntas: **participantes → tiempo/modo → personas**. Cuatro familias (NOR, NOR-NORK, NOR-NORI, NOR-NORI-NORK) y cuatro formas del verbo principal (participio, -tzen, -ko, raíz)."
+  }
+ ],
+ "examples": [
+  [
+   "Etorri naiz.",
+   "He venido."
+  ],
+  [
+   "Atzo ikusi zintudan.",
+   "Ayer te vi."
+  ],
+  [
+   "Pelikula gustatu zitzaidan.",
+   "Me gustó la película."
+  ],
+  [
+   "Opari bat eman diot.",
+   "Le he dado un regalo."
+  ],
+  [
+   "Denbora banu, etorriko nintzateke.",
+   "Si tuviera tiempo, vendría."
+  ],
+  [
+   "Bihar etorri naiteke.",
+   "Mañana puedo venir."
+  ],
+  [
+   "Eser zaitez!",
+   "¡Siéntate!"
+  ]
+ ],
+ "dialog": {
+  "title": "Un repaso rápido",
+  "lines": [
+   [
+    "Irakaslea",
+    "«Te vi ayer»: nola esaten da?",
+    "«Te vi ayer»: ¿cómo se dice?"
+   ],
+   [
+    "Ikaslea",
+    "Atzo ikusi zintudan.",
+    "Atzo ikusi zintudan."
+   ],
+   [
+    "Irakaslea",
+    "Ondo! Eta «me gustó»?",
+    "¡Bien! ¿Y «me gustó»?"
+   ],
+   [
+    "Ikaslea",
+    "Gustatu zitzaidan.",
+    "Gustatu zitzaidan."
+   ],
+   [
+    "Irakaslea",
+    "Eta «si tuviera tiempo, vendría»?",
+    "¿Y «si tuviera tiempo, vendría»?"
+   ],
+   [
+    "Ikaslea",
+    "Denbora banu, etorriko nintzateke.",
+    "Denbora banu, etorriko nintzateke."
+   ],
+   [
+    "Irakaslea",
+    "Primeran! Paradigma nagusiak menderatzen dituzu.",
+    "¡Estupendo! Dominas los paradigmas principales."
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Atzo ikusi ___.",
+   "es": "Ayer te vi.",
+   "a": [
+    "zintudan"
+   ],
+   "hint": "NOR-NORK pasado, yo → te."
+  },
+  {
+   "type": "gap",
+   "q": "Pelikula gustatu ___.",
+   "es": "Me gustó la película.",
+   "a": [
+    "zitzaidan"
+   ],
+   "hint": "NOR-NORI pasado, a mí."
+  },
+  {
+   "type": "gap",
+   "q": "Opari bat eman ___.",
+   "es": "Le he dado un regalo.",
+   "a": [
+    "diot"
+   ],
+   "hint": "NOR-NORI-NORK presente, yo → a él."
+  },
+  {
+   "type": "gap",
+   "q": "Denbora banu, etorriko ___.",
+   "es": "Si tuviera tiempo, vendría.",
+   "a": [
+    "nintzateke"
+   ],
+   "hint": "NOR condicional, yo."
+  },
+  {
+   "type": "gap",
+   "q": "Bihar etorri ___.",
+   "es": "Mañana puedo venir.",
+   "a": [
+    "naiteke"
+   ],
+   "hint": "NOR potencial, yo."
+  },
+  {
+   "type": "gap",
+   "q": "Eser ___!",
+   "es": "¡Siéntate!",
+   "a": [
+    "zaitez"
+   ],
+   "hint": "NOR imperativo, tú."
+  },
+  {
+   "type": "choice",
+   "q": "«Se me ha olvidado»: ¿qué familia?",
+   "options": [
+    "NOR-NORI (zait)",
+    "NOR-NORK (dut)",
+    "NOR (naiz)"
+   ],
+   "a": 0,
+   "why": "Algo le pasa a alguien: NOR-NORI."
+  },
+  {
+   "type": "choice",
+   "q": "«Le he dado el libro»: ¿qué familia?",
+   "options": [
+    "NOR-NORI-NORK (diot)",
+    "NOR-NORK (dut)",
+    "NOR-NORI (zaio)"
+   ],
+   "a": 0,
+   "why": "Alguien da algo a alguien."
+  },
+  {
+   "type": "choice",
+   "q": "«Podría venir»",
+   "options": [
+    "ninteke",
+    "naiteke",
+    "nintzateke"
+   ],
+   "a": 0,
+   "why": "Potencial hipotético. Naiteke = puedo; nintzateke = vendría."
+  },
+  {
+   "type": "choice",
+   "q": "«Para que vengas»",
+   "options": [
+    "etor zaitezen",
+    "etortzeko zu",
+    "etor zaitez"
+   ],
+   "a": 0,
+   "why": "Subjuntivo: raíz + zaitezen. Etor zaitez es imperativo."
+  },
+  {
+   "type": "choice",
+   "q": "«Me viste»",
+   "options": [
+    "ninduzun",
+    "zintudan",
+    "nauzu"
+   ],
+   "a": 0,
+   "why": "NOR-NORK pasado, tú → me. Nauzu es presente."
+  },
+  {
+   "type": "order",
+   "words": [
+    "zintudan",
+    "ikusi",
+    "Atzo"
+   ],
+   "a": [
+    "Atzo ikusi zintudan"
+   ],
+   "es": "Ayer te vi.",
+   "hint": "Tiempo + participio + auxiliar."
+  },
+  {
+   "type": "order",
+   "words": [
+    "nintzateke",
+    "etorriko",
+    "banu",
+    "Denbora"
+   ],
+   "a": [
+    "Denbora banu etorriko nintzateke",
+    "Etorriko nintzateke denbora banu"
+   ],
+   "es": "Si tuviera tiempo, vendría.",
+   "hint": "Condición + consecuencia."
+  },
+  {
+   "type": "order",
+   "words": [
+    "zitzaidan",
+    "Pelikula",
+    "gustatu"
+   ],
+   "a": [
+    "Pelikula gustatu zitzaidan"
+   ],
+   "es": "Me gustó la película.",
+   "hint": "Sujeto + participio + auxiliar."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "naiz",
+     "NOR"
+    ],
+    [
+     "dut",
+     "NOR-NORK"
+    ],
+    [
+     "zait",
+     "NOR-NORI"
+    ],
+    [
+     "diot",
+     "NOR-NORI-NORK"
+    ],
+    [
+     "nintzateke",
+     "condicional"
+    ],
+    [
+     "naiteke",
+     "potencial"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Escribe 6 frases, una con cada familia de auxiliar y en tiempos distintos, y explica entre paréntesis por qué has elegido cada auxiliar.",
+  "focus": "repaso del sistema: las tres preguntas (participantes, tiempo/modo, personas) y las cuatro formas del verbo principal"
+ },
+ "links": {
+  "verbs": [
+   "nor-pres",
+   "nn-past-x",
+   "nni-past",
+   "nnn-pres"
+  ],
+  "cases": [],
+  "themes": [
+   "aditzak"
+  ]
+ }
+}

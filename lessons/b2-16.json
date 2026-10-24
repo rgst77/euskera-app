@@ -1,0 +1,322 @@
+{
+ "id": "b2-16",
+ "lvl": "B2",
+ "n": 16,
+ "title": "Eztabaidan",
+ "es": "Argumentar y debatir",
+ "goal": "Participar en un debate oral: pedir la palabra, interrumpir con cortesía, conceder, rebatir y concluir.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "Última lección del B2. En B1 aprendiste a dar tu opinión; ahora vas a defenderla en un debate real, donde hay que tomar la palabra, reaccionar a lo que dicen otros y llegar a una conclusión. Es la prueba oral más típica del B2 y, sobre todo, lo que te permitirá participar de verdad en conversaciones entre hablantes."
+  },
+  {
+   "h": "Gestionar la conversación",
+   "p": "Pedir la palabra: **Hitza eskatu nahi nuke** (quisiera pedir la palabra). Interrumpir con cortesía: **Barkatu, eten dezaket?** (perdona, ¿puedo interrumpir?). Pedir aclaración: **Zer esan nahi duzu horrekin?** (¿qué quieres decir con eso?). Retomar: **Lehen esan dudanera itzuliz…** (volviendo a lo que he dicho antes…)."
+  },
+  {
+   "h": "Reaccionar",
+   "table": {
+    "head": [
+     "Función",
+     "Expresión"
+    ],
+    "rows": [
+     [
+      "Acuerdo total",
+      "Guztiz ados nago."
+     ],
+     [
+      "Acuerdo parcial",
+      "Neurri batean ados nago."
+     ],
+     [
+      "Conceder",
+      "Onartzen dut … -la, baina…"
+     ],
+     [
+      "Rebatir",
+      "Ez da horrela. / Hori ez da egia."
+     ],
+     [
+      "Aportar datos",
+      "Datuek argi erakusten dute … -la."
+     ],
+     [
+      "Matizar",
+      "Bai, baina kontuan hartu behar da … -la."
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Concluir",
+   "p": "**Laburbilduz…** (en resumen…), **Azken batean…** (al fin y al cabo…), **Nire ustez, onena … litzateke** (en mi opinión, lo mejor sería…), y para cerrar una intervención pública: **Eskerrik asko zuen arretagatik** (gracias por vuestra atención)."
+  },
+  {
+   "h": "Paso a paso: conceder y rebatir",
+   "p": "1) Recoge el argumento contrario: **Onartzen dut airea garbiagoa izango litzatekeela**. 2) Introduce tu objeción: **baina dendentzat arazo handia izango litzateke**. 3) Apóyala: **Datuek argi erakusten dute bezeroak gutxitzen direla**."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Hitza eman nahi nuke* para «pedir la palabra» → **Hitza eskatu nahi nuke** (hitza eman es «prometer»). *Eten naiteke?* → **Eten dezaket?** (interrumpir algo → ukan). *Onartzen dut … -n* → **-la**. Interrumpir sin fórmula de cortesía: en euskera, como en español, suena brusco."
+  },
+  {
+   "h": "Resumen",
+   "p": "Tomar la palabra: **Hitza eskatu nahi nuke**, **Barkatu, eten dezaket?**. Reaccionar: **guztiz / neurri batean ados nago**, **onartzen dut … -la, baina**, **ez da horrela**. Concluir: **laburbilduz**, **eskerrik asko zuen arretagatik**. Con esta lección has completado el B2. Zorionak!"
+  }
+ ],
+ "examples": [
+  [
+   "Hitza eskatu nahi nuke.",
+   "Quisiera pedir la palabra."
+  ],
+  [
+   "Barkatu, eten dezaket?",
+   "Perdona, ¿puedo interrumpir?"
+  ],
+  [
+   "Neurri batean ados nago zurekin.",
+   "En parte estoy de acuerdo contigo."
+  ],
+  [
+   "Onartzen dut garestia dela, baina beharrezkoa da.",
+   "Admito que es caro, pero es necesario."
+  ],
+  [
+   "Zer esan nahi duzu horrekin?",
+   "¿Qué quieres decir con eso?"
+  ],
+  [
+   "Datuek argi erakusten dute arazoa handia dela.",
+   "Los datos muestran claramente que el problema es grande."
+  ],
+  [
+   "Eskerrik asko zuen arretagatik.",
+   "Gracias por vuestra atención."
+  ]
+ ],
+ "dialog": {
+  "title": "Debate: un centro sin coches",
+  "lines": [
+   [
+    "Moderatzailea",
+    "Gaurko gaia: autorik gabeko hirigunea. Ane, zure iritzia?",
+    "El tema de hoy: un centro urbano sin coches. Ane, ¿tu opinión?"
+   ],
+   [
+    "Ane",
+    "Nire ustez, ideia bikaina da. Airea garbiagoa izango litzateke.",
+    "En mi opinión, es una idea excelente. El aire estaría más limpio."
+   ],
+   [
+    "Iker",
+    "Barkatu, eten dezaket? Onartzen dut airea garbiagoa izango litzatekeela, baina dendentzat arazo handia izango litzateke.",
+    "Perdona, ¿puedo interrumpir? Admito que el aire estaría más limpio, pero para las tiendas sería un gran problema."
+   ],
+   [
+    "Ane",
+    "Neurri batean ados nago. Hala ere, beste hirietako datuek kontrakoa erakusten dute.",
+    "En parte estoy de acuerdo. Sin embargo, los datos de otras ciudades muestran lo contrario."
+   ],
+   [
+    "Moderatzailea",
+    "Ondo. Laburbilduz: abantailak argiak dira, baina dendentzat irtenbideak bilatu beharko lirateke.",
+    "Bien. En resumen: las ventajas están claras, pero habría que buscar soluciones para las tiendas."
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Hitza eskatu nahi ___.",
+   "es": "Quisiera pedir la palabra.",
+   "a": [
+    "nuke"
+   ],
+   "hint": "quisiera = nahi nuke."
+  },
+  {
+   "type": "gap",
+   "q": "Barkatu, eten ___?",
+   "es": "Perdona, ¿puedo interrumpir?",
+   "a": [
+    "dezaket"
+   ],
+   "hint": "Interrumpir (algo) → potencial con ukan."
+  },
+  {
+   "type": "gap",
+   "q": "Neurri ___ ados nago.",
+   "es": "En parte estoy de acuerdo.",
+   "a": [
+    "batean"
+   ],
+   "hint": "en parte = neurri batean."
+  },
+  {
+   "type": "gap",
+   "q": "Onartzen dut garestia ___, baina beharrezkoa da.",
+   "es": "Admito que es caro, pero es necesario.",
+   "a": [
+    "dela"
+   ],
+   "hint": "Onartzen dut + -la."
+  },
+  {
+   "type": "gap",
+   "q": "Zer esan ___ duzu?",
+   "es": "¿Qué quieres decir?",
+   "a": [
+    "nahi"
+   ],
+   "hint": "querer decir = esan nahi."
+  },
+  {
+   "type": "gap",
+   "q": "Eskerrik asko zuen ___.",
+   "es": "Gracias por vuestra atención.",
+   "a": [
+    "arretagatik"
+   ],
+   "hint": "por la atención: arreta + -gatik."
+  },
+  {
+   "type": "choice",
+   "q": "«Quisiera pedir la palabra»",
+   "options": [
+    "Hitza eskatu nahi nuke.",
+    "Hitza eman nahi nuke.",
+    "Hitz egin nahi nuen."
+   ],
+   "a": 0,
+   "why": "Hitza eman es «prometer»."
+  },
+  {
+   "type": "choice",
+   "q": "«¿Puedo interrumpir?»",
+   "options": [
+    "Eten dezaket?",
+    "Eten naiteke?",
+    "Eten dut?"
+   ],
+   "a": 0,
+   "why": "Interrumpir (la conversación) → dezaket."
+  },
+  {
+   "type": "choice",
+   "q": "«En parte estoy de acuerdo»",
+   "options": [
+    "Neurri batean ados nago.",
+    "Neurri bat ados naiz.",
+    "Zati batean ados dut."
+   ],
+   "a": 0,
+   "why": "Expresión fija con egon."
+  },
+  {
+   "type": "choice",
+   "q": "«Admito que…, pero…»",
+   "options": [
+    "Onartzen dut … -la, baina…",
+    "Onartzen dut … -n, baina…",
+    "Onartzen nago …, baina…"
+   ],
+   "a": 0,
+   "why": "Completiva con -la."
+  },
+  {
+   "type": "choice",
+   "q": "«¿Qué quieres decir?»",
+   "options": [
+    "Zer esan nahi duzu?",
+    "Zer esaten nahi duzu?",
+    "Zer esan duzu nahi?"
+   ],
+   "a": 0,
+   "why": "esan nahi izan = querer decir."
+  },
+  {
+   "type": "order",
+   "words": [
+    "nuke",
+    "nahi",
+    "eskatu",
+    "Hitza"
+   ],
+   "a": [
+    "Hitza eskatu nahi nuke"
+   ],
+   "es": "Quisiera pedir la palabra.",
+   "hint": "Hitza eskatu + nahi nuke."
+  },
+  {
+   "type": "order",
+   "words": [
+    "nago",
+    "ados",
+    "batean",
+    "Neurri"
+   ],
+   "a": [
+    "Neurri batean ados nago"
+   ],
+   "es": "En parte estoy de acuerdo.",
+   "hint": "Neurri batean + ados nago."
+  },
+  {
+   "type": "order",
+   "words": [
+    "duzu",
+    "nahi",
+    "esan",
+    "Zer"
+   ],
+   "a": [
+    "Zer esan nahi duzu"
+   ],
+   "es": "¿Qué quieres decir?",
+   "hint": "Zer + esan nahi + duzu."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "hitza eskatu",
+     "pedir la palabra"
+    ],
+    [
+     "eten",
+     "interrumpir"
+    ],
+    [
+     "neurri batean",
+     "en parte"
+    ],
+    [
+     "onartzen dut",
+     "admito"
+    ],
+    [
+     "guztiz ados",
+     "totalmente de acuerdo"
+    ],
+    [
+     "arretagatik",
+     "por la atención"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Prepara tu intervención en un debate (8 a 10 frases) sobre un tema que te interese: presenta tu postura, recoge un argumento contrario, concédelo en parte, rebátelo con un dato o ejemplo y concluye.",
+  "focus": "gestión del debate: hitza eskatu, eten dezaket, neurri batean ados, onartzen dut … -la baina, laburbilduz"
+ },
+ "links": {
+  "verbs": [],
+  "cases": [],
+  "themes": [
+   "lokailuak"
+  ]
+ }
+}

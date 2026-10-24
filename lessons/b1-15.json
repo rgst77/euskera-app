@@ -1,0 +1,291 @@
+{
+ "id": "b1-15",
+ "lvl": "B1",
+ "n": 15,
+ "title": "Nire ustez",
+ "es": "Dar y defender una opinión",
+ "goal": "Opinar, estar de acuerdo o en desacuerdo, matizar y argumentar en una conversación.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "Ya tienes todas las piezas gramaticales para opinar: **-la** (uste dut … -la), **-nik** (ez dut uste … -nik), las concesivas y las causales. En esta lección reúnes las expresiones que usan los hablantes para debatir, de modo que puedas participar en una conversación de verdad, no solo responder preguntas."
+  },
+  {
+   "h": "Opinar",
+   "p": "**Nire ustez…** (en mi opinión…): **Nire ustez, ideia ona da**. **Uste dut … -la** (creo que…). **Iruditzen zait … -la** (me parece que…): **Iruditzen zait arrazoia duzula**. Para preguntar: **Zure ustez?** (¿en tu opinión?), **Zer iruditzen zaizu?** (¿qué te parece?)."
+  },
+  {
+   "h": "Acuerdo y desacuerdo",
+   "p": "**Ados nago** (estoy de acuerdo), **Ez nago ados** (no estoy de acuerdo), **Zurekin ados nago** (estoy de acuerdo contigo), **Arrazoia duzu** (tienes razón), **Ez dut uste … -nik** (no creo que…). Posición: **-ren alde egon** (estar a favor de): **Proposamenaren alde nago**; **-ren kontra egon** (estar en contra de)."
+  },
+  {
+   "h": "Matizar y argumentar",
+   "p": "**Alde batetik…, bestetik…** (por un lado…, por otro…), **Egia da … -la, baina…** (es verdad que…, pero…), **Hala ere** (sin embargo), **Gainera** (además), **Beraz** (así que), **Dena den** (de todos modos), **-lako** (porque). Para proponer: **… beharko genuke** (deberíamos…), con el condicional que ya conoces."
+  },
+  {
+   "h": "Paso a paso: «Es verdad que es caro, pero creo que merece la pena»",
+   "p": "1) «Es verdad que es caro»: **Egia da garestia dela**. 2) «pero creo que merece la pena»: **baina uste dut merezi duela**. → **Egia da garestia dela, baina uste dut merezi duela**."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Nire uste* → **Nire ustez**. *Iruditzen dut* → **Iruditzen zait** (NOR-NORI). *Kontra naiz* → **kontra nago**. *Ados naiz* → **Ados nago**."
+  },
+  {
+   "h": "Resumen",
+   "p": "Opinar: **nire ustez, uste dut … -la, iruditzen zait … -la**. Acuerdo: **ados nago / ez nago ados, arrazoia duzu**. Posición: **-ren alde / kontra nago**. Matizar: **alde batetik… bestetik, egia da … baina, hala ere**."
+  }
+ ],
+ "examples": [
+  [
+   "Nire ustez, euskara ikastea oso garrantzitsua da.",
+   "En mi opinión, aprender euskera es muy importante."
+  ],
+  [
+   "Iruditzen zait arrazoia duzula.",
+   "Me parece que tienes razón."
+  ],
+  [
+   "Ez nago ados zurekin.",
+   "No estoy de acuerdo contigo."
+  ],
+  [
+   "Proposamen horren alde nago.",
+   "Estoy a favor de esa propuesta."
+  ],
+  [
+   "Alde batetik merkea da; bestetik, urrun dago.",
+   "Por un lado es barato; por otro, está lejos."
+  ],
+  [
+   "Egia da zaila dela, baina merezi du.",
+   "Es verdad que es difícil, pero merece la pena."
+  ],
+  [
+   "Zure ustez, zer egin beharko genuke?",
+   "En tu opinión, ¿qué deberíamos hacer?"
+  ]
+ ],
+ "dialog": {
+  "title": "Un hotel nuevo en el pueblo",
+  "lines": [
+   [
+    "Ane",
+    "Zer iruditzen zaizu herrian hotel berri bat egitea?",
+    "¿Qué te parece que se haga un hotel nuevo en el pueblo?"
+   ],
+   [
+    "Jon",
+    "Nire ustez, ideia ona da. Turismoak lana ekartzen du.",
+    "En mi opinión, es una buena idea. El turismo trae trabajo."
+   ],
+   [
+    "Ane",
+    "Ez nago ados. Alde batetik, lana ekarriko du; bestetik, etxeak garestiagoak izango dira.",
+    "No estoy de acuerdo. Por un lado, traerá trabajo; por otro, las casas serán más caras."
+   ],
+   [
+    "Jon",
+    "Egia da, baina ez dut uste arazo handia denik.",
+    "Es verdad, pero no creo que sea un gran problema."
+   ],
+   [
+    "Ane",
+    "Beno, ados ez gaudela onartu beharko dugu!",
+    "Bueno, ¡tendremos que aceptar que no estamos de acuerdo!"
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Nire ___, ideia ona da.",
+   "es": "En mi opinión, es una buena idea.",
+   "a": [
+    "ustez"
+   ],
+   "hint": "en mi opinión = nire ustez."
+  },
+  {
+   "type": "gap",
+   "q": "Iruditzen zait arrazoia ___.",
+   "es": "Me parece que tienes razón.",
+   "a": [
+    "duzula"
+   ],
+   "hint": "duzu + -la."
+  },
+  {
+   "type": "gap",
+   "q": "Ez nago ___ zurekin.",
+   "es": "No estoy de acuerdo contigo.",
+   "a": [
+    "ados"
+   ],
+   "hint": "de acuerdo = ados."
+  },
+  {
+   "type": "gap",
+   "q": "Proposamen horren ___ nago.",
+   "es": "Estoy a favor de esa propuesta.",
+   "a": [
+    "alde"
+   ],
+   "hint": "a favor de = -ren alde."
+  },
+  {
+   "type": "gap",
+   "q": "Alde batetik merkea da; ___, urrun dago.",
+   "es": "Por un lado es barato; por otro, está lejos.",
+   "a": [
+    "bestetik"
+   ],
+   "hint": "por otro = bestetik."
+  },
+  {
+   "type": "gap",
+   "q": "Ez dut uste arazo handia ___.",
+   "es": "No creo que sea un gran problema.",
+   "a": [
+    "denik"
+   ],
+   "hint": "Tras «no creo»: -nik."
+  },
+  {
+   "type": "choice",
+   "q": "«En mi opinión»",
+   "options": [
+    "Nire ustez",
+    "Nire uste",
+    "Nik ustez"
+   ],
+   "a": 0,
+   "why": "Expresión fija: nire ustez."
+  },
+  {
+   "type": "choice",
+   "q": "«Me parece que tienes razón»",
+   "options": [
+    "Iruditzen zait arrazoia duzula.",
+    "Iruditzen dut arrazoia duzula.",
+    "Iruditzen zait arrazoia duzu."
+   ],
+   "a": 0,
+   "why": "iruditu es NOR-NORI + subordinada con -la."
+  },
+  {
+   "type": "choice",
+   "q": "«Estoy en contra»",
+   "options": [
+    "Kontra nago.",
+    "Kontra naiz.",
+    "Kontra dut."
+   ],
+   "a": 0,
+   "why": "Posición con egon: nago."
+  },
+  {
+   "type": "choice",
+   "q": "«No creo que sea un problema»",
+   "options": [
+    "Ez dut uste arazoa denik.",
+    "Ez dut uste arazoa da.",
+    "Ez uste dut arazoa denik."
+   ],
+   "a": 0,
+   "why": "Ez dut uste + -nik."
+  },
+  {
+   "type": "choice",
+   "q": "«Por un lado… por otro…»",
+   "options": [
+    "alde batetik… bestetik…",
+    "batetik alde… beste…",
+    "alde bat… beste bat…"
+   ],
+   "a": 0,
+   "why": "Expresión fija."
+  },
+  {
+   "type": "order",
+   "words": [
+    "ados",
+    "Ez",
+    "nago"
+   ],
+   "a": [
+    "Ez nago ados"
+   ],
+   "es": "No estoy de acuerdo.",
+   "hint": "Ez + nago + ados."
+  },
+  {
+   "type": "order",
+   "words": [
+    "alde",
+    "horren",
+    "nago",
+    "Proposamen"
+   ],
+   "a": [
+    "Proposamen horren alde nago"
+   ],
+   "es": "Estoy a favor de esa propuesta.",
+   "hint": "Proposamen horren + alde + nago."
+  },
+  {
+   "type": "order",
+   "words": [
+    "duzula",
+    "arrazoia",
+    "zait",
+    "Iruditzen"
+   ],
+   "a": [
+    "Iruditzen zait arrazoia duzula",
+    "Arrazoia duzula iruditzen zait"
+   ],
+   "es": "Me parece que tienes razón.",
+   "hint": "Iruditzen zait + subordinada."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "nire ustez",
+     "en mi opinión"
+    ],
+    [
+     "ados nago",
+     "estoy de acuerdo"
+    ],
+    [
+     "-ren alde",
+     "a favor de"
+    ],
+    [
+     "-ren kontra",
+     "en contra de"
+    ],
+    [
+     "alde batetik",
+     "por un lado"
+    ],
+    [
+     "bestetik",
+     "por otro"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Elige un tema (el turismo, el teletrabajo, aprender idiomas con IA) y escribe tu opinión en 6 frases: tu postura, un argumento, un contraargumento con «egia da… baina», y una conclusión.",
+  "focus": "nire ustez, uste dut/iruditzen zait … -la, ez dut uste … -nik, ados nago, -ren alde/kontra, alde batetik… bestetik"
+ },
+ "links": {
+  "verbs": [],
+  "cases": [],
+  "themes": [
+   "lokailuak"
+  ]
+ }
+}

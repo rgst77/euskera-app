@@ -1,0 +1,320 @@
+{
+ "id": "a1-11",
+ "lvl": "A1",
+ "n": 11,
+ "title": "Egunerokoa",
+ "es": "Presente habitual: -tzen naiz / dut",
+ "goal": "Contar tu rutina: qué haces cada día y cuándo.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "Esta es una de las lecciones más importantes del A1. Hasta ahora has usado verbos que se conjugan solos (nago, noa, daukat). Pero la mayoría de los verbos vascos funcionan con **dos piezas**: el verbo principal, que casi no cambia, y un **auxiliar** que indica la persona. Una vez entiendes este sistema, puedes usar cientos de verbos."
+  },
+  {
+   "h": "Las dos piezas",
+   "p": "Para hablar de lo que haces habitualmente: verbo en **-tzen / -ten** + auxiliar. **Kafea edaten dut** (bebo café). **Lanera joaten naiz** (voy al trabajo, habitualmente). El verbo va casi al final y el auxiliar, justo después."
+  },
+  {
+   "h": "¿naiz o dut?",
+   "p": "Depende de si el verbo tiene objeto. **Sin objeto** (ir, venir, levantarse, vivir): auxiliar **izan** → **naiz, zara, da…** (**Zazpietan jaikitzen naiz**). **Con objeto** (beber algo, ver algo, hacer algo): auxiliar **ukan** → **dut, duzu, du…** y el sujeto con **-k** (**Nik kafea edaten dut**). Truco: si puedes preguntar «¿qué?» (¿qué bebes?), es dut."
+  },
+  {
+   "h": "Cómo se forma -tzen",
+   "p": "A partir del verbo de diccionario:",
+   "table": {
+    "head": [
+     "Si el verbo acaba en…",
+     "Se forma con…",
+     "Ejemplos"
+    ],
+    "rows": [
+     [
+      "-tu / -du",
+      "-tzen",
+      "bukatu → bukatzen · lagundu → laguntzen"
+     ],
+     [
+      "-i (casi siempre)",
+      "-tzen",
+      "jaiki → jaikitzen · irakurri → irakurtzen · etorri → etortzen"
+     ],
+     [
+      "-si, -tzi, -zi",
+      "-ten (y tz → z)",
+      "ikasi → ikasten · idatzi → idazten · hasi → hasten"
+     ],
+     [
+      "-n",
+      "-ten",
+      "egin → egiten · jan → jaten · edan → edaten · joan → joaten"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Expresiones de tiempo",
+   "p": "**egunero** (todos los días), **goizean** (por la mañana), **eguerdian** (al mediodía), **arratsaldean** (por la tarde), **gauean** (por la noche), **asteburuan** (el fin de semana), **batzuetan** (a veces), **beti** (siempre). Para la hora, de momento como bloque: **zazpietan** (a las siete), **zortzietan** (a las ocho)."
+  },
+  {
+   "h": "Negar y preguntar",
+   "p": "Como en la lección 5: **ez + auxiliar** delante y el verbo al final: **Ez dut telebista ikusten** (no veo la tele). Para preguntar: **Zer egiten duzu?** (¿qué haces?), **Noiz jaikitzen zara?** (¿cuándo te levantas?)."
+  },
+  {
+   "h": "Paso a paso: «Leo el periódico por la tarde»",
+   "p": "1) Verbo: **irakurri** → acaba en -i → **irakurtzen**. 2) ¿Tiene objeto? Sí, el periódico → auxiliar **dut**. 3) Orden: tiempo + objeto + verbo + auxiliar → **Arratsaldean egunkaria irakurtzen dut**."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Kafea edaten naiz* → **dut** (beber tiene objeto). *Lanera joaten dut* → **naiz** (ir no tiene objeto). *Ez telebista ikusten dut* → **Ez dut telebista ikusten**. *Lanera noa* para «voy (siempre) al trabajo» → **joaten naiz** (noa es «voy ahora»)."
+  },
+  {
+   "h": "Resumen",
+   "p": "Habitual = verbo **-tzen / -ten** + auxiliar. Sin objeto → **naiz, zara, da…**; con objeto → **dut, duzu, du…** (sujeto con -k). Negación: **ez + auxiliar … verbo**."
+  }
+ ],
+ "examples": [
+  [
+   "Egunero lanera joaten naiz.",
+   "Todos los días voy al trabajo."
+  ],
+  [
+   "Goizean kafea edaten dut.",
+   "Por la mañana bebo café."
+  ],
+  [
+   "Zazpietan jaikitzen naiz.",
+   "Me levanto a las siete."
+  ],
+  [
+   "Arratsaldean euskara ikasten dut.",
+   "Por la tarde estudio euskera."
+  ],
+  [
+   "Ez dut telebista ikusten.",
+   "No veo la tele."
+  ],
+  [
+   "Zer egiten duzu asteburuan?",
+   "¿Qué haces el fin de semana?"
+  ]
+ ],
+ "dialog": {
+  "title": "La rutina",
+  "lines": [
+   [
+    "Ane",
+    "Zer egiten duzu egunero?",
+    "¿Qué haces todos los días?"
+   ],
+   [
+    "Iker",
+    "Zazpietan jaikitzen naiz eta kafea edaten dut.",
+    "Me levanto a las siete y bebo café."
+   ],
+   [
+    "Ane",
+    "Lanera autobusez joaten zara?",
+    "¿Vas al trabajo en autobús?"
+   ],
+   [
+    "Iker",
+    "Ez, oinez joaten naiz. Eta zu?",
+    "No, voy a pie. ¿Y tú?"
+   ],
+   [
+    "Ane",
+    "Nik etxean lan egiten dut. Arratsaldean euskara ikasten dut.",
+    "Yo trabajo en casa. Por la tarde estudio euskera."
+   ],
+   [
+    "Iker",
+    "Oso ondo!",
+    "¡Muy bien!"
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Zazpietan jaiki___ naiz.",
+   "es": "Me levanto a las siete.",
+   "a": [
+    "tzen"
+   ],
+   "hint": "Verbo acabado en -i: -tzen."
+  },
+  {
+   "type": "gap",
+   "q": "Goizean kafea edaten ___.",
+   "es": "Por la mañana bebo café.",
+   "a": [
+    "dut"
+   ],
+   "hint": "¿Qué bebes? Tiene objeto → dut."
+  },
+  {
+   "type": "gap",
+   "q": "Egunero lanera joaten ___.",
+   "es": "Todos los días voy al trabajo.",
+   "a": [
+    "naiz"
+   ],
+   "hint": "Ir no tiene objeto → naiz."
+  },
+  {
+   "type": "gap",
+   "q": "Zer egiten ___?",
+   "es": "¿Qué haces?",
+   "a": [
+    "duzu"
+   ],
+   "hint": "Hacer tiene objeto (zer); tú → duzu."
+  },
+  {
+   "type": "gap",
+   "q": "Arratsaldean euskara ikas___ dut.",
+   "es": "Por la tarde estudio euskera.",
+   "a": [
+    "ten"
+   ],
+   "hint": "ikasi acaba en -si: -ten."
+  },
+  {
+   "type": "gap",
+   "q": "Ez ___ telebista ikusten.",
+   "es": "No veo la tele.",
+   "a": [
+    "dut"
+   ],
+   "hint": "Ver tiene objeto → dut, y en negativa va detrás de ez."
+  },
+  {
+   "type": "choice",
+   "q": "«Bebo café» (habitualmente)",
+   "options": [
+    "Kafea edaten dut.",
+    "Kafea edaten naiz.",
+    "Kafea edan dut."
+   ],
+   "a": 0,
+   "why": "Tiene objeto → dut. Edan dut significa «he bebido»."
+  },
+  {
+   "type": "choice",
+   "q": "«Voy al trabajo» (todos los días)",
+   "options": [
+    "Lanera joaten naiz.",
+    "Lanera joaten dut.",
+    "Lanera noa."
+   ],
+   "a": 0,
+   "why": "Ir no tiene objeto → naiz. Lanera noa es «voy ahora»."
+  },
+  {
+   "type": "choice",
+   "q": "«No veo la tele»",
+   "options": [
+    "Ez dut telebista ikusten.",
+    "Ez telebista ikusten dut.",
+    "Telebista ez ikusten dut."
+   ],
+   "a": 0,
+   "why": "ez + auxiliar delante, el verbo al final."
+  },
+  {
+   "type": "choice",
+   "q": "Forma habitual de egin (hacer):",
+   "options": [
+    "egiten",
+    "egintzen",
+    "egitzen"
+   ],
+   "a": 0,
+   "why": "Verbos en -n: -ten."
+  },
+  {
+   "type": "choice",
+   "q": "Forma habitual de ikasi (estudiar):",
+   "options": [
+    "ikasten",
+    "ikasitzen",
+    "ikastzen"
+   ],
+   "a": 0,
+   "why": "Verbos en -si: -ten."
+  },
+  {
+   "type": "order",
+   "words": [
+    "naiz",
+    "Egunero",
+    "joaten",
+    "lanera"
+   ],
+   "a": [
+    "Egunero lanera joaten naiz",
+    "Lanera egunero joaten naiz"
+   ],
+   "es": "Todos los días voy al trabajo.",
+   "hint": "Tiempo y lugar delante; verbo + auxiliar al final."
+  },
+  {
+   "type": "order",
+   "words": [
+    "dut",
+    "Ez",
+    "ikusten",
+    "telebista"
+   ],
+   "a": [
+    "Ez dut telebista ikusten"
+   ],
+   "es": "No veo la tele.",
+   "hint": "ez + auxiliar, objeto, verbo al final."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "jaiki",
+     "jaikitzen"
+    ],
+    [
+     "edan",
+     "edaten"
+    ],
+    [
+     "ikusi",
+     "ikusten"
+    ],
+    [
+     "egin",
+     "egiten"
+    ],
+    [
+     "joan",
+     "joaten"
+    ],
+    [
+     "irakurri",
+     "irakurtzen"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Cuenta tu rutina en 5 frases: a qué hora te levantas, qué desayunas, adónde vas, qué haces por la tarde y algo que no haces nunca o casi nunca.",
+  "focus": "presente habitual: -tzen/-ten + naiz (sin objeto) o dut (con objeto); negación ez + auxiliar"
+ },
+ "links": {
+  "verbs": [
+   "nor-pres",
+   "nn-pres-3"
+  ],
+  "cases": [],
+  "themes": [
+   "denbora",
+   "aditzak"
+  ]
+ }
+}

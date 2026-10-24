@@ -1,0 +1,355 @@
+{
+ "id": "a2-13",
+ "lvl": "A2",
+ "n": 13,
+ "title": "Erosi dudan liburua",
+ "es": "Oraciones de relativo",
+ "goal": "Decir «el libro que he comprado», «el amigo que vive en Bilbao», «lo que quieras».",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "Empiezan las oraciones subordinadas, el paso que te permite construir frases largas y naturales. El euskera tiene una forma muy regular de hacerlas: pega una terminación al verbo de la oración subordinada. Hoy aprendes la primera y más usada, la del relativo («que»)."
+  },
+  {
+   "h": "La forma: auxiliar + -(e)n",
+   "p": "El auxiliar de la oración subordinada toma **-n** (o **-en** tras consonante): **dut → dudan**, **da → den**. Y aquí viene lo importante: **la oración va delante del nombre**, justo al revés que en español. **Erosi dudan liburua** = el libro que he comprado (literalmente «comprado-he-que libro-el»).",
+   "table": {
+    "head": [
+     "Forma",
+     "Relativo",
+     "Forma",
+     "Relativo"
+    ],
+    "rows": [
+     [
+      "dut",
+      "dudan",
+      "naiz",
+      "naizen"
+     ],
+     [
+      "duzu",
+      "duzun",
+      "zara",
+      "zaren"
+     ],
+     [
+      "du",
+      "duen",
+      "da",
+      "den"
+     ],
+     [
+      "dugu",
+      "dugun",
+      "gara",
+      "garen"
+     ],
+     [
+      "duzue",
+      "duzuen",
+      "zarete",
+      "zareten"
+     ],
+     [
+      "dute",
+      "duten",
+      "dira",
+      "diren"
+     ],
+     [
+      "dago",
+      "dagoen",
+      "zait",
+      "zaidan"
+     ],
+     [
+      "daukat",
+      "daukadan",
+      "ditut",
+      "ditudan"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Fíjate en los cambios",
+   "p": "La **-t** final se convierte en **-d-**: dut → **dudan**, daukat → **daukadan**, zait → **zaidan**. Tras vocal se añade **-n** (duzu → **duzun**) y tras **u** o consonante, **-en** (du → **duen**, dago → **dagoen**). El artículo va al final del grupo: Bilbon bizi den lagun**a**."
+  },
+  {
+   "h": "Sin nombre: «lo que…»",
+   "p": "Si no hay nombre detrás, el relativo lleva el artículo directamente: **Erosi dudana** (lo que he comprado), **Nahi duzuna** (lo que quieras), **Esan duena** (lo que ha dicho). **Egin nahi duzuna** = haz lo que quieras."
+  },
+  {
+   "h": "Paso a paso: «La chica que está ahí es mi hermana»",
+   "p": "1) Oración subordinada: **hor dago** (está ahí). 2) Relativo: dago → **dagoen**. 3) Nombre detrás: **hor dagoen neska**. 4) Resto de la frase: **Hor dagoen neska nire ahizpa da**."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Liburua erosi dudan* → **Erosi dudan liburua** (la oración va delante). *dutan* → **dudan**. *Bilbon bizi da laguna* → **Bilbon bizi den laguna**. *Nahi duzun* para «lo que quieras» sin nombre → **Nahi duzuna**."
+  },
+  {
+   "h": "Resumen",
+   "p": "Relativo = auxiliar + **-(e)n** (dudan, den, dagoen, zaidan…), **oración delante del nombre**: erosi dudan liburua. Sin nombre: **-na** (nahi duzuna, lo que quieras)."
+  }
+ ],
+ "examples": [
+  [
+   "Erosi dudan liburua oso ona da.",
+   "El libro que he comprado es muy bueno."
+  ],
+  [
+   "Bilbon bizi den laguna Mikel da.",
+   "El amigo que vive en Bilbao es Mikel."
+  ],
+  [
+   "Hor dagoen gizona nire aita da.",
+   "El hombre que está ahí es mi padre."
+  ],
+  [
+   "Gustatzen zaidan musika.",
+   "La música que me gusta."
+  ],
+  [
+   "Euskara ikasten duten ikasleak.",
+   "Los estudiantes que estudian euskera."
+  ],
+  [
+   "Egin nahi duzuna.",
+   "Haz lo que quieras."
+  ],
+  [
+   "Daukadan kotxea zaharra da.",
+   "El coche que tengo es viejo."
+  ]
+ ],
+ "dialog": {
+  "title": "Hablando de libros",
+  "lines": [
+   [
+    "Nerea",
+    "Zein da irakurtzen ari zaren liburua?",
+    "¿Cuál es el libro que estás leyendo?"
+   ],
+   [
+    "Iker",
+    "Amak erosi duen liburua da.",
+    "Es el libro que ha comprado mi madre."
+   ],
+   [
+    "Nerea",
+    "Gustatzen zaizu?",
+    "¿Te gusta?"
+   ],
+   [
+    "Iker",
+    "Bai! Irakurri dudan libururik onena da.",
+    "¡Sí! Es el mejor libro que he leído."
+   ],
+   [
+    "Nerea",
+    "Utziko didazu?",
+    "¿Me lo prestarás?"
+   ],
+   [
+    "Iker",
+    "Bai, noski. Bihar ekarriko dizut.",
+    "Sí, claro. Te lo traeré mañana."
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Erosi ___ liburua oso ona da.",
+   "es": "El libro que he comprado es muy bueno.",
+   "a": [
+    "dudan"
+   ],
+   "hint": "dut + -n → dudan (la -t pasa a -d-)."
+  },
+  {
+   "type": "gap",
+   "q": "Bilbon bizi ___ laguna Mikel da.",
+   "es": "El amigo que vive en Bilbao es Mikel.",
+   "a": [
+    "den"
+   ],
+   "hint": "da + -en → den."
+  },
+  {
+   "type": "gap",
+   "q": "Hor ___ gizona nire aita da.",
+   "es": "El hombre que está ahí es mi padre.",
+   "a": [
+    "dagoen"
+   ],
+   "hint": "dago + -en → dagoen."
+  },
+  {
+   "type": "gap",
+   "q": "Gustatzen ___ musika.",
+   "es": "La música que me gusta.",
+   "a": [
+    "zaidan"
+   ],
+   "hint": "zait + -n → zaidan."
+  },
+  {
+   "type": "gap",
+   "q": "Euskara ikasten ___ ikasleak.",
+   "es": "Los estudiantes que estudian euskera.",
+   "a": [
+    "duten"
+   ],
+   "hint": "dute + -n → duten."
+  },
+  {
+   "type": "gap",
+   "q": "Egin nahi ___.",
+   "es": "Haz lo que quieras.",
+   "a": [
+    "duzuna"
+   ],
+   "hint": "Sin nombre detrás: duzu + -n + -a."
+  },
+  {
+   "type": "choice",
+   "q": "«El libro que he comprado»",
+   "options": [
+    "erosi dudan liburua",
+    "liburua erosi dudan",
+    "erosi dut liburua"
+   ],
+   "a": 0,
+   "why": "La oración de relativo va delante del nombre."
+  },
+  {
+   "type": "choice",
+   "q": "«El amigo que vive en Bilbao»",
+   "options": [
+    "Bilbon bizi den laguna",
+    "laguna Bilbon bizi den",
+    "Bilbon bizi da laguna"
+   ],
+   "a": 0,
+   "why": "Oración con -(e)n + nombre."
+  },
+  {
+   "type": "choice",
+   "q": "Relativo de dute:",
+   "options": [
+    "duten",
+    "duteen",
+    "duden"
+   ],
+   "a": 0,
+   "why": "Tras vocal se añade -n: duten."
+  },
+  {
+   "type": "choice",
+   "q": "«Lo que quieras»",
+   "options": [
+    "nahi duzuna",
+    "nahi duzun",
+    "nahi duzu"
+   ],
+   "a": 0,
+   "why": "Sin nombre, el relativo lleva artículo: -na."
+  },
+  {
+   "type": "choice",
+   "q": "«La música que me gusta»",
+   "options": [
+    "gustatzen zaidan musika",
+    "gustatzen zait musika",
+    "musika gustatzen zaidan"
+   ],
+   "a": 0,
+   "why": "zait → zaidan, delante del nombre."
+  },
+  {
+   "type": "order",
+   "words": [
+    "dudan",
+    "Erosi",
+    "liburua"
+   ],
+   "a": [
+    "Erosi dudan liburua"
+   ],
+   "es": "El libro que he comprado.",
+   "hint": "Verbo + relativo + nombre."
+  },
+  {
+   "type": "order",
+   "words": [
+    "den",
+    "Bilbon",
+    "laguna",
+    "bizi"
+   ],
+   "a": [
+    "Bilbon bizi den laguna"
+   ],
+   "es": "El amigo que vive en Bilbao.",
+   "hint": "Lugar + bizi + den + nombre."
+  },
+  {
+   "type": "order",
+   "words": [
+    "dagoen",
+    "gizona",
+    "Hor"
+   ],
+   "a": [
+    "Hor dagoen gizona"
+   ],
+   "es": "El hombre que está ahí.",
+   "hint": "Hor + dagoen + nombre."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "dudan",
+     "que (yo) he / tengo"
+    ],
+    [
+     "duen",
+     "que (él) ha / tiene"
+    ],
+    [
+     "naizen",
+     "que (yo) soy"
+    ],
+    [
+     "den",
+     "que es / ha"
+    ],
+    [
+     "dagoen",
+     "que está"
+    ],
+    [
+     "zaidan",
+     "que me (gusta…)"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Describe 5 cosas o personas de tu vida con oraciones de relativo: «el libro que estoy leyendo…», «el amigo que vive en…», «la música que me gusta…», «el coche que tengo…».",
+  "focus": "relativo -(e)n (dudan, den, dagoen, zaidan…) delante del nombre; -na sin nombre"
+ },
+ "links": {
+  "verbs": [
+   "nn-pres-3",
+   "nor-pres"
+  ],
+  "cases": [],
+  "themes": [
+   "lokailuak"
+  ]
+ }
+}

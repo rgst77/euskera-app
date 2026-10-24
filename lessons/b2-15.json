@@ -1,0 +1,360 @@
+{
+ "id": "b2-15",
+ "lvl": "B2",
+ "n": 15,
+ "title": "Esamoldeak",
+ "es": "Expresiones idiomáticas",
+ "goal": "Entender y usar expresiones frecuentes que no se traducen palabra por palabra.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "Las expresiones idiomáticas son lo que hace que una lengua suene viva. Muchas no se pueden deducir de sus palabras: «quedarse con la boca llena de dientes» en euskera significa quedarse boquiabierto. Esta lección recoge las más frecuentes del habla diaria, agrupadas por situación."
+  },
+  {
+   "h": "En el día a día",
+   "table": {
+    "head": [
+     "Expresión",
+     "Literalmente",
+     "Significado"
+    ],
+    "rows": [
+     [
+      "buruz ikasi",
+      "aprender por la cabeza",
+      "aprender de memoria"
+     ],
+     [
+      "hanka sartu",
+      "meter la pierna",
+      "meter la pata"
+     ],
+     [
+      "hitza eman",
+      "dar la palabra",
+      "prometer"
+     ],
+     [
+      "begi bistakoa",
+      "a la vista del ojo",
+      "evidente"
+     ],
+     [
+      "buruhausteak",
+      "roturas de cabeza",
+      "quebraderos de cabeza"
+     ],
+     [
+      "gutxi gorabehera",
+      "poco arriba y abajo",
+      "más o menos"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Emociones y reacciones",
+   "table": {
+    "head": [
+     "Expresión",
+     "Significado"
+    ],
+    "rows": [
+     [
+      "ahoa bete hortz geratu",
+      "quedarse boquiabierto"
+     ],
+     [
+      "Adore!",
+      "¡ánimo!"
+     ],
+     [
+      "Kontuz!",
+      "¡cuidado!"
+     ],
+     [
+      "Ene! / Jo!",
+      "¡vaya!"
+     ],
+     [
+      "bihotz-bihotzez",
+      "de todo corazón"
+     ],
+     [
+      "Mila esker!",
+      "¡mil gracias!"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Cómo aprenderlas",
+   "p": "Las expresiones idiomáticas se fijan mejor dentro de una frase que en una lista. Por eso cada ejemplo de esta lección es una frase completa que puedes reutilizar. Cuando escuches o leas euskera real, apunta las expresiones nuevas con su contexto: es la mejor forma de ampliar este repertorio. Los refranes (atsotitzak) los verás en C1."
+  },
+  {
+   "h": "Paso a paso: «Te prometo que lo aprenderé de memoria»",
+   "p": "1) «te prometo» = **hitza ematen dizut**. 2) «que lo aprenderé de memoria»: **buruz ikasiko dudala** (-la). → **Hitza ematen dizut buruz ikasiko dudala**."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "Traducir literalmente del castellano: *ahoa irekita geratu* se entiende, pero lo idiomático es **ahoa bete hortz geratu**. *Burutik ikasi* → **buruz ikasi**. *Hanka atera* → **hanka sartu** (meter la pata)."
+  },
+  {
+   "h": "Resumen",
+   "p": "**buruz ikasi, hanka sartu, hitza eman, begi bistakoa, gutxi gorabehera, ahoa bete hortz geratu, bihotz-bihotzez, Adore!**. Apréndelas siempre dentro de una frase."
+  }
+ ],
+ "examples": [
+  [
+   "Poema buruz ikasi dut.",
+   "Me he aprendido el poema de memoria."
+  ],
+  [
+   "Hanka sartu dut!",
+   "¡He metido la pata!"
+  ],
+  [
+   "Ahoa bete hortz geratu nintzen.",
+   "Me quedé boquiabierto."
+  ],
+  [
+   "Hitza ematen dizut.",
+   "Te lo prometo."
+  ],
+  [
+   "Begi bistakoa da.",
+   "Es evidente."
+  ],
+  [
+   "Bihotz-bihotzez eskerrik asko.",
+   "Gracias de todo corazón."
+  ],
+  [
+   "Gutxi gorabehera ordubete behar da.",
+   "Hace falta más o menos una hora."
+  ]
+ ],
+ "dialog": {
+  "title": "Después del examen",
+  "lines": [
+   [
+    "Nerea",
+    "Zer moduz azterketa?",
+    "¿Qué tal el examen?"
+   ],
+   [
+    "Iker",
+    "Ez dakit… Hanka sartu dut galdera batean.",
+    "No sé… He metido la pata en una pregunta."
+   ],
+   [
+    "Nerea",
+    "Lasai! Ziur ondo atera dela. Gaia buruz ikasi zenuen.",
+    "¡Tranquilo! Seguro que ha salido bien. Te aprendiste el tema de memoria."
+   ],
+   [
+    "Iker",
+    "Bai, egia da. Eskerrik asko, bihotz-bihotzez.",
+    "Sí, es verdad. Gracias, de todo corazón."
+   ],
+   [
+    "Nerea",
+    "Adore! Eta emaitza jakiten duzunean, ospatuko dugu. Hitza ematen dizut.",
+    "¡Ánimo! Y cuando sepas el resultado, lo celebraremos. Te lo prometo."
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Poema ___ ikasi dut.",
+   "es": "Me he aprendido el poema de memoria.",
+   "a": [
+    "buruz"
+   ],
+   "hint": "de memoria = buruz."
+  },
+  {
+   "type": "gap",
+   "q": "Hanka ___ dut!",
+   "es": "¡He metido la pata!",
+   "a": [
+    "sartu"
+   ],
+   "hint": "meter la pata = hanka sartu."
+  },
+  {
+   "type": "gap",
+   "q": "Ahoa bete ___ geratu nintzen.",
+   "es": "Me quedé boquiabierto.",
+   "a": [
+    "hortz"
+   ],
+   "hint": "Expresión fija: ahoa bete hortz."
+  },
+  {
+   "type": "gap",
+   "q": "Hitza ___ dizut.",
+   "es": "Te lo prometo.",
+   "a": [
+    "ematen"
+   ],
+   "hint": "prometer = hitza eman."
+  },
+  {
+   "type": "gap",
+   "q": "Begi ___ da.",
+   "es": "Es evidente.",
+   "a": [
+    "bistakoa"
+   ],
+   "hint": "evidente = begi bistakoa."
+  },
+  {
+   "type": "gap",
+   "q": "Gutxi ___ ordubete behar da.",
+   "es": "Hace falta más o menos una hora.",
+   "a": [
+    "gorabehera"
+   ],
+   "hint": "más o menos = gutxi gorabehera."
+  },
+  {
+   "type": "choice",
+   "q": "«Meter la pata»",
+   "options": [
+    "hanka sartu",
+    "hanka atera",
+    "burua sartu"
+   ],
+   "a": 0,
+   "why": "Expresión fija: hanka sartu."
+  },
+  {
+   "type": "choice",
+   "q": "«De memoria»",
+   "options": [
+    "buruz",
+    "bihotzez",
+    "begiz"
+   ],
+   "a": 0,
+   "why": "buruz ikasi = aprender de memoria."
+  },
+  {
+   "type": "choice",
+   "q": "«Prometer»",
+   "options": [
+    "hitza eman",
+    "hitz egin",
+    "hitza hartu"
+   ],
+   "a": 0,
+   "why": "Hitz egin es «hablar»."
+  },
+  {
+   "type": "choice",
+   "q": "«¡Ánimo!»",
+   "options": [
+    "Adore!",
+    "Kontuz!",
+    "Ene!"
+   ],
+   "a": 0,
+   "why": "Kontuz = cuidado; Ene = vaya."
+  },
+  {
+   "type": "choice",
+   "q": "«Más o menos»",
+   "options": [
+    "gutxi gorabehera",
+    "gutxiago",
+    "gehiegi"
+   ],
+   "a": 0,
+   "why": "Expresión fija."
+  },
+  {
+   "type": "order",
+   "words": [
+    "dut",
+    "sartu",
+    "Hanka"
+   ],
+   "a": [
+    "Hanka sartu dut"
+   ],
+   "es": "He metido la pata.",
+   "hint": "Hanka sartu + dut."
+  },
+  {
+   "type": "order",
+   "words": [
+    "dizut",
+    "ematen",
+    "Hitza"
+   ],
+   "a": [
+    "Hitza ematen dizut"
+   ],
+   "es": "Te lo prometo.",
+   "hint": "Hitza ematen + dizut."
+  },
+  {
+   "type": "order",
+   "words": [
+    "geratu",
+    "nintzen",
+    "hortz",
+    "bete",
+    "Ahoa"
+   ],
+   "a": [
+    "Ahoa bete hortz geratu nintzen"
+   ],
+   "es": "Me quedé boquiabierto.",
+   "hint": "Expresión + geratu nintzen."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "buruz ikasi",
+     "aprender de memoria"
+    ],
+    [
+     "hanka sartu",
+     "meter la pata"
+    ],
+    [
+     "hitza eman",
+     "prometer"
+    ],
+    [
+     "begi bistakoa",
+     "evidente"
+    ],
+    [
+     "ahoa bete hortz",
+     "boquiabierto"
+    ],
+    [
+     "bihotz-bihotzez",
+     "de todo corazón"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Cuenta en 5 o 6 frases una anécdota en la que metiste la pata o te quedaste boquiabierto, usando al menos cuatro expresiones de la lección.",
+  "focus": "expresiones idiomáticas: buruz ikasi, hanka sartu, hitza eman, begi bistakoa, ahoa bete hortz…"
+ },
+ "links": {
+  "verbs": [],
+  "cases": [],
+  "themes": [
+   "lokailuak",
+   "agurrak"
+  ]
+ }
+}

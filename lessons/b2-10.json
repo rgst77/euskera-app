@@ -1,0 +1,297 @@
+{
+ "id": "b2-10",
+ "lvl": "B2",
+ "n": 10,
+ "title": "Galdegaia",
+ "es": "El foco y el orden de palabras",
+ "goal": "Destacar la información importante colocando cada palabra en su sitio.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "Desde la lección A1-04 sabes que la palabra interrogativa va justo delante del verbo. Esa regla es un caso particular de algo más general y muy característico del euskera: **lo que se destaca (el foco, galdegaia) va inmediatamente antes del verbo**. Entender esto cambia la forma en que lees y suenas."
+  },
+  {
+   "h": "El foco: justo antes del verbo",
+   "p": "**Mikelek liburua erosi du** responde a «¿qué ha comprado Mikel?» (foco: el libro). **Liburua Mikelek erosi du** responde a «¿quién ha comprado el libro?» (foco: Mikel). La pregunta y la respuesta usan el mismo hueco: **Nork erosi du liburua? — Mikelek erosi du**. Lo demás (el tema conocido) puede ir delante o detrás."
+  },
+  {
+   "h": "Cuando el foco es el verbo: egin",
+   "p": "Si lo que se destaca es la acción misma, se repite con **egin**: **Erosi egin dut, ez lapurtu** (lo he comprado, no robado). **Etorri egingo naiz!** (¡que sí vendré!). Con **egin** como verbo principal: **Egin egin du** (sí que lo ha hecho)."
+  },
+  {
+   "h": "En negativas: baizik",
+   "p": "En negativas, el auxiliar va pegado a **ez** y el foco suele ir después: **Ez da gaur etorriko, bihar baizik** (no vendrá hoy, sino mañana). **baizik** = sino. También: **Gaur ez, bihar etorriko da**."
+  },
+  {
+   "h": "El tema: al principio",
+   "p": "Lo que ya es conocido, el tema del que hablas (**mintzagaia**), suele ir al principio. En registro formal: **Proiektuari dagokionez, …** (en cuanto al proyecto, …). Partículas que acompañan al foco: **ere** (también), **bakarrik** (solo), **behintzat** (al menos): **Nik behintzat ez dut ulertu**."
+  },
+  {
+   "h": "Paso a paso: «Fue Ane quien trajo la tarta (y la hizo ella)»",
+   "p": "1) Foco en quién: **Anek** justo antes del verbo → **Tarta Anek ekarri du**. 2) Foco en la acción «hacer» (no comprar): **egin egin du**. → **Tarta Anek ekarri du, eta egin egin du, ez erosi**."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Nork liburua erosi du?* → **Nork erosi du liburua?** (nada entre la interrogativa y el verbo). *Erosi du egin* → **Erosi egin du**. *Gaur ez, baina bihar* para «no hoy, sino mañana» → **gaur ez, bihar baizik**."
+  },
+  {
+   "h": "Resumen",
+   "p": "Foco (**galdegaia**) = justo antes del verbo. Foco en el verbo: **participio + egin**. Negativa: **ez + auxiliar**, y **baizik** (sino). Tema (**mintzagaia**) al principio: **… dagokionez**."
+  }
+ ],
+ "examples": [
+  [
+   "Mikelek erosi du liburua.",
+   "Ha sido Mikel quien ha comprado el libro."
+  ],
+  [
+   "Liburua Mikelek erosi du.",
+   "El libro lo ha comprado Mikel."
+  ],
+  [
+   "Nork erosi du liburua? Mikelek.",
+   "¿Quién ha comprado el libro? Mikel."
+  ],
+  [
+   "Ez da gaur etorriko, bihar baizik.",
+   "No vendrá hoy, sino mañana."
+  ],
+  [
+   "Erosi egin dut, ez lapurtu.",
+   "Lo he comprado, no robado."
+  ],
+  [
+   "Etorri egingo naiz!",
+   "¡Que sí vendré!"
+  ],
+  [
+   "Nik behintzat ez dut ulertu.",
+   "Yo, al menos, no lo he entendido."
+  ]
+ ],
+ "dialog": {
+  "title": "La tarta",
+  "lines": [
+   [
+    "Iker",
+    "Nork ekarri du tarta hau?",
+    "¿Quién ha traído esta tarta?"
+   ],
+   [
+    "Nerea",
+    "Anek ekarri du. Berak egin du, gainera.",
+    "La ha traído Ane. La ha hecho ella, además."
+   ],
+   [
+    "Iker",
+    "Benetan? Erosi egin duela uste nuen!",
+    "¿De verdad? ¡Creía que la había comprado!"
+   ],
+   [
+    "Nerea",
+    "Ez, ez du erosi; egin egin du. Oso sukaldari ona da.",
+    "No, no la ha comprado; la ha hecho. Es muy buena cocinera."
+   ],
+   [
+    "Iker",
+    "Orduan, Aneri eskatuko diot errezeta.",
+    "Entonces le pediré la receta a Ane."
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Nork erosi du liburua? — Mikel___ erosi du.",
+   "es": "¿Quién ha comprado el libro? — Mikel.",
+   "a": [
+    "ek"
+   ],
+   "hint": "Respuesta en el hueco del foco, con -k."
+  },
+  {
+   "type": "gap",
+   "q": "Erosi ___ dut, ez lapurtu.",
+   "es": "Lo he comprado, no robado.",
+   "a": [
+    "egin"
+   ],
+   "hint": "Foco en el verbo: participio + egin."
+  },
+  {
+   "type": "gap",
+   "q": "Ez da gaur etorriko, bihar ___.",
+   "es": "No vendrá hoy, sino mañana.",
+   "a": [
+    "baizik"
+   ],
+   "hint": "sino = baizik."
+  },
+  {
+   "type": "gap",
+   "q": "Etorri ___ naiz!",
+   "es": "¡Que sí vendré!",
+   "a": [
+    "egingo"
+   ],
+   "hint": "Foco en el verbo, futuro: egingo."
+  },
+  {
+   "type": "gap",
+   "q": "___ erosi du liburua?",
+   "es": "¿Quién ha comprado el libro?",
+   "a": [
+    "nork"
+   ],
+   "hint": "Sujeto con objeto: nork."
+  },
+  {
+   "type": "gap",
+   "q": "Nik ___ ez dut ulertu.",
+   "es": "Yo, al menos, no lo he entendido.",
+   "a": [
+    "behintzat"
+   ],
+   "hint": "al menos = behintzat."
+  },
+  {
+   "type": "choice",
+   "q": "«Ha sido MIKEL quien ha comprado el libro»",
+   "options": [
+    "Liburua Mikelek erosi du.",
+    "Mikelek liburua erosi du.",
+    "Erosi du Mikelek liburua."
+   ],
+   "a": 0,
+   "why": "El foco (Mikelek) va justo antes del verbo."
+  },
+  {
+   "type": "choice",
+   "q": "Respuesta a «¿Quién ha traído la tarta?»",
+   "options": [
+    "Anek ekarri du.",
+    "Ekarri du Anek.",
+    "Ane ekarri du."
+   ],
+   "a": 0,
+   "why": "Foco antes del verbo, con -k."
+  },
+  {
+   "type": "choice",
+   "q": "«Lo ha COMPRADO (no robado)»",
+   "options": [
+    "Erosi egin du.",
+    "Erosi du egin.",
+    "Egin erosi du."
+   ],
+   "a": 0,
+   "why": "Participio + egin + auxiliar."
+  },
+  {
+   "type": "choice",
+   "q": "«No hoy, sino mañana»",
+   "options": [
+    "gaur ez, bihar baizik",
+    "gaur ez, baina bihar",
+    "gaur ez, bihar ere"
+   ],
+   "a": 0,
+   "why": "sino = baizik."
+  },
+  {
+   "type": "choice",
+   "q": "¿Dónde va el foco?",
+   "options": [
+    "justo antes del verbo",
+    "al final de la frase",
+    "siempre al principio"
+   ],
+   "a": 0,
+   "why": "Regla del galdegaia."
+  },
+  {
+   "type": "order",
+   "words": [
+    "erosi",
+    "du",
+    "Mikelek",
+    "Liburua"
+   ],
+   "a": [
+    "Liburua Mikelek erosi du"
+   ],
+   "es": "El libro lo ha comprado Mikel.",
+   "hint": "Tema + foco + verbo."
+  },
+  {
+   "type": "order",
+   "words": [
+    "dut",
+    "egin",
+    "Erosi"
+   ],
+   "a": [
+    "Erosi egin dut"
+   ],
+   "es": "Lo he comprado (foco en la acción).",
+   "hint": "Participio + egin + auxiliar."
+  },
+  {
+   "type": "order",
+   "words": [
+    "baizik",
+    "bihar",
+    "etorriko",
+    "gaur",
+    "ez",
+    "da"
+   ],
+   "a": [
+    "Ez da gaur etorriko bihar baizik"
+   ],
+   "es": "No vendrá hoy, sino mañana.",
+   "hint": "Ez da + foco negado + verbo + … baizik."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "galdegaia",
+     "foco"
+    ],
+    [
+     "mintzagaia",
+     "tema"
+    ],
+    [
+     "baizik",
+     "sino"
+    ],
+    [
+     "erosi egin du",
+     "lo ha comprado (foco en la acción)"
+    ],
+    [
+     "… dagokionez",
+     "en cuanto a…"
+    ],
+    [
+     "behintzat",
+     "al menos"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Escribe 5 pares de pregunta y respuesta sobre tu semana en los que el foco cambie (quién, qué, dónde, cuándo) y añade una frase con foco en el verbo (… egin …).",
+  "focus": "galdegaia antes del verbo, foco verbal con egin, baizik, mintzagaia"
+ },
+ "links": {
+  "verbs": [],
+  "cases": [],
+  "themes": [
+   "galderak",
+   "lokailuak"
+  ]
+ }
+}

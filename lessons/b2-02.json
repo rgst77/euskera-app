@@ -1,0 +1,344 @@
+{
+ "id": "b2-02",
+ "lvl": "B2",
+ "n": 2,
+ "title": "Aginte osoa",
+ "es": "El imperativo completo",
+ "goal": "Dar órdenes y hacer peticiones con las formas imperativas plenas: siéntate, ábrela, dímelo, ayúdame.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "Desde el A2 das órdenes con el participio (**Itxi atea!**). Es correcto y muy frecuente, pero el euskera tiene formas imperativas propias, que aparecen en textos, instrucciones formales y en el habla cuando se quiere ser preciso o enfático. Se construyen con la **raíz** del verbo (la que aprendiste con el subjuntivo) y un auxiliar imperativo."
+  },
+  {
+   "h": "Las formas",
+   "table": {
+    "head": [
+     "Tipo",
+     "Tú",
+     "Vosotros",
+     "Ejemplo"
+    ],
+    "rows": [
+     [
+      "Sin objeto (izan)",
+      "{nor:zaitez}",
+      "{nor:zaitezte}",
+      "**Eser zaitez** (siéntate), **Etor zaitezte** (venid)"
+     ],
+     [
+      "Con objeto (ukan)",
+      "{nork:ezazu}",
+      "{nork:ezazue}",
+      "**Ireki ezazu** atea (abre la puerta)"
+     ],
+     [
+      "Objeto plural",
+      "{nork:itzazu}",
+      "{nork:itzazue}",
+      "**Itxi itzazu** leihoak (cierra las ventanas)"
+     ],
+     [
+      "Objeto «me»",
+      "{nork:nazazu}",
+      "{nork:nazazue}",
+      "**Lagun nazazu** (ayúdame)"
+     ],
+     [
+      "A mí (NORI)",
+      "{nori:iezadazu}",
+      "—",
+      "**Ekar iezadazu** ura (tráeme agua)"
+     ],
+     [
+      "A él / ella",
+      "{nori:iezaiozu}",
+      "—",
+      "**Esan iezaiozu** (díselo)"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Formas sintéticas imprescindibles",
+   "p": "Algunos imperativos son una sola palabra: **Zatoz!** (¡ven!), **Zoaz!** (¡ve!), **Emaidazu** (dame), **Esadazu** (dime): **Emaidazu ura, mesedez**, **Esadazu egia**."
+  },
+  {
+   "h": "La negación",
+   "p": "**Ez** + auxiliar + verbo al final, como en todas las negativas: **Ez zaitez joan!** (¡no te vayas!), **Ez ezazu hori egin!** (¡no hagas eso!), **Ez iezaiozu esan!** (¡no se lo digas!)."
+  },
+  {
+   "h": "¿Participio o forma plena?",
+   "p": "**Itxi atea!** y **Itxi ezazu atea!** significan lo mismo. La forma plena es más formal o más insistente, y es la que verás en instrucciones escritas («Bete ezazu inprimakia», rellene el formulario). Para «tú» de cortesía, añadir **mesedez** suele ser suficiente."
+  },
+  {
+   "h": "Paso a paso: «Tráeme el libro, por favor»",
+   "p": "1) Raíz de ekarri → **ekar**. 2) A mí, tú → **iezadazu**. 3) **Ekar iezadazu liburua, mesedez**."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Eseri ezazu* → **Eser zaitez** (sentarse no tiene objeto). *Ireki zaitez atea* → **Ireki ezazu**. *Itxi ezazu leihoak* → **itzazu** (plural). *Ez joan zaitez* → **Ez zaitez joan**."
+  },
+  {
+   "h": "Resumen",
+   "p": "Raíz + **zaitez** (sin objeto), **ezazu / itzazu** (con objeto), **nazazu** (me), **iezadazu / iezaiozu** (a mí / a él); plural con -te / -zue. Sintéticos: **Zatoz, Zoaz, Emaidazu, Esadazu**. Negación: **Ez zaitez joan**."
+  }
+ ],
+ "examples": [
+  [
+   "Eser zaitez, mesedez.",
+   "Siéntate, por favor."
+  ],
+  [
+   "Ireki ezazu leihoa.",
+   "Abre la ventana."
+  ],
+  [
+   "Itxi itzazu ateak.",
+   "Cierra las puertas."
+  ],
+  [
+   "Lagun nazazu!",
+   "¡Ayúdame!"
+  ],
+  [
+   "Ekar iezadazu ura, mesedez.",
+   "Tráeme agua, por favor."
+  ],
+  [
+   "Esadazu egia.",
+   "Dime la verdad."
+  ],
+  [
+   "Ez zaitez joan!",
+   "¡No te vayas!"
+  ]
+ ],
+ "dialog": {
+  "title": "Preparando la casa",
+  "lines": [
+   [
+    "Ama",
+    "Iker, lagun nazazu, mesedez!",
+    "Iker, ¡ayúdame, por favor!"
+   ],
+   [
+    "Iker",
+    "Zer egin behar dut?",
+    "¿Qué tengo que hacer?"
+   ],
+   [
+    "Ama",
+    "Ireki itzazu leihoak, eta ekar iezadazu ura sukaldetik.",
+    "Abre las ventanas, y tráeme agua de la cocina."
+   ],
+   [
+    "Iker",
+    "Eta gero?",
+    "¿Y luego?"
+   ],
+   [
+    "Ama",
+    "Deitu zure ahizpari eta esan iezaiozu zortzietan etortzeko.",
+    "Llama a tu hermana y dile que venga a las ocho."
+   ],
+   [
+    "Iker",
+    "Ados. Baina lasai egon zaitez, ama!",
+    "Vale. ¡Pero estate tranquila, mamá!"
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "___ zaitez, mesedez.",
+   "es": "Siéntate, por favor.",
+   "a": [
+    "eser"
+   ],
+   "hint": "Raíz de eseri: eser."
+  },
+  {
+   "type": "gap",
+   "q": "Ireki ___ leihoa.",
+   "es": "Abre la ventana.",
+   "a": [
+    "ezazu"
+   ],
+   "hint": "Con objeto, tú: ezazu."
+  },
+  {
+   "type": "gap",
+   "q": "Itxi ___ ateak.",
+   "es": "Cierra las puertas.",
+   "a": [
+    "itzazu"
+   ],
+   "hint": "Objeto plural, tú: itzazu."
+  },
+  {
+   "type": "gap",
+   "q": "Lagun ___!",
+   "es": "¡Ayúdame!",
+   "a": [
+    "nazazu"
+   ],
+   "hint": "Objeto «me», tú: nazazu."
+  },
+  {
+   "type": "gap",
+   "q": "Ekar ___ ura, mesedez.",
+   "es": "Tráeme agua, por favor.",
+   "a": [
+    "iezadazu"
+   ],
+   "hint": "A mí, tú: iezadazu."
+  },
+  {
+   "type": "gap",
+   "q": "Ez ___ joan!",
+   "es": "¡No te vayas!",
+   "a": [
+    "zaitez"
+   ],
+   "hint": "Ez + zaitez + verbo."
+  },
+  {
+   "type": "choice",
+   "q": "«Siéntate»",
+   "options": [
+    "Eser zaitez.",
+    "Eseri ezazu.",
+    "Eser ezazu."
+   ],
+   "a": 0,
+   "why": "Sentarse no tiene objeto → zaitez."
+  },
+  {
+   "type": "choice",
+   "q": "«Cierra las ventanas»",
+   "options": [
+    "Itxi itzazu leihoak.",
+    "Itxi ezazu leihoak.",
+    "Itxi zaitez leihoak."
+   ],
+   "a": 0,
+   "why": "Objeto plural → itzazu."
+  },
+  {
+   "type": "choice",
+   "q": "«Díselo (a él)»",
+   "options": [
+    "Esan iezaiozu.",
+    "Esan iezadazu.",
+    "Esan ezazu hari."
+   ],
+   "a": 0,
+   "why": "A él, tú → iezaiozu. Iezadazu es «a mí»."
+  },
+  {
+   "type": "choice",
+   "q": "«¡No hagas eso!»",
+   "options": [
+    "Ez ezazu hori egin!",
+    "Ez egin ezazu hori!",
+    "Ezazu ez hori egin!"
+   ],
+   "a": 0,
+   "why": "Ez + auxiliar, el verbo al final."
+  },
+  {
+   "type": "choice",
+   "q": "«Dame»",
+   "options": [
+    "Emaidazu",
+    "Eman zaitez",
+    "Emadazu"
+   ],
+   "a": 0,
+   "why": "Forma sintética: emaidazu."
+  },
+  {
+   "type": "order",
+   "words": [
+    "zaitez",
+    "Eser",
+    "mesedez"
+   ],
+   "a": [
+    "Eser zaitez mesedez",
+    "Mesedez eser zaitez"
+   ],
+   "es": "Siéntate, por favor.",
+   "hint": "Raíz + zaitez (+ mesedez)."
+  },
+  {
+   "type": "order",
+   "words": [
+    "iezadazu",
+    "Ekar",
+    "ura"
+   ],
+   "a": [
+    "Ekar iezadazu ura"
+   ],
+   "es": "Tráeme agua.",
+   "hint": "Raíz + iezadazu + objeto."
+  },
+  {
+   "type": "order",
+   "words": [
+    "joan",
+    "Ez",
+    "zaitez"
+   ],
+   "a": [
+    "Ez zaitez joan"
+   ],
+   "es": "No te vayas.",
+   "hint": "Ez + zaitez + verbo."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "zaitez",
+     "tú (sin objeto)"
+    ],
+    [
+     "ezazu",
+     "tú (con objeto)"
+    ],
+    [
+     "itzazu",
+     "tú (objeto plural)"
+    ],
+    [
+     "nazazu",
+     "tú → me"
+    ],
+    [
+     "iezadazu",
+     "tú → a mí (algo)"
+    ],
+    [
+     "esadazu",
+     "dime"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Escribe las instrucciones para preparar algo que sepas hacer (un café, una receta sencilla, una tarea de casa) en 6 pasos, usando formas imperativas plenas.",
+  "focus": "imperativo pleno: raíz + zaitez, ezazu, itzazu, nazazu, iezadazu, iezaiozu; emaidazu, esadazu; negación"
+ },
+ "links": {
+  "verbs": [],
+  "cases": [],
+  "themes": [
+   "etxea",
+   "sukaldea"
+  ]
+ }
+}

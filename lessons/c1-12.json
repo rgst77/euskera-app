@@ -1,0 +1,324 @@
+{
+ "id": "c1-12",
+ "lvl": "C1",
+ "n": 12,
+ "title": "Puntuazioa eta estiloa",
+ "es": "Puntuación y convenciones de escritura",
+ "goal": "Escribir con la puntuación y las convenciones del euskera: comas, signos de pregunta, comillas, mayúsculas, fechas y guiones.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "La puntuación vasca se parece a la española, pero tiene diferencias que delatan enseguida a un hispanohablante. La más visible: **no hay signos de apertura** (¿ ¡). En C1 se espera que escribas con las convenciones correctas, así que esta lección es una revisión práctica de todas ellas."
+  },
+  {
+   "h": "Signos de interrogación y exclamación",
+   "p": "Solo al final: **Non bizi zara?** **Zer polita!** Nunca *¿Non bizi zara?*. Dentro del texto, la pregunta se reconoce por la palabra interrogativa y la entonación."
+  },
+  {
+   "h": "La coma",
+   "p": "1) **Tras una subordinada que va delante**: **Etxera iristen naizenean, afaltzen dut**. 2) **Con conectores**: **Hala ere, joango naiz**; **Getxo, aldiz, txikia da**. 3) **En incisos y aposiciones**: **Mikel, nire laguna, medikua da**. 4) **No** entre sujeto y verbo, ni antes del último **eta** de una enumeración: **ogia, esnea eta arrautzak**."
+  },
+  {
+   "h": "Otras convenciones",
+   "table": {
+    "head": [
+     "Convención",
+     "Ejemplo"
+    ],
+    "rows": [
+     [
+      "Comillas angulares para citas",
+      "«Bihar etorriko naiz», esan zuen."
+     ],
+     [
+      "Raya para el diálogo",
+      "—Kaixo —esan zuen Anek."
+     ],
+     [
+      "Dos puntos tras el saludo de una carta",
+      "Andre agurgarria:"
+     ],
+     [
+      "Días y meses en minúscula",
+      "astelehena, urria"
+     ],
+     [
+      "Fecha: año -ko, mes en genitivo, día -an",
+      "2026ko urriaren 23an"
+     ],
+     [
+      "Guion en compuestos",
+      "kale-erabilera, neba-ahizpak"
+     ],
+     [
+      "Abreviatura de «etcétera»",
+      "etab."
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Paso a paso: corregir una frase",
+   "p": "Con errores: *¿Sabes que Mikel, ha llegado el Lunes?* → En euskera, sin la coma entre sujeto y verbo, sin signo de apertura y con el día en minúscula: **Badakizu Mikel astelehenean iritsi dela?**"
+  },
+  {
+   "h": "Errores típicos",
+   "p": "Escribir **¿** o **¡** al principio. Poner coma entre sujeto y verbo (*Mikelek, liburua erosi du*). Escribir los meses con mayúscula (*Urria*). Usar comillas inglesas en lugar de las angulares en textos cuidados."
+  },
+  {
+   "h": "Resumen",
+   "p": "Pregunta y exclamación **solo al final**. Coma tras subordinada antepuesta, con conectores e incisos; **nunca** entre sujeto y verbo. **« »** para citas, **—** para diálogos, **:** tras el saludo. Días y meses en minúscula. Fecha: **2026ko urriaren 23an**."
+  }
+ ],
+ "examples": [
+  [
+   "Non bizi zara?",
+   "¿Dónde vives?"
+  ],
+  [
+   "Etxera iristen naizenean, afaltzen dut.",
+   "Cuando llego a casa, ceno."
+  ],
+  [
+   "Hala ere, joango naiz.",
+   "Sin embargo, iré."
+  ],
+  [
+   "Ogia, esnea eta arrautzak erosi ditut.",
+   "He comprado pan, leche y huevos."
+  ],
+  [
+   "«Bihar etorriko naiz», esan zuen.",
+   "«Mañana vendré», dijo."
+  ],
+  [
+   "Astelehenean, urriaren 23an, bilera izango da.",
+   "El lunes, 23 de octubre, habrá reunión."
+  ]
+ ],
+ "dialog": {
+  "title": "Revisando un texto",
+  "lines": [
+   [
+    "Nerea",
+    "Begiratu nire testua: «¿Non dago Mikel?» idatzi dut.",
+    "Mira mi texto: he escrito «¿Non dago Mikel?»."
+   ],
+   [
+    "Jon",
+    "Euskaraz ez dago hasierako galdera-ikurrik. Nahikoa da amaierakoa: «Non dago Mikel?».",
+    "En euskera no hay signo de interrogación inicial. Basta con el final: «Non dago Mikel?»."
+   ],
+   [
+    "Nerea",
+    "Eta «Urriaren 23an» letra larriz?",
+    "¿Y «Urriaren 23an» con mayúscula?"
+   ],
+   [
+    "Jon",
+    "Ez, hilabeteak letra xehez idazten dira, esaldiaren hasieran ez badaude.",
+    "No, los meses se escriben con minúscula, si no están al principio de la frase."
+   ],
+   [
+    "Nerea",
+    "Eskerrik asko! Orain zuzentzen dut.",
+    "¡Gracias! Ahora lo corrijo."
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Galdera-ikurra esaldiaren ___ bakarrik jartzen da.",
+   "es": "El signo de interrogación solo se pone al final de la frase.",
+   "a": [
+    "amaieran"
+   ],
+   "hint": "al final = amaieran."
+  },
+  {
+   "type": "gap",
+   "q": "Hilabeteak letra ___ idazten dira.",
+   "es": "Los meses se escriben con minúscula.",
+   "a": [
+    "xehez"
+   ],
+   "hint": "minúscula = letra xehe(z)."
+  },
+  {
+   "type": "gap",
+   "q": "Euskaraz ez dago hasierako galdera-___.",
+   "es": "En euskera no hay signo de interrogación inicial.",
+   "a": [
+    "ikurrik"
+   ],
+   "hint": "signo = ikur(rik)."
+  },
+  {
+   "type": "gap",
+   "q": "2026ko urriaren 23___",
+   "es": "a 23 de octubre de 2026",
+   "a": [
+    "an"
+   ],
+   "hint": "Día con -an."
+  },
+  {
+   "type": "gap",
+   "q": "Kale-___ txikia da.",
+   "es": "El uso del euskera en la calle es pequeño.",
+   "a": [
+    "erabilera"
+   ],
+   "hint": "Compuesto con guion: kale-erabilera."
+  },
+  {
+   "type": "gap",
+   "q": "Liburuak, aldizkariak, ___. (abreviatura de «etcétera»)",
+   "es": "Libros, revistas, etc.",
+   "a": [
+    "etab"
+   ],
+   "hint": "etcétera = etab."
+  },
+  {
+   "type": "choice",
+   "q": "¿Cuál es correcta?",
+   "options": [
+    "Non bizi zara?",
+    "¿Non bizi zara?",
+    "¿Non bizi zara"
+   ],
+   "a": 0,
+   "why": "Solo signo final."
+  },
+  {
+   "type": "choice",
+   "q": "¿Dónde va la coma?",
+   "options": [
+    "Etxera iristen naizenean, afaltzen dut.",
+    "Etxera, iristen naizenean afaltzen dut.",
+    "Etxera iristen naizenean afaltzen, dut."
+   ],
+   "a": 0,
+   "why": "Tras la subordinada antepuesta."
+  },
+  {
+   "type": "choice",
+   "q": "¿Cuál es correcta?",
+   "options": [
+    "Mikelek liburua erosi du.",
+    "Mikelek, liburua erosi du.",
+    "Mikelek liburua, erosi du."
+   ],
+   "a": 0,
+   "why": "Sin coma entre sujeto y verbo."
+  },
+  {
+   "type": "choice",
+   "q": "¿Cómo se escribe el mes?",
+   "options": [
+    "urria",
+    "Urria",
+    "URRIA"
+   ],
+   "a": 0,
+   "why": "Meses en minúscula."
+  },
+  {
+   "type": "choice",
+   "q": "Comillas preferidas en textos cuidados:",
+   "options": [
+    "« »",
+    "\" \"",
+    "' '"
+   ],
+   "a": 0,
+   "why": "Comillas angulares."
+  },
+  {
+   "type": "order",
+   "words": [
+    "afaltzen",
+    "dut",
+    "naizenean",
+    "iristen",
+    "Etxera"
+   ],
+   "a": [
+    "Etxera iristen naizenean afaltzen dut"
+   ],
+   "es": "Cuando llego a casa, ceno.",
+   "hint": "Subordinada + principal (con coma al escribir)."
+  },
+  {
+   "type": "order",
+   "words": [
+    "naiz",
+    "joango",
+    "ere",
+    "Hala"
+   ],
+   "a": [
+    "Hala ere joango naiz"
+   ],
+   "es": "Sin embargo, iré.",
+   "hint": "Conector + frase (con coma al escribir)."
+  },
+  {
+   "type": "order",
+   "words": [
+    "arrautzak",
+    "eta",
+    "esnea",
+    "Ogia"
+   ],
+   "a": [
+    "Ogia esnea eta arrautzak"
+   ],
+   "es": "Pan, leche y huevos.",
+   "hint": "Enumeración: sin coma antes de eta."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "galdera-ikurra",
+     "signo de interrogación"
+    ],
+    [
+     "koma",
+     "coma"
+    ],
+    [
+     "puntu eta koma",
+     "punto y coma"
+    ],
+    [
+     "marra",
+     "raya"
+    ],
+    [
+     "komatxoak",
+     "comillas"
+    ],
+    [
+     "letra xehea",
+     "minúscula"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Escribe un texto de 6 a 8 frases (un correo o una pequeña crónica) que incluya una pregunta, una cita entre comillas, una fecha, una enumeración y al menos dos subordinadas antepuestas, cuidando la puntuación.",
+  "focus": "puntuación vasca: signos solo al final, comas, comillas « », raya, minúsculas en días y meses, fecha, guion"
+ },
+ "links": {
+  "verbs": [],
+  "cases": [],
+  "themes": [
+   "lokailuak",
+   "denbora"
+  ]
+ }
+}

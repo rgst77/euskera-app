@@ -1,0 +1,354 @@
+{
+ "id": "a2-03",
+ "lvl": "A2",
+ "n": 3,
+ "title": "Nirekin, zuretzat",
+ "es": "Los pronombres declinados",
+ "goal": "Usar «conmigo, para ti, a ella, de nosotros…» con soltura.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "Ya has ido viendo los pronombres con distintas terminaciones: **nik** (yo, con -k), **niri** (a mí), **nire** (mi), **niretzat** (para mí)… En esta lección los ordenas todos en una tabla. No hay nada nuevo que inventar: son los mismos casos que usas con los nombres, aplicados a ni, zu, hura, gu, zuek y haiek."
+  },
+  {
+   "h": "La tabla completa",
+   "table": {
+    "head": [
+     "",
+     "ni",
+     "zu",
+     "hura",
+     "gu",
+     "zuek",
+     "haiek"
+    ],
+    "rows": [
+     [
+      "NOR (sujeto sin objeto)",
+      "ni",
+      "zu",
+      "hura",
+      "gu",
+      "zuek",
+      "haiek"
+     ],
+     [
+      "NORK (sujeto con objeto)",
+      "nik",
+      "zuk",
+      "hark",
+      "guk",
+      "zuek",
+      "haiek"
+     ],
+     [
+      "NORI (a…)",
+      "niri",
+      "zuri",
+      "hari",
+      "guri",
+      "zuei",
+      "haiei"
+     ],
+     [
+      "NOREN (de…)",
+      "nire",
+      "zure",
+      "haren",
+      "gure",
+      "zuen",
+      "haien"
+     ],
+     [
+      "NOREKIN (con…)",
+      "nirekin",
+      "zurekin",
+      "harekin",
+      "gurekin",
+      "zuekin",
+      "haiekin"
+     ],
+     [
+      "NORENTZAT (para…)",
+      "niretzat",
+      "zuretzat",
+      "harentzat",
+      "guretzat",
+      "zuentzat",
+      "haientzat"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "El truco: todo sale de nire, zure…",
+   "p": "Fíjate en que **-rekin** y **-entzat** se construyen sobre el posesivo: **nire → nirekin, niretzat**; **zure → zurekin, zuretzat**; **gure → gurekin, guretzat**. Si recuerdas los posesivos, tienes media tabla hecha."
+  },
+  {
+   "h": "hura y haren",
+   "p": "La tercera persona cambia de raíz: **hura** (él/ella, aquel) → **hark, hari, haren, harekin, harentzat**. En plural, **haiek → haiei, haien, haiekin, haientzat**. Recuerda también que, para «su» referido al sujeto de la frase, se usa **bere**: **Mikelek bere etxea saldu du** (Mikel ha vendido su propia casa)."
+  },
+  {
+   "h": "Paso a paso: «¿Vienes conmigo?»",
+   "p": "1) «conmigo» = con + yo → **nirekin**. 2) venir, tú → **zatoz**. 3) La pregunta: **Nirekin zatoz?** O, más amable: **Nirekin etorriko zara?** (¿vendrás conmigo?)."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*nikekin* o *nirekin* para «yo con objeto» → el sujeto es **nik**; «conmigo» es **nirekin**. *Ni gustatzen zait* → **Niri gustatzen zait**. *hurarekin* → **harekin**. *Zuek* para «a vosotros» → **zuei**."
+  },
+  {
+   "h": "Resumen",
+   "p": "Seis casos × seis personas. -rekin y -entzat salen del posesivo (nirekin, niretzat). La 3.ª persona usa la raíz **har-** (hark, hari, harekin) y en plural **haie-** (haiei, haiekin)."
+  }
+ ],
+ "examples": [
+  [
+   "Nirekin etorriko zara?",
+   "¿Vendrás conmigo?"
+  ],
+  [
+   "Opari hau zuretzat da.",
+   "Este regalo es para ti."
+  ],
+  [
+   "Hari ez zaio gustatzen.",
+   "A él no le gusta."
+  ],
+  [
+   "Gurekin bizi da.",
+   "Vive con nosotros."
+  ],
+  [
+   "Haien etxea handia da.",
+   "Su casa es grande."
+  ],
+  [
+   "Liburua harentzat da.",
+   "El libro es para él."
+  ],
+  [
+   "Zuei gustatzen zaizue?",
+   "¿Os gusta a vosotros?"
+  ]
+ ],
+ "dialog": {
+  "title": "Una invitación",
+  "lines": [
+   [
+    "Nerea",
+    "Gaur zinemara noa. Nirekin etorriko zara?",
+    "Hoy voy al cine. ¿Vendrás conmigo?"
+   ],
+   [
+    "Jon",
+    "Bai, pozik! Ane ere gurekin etorriko da?",
+    "¡Sí, encantado! ¿Ane también vendrá con nosotros?"
+   ],
+   [
+    "Nerea",
+    "Ez dakit. Harekin hitz egingo dut.",
+    "No lo sé. Hablaré con ella."
+   ],
+   [
+    "Jon",
+    "Eta sarrerak? Nik erosiko ditut.",
+    "¿Y las entradas? Yo las compraré."
+   ],
+   [
+    "Nerea",
+    "Ez, ez! Nik erosi ditut dagoeneko. Hau zuretzat da.",
+    "¡No, no! Yo ya las he comprado. Esta es para ti."
+   ],
+   [
+    "Jon",
+    "Eskerrik asko!",
+    "¡Muchas gracias!"
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "___ etorriko zara?",
+   "es": "¿Vendrás conmigo?",
+   "a": [
+    "nirekin"
+   ],
+   "hint": "con + yo: nire + -kin."
+  },
+  {
+   "type": "gap",
+   "q": "Opari hau ___ da.",
+   "es": "Este regalo es para ti.",
+   "a": [
+    "zuretzat"
+   ],
+   "hint": "para + tú: zure + -tzat."
+  },
+  {
+   "type": "gap",
+   "q": "___ ez zaio gustatzen.",
+   "es": "A él no le gusta.",
+   "a": [
+    "hari"
+   ],
+   "hint": "a él / ella: hari."
+  },
+  {
+   "type": "gap",
+   "q": "___ bizi da.",
+   "es": "Vive con nosotros.",
+   "a": [
+    "gurekin"
+   ],
+   "hint": "con + nosotros: gure + -kin."
+  },
+  {
+   "type": "gap",
+   "q": "___ etxea handia da.",
+   "es": "Su casa (de ellos) es grande.",
+   "a": [
+    "haien"
+   ],
+   "hint": "de ellos: haien."
+  },
+  {
+   "type": "gap",
+   "q": "Liburua ___ da.",
+   "es": "El libro es para él.",
+   "a": [
+    "harentzat"
+   ],
+   "hint": "para + él: haren + -tzat."
+  },
+  {
+   "type": "choice",
+   "q": "«Conmigo»",
+   "options": [
+    "nirekin",
+    "nikekin",
+    "niriekin"
+   ],
+   "a": 0,
+   "why": "-rekin se construye sobre el posesivo nire."
+  },
+  {
+   "type": "choice",
+   "q": "«Con él»",
+   "options": [
+    "harekin",
+    "hurarekin",
+    "harirekin"
+   ],
+   "a": 0,
+   "why": "3.ª persona: raíz har-."
+  },
+  {
+   "type": "choice",
+   "q": "«A vosotros»",
+   "options": [
+    "zuei",
+    "zuek",
+    "zuen"
+   ],
+   "a": 0,
+   "why": "zuei = a vosotros; zuek = vosotros (sujeto); zuen = vuestro."
+  },
+  {
+   "type": "choice",
+   "q": "«Para nosotros»",
+   "options": [
+    "guretzat",
+    "gurekin",
+    "guri"
+   ],
+   "a": 0,
+   "why": "-entzat = para."
+  },
+  {
+   "type": "choice",
+   "q": "«Yo lo compraré» (sujeto)",
+   "options": [
+    "Nik erosiko dut.",
+    "Niri erosiko dut.",
+    "Ni erosiko dut."
+   ],
+   "a": 0,
+   "why": "Sujeto de un verbo con objeto: nik."
+  },
+  {
+   "type": "order",
+   "words": [
+    "zara",
+    "Nirekin",
+    "etorriko"
+   ],
+   "a": [
+    "Nirekin etorriko zara"
+   ],
+   "es": "¿Vendrás conmigo?",
+   "hint": "Con quién + verbo + auxiliar."
+  },
+  {
+   "type": "order",
+   "words": [
+    "da",
+    "Hau",
+    "zuretzat"
+   ],
+   "a": [
+    "Hau zuretzat da"
+   ],
+   "es": "Esto es para ti.",
+   "hint": "Hau + para quién + da."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "nirekin",
+     "conmigo"
+    ],
+    [
+     "zuretzat",
+     "para ti"
+    ],
+    [
+     "hari",
+     "a él / ella"
+    ],
+    [
+     "gure",
+     "nuestro"
+    ],
+    [
+     "haiekin",
+     "con ellos"
+    ],
+    [
+     "zuei",
+     "a vosotros"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Escribe una invitación a un amigo en 4 o 5 frases: adónde vais, quién viene con vosotros, para quién es algo y a quién se lo vas a decir.",
+  "focus": "pronombres declinados: nirekin, zuretzat, hari, gurekin, haientzat…"
+ },
+ "links": {
+  "verbs": [
+   "nn-pres-3"
+  ],
+  "cases": [
+   "soz",
+   "des",
+   "dat",
+   "gen"
+  ],
+  "themes": [
+   "lokailuak",
+   "aisialdia"
+  ]
+ }
+}

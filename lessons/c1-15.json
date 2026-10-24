@@ -1,0 +1,321 @@
+{
+ "id": "c1-15",
+ "lvl": "C1",
+ "n": 15,
+ "title": "Argudio-testuak",
+ "es": "Textos argumentativos",
+ "goal": "Escribir un texto argumentativo sólido: tesis, argumentos, contraargumentos, refutación y conclusión.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "El texto argumentativo es la prueba de escritura por excelencia del C1: defender una postura de forma razonada y convincente. Ya tienes todas las herramientas (opinión, conectores, causa y consecuencia, concesión, estilo nominal). En esta lección las organizas en una estructura que funciona siempre."
+  },
+  {
+   "h": "La estructura",
+   "table": {
+    "head": [
+     "Parte",
+     "Euskera",
+     "Qué hacer"
+    ],
+    "rows": [
+     [
+      "Introducción",
+      "sarrera",
+      "presentar el tema y tu tesis"
+     ],
+     [
+      "Argumentos",
+      "argudioak",
+      "dos o tres razones, cada una en un párrafo"
+     ],
+     [
+      "Contraargumento",
+      "kontrargudioa",
+      "reconocer la postura contraria"
+     ],
+     [
+      "Refutación",
+      "gezurtapena",
+      "responder a esa postura"
+     ],
+     [
+      "Conclusión",
+      "ondorioa",
+      "reafirmar la tesis y cerrar"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Fórmulas de afirmación y refutación",
+   "p": "Afirmar con fuerza: **Argi dago … -la** (está claro que…), **Zalantzarik gabe, …** (sin duda…), **Ezin da ukatu … -la** (no se puede negar que…). Presentar la postura contraria: **Batzuek diote … -la** (algunos dicen que…). Refutar: **Hala ere, …**, **Nik, ordea, uste dut … -la**, **Argudio horrek ez du kontuan hartzen … -la** (ese argumento no tiene en cuenta que…)."
+  },
+  {
+   "h": "Recursos persuasivos",
+   "p": "1) **Datos y ejemplos**: **Datuen arabera, …**, **adibidez**. 2) **Preguntas retóricas**: **Nork ez du inoiz …?** (¿quién no ha… alguna vez?). 3) **Concesión estratégica**: **Egia da … -la, baina…** (reconocer algo del otro lado refuerza tu credibilidad)."
+  },
+  {
+   "h": "Paso a paso: un párrafo de refutación",
+   "p": "**Batzuek diote telelanak bakardadea dakarrela.** (Postura contraria.) **Egia da arrisku hori badagoela; hala ere, argudio horrek ez du kontuan hartzen telelanak familiarekin denbora gehiago ematen duela.** (Concesión + refutación.) **Beraz, abantailak handiagoak dira.** (Conclusión parcial.)"
+  },
+  {
+   "h": "Errores típicos",
+   "p": "Enumerar opiniones sin argumentos. Ignorar la postura contraria (el texto parece parcial). Usar el registro coloquial. Cambiar de tesis a mitad del texto. Terminar sin conclusión."
+  },
+  {
+   "h": "Resumen",
+   "p": "Estructura: **sarrera (tesis) → argudioak → kontrargudioa → gezurtapena → ondorioa**. Fórmulas: **argi dago, zalantzarik gabe, ezin da ukatu, batzuek diote … -la, hala ere, argudio horrek ez du kontuan hartzen**. Recursos: datos, preguntas retóricas, concesión."
+  }
+ ],
+ "examples": [
+  [
+   "Argi dago euskarak etorkizuna duela.",
+   "Está claro que el euskera tiene futuro."
+  ],
+  [
+   "Zalantzarik gabe, hizkuntzak ikasteak burua aberasten du.",
+   "Sin duda, aprender idiomas enriquece la mente."
+  ],
+  [
+   "Ezin da ukatu teknologiak gure bizitza aldatu duela.",
+   "No se puede negar que la tecnología ha cambiado nuestra vida."
+  ],
+  [
+   "Batzuek diote telelanak bakardadea dakarrela.",
+   "Algunos dicen que el teletrabajo trae soledad."
+  ],
+  [
+   "Argudio horrek ez du kontuan hartzen familiarekin denbora gehiago dagoela.",
+   "Ese argumento no tiene en cuenta que hay más tiempo con la familia."
+  ],
+  [
+   "Nork ez du inoiz hizkuntza bat ikasi nahi izan?",
+   "¿Quién no ha querido alguna vez aprender un idioma?"
+  ]
+ ],
+ "dialog": {
+  "title": "Debate escrito: ¿apps para aprender idiomas?",
+  "lines": [
+   [
+    "Tesia",
+    "Nire ustez, aplikazioak lagungarriak dira, baina ez dira nahikoak hizkuntza bat ikasteko.",
+    "En mi opinión, las aplicaciones son útiles, pero no son suficientes para aprender un idioma."
+   ],
+   [
+    "Argudioa",
+    "Alde batetik, edonon eta edonoiz erabil daitezke.",
+    "Por un lado, se pueden usar en cualquier lugar y momento."
+   ],
+   [
+    "Kontrargudioa",
+    "Batzuek diote aplikazioekin bakarrik hizkuntza bat ikas daitekeela.",
+    "Algunos dicen que se puede aprender un idioma solo con aplicaciones."
+   ],
+   [
+    "Gezurtapena",
+    "Hala ere, argudio horrek ez du kontuan hartzen hitz egiteko pertsonak behar direla.",
+    "Sin embargo, ese argumento no tiene en cuenta que para hablar hacen falta personas."
+   ],
+   [
+    "Ondorioa",
+    "Beraz, aplikazioak tresna ona dira, baina benetako elkarrizketak ezinbestekoak dira.",
+    "Por lo tanto, las aplicaciones son una buena herramienta, pero las conversaciones reales son imprescindibles."
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "___ dago euskarak etorkizuna duela.",
+   "es": "Está claro que el euskera tiene futuro.",
+   "a": [
+    "argi"
+   ],
+   "hint": "está claro que = argi dago … -la."
+  },
+  {
+   "type": "gap",
+   "q": "Zalantzarik ___, hizkuntzak ikasteak burua aberasten du.",
+   "es": "Sin duda, aprender idiomas enriquece la mente.",
+   "a": [
+    "gabe"
+   ],
+   "hint": "sin duda = zalantzarik gabe."
+  },
+  {
+   "type": "gap",
+   "q": "Ezin da ___ teknologiak gure bizitza aldatu duela.",
+   "es": "No se puede negar que la tecnología ha cambiado nuestra vida.",
+   "a": [
+    "ukatu"
+   ],
+   "hint": "negar = ukatu."
+  },
+  {
+   "type": "gap",
+   "q": "___ diote telelanak bakardadea dakarrela.",
+   "es": "Algunos dicen que el teletrabajo trae soledad.",
+   "a": [
+    "batzuek"
+   ],
+   "hint": "algunos (sujeto) = batzuek."
+  },
+  {
+   "type": "gap",
+   "q": "Argudio horrek ez du ___ hartzen…",
+   "es": "Ese argumento no tiene en cuenta…",
+   "a": [
+    "kontuan"
+   ],
+   "hint": "tener en cuenta = kontuan hartu."
+  },
+  {
+   "type": "gap",
+   "q": "Nork ez du ___ hizkuntza bat ikasi nahi izan?",
+   "es": "¿Quién no ha querido alguna vez aprender un idioma?",
+   "a": [
+    "inoiz"
+   ],
+   "hint": "alguna vez (en negativa/pregunta) = inoiz."
+  },
+  {
+   "type": "choice",
+   "q": "Parte en la que se responde a la postura contraria:",
+   "options": [
+    "gezurtapena",
+    "sarrera",
+    "argudioa"
+   ],
+   "a": 0,
+   "why": "gezurtapena = refutación."
+  },
+  {
+   "type": "choice",
+   "q": "«No se puede negar que…»",
+   "options": [
+    "Ezin da ukatu … -la",
+    "Ez dago ukatu … -n",
+    "Ezin dut ukatzen … -nik"
+   ],
+   "a": 0,
+   "why": "Fórmula fija."
+  },
+  {
+   "type": "choice",
+   "q": "«Algunos dicen que…»",
+   "options": [
+    "Batzuek diote … -la",
+    "Batzuk diote … -la",
+    "Batzuek dio … -n"
+   ],
+   "a": 0,
+   "why": "Sujeto con -k (batzuek) + diote + -la."
+  },
+  {
+   "type": "choice",
+   "q": "Recurso que refuerza la credibilidad:",
+   "options": [
+    "reconocer algo de la postura contraria",
+    "ignorar los argumentos contrarios",
+    "cambiar de tesis"
+   ],
+   "a": 0,
+   "why": "La concesión estratégica."
+  },
+  {
+   "type": "choice",
+   "q": "Un texto argumentativo debe terminar con…",
+   "options": [
+    "una conclusión que reafirme la tesis",
+    "un ejemplo nuevo",
+    "una pregunta sin respuesta"
+   ],
+   "a": 0,
+   "why": "Ondorioa."
+  },
+  {
+   "type": "order",
+   "words": [
+    "duela",
+    "etorkizuna",
+    "euskarak",
+    "dago",
+    "Argi"
+   ],
+   "a": [
+    "Argi dago euskarak etorkizuna duela"
+   ],
+   "es": "Está claro que el euskera tiene futuro.",
+   "hint": "Argi dago + subordinada con -la."
+  },
+  {
+   "type": "order",
+   "words": [
+    "dakarrela",
+    "bakardadea",
+    "telelanak",
+    "diote",
+    "Batzuek"
+   ],
+   "a": [
+    "Batzuek diote telelanak bakardadea dakarrela"
+   ],
+   "es": "Algunos dicen que el teletrabajo trae soledad.",
+   "hint": "Batzuek diote + subordinada."
+  },
+  {
+   "type": "order",
+   "words": [
+    "gabe",
+    "Zalantzarik"
+   ],
+   "a": [
+    "Zalantzarik gabe"
+   ],
+   "es": "Sin duda.",
+   "hint": "Fórmula fija."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "tesia",
+     "la tesis"
+    ],
+    [
+     "argudioa",
+     "el argumento"
+    ],
+    [
+     "kontrargudioa",
+     "el contraargumento"
+    ],
+    [
+     "gezurtapena",
+     "la refutación"
+    ],
+    [
+     "ondorioa",
+     "la conclusión"
+    ],
+    [
+     "argi dago",
+     "está claro"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Escribe un texto argumentativo completo (12 a 15 frases) sobre un tema que te interese, siguiendo la estructura: tesis, dos argumentos, un contraargumento con su refutación y una conclusión.",
+  "focus": "estructura argumentativa, fórmulas de afirmación y refutación, recursos persuasivos"
+ },
+ "links": {
+  "verbs": [],
+  "cases": [],
+  "themes": [
+   "lokailuak",
+   "ikasketak"
+  ]
+ }
+}

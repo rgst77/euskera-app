@@ -1,0 +1,341 @@
+{
+ "id": "b1-04",
+ "lvl": "B1",
+ "n": 4,
+ "title": "Ahal izatea",
+ "es": "El potencial",
+ "goal": "Decir lo que puedes hacer, pedir permiso y expresar lo que se puede o no se puede hacer.",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "En el A2 aprendiste a decir «poder» con **ahal**: **joan ahal dut**. Es correcto y muy habitual al hablar, pero el euskera tiene además un modo verbal propio para la posibilidad: el **potencial**. Es el que encontrarás en textos, carteles y en el habla cuidada, así que necesitas reconocerlo y usarlo."
+  },
+  {
+   "h": "La forma",
+   "p": "Participio + auxiliar en potencial. Como siempre, **sin objeto → izan** y **con objeto → ukan**.",
+   "table": {
+    "head": [
+     "Persona",
+     "Sin objeto (izan)",
+     "Con objeto (ukan)",
+     "Objeto plural"
+    ],
+    "rows": [
+     [
+      "ni / nik",
+      "{nor:naiteke}",
+      "{nork:dezaket}",
+      "{nork:ditzaket}"
+     ],
+     [
+      "zu / zuk",
+      "{nor:zaitezke}",
+      "{nork:dezakezu}",
+      "{nork:ditzakezu}"
+     ],
+     [
+      "hura / hark",
+      "{nor:daiteke}",
+      "{nork:dezake}",
+      "{nork:ditzake}"
+     ],
+     [
+      "gu / guk",
+      "{nor:gaitezke}",
+      "{nork:dezakegu}",
+      "{nork:ditzakegu}"
+     ],
+     [
+      "zuek",
+      "{nor:zaitezkete}",
+      "{nork:dezakezue}",
+      "{nork:ditzakezue}"
+     ],
+     [
+      "haiek",
+      "{nor:daitezke}",
+      "{nork:dezakete}",
+      "{nork:ditzakete}"
+     ]
+    ]
+   }
+  },
+  {
+   "h": "Usos",
+   "p": "Capacidad: **Bihar etorri naiteke** (mañana puedo venir), **Egin dezaket** (puedo hacerlo). Permiso: **Sartu naiteke?** (¿puedo entrar?), **Leihoa ireki dezaket?** (¿puedo abrir la ventana?). Lo que se puede hacer en general, con **daiteke**: **Hemen erre daiteke?** (¿se puede fumar aquí?). En textos más cuidados verás a veces la raíz del verbo en lugar del participio (*etor naiteke*); significa lo mismo."
+  },
+  {
+   "h": "«No poder»: ezin",
+   "p": "Para la negación se usa **ezin** con el auxiliar normal (indicativo): **Gaur ezin naiz etorri** (hoy no puedo venir), **Ezin dut egin** (no puedo hacerlo), **Hemen ezin da erre** (aquí no se puede fumar)."
+  },
+  {
+   "h": "Paso a paso: «¿Puedo llevarme estos libros?»",
+   "p": "1) Verbo: **eraman** (llevar). 2) ¿Objeto? Sí, y plural → ukan potencial, yo, plural → **ditzaket**. 3) **Liburu hauek eraman ditzaket?**"
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Etorri dezaket* → **Etorri naiteke** (venir va con izan). *Egin naiteke* → **Egin dezaket**. *Liburu hauek eraman dezaket* → **ditzaket** (plural). *Ez dezaket* → lo normal es **Ezin dut**."
+  },
+  {
+   "h": "Resumen",
+   "p": "Potencial: participio + **naiteke, zaitezke, daiteke…** (sin objeto) o **dezaket, dezakezu, dezake…** (con objeto; plural **ditzaket…**). Permiso: **Sartu naiteke?** General: **daiteke**. Negación: **ezin + auxiliar normal**."
+  }
+ ],
+ "examples": [
+  [
+   "Bihar etorri naiteke.",
+   "Mañana puedo venir."
+  ],
+  [
+   "Egin dezaket.",
+   "Puedo hacerlo."
+  ],
+  [
+   "Leihoa ireki dezaket?",
+   "¿Puedo abrir la ventana?"
+  ],
+  [
+   "Hemen erre daiteke?",
+   "¿Se puede fumar aquí?"
+  ],
+  [
+   "Gaur ezin naiz etorri.",
+   "Hoy no puedo venir."
+  ],
+  [
+   "Liburu hauek eraman ditzaket?",
+   "¿Puedo llevarme estos libros?"
+  ],
+  [
+   "Euskaraz hitz egin dezakegu.",
+   "Podemos hablar en euskera."
+  ]
+ ],
+ "dialog": {
+  "title": "En la biblioteca",
+  "lines": [
+   [
+    "Iker",
+    "Barkatu, sartu naiteke?",
+    "Perdone, ¿puedo entrar?"
+   ],
+   [
+    "Liburuzaina",
+    "Bai, noski. Zer behar duzu?",
+    "Sí, claro. ¿Qué necesita?"
+   ],
+   [
+    "Iker",
+    "Liburu hauek etxera eraman ditzaket?",
+    "¿Puedo llevarme estos libros a casa?"
+   ],
+   [
+    "Liburuzaina",
+    "Bai, bi astez eduki ditzakezu. Baina hiztegia ezin duzu eraman.",
+    "Sí, puede tenerlos dos semanas. Pero el diccionario no se lo puede llevar."
+   ],
+   [
+    "Iker",
+    "Eta hemen kafea edan daiteke?",
+    "¿Y aquí se puede tomar café?"
+   ],
+   [
+    "Liburuzaina",
+    "Ez, hemen ezin da jan edo edan.",
+    "No, aquí no se puede comer ni beber."
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Bihar etorri ___.",
+   "es": "Mañana puedo venir.",
+   "a": [
+    "naiteke"
+   ],
+   "hint": "Venir → izan; potencial, yo: naiteke."
+  },
+  {
+   "type": "gap",
+   "q": "Egin ___.",
+   "es": "Puedo hacerlo.",
+   "a": [
+    "dezaket"
+   ],
+   "hint": "Hacer → ukan; potencial, yo: dezaket."
+  },
+  {
+   "type": "gap",
+   "q": "Leihoa ireki ___?",
+   "es": "¿Puedo abrir la ventana?",
+   "a": [
+    "dezaket"
+   ],
+   "hint": "Abrir algo → ukan: dezaket."
+  },
+  {
+   "type": "gap",
+   "q": "Hemen erre ___?",
+   "es": "¿Se puede fumar aquí?",
+   "a": [
+    "daiteke"
+   ],
+   "hint": "Lo que se puede en general: daiteke."
+  },
+  {
+   "type": "gap",
+   "q": "Liburu hauek eraman ___?",
+   "es": "¿Puedo llevarme estos libros?",
+   "a": [
+    "ditzaket"
+   ],
+   "hint": "Objeto plural, yo: ditzaket."
+  },
+  {
+   "type": "gap",
+   "q": "Euskaraz hitz egin ___.",
+   "es": "Podemos hablar en euskera.",
+   "a": [
+    "dezakegu"
+   ],
+   "hint": "hitz egin → ukan; nosotros: dezakegu."
+  },
+  {
+   "type": "choice",
+   "q": "«Puedo venir»",
+   "options": [
+    "Etorri naiteke.",
+    "Etorri dezaket.",
+    "Etorri naiz."
+   ],
+   "a": 0,
+   "why": "Venir no tiene objeto → naiteke."
+  },
+  {
+   "type": "choice",
+   "q": "«Puedo hacerlo»",
+   "options": [
+    "Egin dezaket.",
+    "Egin naiteke.",
+    "Egin dezake."
+   ],
+   "a": 0,
+   "why": "Con objeto, yo → dezaket. Dezake es «él puede»."
+  },
+  {
+   "type": "choice",
+   "q": "«Hoy no puedo venir»",
+   "options": [
+    "Gaur ezin naiz etorri.",
+    "Gaur ez etorri naiteke.",
+    "Gaur ezin etorri naiz."
+   ],
+   "a": 0,
+   "why": "ezin + auxiliar normal + participio."
+  },
+  {
+   "type": "choice",
+   "q": "«¿Se puede fumar aquí?»",
+   "options": [
+    "Hemen erre daiteke?",
+    "Hemen erre da?",
+    "Hemen erretzen daiteke?"
+   ],
+   "a": 0,
+   "why": "Participio + daiteke."
+  },
+  {
+   "type": "choice",
+   "q": "«¿Puedo llevarme estos libros?»",
+   "options": [
+    "Liburu hauek eraman ditzaket?",
+    "Liburu hauek eraman dezaket?",
+    "Liburu hauek eraman daitezke?"
+   ],
+   "a": 0,
+   "why": "Objeto plural, yo → ditzaket."
+  },
+  {
+   "type": "order",
+   "words": [
+    "naiteke",
+    "Bihar",
+    "etorri"
+   ],
+   "a": [
+    "Bihar etorri naiteke"
+   ],
+   "es": "Mañana puedo venir.",
+   "hint": "Tiempo + participio + potencial."
+  },
+  {
+   "type": "order",
+   "words": [
+    "dezaket",
+    "Leihoa",
+    "ireki"
+   ],
+   "a": [
+    "Leihoa ireki dezaket"
+   ],
+   "es": "Puedo abrir la ventana.",
+   "hint": "Objeto + participio + potencial."
+  },
+  {
+   "type": "order",
+   "words": [
+    "da",
+    "Hemen",
+    "ezin",
+    "jan"
+   ],
+   "a": [
+    "Hemen ezin da jan"
+   ],
+   "es": "Aquí no se puede comer.",
+   "hint": "Lugar + ezin + da + participio."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "naiteke",
+     "puedo (sin objeto)"
+    ],
+    [
+     "dezaket",
+     "puedo (con objeto)"
+    ],
+    [
+     "daiteke",
+     "se puede / puede"
+    ],
+    [
+     "dezake",
+     "él puede (con objeto)"
+    ],
+    [
+     "ditzaket",
+     "puedo (objeto plural)"
+    ],
+    [
+     "gaitezke",
+     "podemos (sin objeto)"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Escribe las normas de un lugar que conozcas (tu casa, tu trabajo, una biblioteca) en 5 frases: qué se puede y qué no se puede hacer, y dos cosas que puedes hacer tú allí.",
+  "focus": "potencial (naiteke, dezaket, daiteke, ditzaket…), permiso, ezin + auxiliar normal"
+ },
+ "links": {
+  "verbs": [],
+  "cases": [],
+  "themes": [
+   "aditzak",
+   "hiria"
+  ]
+ }
+}

@@ -1,0 +1,308 @@
+{
+ "id": "a2-14",
+ "lvl": "A2",
+ "n": 14,
+ "title": "Etorriko dela esan du",
+ "es": "Oraciones con -(e)la",
+ "goal": "Contar lo que alguien dice, lo que crees y lo que sabes: «dice que…», «creo que…».",
+ "explain": [
+  {
+   "h": "Antes de empezar",
+   "p": "Segunda terminación de subordinada, igual de regular que la anterior. Con ella reproduces lo que dicen otros y das tu opinión: «ha dicho que vendrá», «creo que tienes razón», «sé que es difícil». En lugar de -n, el auxiliar toma **-la**."
+  },
+  {
+   "h": "La forma: auxiliar + -(e)la",
+   "p": "**da → dela**, **dut → dudala**, **dago → dagoela**. Los cambios son los mismos que en el relativo (-t → -d-, y -e- tras u o consonante): **dut → dudala**, **du → duela**, **naiz → naizela**, **zara → zarela**, **dira → direla**, **dute → dutela**."
+  },
+  {
+   "h": "Con qué verbos",
+   "p": "**esan** (decir): **Etorriko dela esan du** (ha dicho que vendrá). **uste izan** (creer): **Uste dut arrazoia duzula** (creo que tienes razón). **jakin** (saber): **Badakit zaila dela** (sé que es difícil). **entzun** (oír): **Entzun dut Bilbon bizi zarela** (he oído que vives en Bilbao). La subordinada puede ir delante o detrás: **Ane etxean dagoela uste dut** = **Uste dut Ane etxean dagoela**."
+  },
+  {
+   "h": "esan como verbo sintético",
+   "p": "Para «dice» o «digo» en presente se usa a menudo la forma sintética de esan: **diot** (digo), **diozu** (dices), **dio** (dice), **diogu**, **diozue**, **diote** (dicen). Son las mismas formas que viste en NOR-NORI-NORK, pero aquí significan «decir»: **Mikelek dio nekatuta dagoela** (Mikel dice que está cansado)."
+  },
+  {
+   "h": "Un aviso para B1",
+   "p": "Con «no creo que…» la terminación cambia a **-nik**: *Ez dut uste etorriko denik*. Lo verás en B1; de momento usa -la con verbos afirmativos."
+  },
+  {
+   "h": "Paso a paso: «Creo que Ane está en casa»",
+   "p": "1) La idea: **Ane etxean dago**. 2) Subordinada: dago → **dagoela**. 3) Verbo principal: **uste dut**. 4) **Uste dut Ane etxean dagoela** (o **Ane etxean dagoela uste dut**)."
+  },
+  {
+   "h": "Errores típicos",
+   "p": "*Etorriko da esan du* → **Etorriko dela esan du**. *Uste dut arrazoia duzu* → **duzula**. *Badakit zaila den* → **dela** (-n es para relativos e interrogativas). *dutela* bien; *duteela* → **dutela**."
+  },
+  {
+   "h": "Resumen",
+   "p": "«que» completivo = auxiliar + **-(e)la** (dela, dudala, duela, dagoela, zarela…). Con esan, uste izan, jakin, entzun, pentsatu. esan sintético: **diot, dio, diote**."
+  }
+ ],
+ "examples": [
+  [
+   "Etorriko dela esan du.",
+   "Ha dicho que vendrá."
+  ],
+  [
+   "Uste dut Ane etxean dagoela.",
+   "Creo que Ane está en casa."
+  ],
+  [
+   "Badakit euskara zaila dela.",
+   "Sé que el euskera es difícil."
+  ],
+  [
+   "Mikelek dio nekatuta dagoela.",
+   "Mikel dice que está cansado."
+  ],
+  [
+   "Entzun dut Bilbon bizi zarela.",
+   "He oído que vives en Bilbao."
+  ],
+  [
+   "Uste dut arrazoia duzula.",
+   "Creo que tienes razón."
+  ],
+  [
+   "Anek dio ez duela denborarik.",
+   "Ane dice que no tiene tiempo."
+  ]
+ ],
+ "dialog": {
+  "title": "¿Quién viene a la fiesta?",
+  "lines": [
+   [
+    "Miren",
+    "Mikel festara etorriko da?",
+    "¿Mikel vendrá a la fiesta?"
+   ],
+   [
+    "Jon",
+    "Bai, etorriko dela esan du. Baina berandu iritsiko dela dio.",
+    "Sí, ha dicho que vendrá. Pero dice que llegará tarde."
+   ],
+   [
+    "Miren",
+    "Eta Ane?",
+    "¿Y Ane?"
+   ],
+   [
+    "Jon",
+    "Uste dut gaixorik dagoela.",
+    "Creo que está enferma."
+   ],
+   [
+    "Miren",
+    "Ene! Deituko diot.",
+    "¡Vaya! La llamaré."
+   ],
+   [
+    "Jon",
+    "Ondo iruditzen zait.",
+    "Me parece bien."
+   ]
+  ]
+ },
+ "exercises": [
+  {
+   "type": "gap",
+   "q": "Etorriko ___ esan du.",
+   "es": "Ha dicho que vendrá.",
+   "a": [
+    "dela"
+   ],
+   "hint": "da + -la → dela."
+  },
+  {
+   "type": "gap",
+   "q": "Uste dut Ane etxean ___.",
+   "es": "Creo que Ane está en casa.",
+   "a": [
+    "dagoela"
+   ],
+   "hint": "dago + -ela → dagoela."
+  },
+  {
+   "type": "gap",
+   "q": "Badakit euskara zaila ___.",
+   "es": "Sé que el euskera es difícil.",
+   "a": [
+    "dela"
+   ],
+   "hint": "da + -la → dela."
+  },
+  {
+   "type": "gap",
+   "q": "Mikelek ___ nekatuta dagoela.",
+   "es": "Mikel dice que está cansado.",
+   "a": [
+    "dio"
+   ],
+   "hint": "esan sintético, él: dio."
+  },
+  {
+   "type": "gap",
+   "q": "Entzun dut Bilbon bizi ___.",
+   "es": "He oído que vives en Bilbao.",
+   "a": [
+    "zarela"
+   ],
+   "hint": "zara + -la → zarela."
+  },
+  {
+   "type": "gap",
+   "q": "Uste dut arrazoia ___.",
+   "es": "Creo que tienes razón.",
+   "a": [
+    "duzula"
+   ],
+   "hint": "duzu + -la → duzula."
+  },
+  {
+   "type": "choice",
+   "q": "«Ha dicho que vendrá»",
+   "options": [
+    "Etorriko dela esan du.",
+    "Etorriko da esan du.",
+    "Etorriko den esan du."
+   ],
+   "a": 0,
+   "why": "Completiva: -(e)la."
+  },
+  {
+   "type": "choice",
+   "q": "«Creo que tienes razón»",
+   "options": [
+    "Uste dut arrazoia duzula.",
+    "Uste dut arrazoia duzu.",
+    "Uste dut arrazoia duzun."
+   ],
+   "a": 0,
+   "why": "Después de uste dut, la subordinada con -la."
+  },
+  {
+   "type": "choice",
+   "q": "«Mikel dice que está cansado»",
+   "options": [
+    "Mikelek dio nekatuta dagoela.",
+    "Mikel dio nekatuta dago.",
+    "Mikelek esan nekatuta dagoela."
+   ],
+   "a": 0,
+   "why": "Mikelek (con -k) + dio + subordinada con -la."
+  },
+  {
+   "type": "choice",
+   "q": "«Sé que es difícil»",
+   "options": [
+    "Badakit zaila dela.",
+    "Badakit zaila da.",
+    "Badakit zaila den."
+   ],
+   "a": 0,
+   "why": "Saber que…: -la."
+  },
+  {
+   "type": "choice",
+   "q": "Forma con -la de dute:",
+   "options": [
+    "dutela",
+    "duteela",
+    "dutena"
+   ],
+   "a": 0,
+   "why": "Tras vocal, solo -la."
+  },
+  {
+   "type": "order",
+   "words": [
+    "dela",
+    "esan",
+    "Etorriko",
+    "du"
+   ],
+   "a": [
+    "Etorriko dela esan du"
+   ],
+   "es": "Ha dicho que vendrá.",
+   "hint": "Subordinada + esan du."
+  },
+  {
+   "type": "order",
+   "words": [
+    "dagoela",
+    "Uste",
+    "dut",
+    "etxean",
+    "Ane"
+   ],
+   "a": [
+    "Uste dut Ane etxean dagoela",
+    "Ane etxean dagoela uste dut"
+   ],
+   "es": "Creo que Ane está en casa.",
+   "hint": "Uste dut + subordinada (o al revés)."
+  },
+  {
+   "type": "order",
+   "words": [
+    "zaila",
+    "Badakit",
+    "dela",
+    "euskara"
+   ],
+   "a": [
+    "Badakit euskara zaila dela",
+    "Euskara zaila dela badakit"
+   ],
+   "es": "Sé que el euskera es difícil.",
+   "hint": "Badakit + subordinada (o al revés)."
+  },
+  {
+   "type": "match",
+   "pairs": [
+    [
+     "dela",
+     "que es"
+    ],
+    [
+     "naizela",
+     "que soy"
+    ],
+    [
+     "dudala",
+     "que (yo) he / tengo"
+    ],
+    [
+     "duela",
+     "que (él) ha / tiene"
+    ],
+    [
+     "dagoela",
+     "que está"
+    ],
+    [
+     "dio",
+     "dice"
+    ]
+   ]
+  }
+ ],
+ "create": {
+  "prompt": "Escribe 5 frases: dos cosas que te han dicho hoy (… esan dit / … dio), dos opiniones (Uste dut …-la) y algo que sabes (Badakit …-la).",
+  "focus": "completivas -(e)la con esan, uste izan, jakin, entzun; esan sintético (dio, diot)"
+ },
+ "links": {
+  "verbs": [
+   "syn-pres-2",
+   "nor-pres",
+   "nn-pres-3"
+  ],
+  "cases": [],
+  "themes": [
+   "lokailuak",
+   "aditzak"
+  ]
+ }
+}

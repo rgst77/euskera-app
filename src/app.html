@@ -176,6 +176,8 @@ select{padding:8px 10px;border-radius:8px;border:1.5px solid var(--line);backgro
   .app{grid-template-columns:1fr}
   .app>nav{position:static;height:auto;border-right:0;border-bottom:1px solid var(--line);flex-direction:row;flex-wrap:wrap;padding:12px}
   .brand,.navsep,.sync{display:none}
+  .tstep{grid-template-columns:28px 1fr}
+  .tstep .btn{grid-column:2;justify-self:start}
 }
 @media (prefers-reduced-motion:reduce){*{transition:none!important}}
 </style>
@@ -190,8 +192,6 @@ select{padding:8px 10px;border-radius:8px;border:1.5px solid var(--line);backgro
     <button class="navbtn" data-view="decl">Deklinabidea<span>Casos y declinación</span></button>
     <button class="navbtn" data-view="words">Hiztegia<span>Vocabulario por temas</span></button>
     <button class="navbtn" data-view="tables">Taulak<span>Tablas de consulta</span></button>
-    <div class="navsep">En construcción</div>
-            <button class="navbtn" disabled>Tutorea<span>Tutor IA y conversación</span></button>
     <div class="sync" id="sync">Cargando progreso…</div>
   </nav>
   <main id="main"></main>
@@ -822,7 +822,7 @@ let LS={id:null,step:0};
 function renderLessons(){
   const next=nextLesson();
   main.innerHTML=`<h1>Ikasgaiak</h1>
-  <p class="lede">80 lecciones, 16 por nivel, del A1 al C1. Cada una tiene cinco pasos: entender, ver un diálogo, practicar, escribir tú y añadirlo al repaso. Las que aún no están escritas aparecen con borde discontinuo; se irán completando.</p>
+  <p class="lede">80 lecciones, 16 por nivel, del A1 al C1. Cada una tiene cinco pasos: entender, ver un diálogo, practicar, escribir tú y añadirlo al repaso.</p>
   ${next?`<div class="panel row" style="justify-content:space-between;margin-bottom:6px"><div><div class="muted small">Siguiente lección</div><div style="font-family:'Young Serif',Georgia,serif;font-size:1.3rem">${esc(LESSONS[next].lvl)} · ${LESSONS[next].n}. ${esc(LESSONS[next].title)}</div></div><button class="btn" data-l="${next}">Abrir</button></div>`:''}
   ${Object.entries(SYLLABUS).map(([L,arr])=>{const done=arr.filter((_,i)=>LP(lid(L,i)).done).length;return `<div class="lvlhead"><h2>${L}</h2><span class="muted small">${done} de 16 completadas</span></div>
   <div class="lgrid">${arr.map(([t,es],i)=>{const id=lid(L,i),has=!!LESSONS[id],p=LP(id);return `<button class="lcard ${p.done?'done':''}" data-l="${id}" ${has?'':'disabled'} title="${CINFO[id]?esc(CINFO[id].introduce.join(', ')):''}"><span class="num">${i+1}${has?'':' · en preparación'}${p.done?' · completada':''}</span><span class="t">${esc(t)}</span><span class="s">${esc(es)}</span></button>`}).join('')}</div>`}).join('')}`;

@@ -41,4 +41,8 @@ Tipos de ejercicio: `choice` (elegir opción), `gap` (rellenar el hueco marcado 
 
 - El contenido (explicaciones, ejemplos, diálogos, ejercicios y vocabulario) es original. El orden del temario toma como referencia el curso gratuito de [euskera.net](https://euskera.net/curso/).
 - Los paradigmas verbales y las declinaciones siguen el euskera batua estándar. Si encuentras un error, se agradece una *issue* o un *pull request*.
-- Antes de publicar el repositorio, elige una licencia y añade un archivo `LICENSE`.
+
+## Licencia
+
+- **Código** (lógica de la app y `tools/`): [MIT](LICENSE).
+- **Contenido** (lecciones, temario, explicaciones, ejercicios y vocabulario): [CC BY-SA 4.0](LICENSE-CONTENT.md).

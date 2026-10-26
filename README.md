@@ -1,5 +1,7 @@
 # Euskara Lantegia
 
+> **In English:** a self-study Basque course for Spanish speakers, packaged as a single web page: 80 lessons from A1 to C1, verb and declension trainers and spaced repetition. The rest of this README is in Spanish, the course's language.
+
 Un taller para aprender euskera (batua) de forma autónoma, pensado para hispanohablantes que empiezan de cero. Es una sola página web, sin servidor ni instalación.
 
 ## Qué incluye
